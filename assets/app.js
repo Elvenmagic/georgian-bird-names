@@ -4,6 +4,9 @@ const countEl = document.querySelector("#count");
 const searchEl = document.querySelector("#q");
 const statusButtons = document.querySelectorAll("[data-status]");
 const familyEl = document.querySelector("#family");
+const nameListEl = document.querySelector("#name-list");
+const alphabetEl = document.querySelector("#alphabet");
+const viewButtons = document.querySelectorAll("[data-view]");
 const listViewEl = document.querySelector("#list-view");
 const listToolsEl = document.querySelector("#list-tools");
 const detailEl = document.querySelector("#detail");
@@ -12,9 +15,11 @@ const siteTitle = document.title;
 const state = {
   birds: [],
   cards: [],
+  rows: [],
   query: "",
   status: "all",
   family: "",
+  view: "cards",
 };
 
 function escapeHtml(value) {
@@ -225,7 +230,7 @@ function renderCard(bird, index) {
   }
 
   return `
-    <a class="card" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}">
+    <a class="card" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}" data-letter="${escapeHtml(firstLetter(bird))}">
       ${photo}
       <div class="card-body">
         <h2>${escapeHtml(bird.georgian?.primary || "—")}</h2>
@@ -233,8 +238,25 @@ function renderCard(bird, index) {
         <p class="en">${escapeHtml(bird.names.en || "")}</p>
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
         ${taxonLine(bird)}
-        ${photoCredit(bird.photo, { link: false })}
       </div>
+    </a>
+  `;
+}
+
+function firstLetter(bird) {
+  return bird.georgian?.primary?.[0] || "";
+}
+
+function renderNameRow(bird) {
+  const aliases = bird.georgian?.aliases || [];
+  return `
+    <a class="name-row" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}" data-letter="${escapeHtml(firstLetter(bird))}">
+      <span class="name-ka">
+        <span class="name-primary">${escapeHtml(bird.georgian?.primary || "—")}</span>
+        ${aliases.length ? `<span class="aliases">ასევე: ${escapeHtml(aliases.join(", "))}</span>` : ""}
+      </span>
+      <span class="en">${escapeHtml(bird.names.en || "")}</span>
+      <span class="la">${escapeHtml(bird.names.la || "")}</span>
     </a>
   `;
 }
@@ -351,22 +373,62 @@ function mount() {
       (name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`,
     ),
   ].join("");
+  const letters = [...new Set(state.birds.map(firstLetter).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b, "ka"),
+  );
+  alphabetEl.innerHTML = letters
+    .map(
+      (letter) =>
+        `<button type="button" data-letter="${escapeHtml(letter)}">${escapeHtml(letter)}</button>`,
+    )
+    .join("");
   resultsEl.innerHTML = state.birds.map(renderCard).join("");
+  nameListEl.innerHTML = state.birds.map(renderNameRow).join("");
   state.cards = [...resultsEl.querySelectorAll(".card")];
+  state.rows = [...nameListEl.querySelectorAll(".name-row")];
+  applyView();
   filterList();
 }
 
 function filterList() {
   let shown = 0;
-  state.cards.forEach((card, index) => {
-    const visible = isVisible(state.birds[index]);
-    card.classList.toggle("is-hidden", !visible);
-    if (visible) shown += 1;
+  const visibleLetters = new Set();
+  state.birds.forEach((bird, index) => {
+    const visible = isVisible(bird);
+    state.cards[index].classList.toggle("is-hidden", !visible);
+    state.rows[index].classList.toggle("is-hidden", !visible);
+    if (!visible) return;
+    shown += 1;
+    const letter = firstLetter(bird);
+    if (letter) visibleLetters.add(letter);
+  });
+  alphabetEl.querySelectorAll("button").forEach((button) => {
+    button.disabled = !visibleLetters.has(button.dataset.letter);
   });
   emptyEl.hidden = shown > 0;
   const total = state.birds.length;
   countEl.textContent =
     shown === total ? `${shown} ფრინველი` : `${shown} შედეგი / ${total}`;
+}
+
+function applyView() {
+  const list = state.view === "list";
+  resultsEl.hidden = list;
+  nameListEl.hidden = !list;
+  viewButtons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.view === state.view);
+  });
+}
+
+function jumpToLetter(letter) {
+  const items = state.view === "list" ? state.rows : state.cards;
+  const target = items.find(
+    (item) => !item.classList.contains("is-hidden") && item.dataset.letter === letter,
+  );
+  if (!target) return;
+  const top = target.getBoundingClientRect().top + window.scrollY - listToolsEl.offsetHeight - 12;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({ top: Math.max(0, top), behavior: reduce ? "auto" : "smooth" });
 }
 
 function sortBirds(birds) {
@@ -396,6 +458,19 @@ statusButtons.forEach((button) => {
 familyEl.addEventListener("change", () => {
   state.family = familyEl.value;
   filterList();
+});
+
+viewButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.view = button.dataset.view;
+    applyView();
+  });
+});
+
+alphabetEl.addEventListener("click", (event) => {
+  const button = event.target.closest("button");
+  if (!button || button.disabled) return;
+  jumpToLetter(button.dataset.letter);
 });
 
 window.addEventListener("hashchange", route);

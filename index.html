@@ -56,12 +56,20 @@
             </label>
           </div>
         </div>
+        <div class="browse">
+          <div class="view-switch" role="group" aria-label="ხედი">
+            <button type="button" data-view="cards" class="is-active">ბარათები</button>
+            <button type="button" data-view="list">სია</button>
+          </div>
+          <nav id="alphabet" class="alphabet" aria-label="ანბანი"></nav>
+        </div>
       </div>
     </div>
 
     <main>
       <div id="list-view">
         <div id="results" class="grid"></div>
+        <div id="name-list" class="name-list" hidden></div>
         <p id="empty" class="empty" hidden>ვერაფერი მოიძებნა ამ სახელით.</p>
       </div>
       <article id="detail" class="detail" hidden></article>
