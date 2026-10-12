@@ -1,12 +1,43 @@
 :root {
+  color-scheme: light;
   --ink: #1c1916;
   --muted: #5c564e;
+  --faint: #8a8378;
+  --disabled: #c4bdb2;
   --paper: #f6f1e8;
+  --glow: #fffaf2;
   --card: #fffdf8;
   --line: #e4ddd2;
+  --photo: #ddd6c8;
+  --photo-ink: #8d867b;
+  --mark: #f3e2a8;
   --accent: #3f5b3a;
   --accent-soft: #e7efe3;
   --shadow: 0 10px 30px rgba(28, 25, 22, 0.06);
+  --shadow-stuck: 0 10px 24px rgba(28, 25, 22, 0.04);
+  --shadow-hover: 0 16px 36px rgba(28, 25, 22, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ink: #f3eee6;
+    --muted: #b7afa4;
+    --faint: #8f877c;
+    --disabled: #5c564e;
+    --paper: #1a1815;
+    --glow: #2c2822;
+    --card: #24211d;
+    --line: #3a342c;
+    --photo: #3d372f;
+    --photo-ink: #8f877c;
+    --mark: #6e5724;
+    --accent: #a3c09a;
+    --accent-soft: #2c3829;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    --shadow-stuck: 0 10px 24px rgba(0, 0, 0, 0.28);
+    --shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.45);
+  }
 }
 
 * {
@@ -26,7 +57,7 @@ body {
   flex-direction: column;
   color: var(--ink);
   background:
-    radial-gradient(circle at top, #fffaf2 0, transparent 42%),
+    radial-gradient(circle at top, var(--glow) 0, transparent 42%),
     var(--paper);
   font-family: "Noto Sans Georgian", "Noto Sans", sans-serif;
   line-height: 1.5;
@@ -79,7 +110,7 @@ main {
 
 .list-tools.is-stuck {
   background: var(--paper);
-  box-shadow: 0 10px 24px rgba(28, 25, 22, 0.04);
+  box-shadow: var(--shadow-stuck);
 }
 
 .list-tools-inner {
@@ -134,7 +165,7 @@ h1 {
 }
 
 .search input::placeholder {
-  color: #8a8378;
+  color: var(--faint);
 }
 
 .search input:focus {
@@ -217,7 +248,7 @@ h1 {
 }
 
 .alphabet button:disabled {
-  color: #c4bdb2;
+  color: var(--disabled);
   cursor: default;
 }
 
@@ -300,7 +331,7 @@ h1 {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 36px rgba(28, 25, 22, 0.1);
+  box-shadow: var(--shadow-hover);
 }
 
 .card-photo,
@@ -309,7 +340,7 @@ h1 {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  background: #ddd6c8;
+  background: var(--photo);
 }
 
 .card-photo {
@@ -323,7 +354,7 @@ h1 {
 .card-placeholder {
   display: grid;
   place-items: center;
-  color: #8d867b;
+  color: var(--photo-ink);
   font-size: 0.85rem;
 }
 
@@ -339,7 +370,7 @@ h1 {
 }
 
 mark {
-  background: #f3e2a8;
+  background: var(--mark);
   color: inherit;
   border-radius: 0.2em;
 }
@@ -374,7 +405,7 @@ mark {
 
 .credit {
   margin: 0.55rem 0 0;
-  color: #8a8378;
+  color: var(--faint);
   font-size: 0.75rem;
 }
 
@@ -467,14 +498,14 @@ mark {
   max-width: 100%;
   height: auto;
   border-radius: 16px;
-  background: #ddd6c8;
+  background: var(--photo);
 }
 
 .detail-placeholder {
   display: grid;
   aspect-ratio: 4 / 3;
   place-items: center;
-  color: #8d867b;
+  color: var(--photo-ink);
   font-size: 0.85rem;
 }
 
