@@ -249,6 +249,16 @@ h1 {
   line-height: 1.25;
 }
 
+.aliases {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.card-body .aliases {
+  font-size: 0.84rem;
+}
+
 .en {
   margin: 0.35rem 0 0;
   color: var(--ink);

@@ -32,10 +32,76 @@ function normalize(value) {
     .trim();
 }
 
+function stripNameConjunction(value) {
+  return String(value || "")
+    .replace(/^(?:ანუ|ან)\s+/u, "")
+    .trim();
+}
+
+function splitAliasList(value) {
+  return String(value || "")
+    .split(/[,;]/)
+    .map(stripNameConjunction)
+    .filter(Boolean);
+}
+
+function uniqueNames(values) {
+  const seen = new Set();
+  const names = [];
+  for (const value of values) {
+    const name = String(value || "").replace(/\s+/g, " ").trim();
+    const key = normalize(name);
+    if (!name || seen.has(key)) continue;
+    seen.add(key);
+    names.push(name);
+  }
+  return names;
+}
+
+function parseGeorgianName(value) {
+  let primary = String(value || "").replace(/\s+/g, " ").trim();
+  const aliases = [];
+  if (!primary) return { primary: "", aliases };
+
+  let trailing = primary.match(/^(.*\S)\s*\(([^()]*)\)\s*$/u);
+  while (trailing) {
+    aliases.unshift(...splitAliasList(trailing[2]));
+    primary = trailing[1].trim();
+    trailing = primary.match(/^(.*\S)\s*\(([^()]*)\)\s*$/u);
+  }
+
+  const embedded = primary.match(/^(.*?)\s*\(([^()]*)\)\s*(.+)$/u);
+  if (embedded) {
+    const left = embedded[1].trim();
+    const right = embedded[3].trim();
+    const alternate = splitAliasList(embedded[2]).map((part) =>
+      `${part} ${right}`.replace(/\s+/g, " ").trim(),
+    );
+    primary = `${left} ${right}`.replace(/\s+/g, " ").trim();
+    aliases.unshift(...alternate);
+  }
+
+  return {
+    primary,
+    aliases: uniqueNames(aliases).filter((name) => normalize(name) !== normalize(primary)),
+  };
+}
+
+function georgianNames(bird) {
+  const parsed = bird.georgian || parseGeorgianName(bird.names?.ka);
+  return [parsed.primary, ...parsed.aliases].filter(Boolean);
+}
+
+function aliasLine(bird) {
+  const aliases = bird.georgian?.aliases || [];
+  if (!aliases.length) return "";
+  return `<p class="aliases">ასევე: ${escapeHtml(aliases.join(", "))}</p>`;
+}
+
 function matches(bird, query) {
   if (!query) return true;
   const haystack = normalize(
-    [bird.names.ka, bird.names.en, bird.names.la, bird.ebirdCode].join(" "),
+    [...georgianNames(bird), bird.names.en, bird.names.la, bird.ebirdCode].join(" "),
   );
   return query.split(/\s+/).every((part) => haystack.includes(part));
 }
@@ -110,7 +176,8 @@ function renderCard(bird, index) {
     <a class="card" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}">
       ${photo}
       <div class="card-body">
-        <h2>${escapeHtml(bird.names.ka || "—")}</h2>
+        <h2>${escapeHtml(bird.georgian?.primary || "—")}</h2>
+        ${aliasLine(bird)}
         <p class="en">${escapeHtml(bird.names.en || "")}</p>
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
         ${photoCredit(bird.photo, { link: false })}
@@ -160,7 +227,7 @@ function detailLinks(bird) {
 }
 
 function renderDetail(bird) {
-  const georgian = bird.names.ka?.trim() || "";
+  const georgian = bird.georgian?.primary || "";
   const heading = georgian || bird.names.en || "—";
   const description = String(bird.description || "").trim();
   return `
@@ -172,6 +239,7 @@ function renderDetail(bird) {
       </figure>
       <div class="detail-info">
         <h2>${escapeHtml(heading)}</h2>
+        ${aliasLine(bird)}
         ${georgian ? `<p class="en">${escapeHtml(bird.names.en || "")}</p>` : ""}
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
         ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
@@ -204,7 +272,7 @@ function showDetail(bird) {
   detailEl.hidden = false;
   detailEl.innerHTML = renderDetail(bird);
   detailEl.dataset.birdId = bird.id;
-  document.title = bird.names.ka?.trim() || bird.names.en || siteTitle;
+  document.title = bird.georgian?.primary || bird.names.en || siteTitle;
 }
 
 function route() {
@@ -240,7 +308,10 @@ function filterList() {
 
 function sortBirds(birds) {
   return [...birds].sort((a, b) =>
-    (a.names.ka || a.names.en).localeCompare(b.names.ka || b.names.en, "ka"),
+    (a.georgian?.primary || a.names.en).localeCompare(
+      b.georgian?.primary || b.names.en,
+      "ka",
+    ),
   );
 }
 
@@ -279,6 +350,11 @@ const data = await fetch("data/birds.json").then((response) => {
   return response.json();
 });
 
-state.birds = sortBirds(data.birds || []);
+state.birds = sortBirds(
+  (data.birds || []).map((bird) => {
+    bird.georgian = parseGeorgianName(bird.names?.ka);
+    return bird;
+  }),
+);
 mount();
 route();
