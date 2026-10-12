@@ -167,26 +167,35 @@ h1 {
 
 .view-switch {
   display: flex;
-  gap: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
 }
 
 .view-switch button {
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
   background: transparent;
   color: var(--muted);
   font: inherit;
   cursor: pointer;
   transition:
     background-color 180ms ease-out,
-    border-color 180ms ease-out,
     color 180ms ease-out;
+}
+
+.view-switch button + button {
+  box-shadow: inset 1px 0 0 var(--line);
 }
 
 .view-switch button.is-active {
   background: var(--accent-soft);
-  border-color: #c8d6c2;
   color: var(--accent);
 }
 
@@ -469,6 +478,20 @@ mark {
   font-size: 0.85rem;
 }
 
+.detail h2,
+.detail .en,
+.detail .la {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.detail h2 > span,
+.detail .en > span,
+.detail .la > span {
+  min-width: 0;
+}
+
 .detail h2 {
   margin: 0;
   font-size: clamp(1.8rem, 4vw, 2.4rem);
@@ -477,9 +500,18 @@ mark {
   line-height: 1.15;
 }
 
+.detail h2 .copy {
+  margin-top: 0.22em;
+}
+
 .detail .en {
   margin-top: 0.45rem;
   font-size: 1.05rem;
+}
+
+.detail .en .copy,
+.detail .la .copy {
+  margin-top: 0.08em;
 }
 
 .description {
@@ -504,9 +536,10 @@ mark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex: none;
   width: 1.5rem;
   height: 1.5rem;
-  margin-left: 0.3rem;
+  margin-left: 0;
   padding: 0;
   border: 0;
   background: transparent;

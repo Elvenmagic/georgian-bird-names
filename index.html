@@ -42,8 +42,20 @@
         </div>
         <div class="browse">
           <div class="view-switch" role="group" aria-label="ხედი">
-            <button type="button" data-view="cards" class="is-active">ბარათები</button>
-            <button type="button" data-view="list">სია</button>
+            <button type="button" data-view="cards" class="is-active" aria-label="ბარათები" title="ბარათები">
+              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
+                <rect x="13.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
+                <rect x="3.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
+                <rect x="13.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
+              </svg>
+            </button>
+            <button type="button" data-view="list" aria-label="სია" title="სია">
+              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 6h12M9 12h12M9 18h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                <path d="M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
+              </svg>
+            </button>
           </div>
           <nav id="alphabet" class="alphabet" aria-label="ანბანი"></nav>
         </div>
