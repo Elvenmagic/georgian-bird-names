@@ -332,6 +332,47 @@ function birdFromHash() {
   return state.birds.find((bird) => bird.id === id) || null;
 }
 
+let listScroll = 0;
+
+function readQuery() {
+  const params = new URLSearchParams(location.search);
+  state.query = params.get("q") || "";
+  const status = params.get("status") || "all";
+  state.status = status === "all" || statusGroups[status] ? status : "all";
+  state.family = params.get("family") || "";
+  state.view = params.get("view") === "list" ? "list" : "cards";
+}
+
+function writeQuery() {
+  const params = new URLSearchParams();
+  if (state.query.trim()) params.set("q", state.query);
+  if (state.status !== "all") params.set("status", state.status);
+  if (state.family) params.set("family", state.family);
+  if (state.view === "list") params.set("view", "list");
+  const search = params.toString();
+  const next = `${location.pathname}${search ? `?${search}` : ""}${location.hash}`;
+  if (next === `${location.pathname}${location.search}${location.hash}`) return;
+  history.replaceState(null, "", next);
+}
+
+function applyControls() {
+  searchEl.value = state.query;
+  statusButtons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.status === state.status);
+  });
+  const knownFamily = [...familyEl.options].some((option) => option.value === state.family);
+  if (!knownFamily) state.family = "";
+  familyEl.value = state.family;
+  applyView();
+  writeQuery();
+}
+
+function restoreListScroll() {
+  const top = listScroll;
+  window.scrollTo(0, top);
+  requestAnimationFrame(() => window.scrollTo(0, top));
+}
+
 function showList() {
   listViewEl.hidden = false;
   listToolsEl.hidden = false;
@@ -360,7 +401,7 @@ function route() {
     return;
   }
   showList();
-  if (previousId) window.scrollTo(0, 0);
+  if (previousId) restoreListScroll();
 }
 
 function mount() {
@@ -386,7 +427,7 @@ function mount() {
   nameListEl.innerHTML = state.birds.map(renderNameRow).join("");
   state.cards = [...resultsEl.querySelectorAll(".card")];
   state.rows = [...nameListEl.querySelectorAll(".name-row")];
-  applyView();
+  applyControls();
   filterList();
 }
 
@@ -442,6 +483,7 @@ function sortBirds(birds) {
 
 searchEl.addEventListener("input", (event) => {
   state.query = event.target.value;
+  writeQuery();
   filterList();
 });
 
@@ -451,12 +493,14 @@ statusButtons.forEach((button) => {
     statusButtons.forEach((item) => {
       item.classList.toggle("is-active", item === button);
     });
+    writeQuery();
     filterList();
   });
 });
 
 familyEl.addEventListener("change", () => {
   state.family = familyEl.value;
+  writeQuery();
   filterList();
 });
 
@@ -464,6 +508,7 @@ viewButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.view = button.dataset.view;
     applyView();
+    writeQuery();
   });
 });
 
@@ -474,6 +519,12 @@ alphabetEl.addEventListener("click", (event) => {
 });
 
 window.addEventListener("hashchange", route);
+
+listViewEl.addEventListener("click", (event) => {
+  const link = event.target.closest("a[href^='#']");
+  if (!link || !detailEl.hidden) return;
+  listScroll = window.scrollY;
+});
 
 new IntersectionObserver(
   ([entry]) => {
@@ -499,5 +550,6 @@ state.birds = sortBirds(
     return bird;
   }),
 );
+readQuery();
 mount();
 route();
