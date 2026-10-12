@@ -99,10 +99,52 @@ function georgianNames(bird) {
   return [parsed.primary, ...parsed.aliases].filter(Boolean);
 }
 
+function highlight(value) {
+  const text = String(value || "");
+  const parts = [...new Set(normalize(state.query).split(/\s+/).filter(Boolean))];
+  if (!text || !parts.length) return escapeHtml(text);
+
+  const folded = text.toLocaleLowerCase();
+  const ranges = [];
+  for (const part of parts) {
+    const needle = part.toLocaleLowerCase();
+    let from = 0;
+    while (from < folded.length) {
+      const at = folded.indexOf(needle, from);
+      if (at < 0) break;
+      ranges.push([at, at + needle.length]);
+      from = at + needle.length;
+    }
+  }
+  if (!ranges.length) return escapeHtml(text);
+
+  ranges.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const merged = [];
+  for (const [start, end] of ranges) {
+    const last = merged.at(-1);
+    if (!last || start > last[1]) merged.push([start, end]);
+    else last[1] = Math.max(last[1], end);
+  }
+
+  let html = "";
+  let cursor = 0;
+  for (const [start, end] of merged) {
+    html += escapeHtml(text.slice(cursor, start));
+    html += `<mark>${escapeHtml(text.slice(start, end))}</mark>`;
+    cursor = end;
+  }
+  return html + escapeHtml(text.slice(cursor));
+}
+
+function marked(value) {
+  const text = String(value || "");
+  return `<span data-hl="${escapeHtml(text)}">${highlight(text)}</span>`;
+}
+
 function aliasLine(bird) {
   const aliases = bird.georgian?.aliases || [];
   if (!aliases.length) return "";
-  return `<p class="aliases">ასევე: ${escapeHtml(aliases.join(", "))}</p>`;
+  return `<p class="aliases">ასევე: ${aliases.map((name) => marked(name)).join(", ")}</p>`;
 }
 
 const statusLabels = {
@@ -233,10 +275,10 @@ function renderCard(bird, index) {
     <a class="card" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}" data-letter="${escapeHtml(firstLetter(bird))}">
       ${photo}
       <div class="card-body">
-        <h2>${escapeHtml(bird.georgian?.primary || "—")}</h2>
+        <h2>${marked(bird.georgian?.primary || "—")}</h2>
         ${aliasLine(bird)}
-        <p class="en">${escapeHtml(bird.names.en || "")}</p>
-        <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        <p class="en">${marked(bird.names.en || "")}</p>
+        <p class="la">${marked(bird.names.la || "")}</p>
         ${taxonLine(bird)}
       </div>
     </a>
@@ -252,11 +294,11 @@ function renderNameRow(bird) {
   return `
     <a class="name-row" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}" data-letter="${escapeHtml(firstLetter(bird))}">
       <span class="name-ka">
-        <span class="name-primary">${escapeHtml(bird.georgian?.primary || "—")}</span>
-        ${aliases.length ? `<span class="aliases">ასევე: ${escapeHtml(aliases.join(", "))}</span>` : ""}
+        <span class="name-primary">${marked(bird.georgian?.primary || "—")}</span>
+        ${aliases.length ? `<span class="aliases">ასევე: ${aliases.map((name) => marked(name)).join(", ")}</span>` : ""}
       </span>
-      <span class="en">${escapeHtml(bird.names.en || "")}</span>
-      <span class="la">${escapeHtml(bird.names.la || "")}</span>
+      <span class="en">${marked(bird.names.en || "")}</span>
+      <span class="la">${marked(bird.names.la || "")}</span>
     </a>
   `;
 }
@@ -505,9 +547,16 @@ function sortBirds(birds) {
   );
 }
 
+function paintHighlights() {
+  for (const el of document.querySelectorAll("[data-hl]")) {
+    el.innerHTML = highlight(el.dataset.hl || "");
+  }
+}
+
 searchEl.addEventListener("input", (event) => {
   state.query = event.target.value;
   writeQuery();
+  paintHighlights();
   filterList();
 });
 

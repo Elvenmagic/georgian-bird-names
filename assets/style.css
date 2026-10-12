@@ -374,6 +374,12 @@ h1 {
   line-height: 1.25;
 }
 
+mark {
+  background: #f3e2a8;
+  color: inherit;
+  border-radius: 0.2em;
+}
+
 .aliases {
   margin: 0.3rem 0 0;
   color: var(--muted);
