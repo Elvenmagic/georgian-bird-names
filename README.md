@@ -45,6 +45,7 @@ Rules:
 - `id` must be unique. Use the eBird species code when you know it. If eBird later changes that code, update `ebirdCode` and `links.ebird`, and leave `id` so the page address stays the same.
 - `names.en` and `names.la` are required. `names.ka` can be `""` until someone fills it in.
 - `inGeorgia` is `true` for birds on the Georgia list, `false` for well-known species from elsewhere.
+- `order`, `orderKa`, `family`, `familyKa`, and `status` are optional. Import fills them from the checklist when they are empty. `status` is a comma-separated checklist code such as `YR-R, M`.
 - `photo` can be `null`. If you set a photo, keep `credit`, `license`, and a `source` page (Wikimedia Commons file page).
 - `description` is optional. Leave it out until you have a short paragraph. The seed script fills an empty one from the English Wikipedia lead and will not replace text that is already there.
 - `links.wikipedia` and `links.ebird` are optional. The detail page shows a link only when that URL is present.
@@ -64,7 +65,7 @@ The species list and Georgian names come from the [Ilia State University / Biodi
 npm run import:iliauni
 ```
 
-That command fetches the live table (SABUKO if Iliauni is down), refreshes the snapshot, and merges new species into [`data/birds.json`](data/birds.json). It **does not overwrite** a Georgian name that is already set. New birds get `inGeorgia: true` and a stable `id` from the scientific name (`gavia-stellata`) until an eBird code is known.
+That command fetches the live table (SABUKO if Iliauni is down), refreshes the snapshot, and merges new species into [`data/birds.json`](data/birds.json). It fills an empty Georgian, English, or Latin name, and it fills an empty order, family, and status. It does not replace a name, photo, or description that is already set. New birds get `inGeorgia: true` and a stable `id` from the scientific name (`gavia-stellata`) until an eBird code is known.
 
 Then attach Wikipedia/Wikimedia lead photos, an English Wikipedia lead paragraph, and eBird/Wikipedia links:
 

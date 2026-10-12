@@ -259,6 +259,12 @@ h1 {
   font-size: 0.84rem;
 }
 
+.taxon {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
 .en {
   margin: 0.35rem 0 0;
   color: var(--ink);

@@ -8,7 +8,9 @@
       "en": "Shikra",
       "ka": "შიკრა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "ND"
     },
     {
@@ -16,7 +18,9 @@
       "en": "Levant Sparrowhawk",
       "ka": "ქორცქვიტა (ან შავთვალა მიმინო, ლევანმიმინო)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -24,7 +28,9 @@
       "en": "Northern Goshawk",
       "ka": "ქორი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -32,7 +38,9 @@
       "en": "Eurasian Sparrowhawk",
       "ka": "მიმინო",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -40,7 +48,9 @@
       "en": "Paddyfield Warbler",
       "ka": "გრძელკუდა მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -48,7 +58,9 @@
       "en": "Great Reed-Warbler",
       "ka": "ლელიანის დიდი მეჩალია (შაშვისებრი მეჩალია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -56,7 +68,9 @@
       "en": "Blyth’s Reed-warbler",
       "ka": "ბუჩქნარის მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "Cas"
     },
     {
@@ -64,7 +78,9 @@
       "en": "Moustashed Warbler",
       "ka": "შავთხემა მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -72,7 +88,9 @@
       "en": "Aquatic Warbler",
       "ka": "წყლის მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "ND"
     },
     {
@@ -80,7 +98,9 @@
       "en": "Marsh Warbler",
       "ka": "ჭაობის მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -88,7 +108,9 @@
       "en": "Sedge Warbler",
       "ka": "ჭახჭახა მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -96,7 +118,9 @@
       "en": "Eurasian Reed-Warbler",
       "ka": "ლელიანის მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
       "status": "BB, M"
     },
     {
@@ -104,7 +128,9 @@
       "en": "Common Sandpiper",
       "ka": "ჩვეულებრივი მექვიშია (მებორნე)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -112,7 +138,9 @@
       "en": "Long-tailed Tit",
       "ka": "თოხიტარა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Aegithalidae",
+      "familyKa": "თოხიტარასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -120,7 +148,9 @@
       "en": "Boreal (or Tengmalm’s) Owl",
       "ka": "ბუკიოტი",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -128,7 +158,9 @@
       "en": "Cinereous Vulture (Eurasian Black Vulture)",
       "ka": "სვავი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R"
     },
     {
@@ -136,7 +168,9 @@
       "en": "Eurasian Skylark",
       "ka": "მინდვრის ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -144,7 +178,9 @@
       "en": "Oriental Skylark",
       "ka": "აღმოსავლური მინდვრის ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "ND"
     },
     {
@@ -152,7 +188,9 @@
       "en": "Common Kingfisher",
       "ka": "ალკუნი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Alcedinidae",
+      "familyKa": "ალკუნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -160,7 +198,9 @@
       "en": "Chukar",
       "ka": "კაკაბი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -168,7 +208,9 @@
       "en": "Northern Pintail",
       "ka": "ბოლოსადგისა (ან კუდსადგისა) იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -176,7 +218,9 @@
       "en": "Common Teal",
       "ka": "სტვენია იხვი (ან ჭიკვარა)",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -184,7 +228,9 @@
       "en": "Mallard",
       "ka": "გარეული იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -192,7 +238,9 @@
       "en": "Greater White-fronted Goose",
       "ka": "დიდი თეთრშუბლა ბატი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -200,7 +248,9 @@
       "en": "GreyLag Goose",
       "ka": "რუხი ბატი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -208,7 +258,9 @@
       "en": "Lesser White-fronted Goose",
       "ka": "მცირე თეთრშუბლა ბატი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -216,7 +268,9 @@
       "en": "Bean Goose",
       "ka": "მეკალოე ბატი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "M"
     },
     {
@@ -224,7 +278,9 @@
       "en": "Demoiselle Crane",
       "ka": "წეროტურფა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Gruidae",
+      "familyKa": "წეროსებრნი",
       "status": "M"
     },
     {
@@ -232,7 +288,9 @@
       "en": "Tawny Pipit",
       "ka": "მინდვრის მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -240,7 +298,9 @@
       "en": "Red-Throated Pipit",
       "ka": "წითელგულა მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "M"
     },
     {
@@ -248,7 +308,9 @@
       "en": "Pechora Pipit",
       "ka": "პეჩორას მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "ND"
     },
     {
@@ -256,7 +318,9 @@
       "en": "Meadow Pipit",
       "ka": "მდელოს მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -264,7 +328,9 @@
       "en": "Richard’s Pipit",
       "ka": "რიჩარდის მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "ND"
     },
     {
@@ -272,7 +338,9 @@
       "en": "Water Pipit",
       "ka": "მთის მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -280,7 +348,9 @@
       "en": "Tree Pipit",
       "ka": "ტყის მწყერჩიტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -288,7 +358,9 @@
       "en": "Little Swift",
       "ka": "მცირე ნამგალა",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
       "status": "ND"
     },
     {
@@ -296,7 +368,9 @@
       "en": "Common Swift",
       "ka": "ნამგალა",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
       "status": "BB, M"
     },
     {
@@ -304,7 +378,9 @@
       "en": "Pallid Swift",
       "ka": "მკრთალი ნამგალა",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
       "status": "ND"
     },
     {
@@ -312,7 +388,9 @@
       "en": "Golden Eagle",
       "ka": "მთის არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R"
     },
     {
@@ -320,7 +398,9 @@
       "en": "Bonelli’s Eagle",
       "ka": "ქორისებრი არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "ND"
     },
     {
@@ -328,7 +408,9 @@
       "en": "Imperial Eagle",
       "ka": "ბექობის (ან თეთრმხრება) არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -336,7 +418,9 @@
       "en": "Steppe Eagle",
       "ka": "ველის არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "M"
     },
     {
@@ -344,7 +428,9 @@
       "en": "Great White Egret",
       "ka": "დიდი თეთრი ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "YR-V"
     },
     {
@@ -352,7 +438,9 @@
       "en": "Grey Heron",
       "ka": "რუხი ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "YR-R"
     },
     {
@@ -360,7 +448,9 @@
       "en": "Purple Heron",
       "ka": "წითური (ან ქარცი) ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "BB, M"
     },
     {
@@ -368,7 +458,9 @@
       "en": "Squacco Heron",
       "ka": "ყვითელი ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "BB, M"
     },
     {
@@ -376,7 +468,9 @@
       "en": "Ruddy Turnstone",
       "ka": "მეკენჭია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -384,7 +478,9 @@
       "en": "Short-eared Owl",
       "ka": "ჭაობის ბუ",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -392,7 +488,9 @@
       "en": "Northern Long-eared Owl",
       "ka": "ყურებიანი ბუ (ან ოლოლი)",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -400,7 +498,9 @@
       "en": "Little Owl",
       "ka": "ჭოტი",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -408,7 +508,9 @@
       "en": "Common Pochard",
       "ka": "წითელთავა ყვინთია",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -416,7 +518,9 @@
       "en": "Tufted Duck",
       "ka": "ქოჩორა ყვინთია",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -424,7 +528,9 @@
       "en": "Greater Scaup",
       "ka": "ზღვის ყვინთია",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -432,7 +538,9 @@
       "en": "Ferruginous Pochard",
       "ka": "თეთრთვალა ყვინთია",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -440,7 +548,9 @@
       "en": "Bohemian Waxwing",
       "ka": "მედუდუკე",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Bombycillidae",
+      "familyKa": "მედუდუკისებრნი",
       "status": "WV"
     },
     {
@@ -448,7 +558,9 @@
       "en": "Great Bittern",
       "ka": "დიდი ყარაულა (წყლის ბუღა)",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "YR-R"
     },
     {
@@ -456,7 +568,9 @@
       "en": "Red-breasted Goose",
       "ka": "წითელყელა ბატი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -464,7 +578,9 @@
       "en": "Eurasian Eagle Owl",
       "ka": "ზარნაშო",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -472,7 +588,9 @@
       "en": "Cattle Egret",
       "ka": "მწყემსი (ანუ ეგვიპტური) ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "BB, M"
     },
     {
@@ -480,7 +598,9 @@
       "en": "Trumpeter Finch",
       "ka": "წითელნისკარტა კოჭობა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "ND"
     },
     {
@@ -488,7 +608,9 @@
       "en": "Common Goldeneye",
       "ka": "ამაყა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -496,7 +618,9 @@
       "en": "Stone-Curlew",
       "ka": "თვალჭყეტია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Burhinidae",
+      "familyKa": "თვალჭყეტიასებრნი",
       "status": "BB, M"
     },
     {
@@ -504,7 +628,9 @@
       "en": "Common Buzzard",
       "ka": "ჩვეულებრივი კაკაჩა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -512,15 +638,19 @@
       "en": "Rough-legged Buzzard",
       "ka": "ფეხბანჯგვლიანი კაკაჩა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
-      "status": "WV,M"
+      "familyKa": "ქორისებრნი",
+      "status": "WV, M"
     },
     {
       "la": "Buteo rufinus",
       "en": "Long-legged Buzzard",
       "ka": "ველის (ან გრძელფეხა) კაკაჩა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -528,7 +658,9 @@
       "en": "Greater Short-Toed Lark",
       "ka": "დიდი მოკლეთითა ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "BB, M"
     },
     {
@@ -536,7 +668,9 @@
       "en": "Lesser Short-Toed Lark",
       "ka": "მცირე მოკლეთითა ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "BB, M"
     },
     {
@@ -544,7 +678,9 @@
       "en": "Lapland Bunting",
       "ka": "ლაპლანდური გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "ND"
     },
     {
@@ -552,7 +688,9 @@
       "en": "Sanderling",
       "ka": "ქვიშაქექია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -560,7 +698,9 @@
       "en": "Dunlin",
       "ka": "შავმუცელა მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -568,7 +708,9 @@
       "en": "Red Knot",
       "ka": "ისლანდიური მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -576,7 +718,9 @@
       "en": "Broad-billed Sandpiper",
       "ka": "თავზოლა მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -584,7 +728,9 @@
       "en": "Curlew Sandpiper",
       "ka": "წითელგულა მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -592,7 +738,9 @@
       "en": "Little Stint",
       "ka": "მცირე მექვიშია (კოკორინა-ბეღურა)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -600,7 +748,9 @@
       "en": "Ruff",
       "ka": "ტურუხტანი (მაჩხუბარა კოკორინა)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -608,7 +758,9 @@
       "en": "Temminck’s Stint",
       "ka": "თეთრკუდა მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -616,7 +768,9 @@
       "en": "Egyptian Nightjar",
       "ka": "ეგვიპტური უფეხურა",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "უფეხურასნაირნი",
       "family": "Caprimulgidae",
+      "familyKa": "უფეხურასებრნი",
       "status": "ND"
     },
     {
@@ -624,7 +778,9 @@
       "en": "European Nightjar",
       "ka": "უფეხურა",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "უფეხურასნაირნი",
       "family": "Caprimulgidae",
+      "familyKa": "უფეხურასებრნი",
       "status": "BB, M"
     },
     {
@@ -632,7 +788,9 @@
       "en": "Eurasian Linnet",
       "ka": "ჭვინტა (მეკანაფია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -640,7 +798,9 @@
       "en": "European Goldfinch",
       "ka": "ჩიტბატონა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -648,7 +808,9 @@
       "en": "European Greenfinch",
       "ka": "მწვანულა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -656,7 +818,9 @@
       "en": "Common Redpoll",
       "ka": "ჩრდილოეთის ჭვინტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "ND"
     },
     {
@@ -664,7 +828,9 @@
       "en": "Twite",
       "ka": "მთის ჭვინტა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R"
     },
     {
@@ -672,7 +838,9 @@
       "en": "Eurasian Siskin",
       "ka": "შავთავა მწვანულა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -680,7 +848,9 @@
       "en": "Common Rosefinch",
       "ka": "ჩვეულებრივი კოჭობა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "BB, M"
     },
     {
@@ -688,7 +858,9 @@
       "en": "Great Rosefinch",
       "ka": "დიდი კოჭობა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R"
     },
     {
@@ -696,7 +868,9 @@
       "en": "Great Skua",
       "ka": "დიდი თოლია-მეკობრე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
       "status": "Cas"
     },
     {
@@ -704,7 +878,9 @@
       "en": "Short-toed Tree-creeper",
       "ka": "მოკლეთითა მგლინავა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Certhiidae",
+      "familyKa": "მგლინავასებრნი",
       "status": "YR-R"
     },
     {
@@ -712,7 +888,9 @@
       "en": "Eurasian Treecreeper",
       "ka": "ჩვეულებრივი მგლინავა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Certhiidae",
+      "familyKa": "მგლინავასებრნი",
       "status": "YR-R"
     },
     {
@@ -720,7 +898,9 @@
       "en": "Pied Kingfisher",
       "ka": "შავთეთრი ალკუნი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Alcedinidae",
+      "familyKa": "ალკუნისებრნი",
       "status": "ND"
     },
     {
@@ -728,7 +908,9 @@
       "en": "Cetti’s Warbler",
       "ka": "ფართოკუდა ლერწამა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -736,7 +918,9 @@
       "en": "Kentish Plover",
       "ka": "ზღვის წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "WV, M"
     },
     {
@@ -744,7 +928,9 @@
       "en": "Caspian Plover",
       "ka": "აზიური წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "Cas"
     },
     {
@@ -752,7 +938,9 @@
       "en": "Little Ringed Plover",
       "ka": "მცირე წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -760,7 +948,9 @@
       "en": "Common Ringed Plover",
       "ka": "საყელოიანი წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -768,7 +958,9 @@
       "en": "Greater Sand Plover",
       "ka": "სქელნისკარტა წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "Cas"
     },
     {
@@ -776,7 +968,9 @@
       "en": "Lesser sand Plover",
       "ka": "მცირე სქელნისკარტა წინტალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "Cas"
     },
     {
@@ -784,7 +978,9 @@
       "en": "Whiskered Tern",
       "ka": "ლოყათეთრი თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -792,7 +988,9 @@
       "en": "White-winged Tern",
       "ka": "ფრთათეთრი თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -800,7 +998,9 @@
       "en": "Black Tern",
       "ka": "შავი თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -808,7 +1008,9 @@
       "en": "White Stork",
       "ka": "თეთრი ყარყატი",
       "order": "CICONIIFORMES",
+      "orderKa": "ყარყატისნაირნი",
       "family": "Ciconiidae",
+      "familyKa": "ყარყატისებრნი",
       "status": "BB, M"
     },
     {
@@ -816,7 +1018,9 @@
       "en": "Black Stork",
       "ka": "შავი ყარყატი",
       "order": "CICONIIFORMES",
+      "orderKa": "ყარყატისნაირნი",
       "family": "Ciconiidae",
+      "familyKa": "ყარყატისებრნი",
       "status": "BB, M"
     },
     {
@@ -824,7 +1028,9 @@
       "en": "White-throated Dipper",
       "ka": "წყლის შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Cinclidae",
+      "familyKa": "წყლის შაშვისებრნი",
       "status": "YR-R"
     },
     {
@@ -832,7 +1038,9 @@
       "en": "Short-toed Snake-Eagle",
       "ka": "გველიჭამია (ან ძერაბოტი)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -840,7 +1048,9 @@
       "en": "Western Marsh Harrier",
       "ka": "ჭაობის ძელქორი (ან ჭაობის ბოლობეჭედა)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -848,7 +1058,9 @@
       "en": "Hen (or Northern) Harrier",
       "ka": "მინდვრის ძელქორი (ან მინდვრის ბოლობეჭედა)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "WV, M"
     },
     {
@@ -856,7 +1068,9 @@
       "en": "Pallid Harrier",
       "ka": "ველის ძელქორი (ან ველის ბოლობეჭედა)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "M"
     },
     {
@@ -864,7 +1078,9 @@
       "en": "Montagu’s Harrier",
       "ka": "მდელოს ძელქორი (ან მდელოს ბოლობეჭედა)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -872,7 +1088,9 @@
       "en": "Great Spotted Cuckoo",
       "ka": "შავთავა გუგული",
       "order": "CUCULIFORMES",
+      "orderKa": "გუგულისნაირნი",
       "family": "Cuculidae",
+      "familyKa": "გუგულისებრნი",
       "status": "ND"
     },
     {
@@ -880,7 +1098,9 @@
       "en": "Greater Spotted Eagle",
       "ka": "დიდი მყივანი არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "WV, M"
     },
     {
@@ -888,7 +1108,9 @@
       "en": "Lesser Spotted Eagle",
       "ka": "მცირე მყივანი არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -896,7 +1118,9 @@
       "en": "Long-Tailed Duck",
       "ka": "გრძელკუდა (კუდმაკრატელა) იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "ND"
     },
     {
@@ -904,7 +1128,9 @@
       "en": "Hawfinch",
       "ka": "კულუმბური",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -912,7 +1138,9 @@
       "en": "Rock Dove",
       "ka": "გარეული მტრედი",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "YR-R"
     },
     {
@@ -920,7 +1148,9 @@
       "en": "Stock Dove",
       "ka": "გულიო (ან გვიძინი)",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "YR-R"
     },
     {
@@ -928,7 +1158,9 @@
       "en": "Common Wood-Pigeon",
       "ka": "ქედანი",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "YR-R"
     },
     {
@@ -936,7 +1168,9 @@
       "en": "European Roller",
       "ka": "ყაპყაპი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Coraciidae",
+      "familyKa": "ყაპყაპისებრნი",
       "status": "BB, M"
     },
     {
@@ -944,7 +1178,9 @@
       "en": "Common Raven",
       "ka": "ყორანი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -952,7 +1188,9 @@
       "en": "Hooded Crow",
       "ka": "რუხი ყვავი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -960,7 +1198,9 @@
       "en": "Rook",
       "ka": "ჭილყვავი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -968,7 +1208,9 @@
       "en": "Eurasian Jackdaw",
       "ka": "ჭკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -976,7 +1218,9 @@
       "en": "Common Quail",
       "ka": "მწყერი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -984,7 +1228,9 @@
       "en": "Corncrake",
       "ka": "ღალღა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "BB, M"
     },
     {
@@ -992,7 +1238,9 @@
       "en": "Common Cuckoo",
       "ka": "გუგული",
       "order": "CUCULIFORMES",
+      "orderKa": "გუგულისნაირნი",
       "family": "Cuculidae",
+      "familyKa": "გუგულისებრნი",
       "status": "BB, M"
     },
     {
@@ -1000,7 +1248,9 @@
       "en": "Tundra Swan",
       "ka": "მცირე მყივანი გედი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1008,7 +1258,9 @@
       "en": "Whooper swan",
       "ka": "ყვითელნისკარტა (ან მყივანი) გედი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1016,7 +1268,9 @@
       "en": "Mute Swan",
       "ka": "წითელნისკარტა (ან სისინა) გედი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-V, M"
     },
     {
@@ -1024,7 +1278,9 @@
       "en": "Northern House Martin",
       "ka": "ქალაქის მერცხალი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
       "status": "BB, M"
     },
     {
@@ -1032,7 +1288,9 @@
       "en": "White-backed Woodpecker",
       "ka": "თეთრზურგა კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1040,7 +1298,9 @@
       "en": "Greater Spotted Woodpecker",
       "ka": "დიდი ჭრელი კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1048,7 +1308,9 @@
       "en": "Syrian Woodpecker",
       "ka": "სირიული კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1056,7 +1318,9 @@
       "en": "Lesser Spotted Woodpecker",
       "ka": "მცირე ჭრელი კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1064,7 +1328,9 @@
       "en": "Black Woodpecker",
       "ka": "შავი კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1072,7 +1338,9 @@
       "en": "Little Egret",
       "ka": "მცირე თეთრი ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "YR-R"
     },
     {
@@ -1080,7 +1348,9 @@
       "en": "Black-winged Kite",
       "ka": "ფრთაშავი ლურჯი ძერა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "Cas"
     },
     {
@@ -1088,7 +1358,9 @@
       "en": "Grey-Necked Bunting",
       "ka": "რუხკისერა გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "ND"
     },
     {
@@ -1096,7 +1368,9 @@
       "en": "Rock Bunting",
       "ka": "კლდის გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1104,7 +1378,9 @@
       "en": "Cirl Bunting",
       "ka": "შავყელა გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "ND"
     },
     {
@@ -1112,7 +1388,9 @@
       "en": "Yellowhammer",
       "ka": "მოყვითალო გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1120,7 +1398,9 @@
       "en": "Ortolan Bunting",
       "ka": "ბაღის გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "BB, M"
     },
     {
@@ -1128,7 +1408,9 @@
       "en": "Pine Bunting",
       "ka": "ფიჭვის გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "ND"
     },
     {
@@ -1136,7 +1418,9 @@
       "en": "Black-headed Bunting",
       "ka": "შავთავა გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "BB, M"
     },
     {
@@ -1144,7 +1428,9 @@
       "en": "Reed Bunting",
       "ka": "ლელიანის გრატა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1152,7 +1438,9 @@
       "en": "Horned (or Shore) Lark",
       "ka": "რქოსანი ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1160,7 +1448,9 @@
       "en": "Black-Crowned Sparrow-Lark",
       "ka": "შავთავა ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "ND"
     },
     {
@@ -1168,7 +1458,9 @@
       "en": "European Robin",
       "ka": "გულწითელა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R"
     },
     {
@@ -1176,7 +1468,9 @@
       "en": "Rufous-tailed Scrub-Robin",
       "ka": "ჟღალი ბულბული",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1184,7 +1478,9 @@
       "en": "Eurasian Dotterel",
       "ka": "ტიბუარა (მღრინავი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "M"
     },
     {
@@ -1192,7 +1488,9 @@
       "en": "Lanner Falcon",
       "ka": "წითელთავა შავარდენი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1200,7 +1498,9 @@
       "en": "Saker Falcon",
       "ka": "ბარი (ან გავაზი)",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1208,7 +1508,9 @@
       "en": "Merlin",
       "ka": "ალალი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "WV, M"
     },
     {
@@ -1216,7 +1518,9 @@
       "en": "Eleonora’s Falcon",
       "ka": "ელეონორას შავარდენი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "ND"
     },
     {
@@ -1224,7 +1528,9 @@
       "en": "Lesser Kestrel",
       "ka": "მცირე (ან ველის) კირკიტა",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "BB, M"
     },
     {
@@ -1232,7 +1538,9 @@
       "en": "Peregrine Falcon",
       "ka": "ჩვეულებრივი შავარდენი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1240,7 +1548,9 @@
       "en": "Gyrfalcon",
       "ka": "სონღული",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "ND"
     },
     {
@@ -1248,7 +1558,9 @@
       "en": "Eurasian Hobby",
       "ka": "მარჯანი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1256,7 +1568,9 @@
       "en": "Common Kestrel",
       "ka": "ჩვეულებრივი კირკიტა",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1264,7 +1578,9 @@
       "en": "Red-footed Falcon",
       "ka": "წითელფეხა შავარდენი",
       "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
       "status": "BB, M"
     },
     {
@@ -1272,7 +1588,9 @@
       "en": "Collared Flycatcher",
       "ka": "თეთრყელა ბუზიჭერია (თეთრყელა მემატლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "M"
     },
     {
@@ -1280,7 +1598,9 @@
       "en": "European Pied Flycatcher",
       "ka": "ჭრელი ბუზიჭერია (ჭრელი მემატლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "M"
     },
     {
@@ -1288,7 +1608,9 @@
       "en": "Red-breasted Flycatcher",
       "ka": "წითელყელა (ანუ მცირე) ბუზიჭერია (მცირე მემატლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1296,7 +1618,9 @@
       "en": "Semi-Collared Flycatcher",
       "ka": "ნახევართეთრყელა ბუზიჭერია (ნახევართეთრყელა მემატლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1304,7 +1628,9 @@
       "en": "Black Francolin",
       "ka": "დურაჯი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -1312,7 +1638,9 @@
       "en": "Eurasian Chaffinch",
       "ka": "სკვინჩა (ნიბლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1320,7 +1648,9 @@
       "en": "Brambling",
       "ka": "ჩრდილოეთის სკვინჩა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "WV"
     },
     {
@@ -1328,7 +1658,9 @@
       "en": "Common Coot",
       "ka": "მელოტა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1336,7 +1668,9 @@
       "en": "Crested Lark",
       "ka": "ქოჩორა ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1344,7 +1678,9 @@
       "en": "Common Snipe",
       "ka": "ჩიბუხა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-V, M"
     },
     {
@@ -1352,7 +1688,9 @@
       "en": "Great Snipe",
       "ka": "დიდი ჩიბუხა (გოჭა)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -1360,7 +1698,9 @@
       "en": "Common Moorhen",
       "ka": "წყლის ქათამურა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1368,7 +1708,9 @@
       "en": "Eurasian Jay",
       "ka": "ჩხიკვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -1376,7 +1718,9 @@
       "en": "Black-throated (Arctic) Diver (or Loon)",
       "ka": "შავყელა ღორიხვა",
       "order": "GAVIIFORMES",
+      "orderKa": "ღორიხვასნაირნი",
       "family": "Gaviidae",
+      "familyKa": "ღორიხვასებრნი",
       "status": "WV, M"
     },
     {
@@ -1384,7 +1728,9 @@
       "en": "Red-throated Diver (or Loon)",
       "ka": "წითელყელა ღორიხვა",
       "order": "GAVIIFORMES",
+      "orderKa": "ღორიხვასნაირნი",
       "family": "Gaviidae",
+      "familyKa": "ღორიხვასებრნი",
       "status": "WV, M"
     },
     {
@@ -1392,7 +1738,9 @@
       "en": "Gull-billed Tern",
       "ka": "თოლიისნისკარტა თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-V"
     },
     {
@@ -1400,7 +1748,9 @@
       "en": "Black-winged Pratincole",
       "ka": "შავფრთიანა მერცხალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Glareolidae",
+      "familyKa": "მერცხალასებრნი",
       "status": "M"
     },
     {
@@ -1408,7 +1758,9 @@
       "en": "Collared Pratincole",
       "ka": "ჟღალფრთიანა მერცხალა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Glareolidae",
+      "familyKa": "მერცხალასებრნი",
       "status": "M"
     },
     {
@@ -1416,7 +1768,9 @@
       "en": "Common Crane",
       "ka": "რუხი წერო",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Gruidae",
+      "familyKa": "წეროსებრნი",
       "status": "BB, M"
     },
     {
@@ -1424,7 +1778,9 @@
       "en": "Shag",
       "ka": "ქოჩორა ჩვამა",
       "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
       "status": "Cas"
     },
     {
@@ -1432,7 +1788,9 @@
       "en": "Bearded Vulture (Lammergeier)",
       "ka": "ბატკანძერი (ან წვერიანი სვავი, ყაჯირი, კრავიჭამია)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R"
     },
     {
@@ -1440,7 +1798,9 @@
       "en": "Eurasian Griffon Vulture",
       "ka": "ორბი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R"
     },
     {
@@ -1448,7 +1808,9 @@
       "en": "Eurasian Oystercatcher",
       "ka": "ზღვის კაჭკაჭი (სირკაჭკაჭი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Haematopodidae",
+      "familyKa": "სირკაჭკაჭისებრნი",
       "status": "SV, M"
     },
     {
@@ -1456,7 +1818,9 @@
       "en": "White-tailed Eagle",
       "ka": "თეთრკუდა ფსოვი (ან თეთრკუდა არწივი)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R"
     },
     {
@@ -1464,7 +1828,9 @@
       "en": "Pallas’s Fish-eagle",
       "ka": "გრძელკუდა ფსოვი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "ND"
     },
     {
@@ -1472,7 +1838,9 @@
       "en": "Booted Eagle",
       "ka": "ჩია არწივი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -1480,15 +1848,19 @@
       "en": "Black-winged Stilt",
       "ka": "ოჩოფეხა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Recurvirostridae",
-      "status": "BB. M"
+      "familyKa": "სადგისნისკარტასებრნი",
+      "status": "BB, M"
     },
     {
       "la": "Hippolais caligata",
       "en": "Booted Warbler",
       "ka": "მურა ბუტბუტა (მურა მქირდავი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "M"
     },
     {
@@ -1496,7 +1868,9 @@
       "en": "Icterine Warbler",
       "ka": "მწვანე ბუტბუტა (მწვანე მქირდავი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -1504,7 +1878,9 @@
       "en": "Upcher’s Warbler",
       "ka": "ბოლომქნევარა ბუტბუტა (ბოლომქნევარა მქირდავი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -1512,7 +1888,9 @@
       "en": "Olivaceous Warbler",
       "ka": "ბაცი ბუტბუტა (ბაცი მქირდავი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -1520,7 +1898,9 @@
       "en": "Red-Rumped Swallow",
       "ka": "წელწითელა მერცხალი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
       "status": "Cas"
     },
     {
@@ -1528,7 +1908,9 @@
       "en": "Eurasian Crag martin",
       "ka": "კლდის მერცხალი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
       "status": "BB, M"
     },
     {
@@ -1536,7 +1918,9 @@
       "en": "Barn Swallow",
       "ka": "სოფლის მერცხალი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
       "status": "BB, M"
     },
     {
@@ -1544,7 +1928,9 @@
       "en": "Little Gull",
       "ka": "მცირე თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV, M"
     },
     {
@@ -1552,7 +1938,9 @@
       "en": "Caspian Tern",
       "ka": "კასპიური თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "SV, M"
     },
     {
@@ -1560,7 +1948,9 @@
       "en": "White-throated Robin",
       "ka": "თეთრყელა ბულბული",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "ND"
     },
     {
@@ -1568,7 +1958,9 @@
       "en": "Little Bittern",
       "ka": "მცირე ყარაულა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "BB, M"
     },
     {
@@ -1576,7 +1968,9 @@
       "en": "Eurasian Wryneck",
       "ka": "მაქცია",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "BB, M"
     },
     {
@@ -1584,7 +1978,9 @@
       "en": "Red-backed Shrike",
       "ka": "ჩვეულებრივი ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "status": "BB, M"
     },
     {
@@ -1592,7 +1988,9 @@
       "en": "Greater Grey (or Northern) Shrike",
       "ka": "რუხი ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "status": "WV"
     },
     {
@@ -1600,7 +1998,9 @@
       "en": "Isabelline Shrike",
       "ka": "ყვითელგულა ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "status": "Cas"
     },
     {
@@ -1608,7 +2008,9 @@
       "en": "Lesser Grey Shrike",
       "ka": "შავშუბლა ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "status": "BB, M"
     },
     {
@@ -1616,7 +2018,9 @@
       "en": "Masked Shrike",
       "ka": "ნიღბიანი ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "status": "Cas"
     },
     {
@@ -1624,15 +2028,19 @@
       "en": "Woodchat Shrike",
       "ka": "წითელთავა ღაჟო",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
-      "status": "BB. M"
+      "familyKa": "ღაჟოსებრნი",
+      "status": "BB, M"
     },
     {
       "la": "Larus argentatus",
       "en": "Herring Gull",
       "ka": "ვერცხლისფერი თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "Cas"
     },
     {
@@ -1640,7 +2048,9 @@
       "en": "Armenian Gull",
       "ka": "სომხური თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R"
     },
     {
@@ -1648,7 +2058,9 @@
       "en": "Audouin’s Gull",
       "ka": "აუდოუნის თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "Cas"
     },
     {
@@ -1656,7 +2068,9 @@
       "en": "Caspian Gull",
       "ka": "კასპიური თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R"
     },
     {
@@ -1664,7 +2078,9 @@
       "en": "Mew Gull",
       "ka": "ვეჟანი თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV, M"
     },
     {
@@ -1672,7 +2088,9 @@
       "en": "Lesser Black-backed Gull",
       "ka": "შავზურგა (ანუ ფრთაშავი) თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV, M"
     },
     {
@@ -1680,7 +2098,9 @@
       "en": "Slender-billed Gull",
       "ka": "წვრილნისკარტა თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-V, M"
     },
     {
@@ -1688,7 +2108,9 @@
       "en": "Pallas’s Gull",
       "ka": "დიდი შავთავა თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV"
     },
     {
@@ -1696,7 +2118,9 @@
       "en": "Greater Black-backed Gull",
       "ka": "ზღვის დიდი თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "Cas"
     },
     {
@@ -1704,7 +2128,9 @@
       "en": "Mediterranean Gull",
       "ka": "შავთავა თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV, M"
     },
     {
@@ -1712,7 +2138,9 @@
       "en": "Yellow-legged Gull",
       "ka": "ყვითელფეხა თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R"
     },
     {
@@ -1720,7 +2148,9 @@
       "en": "Common Black-headed Gull",
       "ka": "ტბის თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1728,7 +2158,9 @@
       "en": "Middle Spotted Woodpecker",
       "ka": "საშუალო ჭრელი კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -1736,7 +2168,9 @@
       "en": "Bar-tailed Godwit",
       "ka": "ზოლიანკუდა ლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -1744,7 +2178,9 @@
       "en": "Black-tailed Godwit",
       "ka": "დიდი (ანუ შავკუდა) ლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -1752,7 +2188,9 @@
       "en": "Eurasian River Warbler",
       "ka": "ჭრიჭინა-ჩიტი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
       "status": "BB, M"
     },
     {
@@ -1760,7 +2198,9 @@
       "en": "Lanceolated Warbler",
       "ka": "წინწკლა ჭრიჭინა მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
       "status": "Cas"
     },
     {
@@ -1768,7 +2208,9 @@
       "en": "Savi’s Warbler",
       "ka": "ბულბულისებრი ჭრიჭინა-ჩიტი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
       "status": "BB, M"
     },
     {
@@ -1776,7 +2218,9 @@
       "en": "Grasshopper Warbler",
       "ka": "ჭრიჭინა-მეჩალია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
       "status": "BB, M"
     },
     {
@@ -1784,7 +2228,9 @@
       "en": "Red Crossbill (Common Crossbill)",
       "ka": "ნისკარტმარწუხა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R"
     },
     {
@@ -1792,7 +2238,9 @@
       "en": "Wood Lark",
       "ka": "ტყის ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "BB, M"
     },
     {
@@ -1800,7 +2248,9 @@
       "en": "Thrush Nightingale",
       "ka": "აღმოსავლური ბულბული",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1808,7 +2258,9 @@
       "en": "Common Nightingale",
       "ka": "ჩვეულებრივი ბულბული",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1816,7 +2268,9 @@
       "en": "Bluethroat",
       "ka": "ცისფერგულა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -1824,7 +2278,9 @@
       "en": "Jack Snipe",
       "ka": "ჩიბუხელა (გარშნეპი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "WV, M"
     },
     {
@@ -1832,7 +2288,9 @@
       "en": "Caucasian Grouse",
       "ka": "კავკასიური როჭო",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -1840,7 +2298,9 @@
       "en": "Eurasian Wigeon",
       "ka": "თეთრშუბლა იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1848,7 +2308,9 @@
       "en": "Gadwall",
       "ka": "რუხი იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1856,7 +2318,9 @@
       "en": "Marbled Teal",
       "ka": "მარმარილოსებრი იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "ND"
     },
     {
@@ -1864,7 +2328,9 @@
       "en": "White-winged (or Velvet) Scoter",
       "ka": "თეთრფრთიანი გარიელა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "BB, WV"
     },
     {
@@ -1872,7 +2338,9 @@
       "en": "Common scoter",
       "ka": "ჩვეულებრივი გარიელა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "Cas"
     },
     {
@@ -1880,7 +2348,9 @@
       "en": "Bimaculated Lark",
       "ka": "ორკოპლიანი ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "Cas"
     },
     {
@@ -1888,7 +2358,9 @@
       "en": "Calandra Lark",
       "ka": "ველის ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "BB, M"
     },
     {
@@ -1896,7 +2368,9 @@
       "en": "White-Winged Lark",
       "ka": "ფრთათეთრი ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "ND"
     },
     {
@@ -1904,7 +2378,9 @@
       "en": "Black Lark",
       "ka": "შავი ტოროლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
       "status": "ND"
     },
     {
@@ -1912,7 +2388,9 @@
       "en": "Smew",
       "ka": "მცირე ბატასინა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1920,7 +2398,9 @@
       "en": "Common Merganser",
       "ka": "დიდი ბატასინა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1928,7 +2408,9 @@
       "en": "Red-breasted Merganser",
       "ka": "გრძელნისკარტა ბატასინა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -1936,7 +2418,9 @@
       "en": "European Bee-eater",
       "ka": "ოქროსფერი კვირიონი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Meropidae",
+      "familyKa": "კვირიონისებრნი",
       "status": "BB, M"
     },
     {
@@ -1944,7 +2428,9 @@
       "en": "Blue-cheeked Bee-eater",
       "ka": "მწვანე კვირიონი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Meropidae",
+      "familyKa": "კვირიონისებრნი",
       "status": "Cas"
     },
     {
@@ -1952,7 +2438,9 @@
       "en": "Blue-cheeked Bee-eater",
       "ka": "მწვანე კვირიონი",
       "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Meropidae",
+      "familyKa": "კვირიონისებრნი",
       "status": "Cas"
     },
     {
@@ -1960,7 +2448,9 @@
       "en": "Pygmy Cormorant",
       "ka": "მცირე ჩვამა",
       "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
       "status": "YR-R"
     },
     {
@@ -1968,7 +2458,9 @@
       "en": "Corn Bunting",
       "ka": "მეფეტვია (ანუ მინდვრის გრატა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
+      "familyKa": "გრატასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1976,7 +2468,9 @@
       "en": "Black Kite",
       "ka": "ძერა",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -1984,7 +2478,9 @@
       "en": "Red Kite",
       "ka": "წითელი ძერა (ან ბორა)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "Cas"
     },
     {
@@ -1992,7 +2488,9 @@
       "en": "Rufous-tailed Rock-Thrush",
       "ka": "კლდის ჭრელი შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB"
     },
     {
@@ -2000,7 +2498,9 @@
       "en": "Blue Rock-Thrush",
       "ka": "კლდის ლურჯი შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB"
     },
     {
@@ -2008,7 +2508,9 @@
       "en": "White-winged Snowfinch",
       "ka": "მეთოვლია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "YR-R"
     },
     {
@@ -2016,7 +2518,9 @@
       "en": "White Wagtail",
       "ka": "თეთრი ბოლოქანქარა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2024,7 +2528,9 @@
       "en": "Grey Wagtail",
       "ka": "რუხი ბოლოქანქარა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2032,7 +2538,9 @@
       "en": "Citrine Wagtail",
       "ka": "ყვითელთავა ბოლოქანქარა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -2040,7 +2548,9 @@
       "en": "Yellow Wagtail",
       "ka": "ყვითელი ბოლოქანქარა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
       "status": "BB, M"
     },
     {
@@ -2048,7 +2558,9 @@
       "en": "Spotted Flycatcher",
       "ka": "რუხი ბუზიჭერია (რუხი მემატლია)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2056,7 +2568,9 @@
       "en": "Egyptian Vulture",
       "ka": "ფასკუნჯი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -2064,7 +2578,9 @@
       "en": "Red-crested Pochard",
       "ka": "წითელნისკარტა ყურყუმელა",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2072,7 +2588,9 @@
       "en": "Spotted Nutcracker",
       "ka": "თხილიტეხია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "Cas"
     },
     {
@@ -2080,7 +2598,9 @@
       "en": "Eurasian Curlew",
       "ka": "დიდი კრონშნეპი",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -2088,7 +2608,9 @@
       "en": "Whimbrel",
       "ka": "საშუალო კრონშნეპი",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -2096,7 +2618,9 @@
       "en": "Slender-billed Curlew",
       "ka": "წვრილნისკარტა (ანუ მცირე) კრონშნეპი",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "ND"
     },
     {
@@ -2104,7 +2628,9 @@
       "en": "Black-crowned Night-Heron",
       "ka": "ღამის ყანჩა",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
       "status": "BB, M"
     },
     {
@@ -2112,7 +2638,9 @@
       "en": "Red-tailed Wheatear",
       "ka": "წითელკუდა მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "ND"
     },
     {
@@ -2120,7 +2648,9 @@
       "en": "Desert Wheater",
       "ka": "უდაბნოს მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "ND"
     },
     {
@@ -2128,7 +2658,9 @@
       "en": "Finsch’s Wheatear",
       "ka": "თეთრზურგა მეღორღია (თეთრზურგა მელოტჩიტა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2136,7 +2668,9 @@
       "en": "Black-eared Wheatear",
       "ka": "შავყურა მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2144,7 +2678,9 @@
       "en": "Isabelline Wheatear",
       "ka": "ბუქნია-მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2152,7 +2688,9 @@
       "en": "Northern Wheatear",
       "ka": "ჩვეულებრივი მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2160,7 +2698,9 @@
       "en": "Pied Wheatear",
       "ka": "შავზურგა მეღორღია (შავზურგა მელოტჩიტა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2168,7 +2708,9 @@
       "en": "Kurdish Wheatear",
       "ka": "წელწითელა მეღორღია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "ND"
     },
     {
@@ -2176,7 +2718,9 @@
       "en": "Eurasian Golden Oriole",
       "ka": "მოლაღური",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Oriolidae",
+      "familyKa": "მოლაღურისებრნი",
       "status": "BB, M"
     },
     {
@@ -2184,7 +2728,9 @@
       "en": "Great Bustard",
       "ka": "სავათი",
       "order": "OTIDIFORMES",
+      "orderKa": "სავათისნაირნი",
       "family": "Otididae",
+      "familyKa": "სავათისებრნი",
       "status": "ND"
     },
     {
@@ -2192,7 +2738,9 @@
       "en": "Eurasian Scops-Owl",
       "ka": "წყრომი",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "BB, M"
     },
     {
@@ -2200,7 +2748,9 @@
       "en": "White-Headed Duck",
       "ka": "თეთრთავა იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "WV, M"
     },
     {
@@ -2208,7 +2758,9 @@
       "en": "Osprey",
       "ka": "შაკი",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "შაკისნაირნი",
       "family": "Pandionidae",
+      "familyKa": "შაკისებრნი",
       "status": "FB, M"
     },
     {
@@ -2216,7 +2768,9 @@
       "en": "Bearded Reedling",
       "ka": "ულვაშა წივწივა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Timaliidae",
+      "familyKa": "ულვაშა წივწივასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2224,7 +2778,9 @@
       "en": "Coal Tit",
       "ka": "მცირე წივწივა (მცირე წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "YR-R"
     },
     {
@@ -2232,7 +2788,9 @@
       "en": "Blue Tit",
       "ka": "მოლურჯო წივწივა (მოლურჯო წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "YR-R"
     },
     {
@@ -2240,7 +2798,9 @@
       "en": "Crested Tit",
       "ka": "ქოჩორა წივწივა (ქოჩორა წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "ND"
     },
     {
@@ -2248,7 +2808,9 @@
       "en": "Sombre Tit",
       "ka": "ხმელთაშუაზღვის წივწივა (ხმელთაშუაზღვის წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "YR-R"
     },
     {
@@ -2256,7 +2818,9 @@
       "en": "Great Tit",
       "ka": "დიდი წივწივა (დიდი წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "YR-R"
     },
     {
@@ -2264,7 +2828,9 @@
       "en": "Willow Tit",
       "ka": "მთის წივწივა (მთის წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "ND"
     },
     {
@@ -2272,7 +2838,9 @@
       "en": "Marsh Tit",
       "ka": "შავთავა წივწივა (შავთავა წიწკანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
       "status": "YR-R"
     },
     {
@@ -2280,7 +2848,9 @@
       "en": "House Sparrow",
       "ka": "სახლის ბეღურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "YR-R"
     },
     {
@@ -2288,7 +2858,9 @@
       "en": "Spanish Sparrow",
       "ka": "შავგულა (ანუ ესპანური) ბეღურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2296,7 +2868,9 @@
       "en": "Tree Sparrow",
       "ka": "მინდვრის ბეღურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "YR-R"
     },
     {
@@ -2304,7 +2878,9 @@
       "en": "Dalmatian Pelican",
       "ka": "ქოჩორა (ან ხუჭუჭა) ვარხვი",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Pelecanidae",
+      "familyKa": "ვარხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2312,7 +2888,9 @@
       "en": "Great White Pelican",
       "ka": "ვარდისფერი ვარხვი",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Pelecanidae",
+      "familyKa": "ვარხვისებრნი",
       "status": "BB, M"
     },
     {
@@ -2320,7 +2898,9 @@
       "en": "Grey Partridge",
       "ka": "გნოლი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -2328,7 +2908,9 @@
       "en": "European Honey-Buzzard",
       "ka": "კრაზანაჭამია (ან ირაო)",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "BB, M"
     },
     {
@@ -2336,7 +2918,9 @@
       "en": "Crested Honey buzzard",
       "ka": "ქოჩორა (ექვსთითა) კრაზანაჭამია",
       "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
       "status": "M"
     },
     {
@@ -2344,7 +2928,9 @@
       "en": "Pale Rock Sparrow",
       "ka": "მკრთალი (ანუ მოკლეთითა) კლდის ბეღურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "BB"
     },
     {
@@ -2352,7 +2938,9 @@
       "en": "Rock Sparrow",
       "ka": "კლდის ბეღურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
       "status": "BB, M"
     },
     {
@@ -2360,7 +2948,9 @@
       "en": "Shag",
       "ka": "ქოჩორა ჩვამა",
       "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
       "status": "Cas"
     },
     {
@@ -2368,7 +2958,9 @@
       "en": "Great Cormorant",
       "ka": "დიდი ჩვამა",
       "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2376,7 +2968,9 @@
       "en": "Red Phalarope",
       "ka": "წითელი ტივტივა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "Cas"
     },
     {
@@ -2384,7 +2978,9 @@
       "en": "Red-necked Phalarope",
       "ka": "წითელკისერა (ან მრგვალნისკარტა) ტივტივა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -2392,7 +2988,9 @@
       "en": "Pheasant",
       "ka": "კოლხური ხოხობი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -2400,7 +2998,9 @@
       "en": "Greater Flamingo",
       "ka": "ჩვეულებრივი ფლამინგო",
       "order": "PHOENICOPTERIFORMES",
+      "orderKa": "ფლამინგოსნაირნი",
       "family": "Phoenicopteridae",
+      "familyKa": "ფლამიგოსებრნი",
       "status": "Cas"
     },
     {
@@ -2408,7 +3008,9 @@
       "en": "Greater Flamingo",
       "ka": "ჩვეულებრივი ფლამინგო",
       "order": "PHOENICOPTERIFORMES",
+      "orderKa": "ფლამინგოსნაირნი",
       "family": "Phoenicopteridae",
+      "familyKa": "ფლამიგოსებრნი",
       "status": "Cas"
     },
     {
@@ -2416,7 +3018,9 @@
       "en": "Güldenstädt’s (or White-winged) Redstart",
       "ka": "წითელმუცელა ბოლოცეცხლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R"
     },
     {
@@ -2424,7 +3028,9 @@
       "en": "Black Redstart",
       "ka": "შავი ბოლოცეცხლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2432,7 +3038,9 @@
       "en": "Common Redstart",
       "ka": "ჩვეულებრივი ბოლოცეცხლა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2440,7 +3048,9 @@
       "en": "Common Chiffchaff",
       "ka": "ჩვეულებრივი ჭივჭავი (ჩვეულებრივი ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2448,7 +3058,9 @@
       "en": "Yellow-browed Warbler",
       "ka": "მკრთალი მონარჩიტო ჭივჭავი (მკრთალი მონარჩიტო ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "ND"
     },
     {
@@ -2456,7 +3068,9 @@
       "en": "Green Warbler",
       "ka": "მწვანე ჭივჭავი (მწვანე ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB"
     },
     {
@@ -2464,7 +3078,9 @@
       "en": "Pallas’s Leaf-warbler",
       "ka": "მონარჩიტო ჭივჭავი (მონარჩიტო ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "ND"
     },
     {
@@ -2472,7 +3088,9 @@
       "en": "Radde’s Warbler",
       "ka": "რადეს ჭივჭავი (რადეს ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "Cas"
     },
     {
@@ -2480,7 +3098,9 @@
       "en": "Wood Warbler",
       "ka": "თეთრმუცელა ჭივჭავი (თეთრმუცელა ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2488,7 +3108,9 @@
       "en": "Mountain Chiffchaff",
       "ka": "მთის ჭივჭავი (მთის ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2496,7 +3118,9 @@
       "en": "Siberian Chiffchaff",
       "ka": "ციმბირული ჭივჭავი (ციმბირული ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "M"
     },
     {
@@ -2504,7 +3128,9 @@
       "en": "Greenish Warbler",
       "ka": "მომწვანო ჭივჭავი (მომწვანო ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2512,7 +3138,9 @@
       "en": "Willow Warbler",
       "ka": "გაზაფხულა ჭივჭავი (გაზაფხულა ყარანა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2520,7 +3148,9 @@
       "en": "Black-billed Magpie",
       "ka": "კაჭკაჭი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -2528,7 +3158,9 @@
       "en": "Grey-faced Woodpecker",
       "ka": "რუხი კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "ND"
     },
     {
@@ -2536,7 +3168,9 @@
       "en": "Eurasian Green Woodpecker",
       "ka": "მწვანე კოდალა",
       "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
       "status": "YR-R"
     },
     {
@@ -2544,7 +3178,9 @@
       "en": "Eurasian Spoonbill",
       "ka": "ჟერო",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Threskiornithidae",
+      "familyKa": "ივეოსისებრნი",
       "status": "M"
     },
     {
@@ -2552,7 +3188,9 @@
       "en": "Glossy Ibis",
       "ka": "ივეოსი",
       "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
       "family": "Threskiornithidae",
+      "familyKa": "ივეოსისებრნი",
       "status": "M"
     },
     {
@@ -2560,7 +3198,9 @@
       "en": "Eurasian Golden Plover",
       "ka": "ოქროსფერი მეჭვავია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "M"
     },
     {
@@ -2568,7 +3208,9 @@
       "en": "Grey Plover",
       "ka": "რუხი მეჭვავია (კვათარი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "M"
     },
     {
@@ -2576,15 +3218,19 @@
       "en": "Horned (or Slavonian) Grebe",
       "ka": "სწორნისკარტა (ან წითელყელა) კოკონა",
       "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
-      "status": "WV,M"
+      "familyKa": "კოკონასებრნი",
+      "status": "WV, M"
     },
     {
       "la": "Podiceps cristatus",
       "en": "Great Crested Grebe",
       "ka": "დიდი კოკონა",
       "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2592,23 +3238,29 @@
       "en": "Red-necked Grebe",
       "ka": "რუხლოყება კოკონა",
       "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
-      "status": "YR-R,M"
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "la": "Podiceps nigricollis",
       "en": "Black-necked Grebe",
       "ka": "აპრეხილნისკარტა (ან შავყელა) კოკონა",
       "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
-      "status": "YR-R,M"
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "la": "Porphyrio porphyrio",
       "en": "Purple Swamphen",
       "ka": "ხონთქრის ქათამი",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "BB, M"
     },
     {
@@ -2616,7 +3268,9 @@
       "en": "Spotted Crake",
       "ka": "ქათამურა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2624,7 +3278,9 @@
       "en": "Alpine Accentor",
       "ka": "ალპური ჭვინტაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
       "status": "YR-R"
     },
     {
@@ -2632,7 +3288,9 @@
       "en": "Hedge Accentor (Dunnock)",
       "ka": "ტყის ჭვინტაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2640,7 +3298,9 @@
       "en": "Radde’s Accentor",
       "ka": "თეთრწარბა ჭვინტაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
       "status": "ND"
     },
     {
@@ -2648,7 +3308,9 @@
       "en": "Pin-tailed Sandgrouse",
       "ka": "თეთრმუცელა გვრიტჩიტა",
       "order": "PTEROCLIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Pteroclidae",
+      "familyKa": "გვრიტჩიტასებრნი",
       "status": "Cas"
     },
     {
@@ -2656,7 +3318,9 @@
       "en": "Black-bellied Sandgrouse",
       "ka": "შავმუცელა გვრიტჩიტა",
       "order": "PTEROCLIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Pteroclidae",
+      "familyKa": "გვრიტჩიტასებრნი",
       "status": "Cas"
     },
     {
@@ -2664,7 +3328,9 @@
       "en": "Mediterranean (Yelkouan) Shearwater",
       "ka": "ხმელთაშუაზღვის ქარიშხალა",
       "order": "PROCELLARIIFORMES",
+      "orderKa": "ქარიშხალასნაირნი",
       "family": "Procellariidae",
+      "familyKa": "ქარიშხალასებრნი",
       "status": "YR-V"
     },
     {
@@ -2672,7 +3338,9 @@
       "en": "Yellow-billed Chough",
       "ka": "ყვითელნისკარტა მაღრანი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -2680,7 +3348,9 @@
       "en": "Red-billed Chough",
       "ka": "წითელნისკარტა მაღრანი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
       "status": "YR-R"
     },
     {
@@ -2688,7 +3358,9 @@
       "en": "Eurasian Bullfinch",
       "ka": "სტვენია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R"
     },
     {
@@ -2696,7 +3368,9 @@
       "en": "Water Rail",
       "ka": "ლაინა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2704,7 +3378,9 @@
       "en": "Pied Avocet",
       "ka": "სადგისნისკარტა",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Recurvirostridae",
+      "familyKa": "სადგისნისკარტასებრნი",
       "status": "YR-V, M"
     },
     {
@@ -2712,7 +3388,9 @@
       "en": "Firecrest",
       "ka": "წითელთავა ნარჩიტა (წითელთავა ღაბუაჩიტი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Reguliidae",
+      "familyKa": "ნარჩტასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2720,7 +3398,9 @@
       "en": "Goldcrest",
       "ka": "ყვითელთავა ნარჩიტა (ყვითელთავა ღაბუაჩიტი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Reguliidae",
+      "familyKa": "ნარჩტასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2728,7 +3408,9 @@
       "en": "Eurasian Penduline Tit",
       "ka": "თერძი (ჩვეულებრივი რემეზი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Remizidae",
+      "familyKa": "რემეზისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2736,7 +3418,9 @@
       "en": "Crimson-winged Finch",
       "ka": "ფრთაწითელი კოჭობურა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "Cas"
     },
     {
@@ -2744,7 +3428,9 @@
       "en": "Sand Martin",
       "ka": "მენაპირე მერცხალი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
       "status": "BB, M"
     },
     {
@@ -2752,7 +3438,9 @@
       "en": "Kittiwake",
       "ka": "სამთითა თოლია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "WV"
     },
     {
@@ -2760,7 +3448,9 @@
       "en": "Whinchat",
       "ka": "თეთრწარბა (ანუ მდელოს) ოვსადი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2768,7 +3458,9 @@
       "en": "Common Stonechat",
       "ka": "შავთავა ოვსადი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2776,7 +3468,9 @@
       "en": "Eurasian Woodcock",
       "ka": "ტყის ქათამი (ვალდშნეპი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "WV, M"
     },
     {
@@ -2784,7 +3478,9 @@
       "en": "Fire-fronted Serin (Red-fronted Serin)",
       "ka": "წითელშუბლა მთიულა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "YR-R"
     },
     {
@@ -2792,7 +3488,9 @@
       "en": "European Serin",
       "ka": "მოყვითალო მთიულა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
       "status": "BB"
     },
     {
@@ -2800,7 +3498,9 @@
       "en": "Wood Nuthatch",
       "ka": "ჩვეულებრივი ხეცოცია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
       "status": "YR-R"
     },
     {
@@ -2808,7 +3508,9 @@
       "en": "Krüper’s Nuthatch",
       "ka": "შავთავა ხეცოცია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
       "status": "YR-R"
     },
     {
@@ -2816,7 +3518,9 @@
       "en": "Rock Nuthatch",
       "ka": "მცირე კლდეცოცია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
       "status": "YR-R"
     },
     {
@@ -2824,7 +3528,9 @@
       "en": "Great Rock Nuthatch",
       "ka": "დიდი კლდეცოცია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
       "status": "YR-R"
     },
     {
@@ -2832,7 +3538,9 @@
       "en": "Northern Shoveler",
       "ka": "განიერნისკარტა იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2840,7 +3548,9 @@
       "en": "Garganey",
       "ka": "ჭახჭახა იხვი (ან იხვინჯა)",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2848,7 +3558,9 @@
       "en": "Laughing Dove",
       "ka": "მაცინარა (ან სენეგალური) გვრიტი",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "YR-R"
     },
     {
@@ -2856,7 +3568,9 @@
       "en": "Long-tailed Jaeger (Skua)",
       "ka": "გრძელკუდა თოლია-მეკობრე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
       "status": "YR-V"
     },
     {
@@ -2864,7 +3578,9 @@
       "en": "Parasitic Jaeger (Skua)",
       "ka": "ვიწროკუდა თოლია-მეკობრე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
       "status": "YR-V"
     },
     {
@@ -2872,7 +3588,9 @@
       "en": "Pomarine Jaeger (Skua)",
       "ka": "განიერკუდა თოლია-მეკობრე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
       "status": "YR-V"
     },
     {
@@ -2880,7 +3598,9 @@
       "en": "Common Tern",
       "ka": "ჩვეულებრივი თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2888,7 +3608,9 @@
       "en": "Little Tern",
       "ka": "მცირე თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2896,7 +3618,9 @@
       "en": "Eurasian Collared-Dove",
       "ka": "საყელოიანი გვრიტი",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2904,7 +3628,9 @@
       "en": "Eurasian Turtle-Dove",
       "ka": "ჩვეულებრივი გვრიტი",
       "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
       "status": "BB, M"
     },
     {
@@ -2912,7 +3638,9 @@
       "en": "Tawny Owl",
       "ka": "ტყის ბუ",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
       "status": "YR-R"
     },
     {
@@ -2920,7 +3648,9 @@
       "en": "Rose-coloured Starling",
       "ka": "ვარდისფერი შოშია (ტარბი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sturnidae",
+      "familyKa": "შოშიასებრნი",
       "status": "BB, M"
     },
     {
@@ -2928,7 +3658,9 @@
       "en": "Common Starling",
       "ka": "შოშია (შროშანი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sturnidae",
+      "familyKa": "შოშიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -2936,7 +3668,9 @@
       "en": "Blackcap",
       "ka": "შავთავა ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2944,7 +3678,9 @@
       "en": "Garden Warbler",
       "ka": "ბაღის ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2952,7 +3688,9 @@
       "en": "Common Whitethroat",
       "ka": "დიდი თეთრყელა ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2960,7 +3698,9 @@
       "en": "Eastern Orphean Warbler",
       "ka": "აღმოსავლური ყვითელთვალა ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB"
     },
     {
@@ -2968,7 +3708,9 @@
       "en": "Lesser Whitethroat",
       "ka": "მცირე თეთრყელა ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -2976,7 +3718,9 @@
       "en": "Sardinian Warbler",
       "ka": "ხმელთაშუაზღვის ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "Cas"
     },
     {
@@ -2984,7 +3728,9 @@
       "en": "Menetries’s Warbler",
       "ka": "წითელთვალა ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB"
     },
     {
@@ -2992,7 +3738,9 @@
       "en": "Barred Warbler",
       "ka": "მიმინოსებრი ასპუჭაკა",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
       "status": "BB, M"
     },
     {
@@ -3000,15 +3748,19 @@
       "en": "Little Grebe",
       "ka": "მცირე კოკონა",
       "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
-      "status": "YR-R,M"
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "la": "Tachymarptis melba",
       "en": "Alpine Swift",
       "ka": "მეკირია (ან თეთრმუცელა ნამგალა)",
       "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
       "status": "BB, M"
     },
     {
@@ -3016,7 +3768,9 @@
       "en": "Ruddy Shelduck",
       "ka": "წითელი იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-R"
     },
     {
@@ -3024,7 +3778,9 @@
       "en": "Common Shelduck",
       "ka": "ამლაყი იხვი",
       "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
       "status": "YR-V"
     },
     {
@@ -3032,7 +3788,9 @@
       "en": "Caspian Snowcock",
       "ka": "კასპიური შურთხი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -3040,7 +3798,9 @@
       "en": "Caucasian Snowcock",
       "ka": "კავკასიური შურთხი",
       "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
       "status": "YR-R"
     },
     {
@@ -3048,15 +3808,19 @@
       "en": "Little Bustard",
       "ka": "სარსარაკი",
       "order": "OTIDIFORMES",
+      "orderKa": "სავათისნაირნი",
       "family": "Otididae",
-      "status": "WV,M"
+      "familyKa": "სავათისებრნი",
+      "status": "WV, M"
     },
     {
       "la": "Thalasseus sandvicensis",
       "en": "Sandwich Tern",
       "ka": "ჭრელნისკარტა თევზიყლაპია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
       "status": "YR-V"
     },
     {
@@ -3064,7 +3828,9 @@
       "en": "Wallcreeper",
       "ka": "ფრთაწითელი კლდეცოცია",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
       "status": "YR-R"
     },
     {
@@ -3072,7 +3838,9 @@
       "en": "Spotted Redshank",
       "ka": "ლაქებიანი წითელფეხა მენაპირე (კოხტა ჭოვილო)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3080,7 +3848,9 @@
       "en": "Wood Sandpiper",
       "ka": "ტყის მენაპირე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3088,7 +3858,9 @@
       "en": "Common Greenshank",
       "ka": "მწვანეფეხა მენაპირე (დიდი ჭოვილო)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3096,7 +3868,9 @@
       "en": "Green Sandpiper",
       "ka": "შავი მენაპირე",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3104,7 +3878,9 @@
       "en": "Marsh Sandpiper",
       "ka": "ჭაობის მენაპირე (მერუე)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3112,7 +3888,9 @@
       "en": "Common Redshank",
       "ka": "წითელფეხა მენაპირე (მსევანი)",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3120,7 +3898,9 @@
       "en": "Winter Wren",
       "ka": "ჭინჭრაქა (ღობემძვრალა)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Troglodytidae",
+      "familyKa": "ჭინჭრაქასებრნი",
       "status": "YR-R"
     },
     {
@@ -3128,7 +3908,9 @@
       "en": "Black-throated Thrush",
       "ka": "შავყელა შაშვი (ჯიჯღი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "ND"
     },
     {
@@ -3136,7 +3918,9 @@
       "en": "Redwing",
       "ka": "თეთრწარბა (ანუ ფრთაჟღალი) შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "WV, M"
     },
     {
@@ -3144,7 +3928,9 @@
       "en": "Eurasian Blackbird",
       "ka": "შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "YR-R"
     },
     {
@@ -3152,7 +3938,9 @@
       "en": "Song Thrush",
       "ka": "წრიპა შაშვი (მგალობელი შაშვი)",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3160,15 +3948,19 @@
       "en": "Fieldfare",
       "ka": "რუხთავა შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
-      "status": "WV,M"
+      "familyKa": "შაშვისებრნი",
+      "status": "WV, M"
     },
     {
       "la": "Turdus torquatus",
       "en": "Ring Ouzel",
       "ka": "თეთრგულა შაშვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "YR-R"
     },
     {
@@ -3176,7 +3968,9 @@
       "en": "Mistle Thrush",
       "ka": "ჩხართვი",
       "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3184,7 +3978,9 @@
       "en": "Barn Owl",
       "ka": "ბუხრინწა",
       "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
       "family": "Tytonidae",
+      "familyKa": "ბუხრინწასებრნი",
       "status": "YR-R"
     },
     {
@@ -3192,7 +3988,9 @@
       "en": "Common Hoopoe",
       "ka": "ოფოფი",
       "order": "BUCEROTIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
       "family": "Upupidae",
+      "familyKa": "ოფოფისებრნი",
       "status": "BB, M"
     },
     {
@@ -3200,7 +3998,9 @@
       "en": "Sociable Lapwing",
       "ka": "ველის პრანწია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "M"
     },
     {
@@ -3208,7 +4008,9 @@
       "en": "White-Tailed Lapwing",
       "ka": "თეთრკუდა პრანწია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "M"
     },
     {
@@ -3216,7 +4018,9 @@
       "en": "Spur-Winged Lapwing",
       "ka": "შავმუცელა (შავმკერდა) პრანწია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "ND"
     },
     {
@@ -3224,7 +4028,9 @@
       "en": "Northern Lapwing",
       "ka": "პრანწია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
       "status": "YR-R, M"
     },
     {
@@ -3232,7 +4038,9 @@
       "en": "Terek Sandpiper",
       "ka": "რუხი აპრეხილნისკარტა მექვიშია",
       "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
       "status": "M"
     },
     {
@@ -3240,7 +4048,9 @@
       "en": "Little Crake",
       "ka": "მცირე ქათამურა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "M"
     },
     {
@@ -3248,7 +4058,9 @@
       "en": "Baillon’s Crake",
       "ka": "პაწაწა ქათამურა",
       "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
       "status": "BB, M"
     }
   ]

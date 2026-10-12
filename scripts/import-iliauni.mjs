@@ -79,6 +79,49 @@ function uniqueStrings(values) {
   return [...new Set(values.map((value) => value.trim()).filter(hasText))];
 }
 
+const statusCodes = {
+  "yr-r": "YR-R",
+  "yr-v": "YR-V",
+  bb: "BB",
+  sv: "SV",
+  wv: "WV",
+  m: "M",
+  nd: "ND",
+  fb: "FB",
+  ib: "IB",
+  ob: "OB",
+  ad: "AD",
+  int: "INT",
+  esc: "ESC",
+  ex: "EX",
+  cas: "Cas",
+};
+
+function normalizeStatus(value) {
+  const tokens = [];
+  for (const part of String(value || "").split(/[,.]/)) {
+    const code = statusCodes[part.trim().toLowerCase()];
+    if (code && !tokens.includes(code)) tokens.push(code);
+  }
+  return tokens.join(", ");
+}
+
+function georgianLabel(value) {
+  const text = String(value || "").trim();
+  if (!/[\u10A0-\u10FF]/.test(text)) return "";
+  return text;
+}
+
+function orderLabel(value) {
+  const text = georgianLabel(value);
+  return /ნაირნი$/.test(text) ? text : "";
+}
+
+function familyLabel(value) {
+  const text = georgianLabel(value).replaceAll("გრატასებნრი", "გრატასებრნი");
+  return /ებრნი$/.test(text) ? text : "";
+}
+
 function parseSpeciesRow(cells) {
   const cleaned = cells.map((cell) => stripHtml(cell)).filter(Boolean);
   if (cleaned.length < 4) return null;
@@ -99,7 +142,9 @@ function parseSpeciesRow(cells) {
     if (index < 0) return null;
     la = normalizeLatin(cleaned[index]);
     en = cleaned[index + 1] || en;
-    ka = cleaned.find((cell) => /[\u10A0-\u10FF]/.test(cell) && !/ნაირნი|ებრნი$/.test(cell)) || ka;
+    ka =
+      cleaned.find((cell) => /[\u10A0-\u10FF]/.test(cell) && !/ნაირნი|ებრნი$/.test(cell)) ||
+      ka;
     order = cleaned[index - 2] || order;
     family = cleaned[index - 1] || family;
     status = cleaned[cleaned.length - 1] || status;
@@ -107,15 +152,20 @@ function parseSpeciesRow(cells) {
 
   if (!isBinomial(la) || !hasText(en)) return null;
 
+  const georgian = cleaned.filter((cell) => /[\u10A0-\u10FF]/.test(cell));
+  const orderKa = orderLabel(cleaned[start + 4]) || georgian.map(orderLabel).find(Boolean) || "";
+  const familyKa =
+    familyLabel(cleaned[start + 5]) || georgian.map(familyLabel).find(Boolean) || "";
+
   return {
     la,
     en: en.trim(),
     ka: ka.trim(),
     order: /^[A-Z][A-Z-]+$/.test(order) ? order : "",
+    orderKa,
     family: /^[A-Z][a-z]+/.test(family) ? family : "",
-    status: /^(YR|BB|SV|WV|M|ND|FB|Cas|IB|OB|AD|INT|ESC|EX)/i.test(status)
-      ? status
-      : "",
+    familyKa,
+    status: normalizeStatus(status),
   };
 }
 
@@ -163,7 +213,7 @@ function mergeSpecies(groups) {
         byLatin.set(key, { ...row, sources: [fetchedFrom] });
         continue;
       }
-      for (const field of ["en", "ka", "order", "family", "status"]) {
+      for (const field of ["en", "ka", "order", "orderKa", "family", "familyKa", "status"]) {
         if (!hasText(existing[field]) && hasText(row[field])) {
           existing[field] = row[field];
         }
@@ -281,6 +331,19 @@ function fillName(target, key, incoming) {
   return true;
 }
 
+const taxonomyFields = ["order", "orderKa", "family", "familyKa", "status"];
+
+function fillTaxonomy(bird, row) {
+  let filled = 0;
+  for (const field of taxonomyFields) {
+    if (!hasText(bird[field]) && hasText(row[field])) {
+      bird[field] = row[field];
+      filled += 1;
+    }
+  }
+  return filled;
+}
+
 function nextId(slug, byId) {
   if (!byId.has(slug)) return slug;
   let n = 2;
@@ -315,6 +378,7 @@ async function main() {
   const { byId, byLatin, byEnglish, byGeorgian } = indexBirds(data.birds);
   let added = 0;
   let namesFilled = 0;
+  let taxonomyFilled = 0;
   let matched = 0;
 
   for (const row of snapshot.species) {
@@ -328,6 +392,7 @@ async function main() {
       if (fillName(existing, "ka", row.ka)) namesFilled += 1;
       if (fillName(existing, "en", row.en)) namesFilled += 1;
       if (fillName(existing, "la", row.la)) namesFilled += 1;
+      taxonomyFilled += fillTaxonomy(existing, row);
       existing.inGeorgia = true;
       continue;
     }
@@ -337,6 +402,11 @@ async function main() {
       id,
       ebirdCode: "",
       inGeorgia: true,
+      order: row.order || "",
+      orderKa: row.orderKa || "",
+      family: row.family || "",
+      familyKa: row.familyKa || "",
+      status: row.status || "",
       names: {
         ka: row.ka || "",
         en: row.en,
@@ -356,7 +426,7 @@ async function main() {
   data.birds = sortBirds(data.birds);
   await writeFile(dataPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
   console.log(
-    `Merged into birds.json. added=${added} matched=${matched} namesFilled=${namesFilled} total=${data.birds.length}`,
+    `Merged into birds.json. added=${added} matched=${matched} namesFilled=${namesFilled} taxonomyFilled=${taxonomyFilled} total=${data.birds.length}`,
   );
 }
 

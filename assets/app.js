@@ -98,6 +98,38 @@ function aliasLine(bird) {
   return `<p class="aliases">ასევე: ${escapeHtml(aliases.join(", "))}</p>`;
 }
 
+const statusLabels = {
+  "YR-R": "მუდმივი",
+  "YR-V": "მუდმივი სტუმარი",
+  BB: "მობუდარი",
+  SV: "ზაფხულის სტუმარი",
+  M: "გადამფრენი",
+  WV: "მოზამთრე",
+  Cas: "შემთხვევითი",
+  ND: "უცნობი",
+  FB: "ყოფილი მობუდარი",
+  IB: "არარეგულარული მობუდარი",
+  OB: "იშვიათი მობუდარი",
+  AD: "შემთხვევითი",
+  INT: "ინტროდუცირებული",
+  ESC: "გაქცეული",
+  EX: "გადაშენებული",
+};
+
+function statusText(bird) {
+  return String(bird.status || "")
+    .split(",")
+    .map((part) => statusLabels[part.trim()] || "")
+    .filter(Boolean)
+    .join(", ");
+}
+
+function taxonLine(bird) {
+  const parts = [bird.familyKa, statusText(bird)].filter(Boolean);
+  if (!parts.length) return "";
+  return `<p class="taxon">${escapeHtml(parts.join(" · "))}</p>`;
+}
+
 function matches(bird, query) {
   if (!query) return true;
   const haystack = normalize(
@@ -180,6 +212,7 @@ function renderCard(bird, index) {
         ${aliasLine(bird)}
         <p class="en">${escapeHtml(bird.names.en || "")}</p>
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        ${taxonLine(bird)}
         ${photoCredit(bird.photo, { link: false })}
       </div>
     </a>
@@ -242,6 +275,7 @@ function renderDetail(bird) {
         ${aliasLine(bird)}
         ${georgian ? `<p class="en">${escapeHtml(bird.names.en || "")}</p>` : ""}
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        ${taxonLine(bird)}
         ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
         ${wikiCredit(bird)}
         ${detailLinks(bird)}

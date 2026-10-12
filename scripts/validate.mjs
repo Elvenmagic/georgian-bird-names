@@ -56,6 +56,12 @@ data.birds.forEach((bird, index) => {
     fail(`${place} inGeorgia must be a boolean.`);
   }
 
+  for (const key of ["order", "orderKa", "family", "familyKa", "status"]) {
+    if (bird[key] != null && typeof bird[key] !== "string") {
+      fail(`${place} ${key} must be a string.`);
+    }
+  }
+
   if (bird.photo != null) {
     if (typeof bird.photo !== "object") {
       fail(`${place} photo must be an object or null.`);

@@ -20,7 +20,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caspian_plover",
         "ebird": "https://ebird.org/species/casplo1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "falco-columbarius",
@@ -41,7 +46,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Merlin_(bird)",
         "ebird": "https://ebird.org/species/merlin"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "comkin1",
@@ -62,7 +72,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_kingfisher",
         "ebird": "https://ebird.org/species/comkin1"
-      }
+      },
+      "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
+      "family": "Alcedinidae",
+      "familyKa": "ალკუნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "prunella-collaris",
@@ -83,7 +98,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Alpine_accentor",
         "ebird": "https://ebird.org/species/alpacc1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "bucephala-clangula",
@@ -104,7 +124,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_goldeneye",
         "ebird": "https://ebird.org/species/comgol"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "tadorna-tadorna",
@@ -125,7 +150,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_shelduck",
         "ebird": "https://ebird.org/species/comshe"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-V"
     },
     {
       "id": "podiceps-nigricollis",
@@ -146,7 +176,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-necked_grebe",
         "ebird": "https://ebird.org/species/eargre"
-      }
+      },
+      "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
+      "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "larus-audouinii",
@@ -167,7 +202,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Audouin's_gull",
         "ebird": "https://ebird.org/species/audgul1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "luscinia-luscinia",
@@ -188,7 +228,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Thrush_nightingale",
         "ebird": "https://ebird.org/species/thrnig1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "alauda-gulgula",
@@ -209,7 +254,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Oriental_skylark",
         "ebird": "https://ebird.org/species/orisky1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "ND"
     },
     {
       "id": "sylvia-crassirostris",
@@ -230,7 +280,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eastern_Orphean_warbler",
         "ebird": "https://ebird.org/species/eaowar2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB"
     },
     {
       "id": "falco-cherrug",
@@ -251,7 +306,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Saker_falcon",
         "ebird": "https://ebird.org/species/sakfal1"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "beavul1",
@@ -272,7 +332,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bearded_vulture",
         "ebird": "https://ebird.org/species/lammer1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "sylvia-borin",
@@ -293,7 +358,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Garden_warbler",
         "ebird": "https://ebird.org/species/garwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "emberiza-hortulana",
@@ -314,7 +384,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ortolan_bunting",
         "ebird": "https://ebird.org/species/ortbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "BB, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "hippolais-pallida",
@@ -335,7 +410,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eastern_olivaceous_warbler",
         "ebird": "https://ebird.org/species/eaowar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "aquila-heliaca",
@@ -356,7 +436,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eastern_imperial_eagle",
         "ebird": "https://ebird.org/species/impeag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "hippolais-languida",
@@ -377,7 +462,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Upcher%27s_warbler",
         "ebird": "https://ebird.org/species/upcwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "anas-acuta",
@@ -398,7 +488,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Northern_pintail",
         "ebird": "https://ebird.org/species/norpin"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "aegolius-funereus",
@@ -419,7 +514,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Boreal_owl",
         "ebird": "https://ebird.org/species/borowl"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "locustella-luscinioides",
@@ -440,7 +540,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Savi's_warbler",
         "ebird": "https://ebird.org/species/savwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "oenanthe-isabellina",
@@ -461,7 +566,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Isabelline_wheatear",
         "ebird": "https://ebird.org/species/isawhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "acrocephalus-dumetorum",
@@ -482,7 +592,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Blyth%27s_reed_warbler",
         "ebird": "https://ebird.org/species/blrwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "tyto-alba",
@@ -503,7 +618,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_barn_owl",
         "ebird": "https://ebird.org/species/brnowl"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Tytonidae",
+      "familyKa": "ბუხრინწასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phylloscopus-trochilus",
@@ -524,7 +644,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Willow_warbler",
         "ebird": "https://ebird.org/species/wlwwar"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "stercorarius-pomarinus",
@@ -545,7 +670,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pomarine_jaeger",
         "ebird": "https://ebird.org/species/pomjae"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
+      "status": "YR-V"
     },
     {
       "id": "spatula-clypeata",
@@ -566,7 +696,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Northern_shoveler",
         "ebird": "https://ebird.org/species/norsho"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "mallar3",
@@ -587,7 +722,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mallard",
         "ebird": "https://ebird.org/species/mallar3"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "columba-livia",
@@ -608,7 +748,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rock_dove",
         "ebird": "https://ebird.org/species/rocpig"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "circaetus-gallicus",
@@ -629,7 +774,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Short-toed_snake_eagle",
         "ebird": "https://ebird.org/species/shteag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "perdix-perdix",
@@ -650,7 +800,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey_partridge",
         "ebird": "https://ebird.org/species/grypar"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "clangula-hyemalis",
@@ -671,7 +826,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Long-tailed_duck",
         "ebird": "https://ebird.org/species/lotduc"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "ND"
     },
     {
       "id": "stercorarius-longicaudus",
@@ -692,7 +852,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
         "ebird": "https://ebird.org/species/lotjae"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
+      "status": "YR-V"
     },
     {
       "id": "acrocephalus-agricola",
@@ -713,7 +878,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Paddyfield_warbler",
         "ebird": "https://ebird.org/species/padwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "haliaeetus-leucoryphus",
@@ -734,7 +904,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pallas's_fish_eagle",
         "ebird": "https://ebird.org/species/pafeag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "ND"
     },
     {
       "id": "mergus-serrator",
@@ -755,7 +930,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-breasted_merganser",
         "ebird": "https://ebird.org/species/rebmer"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "comcuc",
@@ -776,7 +956,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_cuckoo",
         "ebird": "https://ebird.org/species/comcuc"
-      }
+      },
+      "order": "CUCULIFORMES",
+      "orderKa": "გუგულისნაირნი",
+      "family": "Cuculidae",
+      "familyKa": "გუგულისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "columba-oenas",
@@ -797,7 +982,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Stock_dove",
         "ebird": "https://ebird.org/species/stodov1"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "eurrob",
@@ -818,7 +1008,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_robin",
         "ebird": "https://ebird.org/species/eurrob1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "limosa-limosa",
@@ -839,7 +1034,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-tailed_godwit",
         "ebird": "https://ebird.org/species/bktgod"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "mergus-merganser",
@@ -860,7 +1060,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_merganser",
         "ebird": "https://ebird.org/species/commer"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "ardea-alba",
@@ -881,7 +1086,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_egret",
         "ebird": "https://ebird.org/species/greegr"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "YR-V"
     },
     {
       "id": "sylvia-communis",
@@ -902,7 +1112,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_whitethroat",
         "ebird": "https://ebird.org/species/grewhi1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "anser-albifrons",
@@ -923,7 +1138,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_white-fronted_goose",
         "ebird": "https://ebird.org/species/gwfgoo"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "catharacta-skua",
@@ -944,7 +1164,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_skua",
         "ebird": "https://ebird.org/species/gresku1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "family": "Stercorariidae",
+      "status": "Cas",
+      "orderKa": "მეჭვავიასნაირნი",
+      "familyKa": "თოლია-მეკობრესებრნი"
     },
     {
       "id": "sitta-tephronota",
@@ -965,7 +1190,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eastern_rock_nuthatch",
         "ebird": "https://ebird.org/species/pernut1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "podiceps-cristatus",
@@ -986,7 +1216,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_crested_grebe",
         "ebird": "https://ebird.org/species/grcgre1"
-      }
+      },
+      "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
+      "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "carpodacus-rubicilla",
@@ -1007,7 +1242,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_rosefinch",
         "ebird": "https://ebird.org/species/greros1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "numenius-arquata",
@@ -1028,7 +1268,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_curlew",
         "ebird": "https://ebird.org/species/eurcur"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "calandrella-brachydactyla",
@@ -1049,7 +1294,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_short-toed_lark",
         "ebird": "https://ebird.org/species/gstlar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "clanga-clanga",
@@ -1070,7 +1320,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_spotted_eagle",
         "ebird": "https://ebird.org/species/grseag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "botaurus-stellaris",
@@ -1091,7 +1346,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_bittern",
         "ebird": "https://ebird.org/species/grebit1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "larus-ichthyaetus",
@@ -1112,7 +1372,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pallas's_gull",
         "ebird": "https://ebird.org/species/gbhgul2"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV"
     },
     {
       "id": "phalacrocorax-carbo",
@@ -1133,7 +1398,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_cormorant",
         "ebird": "https://ebird.org/species/grecor"
-      }
+      },
+      "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
+      "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "gallinago-media",
@@ -1154,7 +1424,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_snipe",
         "ebird": "https://ebird.org/species/gresni1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "gretit1",
@@ -1175,7 +1450,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_tit",
         "ebird": "https://ebird.org/species/gretit1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "dendrocopos-major",
@@ -1196,7 +1476,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_spotted_woodpecker",
         "ebird": "https://ebird.org/species/grswoo"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "francolinus-francolinus",
@@ -1217,7 +1502,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_francolin",
         "ebird": "https://ebird.org/species/blkfra"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "caprimulgus-aegyptius",
@@ -1238,7 +1528,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_nightjar",
         "ebird": "https://ebird.org/species/egynig1"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "უფეხურასნაირნი",
+      "family": "Caprimulgidae",
+      "familyKa": "უფეხურასებრნი",
+      "status": "ND"
     },
     {
       "id": "falco-eleonorae",
@@ -1259,7 +1554,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eleonora's_falcon",
         "ebird": "https://ebird.org/species/elefal1"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "ND"
     },
     {
       "id": "pelecanus-onocrotalus",
@@ -1280,7 +1580,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_white_pelican",
         "ebird": "https://ebird.org/species/grwpel1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Pelecanidae",
+      "familyKa": "ვარხვისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "sturnus-roseus",
@@ -1301,7 +1606,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rosy_starling",
         "ebird": "https://ebird.org/species/rossta2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sturnidae",
+      "familyKa": "შოშიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "buteo-rufinus",
@@ -1322,7 +1632,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Long-legged_buzzard",
         "ebird": "https://ebird.org/species/lolbuz1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "aquila-nipalensis",
@@ -1343,7 +1658,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Steppe_eagle",
         "ebird": "https://ebird.org/species/steeag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "M"
     },
     {
       "id": "vanellus-gregarius",
@@ -1364,7 +1684,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sociable_lapwing",
         "ebird": "https://ebird.org/species/soclap1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "M"
     },
     {
       "id": "melanocorypha-calandra",
@@ -1385,7 +1710,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Calandra_lark",
         "ebird": "https://ebird.org/species/callar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "circus-macrourus",
@@ -1406,7 +1736,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pallid_harrier",
         "ebird": "https://ebird.org/species/palhar1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "M"
     },
     {
       "id": "larus-canus",
@@ -1427,7 +1762,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_gull",
         "ebird": "https://ebird.org/species/mewgul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "larus-argentatus",
@@ -1448,7 +1788,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_herring_gull",
         "ebird": "https://ebird.org/species/hergul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "stercorarius-parasiticus",
@@ -1469,7 +1814,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Parasitic_jaeger",
         "ebird": "https://ebird.org/species/parjae"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Stercorariidae",
+      "familyKa": "თოლია-მეკობრესებრნი",
+      "status": "YR-V"
     },
     {
       "id": "eueowl1",
@@ -1490,7 +1840,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_eagle-owl",
         "ebird": "https://ebird.org/species/eueowl1"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "limosa-lapponica",
@@ -1511,7 +1866,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bar-tailed_godwit",
         "ebird": "https://ebird.org/species/batgod"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "larus-marinus",
@@ -1532,7 +1892,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_black-backed_gull",
         "ebird": "https://ebird.org/species/gbbgul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "haematopus-ostralegus",
@@ -1553,7 +1918,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_oystercatcher",
         "ebird": "https://ebird.org/species/euroys1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Haematopodidae",
+      "familyKa": "სირკაჭკაჭისებრნი",
+      "status": "SV, M"
     },
     {
       "id": "aythya-marila",
@@ -1574,7 +1944,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_scaup",
         "ebird": "https://ebird.org/species/gresca"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "charadrius-alexandrinus",
@@ -1595,7 +1970,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Kentish_plover",
         "ebird": "https://ebird.org/species/kenplo1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "calidris-falcinellus",
@@ -1616,7 +1996,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Broad-billed_sandpiper",
         "ebird": "https://ebird.org/species/brbsan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "turdus-torquatus",
@@ -1637,7 +2022,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ring_ouzel",
         "ebird": "https://ebird.org/species/rinouz1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "dendrocopos-leucotos",
@@ -1658,7 +2048,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-backed_woodpecker",
         "ebird": "https://ebird.org/species/whbwoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "oenanthe-finschii",
@@ -1679,7 +2074,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Finsch's_wheatear",
         "ebird": "https://ebird.org/species/finwhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "oxyura-leucocephala",
@@ -1700,7 +2100,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-headed_duck",
         "ebird": "https://ebird.org/species/whhduc1"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "aythya-nyroca",
@@ -1721,7 +2126,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ferruginous_duck",
         "ebird": "https://ebird.org/species/ferduc"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "whiwag",
@@ -1742,7 +2152,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White_wagtail",
         "ebird": "https://ebird.org/species/whiwag"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "whitst1",
@@ -1763,7 +2178,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White_stork",
         "ebird": "https://ebird.org/species/whisto1"
-      }
+      },
+      "order": "CICONIIFORMES",
+      "orderKa": "ყარყატისნაირნი",
+      "family": "Ciconiidae",
+      "familyKa": "ყარყატისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "calidris-temminckii",
@@ -1784,7 +2204,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Temminck's_stint",
         "ebird": "https://ebird.org/species/temsti"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "vanellus-leucurus",
@@ -1805,7 +2230,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-tailed_lapwing",
         "ebird": "https://ebird.org/species/whtlap1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "M"
     },
     {
       "id": "haliaeetus-albicilla",
@@ -1826,7 +2256,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-tailed_eagle",
         "ebird": "https://ebird.org/species/whteag"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "pterocles-alchata",
@@ -1847,7 +2282,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pin-tailed_sandgrouse",
         "ebird": "https://ebird.org/species/pitsan1"
-      }
+      },
+      "order": "PTEROCLIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Pteroclidae",
+      "familyKa": "გვრიტჩიტასებრნი",
+      "status": "Cas"
     },
     {
       "id": "phylloscopus-sibilatrix",
@@ -1868,7 +2308,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Wood_warbler",
         "ebird": "https://ebird.org/species/woowar"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "melanitta-fusca",
@@ -1889,7 +2334,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Velvet_scoter",
         "ebird": "https://ebird.org/species/whwsco"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "BB, WV"
     },
     {
       "id": "ficedula-albicollis",
@@ -1910,7 +2360,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Collared_flycatcher",
         "ebird": "https://ebird.org/species/colfly1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "M"
     },
     {
       "id": "irania-gutturalis",
@@ -1931,7 +2386,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-throated_robin",
         "ebird": "https://ebird.org/species/whtrob3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "ND"
     },
     {
       "id": "mareca-penelope",
@@ -1952,7 +2412,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_wigeon",
         "ebird": "https://ebird.org/species/eurwig"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "saxicola-rubetra",
@@ -1973,7 +2438,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Whinchat",
         "ebird": "https://ebird.org/species/whinch1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "turdus-iliacus",
@@ -1994,7 +2464,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Redwing",
         "ebird": "https://ebird.org/species/redwin"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "prunella-ocularis",
@@ -2015,7 +2490,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Radde's_accentor",
         "ebird": "https://ebird.org/species/radacc1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
+      "status": "ND"
     },
     {
       "id": "remiz-pendulinus",
@@ -2036,7 +2516,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_penduline_tit",
         "ebird": "https://ebird.org/species/euptit1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Remizidae",
+      "familyKa": "რემეზისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "burhinus-oedicnemus",
@@ -2057,7 +2542,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_stone-curlew",
         "ebird": "https://ebird.org/species/eutkne1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Burhinidae",
+      "familyKa": "თვალჭყეტიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "gelochelidon-nilotica",
@@ -2078,7 +2568,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Gull-billed_tern",
         "ebird": "https://ebird.org/species/gubter1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-V"
     },
     {
       "id": "aegithalos-caudatus",
@@ -2099,7 +2594,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Long-tailed_tit",
         "ebird": "https://ebird.org/species/lottit1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Aegithalidae",
+      "familyKa": "თოხიტარასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "nucifraga-caryocatactes",
@@ -2120,7 +2620,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Northern_nutcracker",
         "ebird": "https://ebird.org/species/eurnut1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "Cas"
     },
     {
       "id": "plegadis-falcinellus",
@@ -2141,7 +2646,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Glossy_ibis",
         "ebird": "https://ebird.org/species/gloibi"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Threskiornithidae",
+      "familyKa": "ივეოსისებრნი",
+      "status": "M"
     },
     {
       "id": "emppen1",
@@ -2183,7 +2693,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red_knot",
         "ebird": "https://ebird.org/species/redkno"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "caugro1",
@@ -2204,7 +2719,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caucasian_grouse",
         "ebird": "https://ebird.org/species/caugro1"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "causno1",
@@ -2225,7 +2745,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caucasian_snowcock",
         "ebird": "https://ebird.org/species/causno1"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "alectoris-chukar",
@@ -2246,7 +2771,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Chukar_partridge",
         "ebird": "https://ebird.org/species/chukar"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "hydroprogne-caspia",
@@ -2267,7 +2797,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caspian_tern",
         "ebird": "https://ebird.org/species/caster1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "SV, M"
     },
     {
       "id": "larus-cachinnans",
@@ -2288,7 +2823,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caspian_gull",
         "ebird": "https://ebird.org/species/casgul2"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "tetraogallus-caspius",
@@ -2309,7 +2849,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Caspian_snowcock",
         "ebird": "https://ebird.org/species/cassno1"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "bkimag",
@@ -2330,7 +2875,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_magpie",
         "ebird": "https://ebird.org/species/eurmag1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "petronia-petronia",
@@ -2351,7 +2901,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rock_sparrow",
         "ebird": "https://ebird.org/species/rocpet1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "emberiza-cia",
@@ -2372,7 +2927,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rock_bunting",
         "ebird": "https://ebird.org/species/rocbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "YR-R, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "monticola-solitarius",
@@ -2393,7 +2953,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Blue_rock_thrush",
         "ebird": "https://ebird.org/species/burthr"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB"
     },
     {
       "id": "hirundo-rupestris",
@@ -2414,7 +2979,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_crag_martin",
         "ebird": "https://ebird.org/species/eurcrm1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "monticola-saxatilis",
@@ -2435,7 +3005,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_rock_thrush",
         "ebird": "https://ebird.org/species/rtrthr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB"
     },
     {
       "id": "rinphe",
@@ -2456,7 +3031,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_pheasant",
         "ebird": "https://ebird.org/species/rinphe"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "pernis-apivorus",
@@ -2477,7 +3057,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_honey_buzzard",
         "ebird": "https://ebird.org/species/euhbuz1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "coccothraustes-coccothraustes",
@@ -2498,7 +3083,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Hawfinch",
         "ebird": "https://ebird.org/species/hawfin"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "rallus-aquaticus",
@@ -2519,7 +3109,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Water_rail",
         "ebird": "https://ebird.org/species/watrai1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "calcarius-lapponicus",
@@ -2540,7 +3135,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lapland_longspur",
         "ebird": "https://ebird.org/species/laplon"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "ND",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "tringa-erythropus",
@@ -2561,7 +3161,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Spotted_redshank",
         "ebird": "https://ebird.org/species/spored"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "emberiza-schoeniclus",
@@ -2582,7 +3187,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_reed_bunting",
         "ebird": "https://ebird.org/species/reebun"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "YR-R, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "acrocephalus-arundinaceus",
@@ -2603,7 +3213,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_reed_warbler",
         "ebird": "https://ebird.org/species/grrwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "acrocephalus-scirpaceus",
@@ -2624,7 +3239,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_reed_warbler",
         "ebird": "https://ebird.org/species/eurwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "chlidonias-hybrida",
@@ -2645,7 +3265,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Whiskered_tern",
         "ebird": "https://ebird.org/species/whiter2"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "marmaronetta-angustirostris",
@@ -2666,7 +3291,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Marbled_duck",
         "ebird": "https://ebird.org/species/martea1"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "ND"
     },
     {
       "id": "falco-subbuteo",
@@ -2687,7 +3317,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_hobby",
         "ebird": "https://ebird.org/species/eurhob"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "jynx-torquilla",
@@ -2708,7 +3343,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_wryneck",
         "ebird": "https://ebird.org/species/eurwry"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "spilopelia-senegalensis",
@@ -2729,7 +3369,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Laughing_dove",
         "ebird": "https://ebird.org/species/laudov1"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "anthus-pratensis",
@@ -2750,7 +3395,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Meadow_pipit",
         "ebird": "https://ebird.org/species/meapip1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "circus-pygargus",
@@ -2771,7 +3421,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Montagu's_harrier",
         "ebird": "https://ebird.org/species/monhar1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "bombycilla-garrulus",
@@ -2792,7 +3447,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bohemian_waxwing",
         "ebird": "https://ebird.org/species/bohwax"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Bombycillidae",
+      "familyKa": "მედუდუკისებრნი",
+      "status": "WV"
     },
     {
       "id": "montifringilla-nivalis",
@@ -2813,7 +3473,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-winged_snowfinch",
         "ebird": "https://ebird.org/species/whwsno1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "anser-fabalis",
@@ -2834,7 +3499,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Taiga_bean_goose",
         "ebird": "https://ebird.org/species/taibeg1"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "M"
     },
     {
       "id": "arenaria-interpres",
@@ -2855,7 +3525,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ruddy_turnstone",
         "ebird": "https://ebird.org/species/rudtur"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "tachymarptis-melba",
@@ -2876,7 +3551,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Alpine_swift",
         "ebird": "https://ebird.org/species/alpswi1"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
+      "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "fulica-atra",
@@ -2897,7 +3577,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_coot",
         "ebird": "https://ebird.org/species/eurcoo"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "riparia-riparia",
@@ -2918,7 +3603,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sand_martin",
         "ebird": "https://ebird.org/species/banswa"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "miliaria-calandra",
@@ -2939,7 +3629,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Corn_bunting",
         "ebird": "https://ebird.org/species/corbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "YR-R, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "goleag1",
@@ -2960,7 +3655,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Golden_eagle",
         "ebird": "https://ebird.org/species/goleag"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "anthus-spinoletta",
@@ -2981,7 +3681,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Water_pipit",
         "ebird": "https://ebird.org/species/watpip1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "parus-montanus",
@@ -3002,7 +3707,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Willow_tit",
         "ebird": "https://ebird.org/species/wiltit1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "ND"
     },
     {
       "id": "carduelis-flavirostris",
@@ -3023,7 +3733,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Twite",
         "ebird": "https://ebird.org/species/twite1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phylloscopus-sindianus",
@@ -3044,7 +3759,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mountain_chiffchaff",
         "ebird": "https://ebird.org/species/mouchi2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "accipiter-nisus",
@@ -3065,7 +3785,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_sparrowhawk",
         "ebird": "https://ebird.org/species/eurspa1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "sylvia-nisoria",
@@ -3086,7 +3811,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Barred_warbler",
         "ebird": "https://ebird.org/species/barwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "passer-montanus",
@@ -3107,7 +3837,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_tree_sparrow",
         "ebird": "https://ebird.org/species/eutspa"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "anthus-campestris",
@@ -3128,7 +3863,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tawny_pipit",
         "ebird": "https://ebird.org/species/tawpip1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "alauda-arvensis",
@@ -3149,7 +3889,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_skylark",
         "ebird": "https://ebird.org/species/skylar"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "circus-cyaneus",
@@ -3170,7 +3915,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Hen_harrier",
         "ebird": "https://ebird.org/species/norhar1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "petronia-brachydactyla",
@@ -3191,7 +3941,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pale_rockfinch",
         "ebird": "https://ebird.org/species/palroc1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "BB"
     },
     {
       "id": "phylloscopus-inornatus",
@@ -3212,7 +3967,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Yellow-browed_warbler",
         "ebird": "https://ebird.org/species/yebwar3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "ND"
     },
     {
       "id": "apus-pallidus",
@@ -3233,7 +3993,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pallid_swift",
         "ebird": "https://ebird.org/species/palswi3"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
+      "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
+      "status": "ND"
     },
     {
       "id": "certhia-brachydactyla",
@@ -3254,7 +4019,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Short-toed_treecreeper",
         "ebird": "https://ebird.org/species/shttre1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Certhiidae",
+      "familyKa": "მგლინავასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "oriolus-oriolus",
@@ -3275,7 +4045,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_golden_oriole",
         "ebird": "https://ebird.org/species/eugori2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Oriolidae",
+      "familyKa": "მოლაღურისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "parus-caeruleus",
@@ -3296,7 +4071,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_blue_tit",
         "ebird": "https://ebird.org/species/blutit"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phylloscopus-trochiloides",
@@ -3317,7 +4097,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greenish_warbler",
         "ebird": "https://ebird.org/species/grewar3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "phylloscopus-proregulus",
@@ -3338,7 +4123,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pallas's_leaf_warbler",
         "ebird": "https://ebird.org/species/palwar5"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "ND"
     },
     {
       "id": "emberiza-citrinella",
@@ -3359,7 +4149,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Yellowhammer",
         "ebird": "https://ebird.org/species/yellow2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "YR-R, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "serinus-serinus",
@@ -3380,7 +4175,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_serin",
         "ebird": "https://ebird.org/species/eurser1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "BB"
     },
     {
       "id": "hippolais-caligata",
@@ -3401,7 +4201,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Booted_warbler",
         "ebird": "https://ebird.org/species/boowar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "M"
     },
     {
       "id": "falco-naumanni",
@@ -3422,7 +4227,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_kestrel",
         "ebird": "https://ebird.org/species/leskes1"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "mergellus-albellus",
@@ -3443,7 +4253,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Smew",
         "ebird": "https://ebird.org/species/smew"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "sternula-albifrons",
@@ -3464,7 +4279,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_tern",
         "ebird": "https://ebird.org/species/litter1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "egretta-garzetta",
@@ -3485,7 +4305,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_egret",
         "ebird": "https://ebird.org/species/litegr"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "sylvia-curruca",
@@ -3506,7 +4331,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_whitethroat",
         "ebird": "https://ebird.org/species/leswhi4"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "anser-erythropus",
@@ -3527,7 +4357,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_white-fronted_goose",
         "ebird": "https://ebird.org/species/lwfgoo"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "hydrocoloeus-minutus",
@@ -3548,7 +4383,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_gull",
         "ebird": "https://ebird.org/species/litgul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "sitta-neumayer",
@@ -3569,7 +4409,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_rock_nuthatch",
         "ebird": "https://ebird.org/species/rocnut1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "tachybaptus-ruficollis",
@@ -3590,7 +4435,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_grebe",
         "ebird": "https://ebird.org/species/litgre1"
-      }
+      },
+      "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
+      "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "calidris-minuta",
@@ -3611,7 +4461,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_stint",
         "ebird": "https://ebird.org/species/litsti"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "calandrella-rufescens",
@@ -3632,7 +4487,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mediterranean_short-toed_lark",
         "ebird": "https://ebird.org/species/lstlar3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "clanga-pomarina",
@@ -3653,7 +4513,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_spotted_eagle",
         "ebird": "https://ebird.org/species/leseag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "cygnus-columbianus",
@@ -3674,7 +4539,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tundra_swan",
         "ebird": "https://ebird.org/species/tunswa"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "apus-affinis",
@@ -3695,7 +4565,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_swift",
         "ebird": "https://ebird.org/species/litswi1"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
+      "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
+      "status": "ND"
     },
     {
       "id": "charadrius-mongolus",
@@ -3716,7 +4591,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Siberian_sand_plover",
         "ebird": "https://ebird.org/species/lessap2"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "zapornia-parva",
@@ -3737,7 +4617,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_crake",
         "ebird": "https://ebird.org/species/litcra1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "M"
     },
     {
       "id": "ixobrychus-minutus",
@@ -3758,7 +4643,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_bittern",
         "ebird": "https://ebird.org/species/litbit1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "microcarbo-pygmaeus",
@@ -3779,7 +4669,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pygmy_cormorant",
         "ebird": "https://ebird.org/species/pygcor2"
-      }
+      },
+      "order": "SULIFORMES",
+      "orderKa": "ჩვამასნაირნი",
+      "family": "Phalacrocoracidae",
+      "familyKa": "ჩვამასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "parus-ater",
@@ -3800,7 +4695,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Coal_tit",
         "ebird": "https://ebird.org/species/coatit2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "charadrius-dubius",
@@ -3821,7 +4721,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_ringed_plover",
         "ebird": "https://ebird.org/species/lirplo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "dryobates-minor",
@@ -3842,7 +4747,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_spotted_woodpecker",
         "ebird": "https://ebird.org/species/leswoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "hippolais-icterina",
@@ -3863,7 +4773,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Icterine_warbler",
         "ebird": "https://ebird.org/species/ictwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "merops-persicus",
@@ -3884,7 +4799,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Blue-cheeked_bee-eater",
         "ebird": "https://ebird.org/species/bcbeat1"
-      }
+      },
+      "order": "CORACIIFORMES",
+      "family": "Meropidae",
+      "status": "Cas",
+      "orderKa": "ყაპყაპისნაირნი",
+      "familyKa": "კვირიონისებრნი"
     },
     {
       "id": "picus-viridis",
@@ -3905,7 +4825,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_green_woodpecker",
         "ebird": "https://ebird.org/species/eugwoo2"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phylloscopus-nitidus",
@@ -3926,7 +4851,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Green_warbler",
         "ebird": "https://ebird.org/species/grnwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "family": "Sylviidae",
+      "status": "BB",
+      "orderKa": "ბეღურასნაირნი",
+      "familyKa": "ასპუჭაკასებრნი"
     },
     {
       "id": "tringa-nebularia",
@@ -3947,7 +4877,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_greenshank",
         "ebird": "https://ebird.org/species/comgre"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "carduelis-chloris",
@@ -3968,7 +4903,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_greenfinch",
         "ebird": "https://ebird.org/species/eurgre1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "bubulcus-ibis",
@@ -3988,7 +4928,12 @@
       "description": "The western cattle egret is a species of heron found in the tropics, subtropics and warm temperate zones. Formerly, most taxonomic authorities lumped this species and the eastern cattle egret together, but the two cattle egrets are now treated as separate species. Despite the similarities in plumage to the egrets of the genus Egretta, it is more closely related to the herons of Ardea. Originally native to parts of Africa, southwest Asia and southern Europe, it has undergone a rapid expansion in its distribution and successfully colonised much of the New World in the last century.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_cattle_egret"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "coturnix-coturnix",
@@ -4009,7 +4954,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_quail",
         "ebird": "https://ebird.org/species/comqua1"
-      }
+      },
+      "order": "GALLIFORMES",
+      "orderKa": "ქათმისნაირნი",
+      "family": "Phasianidae",
+      "familyKa": "ხოხბისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "apus-apus",
@@ -4030,7 +4980,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_swift",
         "ebird": "https://ebird.org/species/comswi"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "ნამგალასნაირნი",
+      "family": "Apodidae",
+      "familyKa": "ნამგალასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "ficedula-semitorquata",
@@ -4051,7 +5006,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Semicollared_flycatcher",
         "ebird": "https://ebird.org/species/semfly1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "loxia-curvirostra",
@@ -4072,7 +5032,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red_crossbill",
         "ebird": "https://ebird.org/species/redcro"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "lanius-nubicus",
@@ -4093,7 +5058,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Masked_shrike",
         "ebird": "https://ebird.org/species/masshr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "Cas"
     },
     {
       "id": "eugriv1",
@@ -4114,7 +5084,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_griffon_vulture",
         "ebird": "https://ebird.org/species/eurgri1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "melanocorypha-bimaculata",
@@ -4135,7 +5110,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bimaculated_lark",
         "ebird": "https://ebird.org/species/bimlar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "Cas"
     },
     {
       "id": "hooeup",
@@ -4156,7 +5136,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
         "ebird": "https://ebird.org/species/hoopoe"
-      }
+      },
+      "order": "BUCEROTIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
+      "family": "Upupidae",
+      "familyKa": "ოფოფისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "eubeea1",
@@ -4177,7 +5162,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_bee-eater",
         "ebird": "https://ebird.org/species/eubeat1"
-      }
+      },
+      "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
+      "family": "Meropidae",
+      "familyKa": "კვირიონისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "pluvialis-apricaria",
@@ -4198,7 +5188,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_golden_plover",
         "ebird": "https://ebird.org/species/eugplo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "M"
     },
     {
       "id": "himantopus-himantopus",
@@ -4219,7 +5214,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-winged_stilt",
         "ebird": "https://ebird.org/species/bkwsti"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Recurvirostridae",
+      "familyKa": "სადგისნისკარტასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "zapornia-pusilla",
@@ -4240,7 +5240,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Baillon's_crake",
         "ebird": "https://ebird.org/species/baicra1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "anthus-gustavi",
@@ -4261,7 +5266,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pechora_pipit",
         "ebird": "https://ebird.org/species/pecpip"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "ND"
     },
     {
       "id": "vanellus-vanellus",
@@ -4282,7 +5292,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Northern_lapwing",
         "ebird": "https://ebird.org/species/norlap"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "platalea-leucorodia",
@@ -4303,7 +5318,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_spoonbill",
         "ebird": "https://ebird.org/species/eurspo1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Threskiornithidae",
+      "familyKa": "ივეოსისებრნი",
+      "status": "M"
     },
     {
       "id": "erythropygia-galactotes",
@@ -4324,7 +5344,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rufous-tailed_scrub_robin",
         "ebird": "https://ebird.org/species/rtsrob1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "glareola-pratincola",
@@ -4345,7 +5370,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Collared_pratincole",
         "ebird": "https://ebird.org/species/colpra"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Glareolidae",
+      "familyKa": "მერცხალასებრნი",
+      "status": "M"
     },
     {
       "id": "phylloscopus-schwarzi",
@@ -4366,7 +5396,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Radde's_warbler",
         "ebird": "https://ebird.org/species/radwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "Cas"
     },
     {
       "id": "anthus-richardi",
@@ -4387,7 +5422,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Richard's_pipit",
         "ebird": "https://ebird.org/species/ricpip1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "ND"
     },
     {
       "id": "turdus-pilaris",
@@ -4408,7 +5448,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Fieldfare",
         "ebird": "https://ebird.org/species/fieldf"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "xenus-cinereus",
@@ -4429,7 +5474,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Terek_sandpiper",
         "ebird": "https://ebird.org/species/tersan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "anser-anser",
@@ -4450,7 +5500,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greylag_goose",
         "ebird": "https://ebird.org/species/gragoo"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "motacilla-cinerea",
@@ -4471,7 +5526,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey_wagtail",
         "ebird": "https://ebird.org/species/grywag"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "muscicapa-striata",
@@ -4492,7 +5552,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Spotted_flycatcher",
         "ebird": "https://ebird.org/species/spofly1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "mareca-strepera",
@@ -4513,7 +5578,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Gadwall",
         "ebird": "https://ebird.org/species/gadwal"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "picus-canus",
@@ -4534,7 +5604,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey-headed_woodpecker",
         "ebird": "https://ebird.org/species/gyfwoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "ND"
     },
     {
       "id": "pluvialis-squatarola",
@@ -4555,7 +5630,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey_plover",
         "ebird": "https://ebird.org/species/bkbplo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "M"
     },
     {
       "id": "lanius-excubitor",
@@ -4576,7 +5656,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_grey_shrike",
         "ebird": "https://ebird.org/species/norshr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "WV"
     },
     {
       "id": "ardea-cinerea",
@@ -4597,7 +5682,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey_heron",
         "ebird": "https://ebird.org/species/graher1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "corvus-corone",
@@ -4618,7 +5708,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Hooded_crow",
         "ebird": "https://ebird.org/species/hoocro1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "grus-grus",
@@ -4639,7 +5734,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_crane",
         "ebird": "https://ebird.org/species/comcra"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Gruidae",
+      "familyKa": "წეროსებრნი",
+      "status": "BB, M"
     },
     {
       "id": "emberiza-buchanani",
@@ -4660,7 +5760,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey-necked_bunting",
         "ebird": "https://ebird.org/species/gyhbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "ND",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "podiceps-grisegena",
@@ -4681,7 +5786,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-necked_grebe",
         "ebird": "https://ebird.org/species/rengre"
-      }
+      },
+      "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
+      "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "eremophila-alpestris",
@@ -4702,7 +5812,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Horned_lark",
         "ebird": "https://ebird.org/species/horlar"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "recurvirostra-avosetta",
@@ -4723,7 +5838,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pied_avocet",
         "ebird": "https://ebird.org/species/pieavo1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Recurvirostridae",
+      "familyKa": "სადგისნისკარტასებრნი",
+      "status": "YR-V, M"
     },
     {
       "id": "otis-tarda",
@@ -4744,7 +5864,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_bustard",
         "ebird": "https://ebird.org/species/grebus1"
-      }
+      },
+      "order": "OTIDIFORMES",
+      "orderKa": "სავათისნაირნი",
+      "family": "Otididae",
+      "familyKa": "სავათისებრნი",
+      "status": "ND"
     },
     {
       "id": "rissa-tridactyla",
@@ -4765,7 +5890,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Kittiwake",
         "ebird": "https://ebird.org/species/bklkit"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV"
     },
     {
       "id": "tetrax-tetrax",
@@ -4786,7 +5916,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_bustard",
         "ebird": "https://ebird.org/species/litbus1"
-      }
+      },
+      "order": "OTIDIFORMES",
+      "orderKa": "სავათისნაირნი",
+      "family": "Otididae",
+      "familyKa": "სავათისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "streptopelia-decaocto",
@@ -4807,7 +5942,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_collared_dove",
         "ebird": "https://ebird.org/species/eucdov"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "charadrius-hiaticula",
@@ -4828,7 +5968,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_ringed_plover",
         "ebird": "https://ebird.org/species/corplo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "numenius-phaeopus",
@@ -4849,7 +5994,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_whimbrel",
         "ebird": "https://ebird.org/species/whimbr"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "leiopicus-medius",
@@ -4870,7 +6020,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Middle_spotted_woodpecker",
         "ebird": "https://ebird.org/species/miswoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "houspa",
@@ -4891,7 +6046,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/House_sparrow",
         "ebird": "https://ebird.org/species/houspa"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "aegypius-monachus",
@@ -4912,7 +6072,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Cinereous_vulture",
         "ebird": "https://ebird.org/species/cinvul1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "ostric2",
@@ -4954,7 +6119,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Syrian_woodpecker",
         "ebird": "https://ebird.org/species/syrwoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "fringilla-coelebs",
@@ -4975,7 +6145,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_chaffinch",
         "ebird": "https://ebird.org/species/comcha"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "larus-armenicus",
@@ -4996,7 +6171,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Armenian_gull",
         "ebird": "https://ebird.org/species/armgul1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "falco-rusticolus",
@@ -5017,7 +6197,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Gyrfalcon",
         "ebird": "https://ebird.org/species/gyrfal"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "ND"
     },
     {
       "id": "barswa",
@@ -5038,7 +6223,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Barn_swallow",
         "ebird": "https://ebird.org/species/barswa"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "pyrrhula-pyrrhula",
@@ -5059,7 +6249,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_bullfinch",
         "ebird": "https://ebird.org/species/eurbul"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "anas-crecca",
@@ -5080,7 +6275,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_teal",
         "ebird": "https://ebird.org/species/gnwtea"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "charadrius-leschenaultii",
@@ -5101,7 +6301,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_sand_plover",
         "ebird": "https://ebird.org/species/grsplo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "Cas"
     },
     {
       "id": "podiceps-auritus",
@@ -5122,7 +6327,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Horned_grebe",
         "ebird": "https://ebird.org/species/horgre"
-      }
+      },
+      "order": "PODICIPEDIFORMES",
+      "orderKa": "კოკონასნაირნი",
+      "family": "Podicipedidae",
+      "familyKa": "კოკონასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "larus-ridibundus",
@@ -5143,7 +6353,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-headed_gull",
         "ebird": "https://ebird.org/species/bkhgul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "eudromias-morinellus",
@@ -5164,7 +6379,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_dotterel",
         "ebird": "https://ebird.org/species/eurdot"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "M"
     },
     {
       "id": "calidris-pugnax",
@@ -5185,7 +6405,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ruff_(bird)",
         "ebird": "https://ebird.org/species/ruff"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "strix-aluco",
@@ -5206,7 +6431,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tawny_owl",
         "ebird": "https://ebird.org/species/tawowl1"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "tringa-glareola",
@@ -5227,7 +6457,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Wood_sandpiper",
         "ebird": "https://ebird.org/species/woosan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "anthus-trivialis",
@@ -5248,7 +6483,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tree_pipit",
         "ebird": "https://ebird.org/species/trepip"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "lullula-arborea",
@@ -5269,7 +6509,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Woodlark",
         "ebird": "https://ebird.org/species/woolar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "scolopax-rusticola",
@@ -5290,7 +6535,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_woodcock",
         "ebird": "https://ebird.org/species/eurwoo"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "prunella-modularis",
@@ -5311,7 +6561,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Dunnock",
         "ebird": "https://ebird.org/species/dunnoc1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Prunellidae",
+      "familyKa": "ჭვინტაკასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "oenanthe-deserti",
@@ -5332,7 +6587,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Desert_wheatear",
         "ebird": "https://ebird.org/species/deswhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "ND"
     },
     {
       "id": "panurus-biarmicus",
@@ -5353,7 +6613,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bearded_reedling",
         "ebird": "https://ebird.org/species/bearee1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Timaliidae",
+      "familyKa": "ულვაშა წივწივასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "caprimulgus-europaeus",
@@ -5374,7 +6639,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_nightjar",
         "ebird": "https://ebird.org/species/eurnig1"
-      }
+      },
+      "order": "CAPRIMULGIFORMES",
+      "orderKa": "უფეხურასნაირნი",
+      "family": "Caprimulgidae",
+      "familyKa": "უფეხურასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "cettia-cetti",
@@ -5395,7 +6665,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Cetti's_warbler",
         "ebird": "https://ebird.org/species/cetwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "neophron-percnopterus",
@@ -5416,7 +6691,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_vulture",
         "ebird": "https://ebird.org/species/egyvul1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "buteo-lagopus",
@@ -5437,7 +6717,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rough-legged_buzzard",
         "ebird": "https://ebird.org/species/rolhaw"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "emberiza-leucocephalos",
@@ -5458,7 +6743,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pine_bunting",
         "ebird": "https://ebird.org/species/pinbun"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "ND",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "chlidonias-leucopterus",
@@ -5479,7 +6769,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-winged_tern",
         "ebird": "https://ebird.org/species/whwter"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "melanocorypha-leucoptera",
@@ -5500,7 +6795,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-winged_lark",
         "ebird": "https://ebird.org/species/whwlar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "ND"
     },
     {
       "id": "elanus-caeruleus",
@@ -5521,7 +6821,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-winged_kite",
         "ebird": "https://ebird.org/species/bkskit1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "Cas"
     },
     {
       "id": "wallcr1",
@@ -5542,7 +6847,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Wallcreeper",
         "ebird": "https://ebird.org/species/wallcr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "rhodopechys-sanguineus",
@@ -5563,7 +6873,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Crimson-winged_finch",
         "ebird": "https://ebird.org/species/crwfin2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "Cas"
     },
     {
       "id": "porzana-porzana",
@@ -5584,7 +6899,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Spotted_crake",
         "ebird": "https://ebird.org/species/spocra1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "delichon-urbicum",
@@ -5605,7 +6925,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_house_martin",
         "ebird": "https://ebird.org/species/cohmar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "columba-palumbus",
@@ -5626,7 +6951,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_wood_pigeon",
         "ebird": "https://ebird.org/species/cowpig1"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "calidris-alba",
@@ -5647,7 +6977,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sanderling",
         "ebird": "https://ebird.org/species/sander"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "accipiter-gentilis",
@@ -5667,7 +7002,12 @@
       "description": "The northern goshawk has been split into two species based on significant morphological and genetic differences:Eurasian goshawk, Astur gentilis\nAmerican goshawk, Astur atricapillus",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_goshawk"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "aquila-fasciata",
@@ -5688,7 +7028,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bonelli's_eagle",
         "ebird": "https://ebird.org/species/boneag2"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "ND"
     },
     {
       "id": "accipiter-brevipes",
@@ -5709,7 +7054,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Levant_sparrowhawk",
         "ebird": "https://ebird.org/species/levspa1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "pelecanus-crispus",
@@ -5730,7 +7080,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Dalmatian_pelican",
         "ebird": "https://ebird.org/species/dalpel1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Pelecanidae",
+      "familyKa": "ვარხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "pernis-ptilorhynchus",
@@ -5751,7 +7106,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard",
         "ebird": "https://ebird.org/species/orihob2"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "M"
     },
     {
       "id": "galerida-cristata",
@@ -5772,7 +7132,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Crested_lark",
         "ebird": "https://ebird.org/species/crelar2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "aythya-fuligula",
@@ -5793,7 +7158,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tufted_duck",
         "ebird": "https://ebird.org/species/tufduc"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "gulosus-aristotelis",
@@ -5813,7 +7183,12 @@
       "description": "The European shag or common shag is a species of cormorant. It is the only member of the monotypic genus Gulosus. It breeds around the rocky coasts of western and southern Europe, southwest Asia and north Africa, mainly wintering in its breeding range except for the northernmost birds. In Britain this seabird is usually referred to as simply the shag. The scientific genus name derives from the Latin for glutton. The species name aristotelis commemorates the Greek philosopher Aristotle.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_shag"
-      }
+      },
+      "order": "SULIFORMES",
+      "family": "Phalacrocoracidae",
+      "status": "Cas",
+      "orderKa": "ჩვამასნაირნი",
+      "familyKa": "ჩვამასებრნი"
     },
     {
       "id": "parus-cristatus",
@@ -5834,7 +7209,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Crested_tit",
         "ebird": "https://ebird.org/species/cretit2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "ND"
     },
     {
       "id": "crex-crex",
@@ -5855,7 +7235,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Corn_crake",
         "ebird": "https://ebird.org/species/corcra"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "nycticorax-nycticorax",
@@ -5876,7 +7261,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_night_heron",
         "ebird": "https://ebird.org/species/bcnher"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "coracias-garrulus",
@@ -5897,7 +7287,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_roller",
         "ebird": "https://ebird.org/species/eurrol1"
-      }
+      },
+      "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
+      "family": "Coraciidae",
+      "familyKa": "ყაპყაპისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "lanius-isabellinus",
@@ -5918,7 +7313,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Isabelline_shrike",
         "ebird": "https://ebird.org/species/isashr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "Cas"
     },
     {
       "id": "motacilla-citreola",
@@ -5939,7 +7339,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Citrine_wagtail",
         "ebird": "https://ebird.org/species/citwag"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "regulus-regulus",
@@ -5960,7 +7365,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Goldcrest",
         "ebird": "https://ebird.org/species/goldcr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Reguliidae",
+      "familyKa": "ნარჩტასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "motacilla-flava",
@@ -5981,7 +7391,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_yellow_wagtail",
         "ebird": "https://ebird.org/species/eaywag1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "ardeola-ralloides",
@@ -6002,7 +7417,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Squacco_heron",
         "ebird": "https://ebird.org/species/squher1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "cygnus-cygnus",
@@ -6023,7 +7443,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Whooper_swan",
         "ebird": "https://ebird.org/species/whoswa"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "pyrrhocorax-graculus",
@@ -6044,7 +7469,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Alpine_chough",
         "ebird": "https://ebird.org/species/yebcho1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "larus-michahellis",
@@ -6065,7 +7495,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Yellow-legged_gull",
         "ebird": "https://ebird.org/species/yelgul1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "corvus-corax",
@@ -6086,7 +7521,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_raven",
         "ebird": "https://ebird.org/species/comrav"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "asio-otus",
@@ -6107,7 +7547,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Long-eared_owl",
         "ebird": "https://ebird.org/species/loeowl"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "passer-hispaniolensis",
@@ -6128,7 +7573,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Spanish_sparrow",
         "ebird": "https://ebird.org/species/spaspa1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Passeridae",
+      "familyKa": "ბეღურასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "larus-fuscus",
@@ -6149,7 +7599,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
         "ebird": "https://ebird.org/species/lbbgul"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "oenanthe-pleschanka",
@@ -6170,7 +7625,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pied_wheatear",
         "ebird": "https://ebird.org/species/piewhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "sylvia-atricapilla",
@@ -6191,7 +7651,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_blackcap",
         "ebird": "https://ebird.org/species/blackc1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "emberiza-melanocephala",
@@ -6212,7 +7677,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-headed_bunting",
         "ebird": "https://ebird.org/species/blhbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "BB, M",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "clamator-glandarius",
@@ -6233,7 +7703,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Great_spotted_cuckoo",
         "ebird": "https://ebird.org/species/grscuc1"
-      }
+      },
+      "order": "CUCULIFORMES",
+      "orderKa": "გუგულისნაირნი",
+      "family": "Cuculidae",
+      "familyKa": "გუგულისებრნი",
+      "status": "ND"
     },
     {
       "id": "larus-melanocephalus",
@@ -6254,7 +7729,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mediterranean_gull",
         "ebird": "https://ebird.org/species/medgul1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "carduelis-spinus",
@@ -6275,7 +7755,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_siskin",
         "ebird": "https://ebird.org/species/eursis"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "saxicola-torquatus",
@@ -6296,7 +7781,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/African_stonechat",
         "ebird": "https://ebird.org/species/afrsto1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "eremopterix-nigriceps",
@@ -6317,7 +7807,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_sparrow-lark",
         "ebird": "https://ebird.org/species/bcslar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "ND"
     },
     {
       "id": "parus-palustris",
@@ -6338,7 +7833,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Marsh_tit",
         "ebird": "https://ebird.org/species/martit2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "sitta-krueperi",
@@ -6359,7 +7859,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Kr%C3%BCper's_nuthatch",
         "ebird": "https://ebird.org/species/krunut1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "ceryle-rudis",
@@ -6380,7 +7885,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Pied_kingfisher",
         "ebird": "https://ebird.org/species/piekin1"
-      }
+      },
+      "order": "CORACIIFORMES",
+      "orderKa": "ყაპყაპისნაირნი",
+      "family": "Alcedinidae",
+      "familyKa": "ალკუნისებრნი",
+      "status": "ND"
     },
     {
       "id": "acrocephalus-melanopogon",
@@ -6401,7 +7911,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Moustached_warbler",
         "ebird": "https://ebird.org/species/mouwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "phoenicurus-ochruros",
@@ -6422,7 +7937,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_redstart",
         "ebird": "https://ebird.org/species/blared1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "chlidonias-niger",
@@ -6443,7 +7963,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_tern",
         "ebird": "https://ebird.org/species/blkter"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "dryocopus-martius",
@@ -6464,7 +7989,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_woodpecker",
         "ebird": "https://ebird.org/species/blawoo1"
-      }
+      },
+      "order": "PICIFORMES",
+      "orderKa": "კოდალასნაირნი",
+      "family": "Picidae",
+      "familyKa": "კოდალასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "tringa-ochropus",
@@ -6485,7 +8015,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Green_sandpiper",
         "ebird": "https://ebird.org/species/grnsan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "melanocorypha-yeltoniensis",
@@ -6506,7 +8041,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_lark",
         "ebird": "https://ebird.org/species/blalar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Alaudidae",
+      "familyKa": "ტოროლასებრნი",
+      "status": "ND"
     },
     {
       "id": "ciconia-nigra",
@@ -6527,7 +8067,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_stork",
         "ebird": "https://ebird.org/species/blasto1"
-      }
+      },
+      "order": "CICONIIFORMES",
+      "orderKa": "ყარყატისნაირნი",
+      "family": "Ciconiidae",
+      "familyKa": "ყარყატისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "vanellus-spinosus",
@@ -6548,7 +8093,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Spur-winged_lapwing",
         "ebird": "https://ebird.org/species/spwlap1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Charadriidae",
+      "familyKa": "მეჭვავიასებრნი",
+      "status": "ND"
     },
     {
       "id": "pterocles-orientalis",
@@ -6569,7 +8119,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-bellied_sandgrouse",
         "ebird": "https://ebird.org/species/blbsan1"
-      }
+      },
+      "order": "PTEROCLIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Pteroclidae",
+      "familyKa": "გვრიტჩიტასებრნი",
+      "status": "Cas"
     },
     {
       "id": "calidris-alpina",
@@ -6590,7 +8145,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Dunlin",
         "ebird": "https://ebird.org/species/dunlin"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "glareola-nordmanni",
@@ -6611,7 +8171,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-winged_pratincole",
         "ebird": "https://ebird.org/species/blwpra1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Glareolidae",
+      "familyKa": "მერცხალასებრნი",
+      "status": "M"
     },
     {
       "id": "emberiza-cirlus",
@@ -6632,7 +8197,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Cirl_bunting",
         "ebird": "https://ebird.org/species/cirbun1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Emberizidae",
+      "status": "ND",
+      "familyKa": "გრატასებრნი"
     },
     {
       "id": "gavia-arctica",
@@ -6653,7 +8223,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-throated_loon",
         "ebird": "https://ebird.org/species/arcloo"
-      }
+      },
+      "order": "GAVIIFORMES",
+      "orderKa": "ღორიხვასნაირნი",
+      "family": "Gaviidae",
+      "familyKa": "ღორიხვასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "turdus-atrogularis",
@@ -6674,7 +8249,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black-throated_thrush",
         "ebird": "https://ebird.org/species/datthr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "ND"
     },
     {
       "id": "oenanthe-hispanica",
@@ -6695,7 +8275,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_black-eared_wheatear",
         "ebird": "https://ebird.org/species/blewhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "lanius-minor",
@@ -6716,7 +8301,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lesser_grey_shrike",
         "ebird": "https://ebird.org/species/legshr2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "BB, M"
     },
     {
       "id": "pandion-haliaetus",
@@ -6737,7 +8327,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Osprey",
         "ebird": "https://ebird.org/species/osprey"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "შაკისნაირნი",
+      "family": "Pandionidae",
+      "familyKa": "შაკისებრნი",
+      "status": "FB, M"
     },
     {
       "id": "eurbla",
@@ -6758,7 +8353,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_blackbird",
         "ebird": "https://ebird.org/species/eurbla"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "accipiter-badius",
@@ -6779,7 +8379,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Shikra",
         "ebird": "https://ebird.org/species/shikra1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "ND"
     },
     {
       "id": "comsta",
@@ -6800,7 +8405,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_starling",
         "ebird": "https://ebird.org/species/eursta"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sturnidae",
+      "familyKa": "შოშიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "phoenicurus-phoenicurus",
@@ -6821,7 +8431,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_redstart",
         "ebird": "https://ebird.org/species/comred2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "comnig1",
@@ -6842,7 +8457,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_nightingale",
         "ebird": "https://ebird.org/species/comnig1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "melanitta-nigra",
@@ -6863,7 +8483,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_scoter",
         "ebird": "https://ebird.org/species/blksco1"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "Cas"
     },
     {
       "id": "streptopelia-turtur",
@@ -6884,7 +8509,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_turtle_dove",
         "ebird": "https://ebird.org/species/eutdov"
-      }
+      },
+      "order": "COLUMBIFORMES",
+      "orderKa": "მტრედისნაირნი",
+      "family": "Columbidae",
+      "familyKa": "მტრედისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "sterna-hirundo",
@@ -6905,7 +8535,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_tern",
         "ebird": "https://ebird.org/species/comter"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "buteo-buteo",
@@ -6926,7 +8561,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard",
         "ebird": "https://ebird.org/species/combuz1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "comkes",
@@ -6947,7 +8587,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_kestrel",
         "ebird": "https://ebird.org/species/eurkes"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "carpodacus-erythrinus",
@@ -6968,7 +8613,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_rosefinch",
         "ebird": "https://ebird.org/species/comros"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "certhia-familiaris",
@@ -6989,7 +8639,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_treecreeper",
         "ebird": "https://ebird.org/species/eurtre1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Certhiidae",
+      "familyKa": "მგლინავასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "actitis-hypoleucos",
@@ -7010,7 +8665,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_sandpiper",
         "ebird": "https://ebird.org/species/comsan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "oenanthe-oenanthe",
@@ -7031,7 +8691,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Northern_wheatear",
         "ebird": "https://ebird.org/species/norwhe"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "phoenicopterus-roseus",
@@ -7052,7 +8717,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Greater_flamingo",
         "ebird": "https://ebird.org/species/grefla3"
-      }
+      },
+      "order": "PHOENICOPTERIFORMES",
+      "family": "Phoenicopteridae",
+      "status": "Cas",
+      "orderKa": "ფლამინგოსნაირნი",
+      "familyKa": "ფლამიგოსებრნი"
     },
     {
       "id": "lanius-collurio",
@@ -7073,7 +8743,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-backed_shrike",
         "ebird": "https://ebird.org/species/rebshr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "BB, M"
     },
     {
       "id": "falco-peregrinus",
@@ -7094,7 +8769,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Peregrine_falcon",
         "ebird": "https://ebird.org/species/perfal"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "phylloscopus-collybita",
@@ -7115,7 +8795,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_chiffchaff",
         "ebird": "https://ebird.org/species/comchi1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "sitta-europaea",
@@ -7136,7 +8821,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_nuthatch",
         "ebird": "https://ebird.org/species/eurnut2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sittidae",
+      "familyKa": "ცოციასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "hieraaetus-pennatus",
@@ -7157,7 +8847,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Booted_eagle",
         "ebird": "https://ebird.org/species/booeag1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "gallinago-gallinago",
@@ -7178,7 +8873,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_snipe",
         "ebird": "https://ebird.org/species/comsni"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-V, M"
     },
     {
       "id": "lymnocryptes-minimus",
@@ -7199,7 +8899,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Jack_snipe",
         "ebird": "https://ebird.org/species/jacsni"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "eurgol",
@@ -7220,7 +8925,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_goldfinch",
         "ebird": "https://ebird.org/species/eurgol"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "fringilla-montifringilla",
@@ -7241,7 +8951,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Brambling",
         "ebird": "https://ebird.org/species/brambl"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "WV"
     },
     {
       "id": "carduelis-flammea",
@@ -7261,7 +8976,12 @@
       "description": "The redpoll is a species of small passerine bird in the finch family Fringillidae. It is the only species placed in the genus Acanthis. It breeds in the Arctic and north temperate Holarctic tundra and taiga. The redpoll was formerly widely treated as three species: the common or mealy redpoll, the arctic or hoary redpoll, and the lesser redpoll.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Redpoll"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "ND"
     },
     {
       "id": "turdus-viscivorus",
@@ -7282,7 +9002,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mistle_thrush",
         "ebird": "https://ebird.org/species/misthr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "eurjay1",
@@ -7303,7 +9028,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_jay",
         "ebird": "https://ebird.org/species/eurjay1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phylloscopus-tristis",
@@ -7324,7 +9054,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Siberian_chiffchaff",
         "ebird": "https://ebird.org/species/comchi4"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "family": "Sylviidae",
+      "status": "M",
+      "orderKa": "ბეღურასნაირნი",
+      "familyKa": "ასპუჭაკასებრნი"
     },
     {
       "id": "luscinia-svecica",
@@ -7345,7 +9080,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bluethroat",
         "ebird": "https://ebird.org/species/blueth"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "milvus-migrans",
@@ -7366,7 +9106,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Black_kite",
         "ebird": "https://ebird.org/species/blakit1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "hirundo-daurica",
@@ -7386,7 +9131,12 @@
       "description": "The European red-rumped swallow is a small passerine bird in the swallow family Hirundinidae. Historically, it was usually treated in a broad concept of the genus Hirundo, but is now treated in the genus Cecropis. It was formerly considered to be a subspecies of the eastern red-rumped swallow, united, together with the African red-rumped swallow, under the common name of red-rumped swallow.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_red-rumped_swallow"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Hirundinidae",
+      "familyKa": "მერცხლისებრნი",
+      "status": "Cas"
     },
     {
       "id": "oenanthe-xanthoprymna",
@@ -7407,7 +9157,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_wheatear",
         "ebird": "https://ebird.org/species/retwhe1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "ND"
     },
     {
       "id": "anthropoides-virgo",
@@ -7428,7 +9183,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Demoiselle_crane",
         "ebird": "https://ebird.org/species/demcra1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Gruidae",
+      "familyKa": "წეროსებრნი",
+      "status": "M"
     },
     {
       "id": "numenius-tenuirostris",
@@ -7449,7 +9209,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Slender-billed_curlew",
         "ebird": "https://ebird.org/species/slbcur"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "ND"
     },
     {
       "id": "larus-genei",
@@ -7470,7 +9235,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Slender-billed_gull",
         "ebird": "https://ebird.org/species/slbgul1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-V, M"
     },
     {
       "id": "calidris-ferruginea",
@@ -7491,7 +9261,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Curlew_sandpiper",
         "ebird": "https://ebird.org/species/cursan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "anthus-cervinus",
@@ -7512,7 +9287,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-throated_pipit",
         "ebird": "https://ebird.org/species/retpip"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Motacillidae",
+      "familyKa": "ბოლოქანქარასებრნი",
+      "status": "M"
     },
     {
       "id": "regulus-ignicapilla",
@@ -7533,7 +9313,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_firecrest",
         "ebird": "https://ebird.org/species/firecr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Reguliidae",
+      "familyKa": "ნარჩტასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "lanius-senator",
@@ -7554,7 +9339,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Woodchat_shrike",
         "ebird": "https://ebird.org/species/wooshr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
+      "status": "BB, M"
     },
     {
       "id": "aythya-ferina",
@@ -7575,7 +9365,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_pochard",
         "ebird": "https://ebird.org/species/compoc"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "falco-biarmicus",
@@ -7596,7 +9391,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lanner_falcon",
         "ebird": "https://ebird.org/species/lanfal1"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "sylvia-mystacea",
@@ -7617,7 +9417,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Menetries's_warbler",
         "ebird": "https://ebird.org/species/menwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "BB"
     },
     {
       "id": "tadorna-ferruginea",
@@ -7638,7 +9443,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Ruddy_shelduck",
         "ebird": "https://ebird.org/species/rudshe"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "phalaropus-fulicarius",
@@ -7659,7 +9469,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red_phalarope",
         "ebird": "https://ebird.org/species/redpha1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "Cas"
     },
     {
       "id": "milvus-milvus",
@@ -7680,7 +9495,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red_kite",
         "ebird": "https://ebird.org/species/redkit1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "Cas"
     },
     {
       "id": "phalaropus-lobatus",
@@ -7701,7 +9521,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-necked_phalarope",
         "ebird": "https://ebird.org/species/renpha"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "M"
     },
     {
       "id": "oenanthe-chrysopygia",
@@ -7722,7 +9547,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-tailed_wheatear",
         "ebird": "https://ebird.org/species/retwhe2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "ND"
     },
     {
       "id": "phoenicurus-erythrogastrus",
@@ -7743,7 +9573,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/G%C3%BCldenst%C3%A4dt's_redstart",
         "ebird": "https://ebird.org/species/whwred2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "cygnus-olor",
@@ -7764,7 +9599,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mute_swan",
         "ebird": "https://ebird.org/species/mutswa"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-V, M"
     },
     {
       "id": "bucanetes-githagineus",
@@ -7785,7 +9625,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Trumpeter_finch",
         "ebird": "https://ebird.org/species/trufin2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "ND"
     },
     {
       "id": "pyrrhocorax-pyrrhocorax",
@@ -7806,7 +9651,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-billed_chough",
         "ebird": "https://ebird.org/species/rebcho1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "netta-rufina",
@@ -7827,7 +9677,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-crested_pochard",
         "ebird": "https://ebird.org/species/recpoc"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "tringa-totanus",
@@ -7848,7 +9703,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_redshank",
         "ebird": "https://ebird.org/species/comred1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "falco-vespertinus",
@@ -7869,7 +9729,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-footed_falcon",
         "ebird": "https://ebird.org/species/reffal1"
-      }
+      },
+      "order": "FALCONIFORMES",
+      "orderKa": "შავარდნისნაირნი",
+      "family": "Falconidae",
+      "familyKa": "შავარდნისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "ficedula-parva",
@@ -7890,7 +9755,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-breasted_flycatcher",
         "ebird": "https://ebird.org/species/rebfly"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "branta-ruficollis",
@@ -7911,7 +9781,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-breasted_goose",
         "ebird": "https://ebird.org/species/rebgoo1"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "WV, M"
     },
     {
       "id": "gavia-stellata",
@@ -7932,7 +9807,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-throated_loon",
         "ebird": "https://ebird.org/species/retloo"
-      }
+      },
+      "order": "GAVIIFORMES",
+      "orderKa": "ღორიხვასნაირნი",
+      "family": "Gaviidae",
+      "familyKa": "ღორიხვასებრნი",
+      "status": "WV, M"
     },
     {
       "id": "serinus-pusillus",
@@ -7953,7 +9833,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Red-fronted_serin",
         "ebird": "https://ebird.org/species/fifser1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "ardea-purpurea",
@@ -7974,7 +9859,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Purple_heron",
         "ebird": "https://ebird.org/species/purher1"
-      }
+      },
+      "order": "PELECANIFORMES",
+      "orderKa": "ვარხვისნაირნი",
+      "family": "Ardeidae",
+      "familyKa": "ყანჩისებრნი",
+      "status": "BB, M"
     },
     {
       "id": "locustella-lanceolata",
@@ -7995,7 +9885,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lanceolated_warbler",
         "ebird": "https://ebird.org/species/lanwar"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
+      "status": "Cas"
     },
     {
       "id": "turdus-philomelos",
@@ -8016,7 +9911,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Song_thrush",
         "ebird": "https://ebird.org/species/sonthr1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Turdidae",
+      "familyKa": "შაშვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "acrocephalus-paludicola",
@@ -8037,7 +9937,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Aquatic_warbler",
         "ebird": "https://ebird.org/species/aquwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "ND"
     },
     {
       "id": "gallinula-chloropus",
@@ -8058,7 +9963,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_moorhen",
         "ebird": "https://ebird.org/species/commoo3"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "cinclus-cinclus",
@@ -8079,7 +9989,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/White-throated_dipper",
         "ebird": "https://ebird.org/species/whtdip1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Cinclidae",
+      "familyKa": "წყლის შაშვისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "otus-scops",
@@ -8100,7 +10015,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_scops_owl",
         "ebird": "https://ebird.org/species/eursco1"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "BB, M"
     },
     {
       "id": "asio-flammeus",
@@ -8121,7 +10041,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Short-eared_owl",
         "ebird": "https://ebird.org/species/sheowl"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "tringa-stagnatilis",
@@ -8142,7 +10067,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Marsh_sandpiper",
         "ebird": "https://ebird.org/species/marsan"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Scolopacidae",
+      "familyKa": "ჩიბუხასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "acrocephalus-palustris",
@@ -8163,7 +10093,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Marsh_warbler",
         "ebird": "https://ebird.org/species/marwar3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "circus-aeroginosus",
@@ -8184,7 +10119,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_marsh_harrier",
         "ebird": "https://ebird.org/species/wemhar1"
-      }
+      },
+      "order": "ACCIPITRIFORMES",
+      "orderKa": "ქორისნაირნი",
+      "family": "Accipitridae",
+      "familyKa": "ქორისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "spatula-querquedula",
@@ -8205,7 +10145,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Garganey",
         "ebird": "https://ebird.org/species/gargan"
-      }
+      },
+      "order": "ANSERIFORMES",
+      "orderKa": "ბატისნაირნი",
+      "family": "Anatidae",
+      "familyKa": "იხვისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "acrocephalus-schoenobaenus",
@@ -8226,7 +10171,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sedge_warbler",
         "ebird": "https://ebird.org/species/sedwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Acrocephalidae",
+      "familyKa": "მეჩალიასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "carduelis-cannabina",
@@ -8247,7 +10197,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_linnet",
         "ebird": "https://ebird.org/species/eurlin1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Fringillidae",
+      "familyKa": "მთიულასებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "corvus-frugilegus",
@@ -8268,7 +10223,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rook_(bird)",
         "ebird": "https://ebird.org/species/rook1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R, M"
     },
     {
       "id": "troglodytes-hiemalis",
@@ -8289,7 +10249,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Winter_wren",
         "ebird": "https://ebird.org/species/winwre3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Troglodytidae",
+      "familyKa": "ჭინჭრაქასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "corvus-monedula",
@@ -8310,7 +10275,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_jackdaw",
         "ebird": "https://ebird.org/species/eurjac"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Corvidae",
+      "familyKa": "ყორნისებრნი",
+      "status": "YR-R"
     },
     {
       "id": "athene-noctua",
@@ -8331,7 +10301,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Little_owl",
         "ebird": "https://ebird.org/species/litowl1"
-      }
+      },
+      "order": "STRIGIFORMES",
+      "orderKa": "ბუსნაირნი",
+      "family": "Strigidae",
+      "familyKa": "ბუსებრნი",
+      "status": "YR-R"
     },
     {
       "id": "ficedula-hypoleuca",
@@ -8352,7 +10327,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/European_pied_flycatcher",
         "ebird": "https://ebird.org/species/eupfly1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Muscicapidae",
+      "familyKa": "მემატლიასებრნი",
+      "status": "M"
     },
     {
       "id": "thalasseus-sandvicensis",
@@ -8373,7 +10353,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sandwich_tern",
         "ebird": "https://ebird.org/species/santer1"
-      }
+      },
+      "order": "CHARADRIIFORMES",
+      "orderKa": "მეჭვავიასნაირნი",
+      "family": "Laridae",
+      "familyKa": "თოლიასებრნი",
+      "status": "YR-V"
     },
     {
       "id": "locustella-naevia",
@@ -8394,7 +10379,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Common_grasshopper_warbler",
         "ebird": "https://ebird.org/species/cogwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "locustella-fluviatilis",
@@ -8415,7 +10405,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/River_warbler",
         "ebird": "https://ebird.org/species/eurwar2"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Locustellidae",
+      "familyKa": "ჭრიჭინასებრნი",
+      "status": "BB, M"
     },
     {
       "id": "sylvia-melanocephala",
@@ -8436,7 +10431,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_warbler",
         "ebird": "https://ebird.org/species/sarwar1"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Sylviidae",
+      "familyKa": "ასპუჭაკასებრნი",
+      "status": "Cas"
     },
     {
       "id": "puffinus-yelkouan",
@@ -8457,7 +10457,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Yelkouan_shearwater",
         "ebird": "https://ebird.org/species/levshe1"
-      }
+      },
+      "order": "PROCELLARIIFORMES",
+      "orderKa": "ქარიშხალასნაირნი",
+      "family": "Procellariidae",
+      "familyKa": "ქარიშხალასებრნი",
+      "status": "YR-V"
     },
     {
       "id": "parus-lugubris",
@@ -8478,7 +10483,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Sombre_tit",
         "ebird": "https://ebird.org/species/somtit3"
-      }
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Paridae",
+      "familyKa": "წივწივასებრნი",
+      "status": "YR-R"
     },
     {
       "id": "porphyrio-porphyrio",
@@ -8499,7 +10509,12 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Western_swamphen",
         "ebird": "https://ebird.org/species/purswa1"
-      }
+      },
+      "order": "GRUIFORMES",
+      "orderKa": "წეროსნაირნი",
+      "family": "Rallidae",
+      "familyKa": "ლაინასებრნი",
+      "status": "BB, M"
     }
   ]
 }
