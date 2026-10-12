@@ -48,7 +48,7 @@ Rules:
 - `order`, `orderKa`, `family`, `familyKa`, and `status` are optional. Import fills them from the checklist when they are empty. `status` is a comma-separated checklist code such as `YR-R, M`.
 - `photo` can be `null`. If you set a photo, keep `credit`, `license`, and a `source` page (Wikimedia Commons file page).
 - `description` is optional. Leave it out until you have a short paragraph. The seed script fills an empty one from the English Wikipedia lead and will not replace text that is already there.
-- `links.wikipedia` and `links.ebird` are optional. The detail page shows a link only when that URL is present.
+- `links.wikipedia`, `links.wikipediaKa`, and `links.ebird` are optional. The detail page shows a link only when that URL is present. `links.wikipediaKa` is the Georgian Wikipedia article.
 - The site never calls eBird or Wikipedia in the browser. What is in the JSON is what visitors see. A card links to `#eurrob` (the bird `id`) on this same page.
 
 Check the file before you commit:
@@ -80,6 +80,12 @@ npm run seed -- --missing
 ```
 
 [`scripts/seed.mjs`](scripts/seed.mjs) **does not overwrite** a Georgian name, photo, description, or Wikipedia link that is already set. It does not add species that are not already in `birds.json`. Without an API key it still fills photos and descriptions, and it tries Wikidata property P3444 for a missing eBird code. With a key it matches the current eBird/Clements taxonomy, refreshes `ebirdCode`, and rebuilds `links.ebird`. `id` is left as-is.
+
+Georgian Wikipedia links only, without changing names, photos, or descriptions:
+
+```bash
+npm run seed -- --ka-wiki
+```
 
 Request a free key at [eBird API keygen](https://ebird.org/api/keygen), then:
 

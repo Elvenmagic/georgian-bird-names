@@ -291,6 +291,7 @@ function detailLinks(bird) {
   const items = [
     ["eBird", bird.links?.ebird, "ebird"],
     ["Wikipedia", bird.links?.wikipedia, "wikipedia"],
+    ["ქართული ვიკიპედია", bird.links?.wikipediaKa, "wikipedia"],
   ].filter(([, url]) => url);
   if (!items.length) return "";
   return `<p class="detail-links">${items
@@ -299,6 +300,28 @@ function detailLinks(bird) {
         `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${linkIcons[icon]}<span>${label}</span></a>`,
     )
     .join("")}</p>`;
+}
+
+function copyAttribute(value) {
+  return escapeHtml(value).replaceAll("\n", "&#10;");
+}
+
+function copyButtons(bird) {
+  const georgian = bird.georgian?.primary || "";
+  const combined = [georgian, bird.names.en, bird.names.la].filter(Boolean).join("\n");
+  const buttons = [];
+  if (georgian) {
+    buttons.push(
+      `<button type="button" data-copy="${copyAttribute(georgian)}">ქართული სახელის კოპირება</button>`,
+    );
+  }
+  if (combined) {
+    buttons.push(
+      `<button type="button" data-copy="${copyAttribute(combined)}">სამივე სახელის კოპირება</button>`,
+    );
+  }
+  if (!buttons.length) return "";
+  return `<p class="copy-actions">${buttons.join("")}</p>`;
 }
 
 function renderDetail(bird) {
@@ -318,9 +341,10 @@ function renderDetail(bird) {
         ${georgian ? `<p class="en">${escapeHtml(bird.names.en || "")}</p>` : ""}
         <p class="la">${escapeHtml(bird.names.la || "")}</p>
         ${taxonLine(bird)}
+        ${copyButtons(bird)}
+        ${detailLinks(bird)}
         ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
         ${wikiCredit(bird)}
-        ${detailLinks(bird)}
       </div>
     </div>
   `;
@@ -516,6 +540,25 @@ alphabetEl.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button || button.disabled) return;
   jumpToLetter(button.dataset.letter);
+});
+
+detailEl.addEventListener("click", async (event) => {
+  const button = event.target.closest("[data-copy]");
+  if (!button) return;
+  const label = button.dataset.label || button.textContent;
+  if (!button.dataset.label) button.dataset.label = label;
+  try {
+    await navigator.clipboard.writeText(button.dataset.copy || "");
+    button.textContent = "დაკოპირდა";
+  } catch {
+    button.textContent = "ვერ დაკოპირდა";
+  }
+  window.clearTimeout(Number(button.dataset.timer));
+  button.dataset.timer = String(
+    window.setTimeout(() => {
+      button.textContent = button.dataset.label;
+    }, 1600),
+  );
 });
 
 window.addEventListener("hashchange", route);

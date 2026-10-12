@@ -8,6 +8,7 @@ const userAgent =
   "GeorgianBirdNames/1.0 (https://github.com/bird-names-georgian-nomenclature; seed script)";
 const delayMs = 1500;
 const missingOnly = process.argv.includes("--missing");
+const kaWikiOnly = process.argv.includes("--ka-wiki");
 
 function hasText(value) {
   return typeof value === "string" && value.trim().length > 0;
@@ -325,6 +326,92 @@ function setEbirdLink(bird) {
   return true;
 }
 
+function wikiTitleFromUrl(url) {
+  try {
+    const parsed = new URL(url);
+    if (!parsed.hostname.endsWith("wikipedia.org")) return "";
+    const prefix = "/wiki/";
+    if (!parsed.pathname.startsWith(prefix)) return "";
+    return decodeURIComponent(parsed.pathname.slice(prefix.length)).replaceAll("_", " ");
+  } catch {
+    return "";
+  }
+}
+
+function georgianWikiUrl(title) {
+  const page = String(title || "").trim().replaceAll(" ", "_");
+  if (!page) return "";
+  return `https://ka.wikipedia.org/wiki/${encodeURIComponent(page)}`;
+}
+
+function resolveTitle(title, redirectTo) {
+  let current = title;
+  const seen = new Set();
+  while (redirectTo.has(current) && !seen.has(current)) {
+    seen.add(current);
+    current = redirectTo.get(current);
+  }
+  return current;
+}
+
+async function fillGeorgianWiki(birds) {
+  const pending = birds.filter(
+    (bird) => hasText(bird.links?.wikipedia) && !hasText(bird.links?.wikipediaKa),
+  );
+  let filled = 0;
+  const chunkSize = 40;
+
+  for (let index = 0; index < pending.length; index += chunkSize) {
+    const chunk = pending.slice(index, index + chunkSize);
+    const titles = [...new Set(chunk.map((bird) => wikiTitleFromUrl(bird.links.wikipedia)).filter(Boolean))];
+    if (!titles.length) continue;
+    try {
+      const pages = [];
+      const normalized = [];
+      const redirects = [];
+      let extra = null;
+      let rounds = 0;
+      do {
+        const data = await fetchJson(
+          wikiApiUrl({
+            redirects: "1",
+            prop: "langlinks",
+            lllang: "ka",
+            lllimit: "max",
+            titles: titles.join("|"),
+            ...(extra || {}),
+          }),
+        );
+        pages.push(...Object.values(data.query?.pages || {}));
+        normalized.push(...(data.query?.normalized || []));
+        redirects.push(...(data.query?.redirects || []));
+        extra = data.continue || null;
+        rounds += 1;
+      } while (extra && rounds < 5);
+      const redirectTo = new Map();
+      for (const row of normalized) redirectTo.set(row.from, row.to);
+      for (const row of redirects) redirectTo.set(row.from, row.to);
+      const byTitle = new Map();
+      for (const page of pages) {
+        const link = page.langlinks?.[0];
+        const kaTitle = link?.title || link?.["*"] || "";
+        if (page.title && kaTitle) byTitle.set(page.title, kaTitle);
+      }
+      for (const bird of chunk) {
+        const requested = wikiTitleFromUrl(bird.links.wikipedia);
+        const kaTitle =
+          byTitle.get(resolveTitle(requested, redirectTo)) || byTitle.get(requested);
+        if (setLink(bird, "wikipediaKa", georgianWikiUrl(kaTitle))) filled += 1;
+      }
+    } catch (error) {
+      console.warn(`ka wiki batch: ${error.message}`);
+    }
+    if (index + chunkSize < pending.length) await sleep(400);
+  }
+
+  return filled;
+}
+
 function scorePage(page, scientificName, englishName) {
   const hay = normalizeName([page.title, page.extract].join(" "));
   let score = 0;
@@ -431,6 +518,12 @@ function isIncomplete(bird) {
 
 async function main() {
   const data = await readData();
+  const kaFilled = await fillGeorgianWiki(data.birds);
+  if (kaWikiOnly) {
+    await writeData(data);
+    console.log(`Georgian Wikipedia links filled: ${kaFilled}`);
+    return;
+  }
   const incoming = await fetchEbirdSpecies();
   const { byId, byLatin, byEnglish } = indexBirds(data.birds);
   let namesFilled = 0;

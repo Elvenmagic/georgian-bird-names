@@ -78,7 +78,7 @@ data.birds.forEach((bird, index) => {
     if (!bird.links || typeof bird.links !== "object" || Array.isArray(bird.links)) {
       fail(`${place} links must be an object.`);
     } else {
-      for (const key of ["wikipedia", "ebird"]) {
+      for (const key of ["wikipedia", "ebird", "wikipediaKa"]) {
         if (bird.links[key] != null && typeof bird.links[key] !== "string") {
           fail(`${place} links.${key} must be a string.`);
         }
