@@ -1,0 +1,284 @@
+const resultsEl = document.querySelector("#results");
+const emptyEl = document.querySelector("#empty");
+const countEl = document.querySelector("#count");
+const searchEl = document.querySelector("#q");
+const filterButtons = document.querySelectorAll("[data-filter]");
+const listViewEl = document.querySelector("#list-view");
+const listToolsEl = document.querySelector("#list-tools");
+const detailEl = document.querySelector("#detail");
+const siteTitle = document.title;
+
+const state = {
+  birds: [],
+  cards: [],
+  query: "",
+  filter: "all",
+};
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function normalize(value) {
+  return String(value || "")
+    .toLocaleLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
+function matches(bird, query) {
+  if (!query) return true;
+  const haystack = normalize(
+    [bird.names.ka, bird.names.en, bird.names.la, bird.ebirdCode].join(" "),
+  );
+  return query.split(/\s+/).every((part) => haystack.includes(part));
+}
+
+function isVisible(bird) {
+  if (state.filter === "georgia" && !bird.inGeorgia) return false;
+  return matches(bird, normalize(state.query));
+}
+
+function photoCredit(photo, { link = true } = {}) {
+  if (!photo) return "";
+  const parts = [photo.credit, photo.license].filter(Boolean).join(", ");
+  if (!parts) return "";
+  if (link && photo.source) {
+    return `<p class="credit"><a href="${escapeHtml(photo.source)}" target="_blank" rel="noreferrer">${escapeHtml(parts)}</a></p>`;
+  }
+  return `<p class="credit">${escapeHtml(parts)}</p>`;
+}
+
+function commonsThumb(url, width) {
+  const value = String(url || "");
+  // Wikimedia thumbs end in /500px-File.jpg, or /lossy-page1-500px-File.tif.jpg for TIFFs.
+  const resized = value.replace(
+    /\/((?:lossy-)?page\d+-)?\d+px-(?=[^/?#]*$)/i,
+    `/$1${width}px-`,
+  );
+  if (resized !== value) return resized;
+
+  const match = value.match(
+    /^(https?:\/\/[^/]+\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)([^/?#]+)/i,
+  );
+  if (match) {
+    const [, prefix, hash, file] = match;
+    const thumbHost = prefix.replace(
+      "/wikipedia/commons/",
+      "/wikipedia/commons/thumb/",
+    );
+    const suffix = /\.svg$/i.test(decodeURIComponent(file)) ? ".png" : "";
+    return `${thumbHost}${hash}${file}/${width}px-${file}${suffix}`;
+  }
+
+  return birdPhotoFallback(value, width);
+}
+
+function birdPhotoFallback(url, width) {
+  try {
+    const file = decodeURIComponent(new URL(url).pathname.split("/").pop() || "");
+    if (!file) return url;
+    return `https://commons.wikimedia.org/w/thumb.php?f=${encodeURIComponent(file)}&w=${width}`;
+  } catch {
+    return url;
+  }
+}
+
+function photoSources(url, widths) {
+  const src = commonsThumb(url, widths[Math.min(1, widths.length - 1)]);
+  const srcset = widths
+    .map((width) => `${commonsThumb(url, width)} ${width}w`)
+    .join(", ");
+  return { src, srcset };
+}
+
+function renderCard(bird, index) {
+  let photo = `<div class="card-placeholder" aria-hidden="true">ფოტო არ არის</div>`;
+  if (bird.photo?.url) {
+    const image = photoSources(bird.photo.thumb || bird.photo.url, [250, 330, 500]);
+    const eager = index < 4;
+    photo = `<img class="card-photo" src="${escapeHtml(image.src)}" srcset="${escapeHtml(image.srcset)}" sizes="(max-width: 600px) 92vw, 250px" width="330" height="248" alt="" decoding="async" loading="${eager ? "eager" : "lazy"}" fetchpriority="${eager ? "high" : "low"}">`;
+  }
+
+  return `
+    <a class="card" href="#${escapeHtml(bird.id)}" data-id="${escapeHtml(bird.id)}">
+      ${photo}
+      <div class="card-body">
+        <h2>${escapeHtml(bird.names.ka || "—")}</h2>
+        <p class="en">${escapeHtml(bird.names.en || "")}</p>
+        <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        ${photoCredit(bird.photo, { link: false })}
+      </div>
+    </a>
+  `;
+}
+
+function detailPhoto(bird) {
+  if (!bird.photo?.url) {
+    return `<div class="detail-placeholder" aria-hidden="true">ფოტო არ არის</div>`;
+  }
+
+  const source = bird.photo.url;
+  const image = photoSources(source, [330, 500, 800]);
+  const alt = bird.names.en || bird.names.ka || "";
+  const fallback = escapeHtml(source);
+  return `<img class="detail-photo" src="${escapeHtml(image.src)}" srcset="${escapeHtml(image.srcset)}" sizes="(max-width: 840px) 92vw, 42vw" alt="${escapeHtml(alt)}" decoding="async" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='${fallback}'">`;
+}
+
+const linkIcons = {
+  ebird: `<svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M16 7h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="m20 7 2 .5-2 .5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 18v3M14 17.75V21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M7 18a6 6 0 0 0 3.84-10.61" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>`,
+  wikipedia: `<svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M6.6 16.4 8.7 7.8h1.2l2.1 6.4 2.1-6.4h1.2l2.1 8.6"/></svg>`,
+};
+
+function wikiCredit(bird) {
+  if (!String(bird.description || "").trim()) return "";
+  const url = bird.links?.wikipedia;
+  const name = url
+    ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">English Wikipedia</a>`
+    : "English Wikipedia";
+  return `<p class="source-note">${name}, CC BY-SA.</p>`;
+}
+
+function detailLinks(bird) {
+  const items = [
+    ["eBird", bird.links?.ebird, "ebird"],
+    ["Wikipedia", bird.links?.wikipedia, "wikipedia"],
+  ].filter(([, url]) => url);
+  if (!items.length) return "";
+  return `<p class="detail-links">${items
+    .map(
+      ([label, url, icon]) =>
+        `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${linkIcons[icon]}<span>${label}</span></a>`,
+    )
+    .join("")}</p>`;
+}
+
+function renderDetail(bird) {
+  const georgian = bird.names.ka?.trim() || "";
+  const heading = georgian || bird.names.en || "—";
+  const description = String(bird.description || "").trim();
+  return `
+    <a class="back" href="#"><svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="m12 19-7-7 7-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>სიაში დაბრუნება</span></a>
+    <div class="detail-layout">
+      <figure class="detail-figure">
+        ${detailPhoto(bird)}
+        ${photoCredit(bird.photo)}
+      </figure>
+      <div class="detail-info">
+        <h2>${escapeHtml(heading)}</h2>
+        ${georgian ? `<p class="en">${escapeHtml(bird.names.en || "")}</p>` : ""}
+        <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
+        ${wikiCredit(bird)}
+        ${detailLinks(bird)}
+      </div>
+    </div>
+  `;
+}
+
+function birdFromHash() {
+  const id = decodeURIComponent(location.hash.replace(/^#/, "")).trim();
+  if (!id) return null;
+  return state.birds.find((bird) => bird.id === id) || null;
+}
+
+function showList() {
+  listViewEl.hidden = false;
+  listToolsEl.hidden = false;
+  detailEl.hidden = true;
+  detailEl.innerHTML = "";
+  delete detailEl.dataset.birdId;
+  document.title = siteTitle;
+}
+
+function showDetail(bird) {
+  listViewEl.hidden = true;
+  listToolsEl.hidden = true;
+  listToolsEl.classList.remove("is-stuck");
+  detailEl.hidden = false;
+  detailEl.innerHTML = renderDetail(bird);
+  detailEl.dataset.birdId = bird.id;
+  document.title = bird.names.ka?.trim() || bird.names.en || siteTitle;
+}
+
+function route() {
+  const bird = birdFromHash();
+  const previousId = detailEl.dataset.birdId || "";
+  if (bird) {
+    showDetail(bird);
+    if (previousId !== bird.id) window.scrollTo(0, 0);
+    return;
+  }
+  showList();
+  if (previousId) window.scrollTo(0, 0);
+}
+
+function mount() {
+  resultsEl.innerHTML = state.birds.map(renderCard).join("");
+  state.cards = [...resultsEl.querySelectorAll(".card")];
+  filterList();
+}
+
+function filterList() {
+  let shown = 0;
+  state.cards.forEach((card, index) => {
+    const visible = isVisible(state.birds[index]);
+    card.classList.toggle("is-hidden", !visible);
+    if (visible) shown += 1;
+  });
+  emptyEl.hidden = shown > 0;
+  const total = state.birds.length;
+  countEl.textContent =
+    shown === total ? `${shown} ფრინველი` : `${shown} შედეგი / ${total}`;
+}
+
+function sortBirds(birds) {
+  return [...birds].sort((a, b) =>
+    (a.names.ka || a.names.en).localeCompare(b.names.ka || b.names.en, "ka"),
+  );
+}
+
+searchEl.addEventListener("input", (event) => {
+  state.query = event.target.value;
+  filterList();
+});
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.filter = button.dataset.filter;
+    filterButtons.forEach((item) => {
+      item.classList.toggle("is-active", item === button);
+    });
+    filterList();
+  });
+});
+
+window.addEventListener("hashchange", route);
+
+new IntersectionObserver(
+  ([entry]) => {
+    if (listToolsEl.hidden) {
+      listToolsEl.classList.remove("is-stuck");
+      return;
+    }
+    listToolsEl.classList.toggle("is-stuck", entry.intersectionRatio < 1);
+  },
+  { threshold: [1], rootMargin: "-1px 0px 0px 0px" },
+).observe(listToolsEl);
+
+const data = await fetch("data/birds.json").then((response) => {
+  if (!response.ok) {
+    throw new Error("birds.json ვერ ჩაიტვირთა");
+  }
+  return response.json();
+});
+
+state.birds = sortBirds(data.birds || []);
+mount();
+route();

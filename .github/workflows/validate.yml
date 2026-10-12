@@ -1,0 +1,19 @@
+name: Validate birds.json
+
+on:
+  pull_request:
+  push:
+    paths:
+      - data/birds.json
+      - scripts/validate.mjs
+      - .github/workflows/validate.yml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validate.mjs

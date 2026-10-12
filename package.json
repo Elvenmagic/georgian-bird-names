@@ -1,0 +1,11 @@
+{
+  "name": "bird-names-georgian-nomenclature",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "import:iliauni": "node scripts/import-iliauni.mjs",
+    "seed": "node scripts/seed.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}

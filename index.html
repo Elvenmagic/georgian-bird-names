@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ფრინველთა ქართული სახელები</title>
+    <meta
+      name="description"
+      content="ქართული, ინგლისური და ლათინური სახელები ფრინველებისთვის — ძებნა და სია."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700&family=Noto+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">Nomenclature</p>
+      <h1>ფრინველთა ქართული სახელები</h1>
+      <p class="lede">
+        მოძებნე ფრინველი ქართული, ინგლისური ან ლათინური სახელით.
+      </p>
+    </header>
+
+    <div id="list-tools" class="list-tools">
+      <div class="list-tools-inner">
+        <label class="search">
+          <span class="visually-hidden">ძებნა</span>
+          <input
+            id="q"
+            type="search"
+            placeholder="გულწითელა, robin, Erithacus…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </label>
+        <div class="toolbar">
+          <p id="count" class="count" aria-live="polite"></p>
+          <div class="filters" role="group" aria-label="ფილტრი">
+            <button type="button" data-filter="all" class="is-active">ყველა</button>
+            <button type="button" data-filter="georgia">საქართველო</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div id="list-view">
+        <div id="results" class="grid"></div>
+        <p id="empty" class="empty" hidden>ვერაფერი მოიძებნა ამ სახელით.</p>
+      </div>
+      <article id="detail" class="detail" hidden></article>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-note">
+        ქართული სახელები — ილიას სახელმწიფო უნივერსიტეტის / Biodiversity
+        Georgia ნუსხა. ინგლისური და ლათინური სახელები — eBird/Clements, სადაც
+        ემთხვევა. ფოტოები — Wikimedia Commons, თითოეულ ჩანაწერზე მითითებული
+        ავტორითა და ლიცენზიით.
+      </p>
+      <p class="powered-by">Powered by Order of Kestrel</p>
+    </footer>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>
