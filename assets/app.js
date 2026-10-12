@@ -327,26 +327,10 @@ function detailLinks(bird) {
     .join("")}</p>`;
 }
 
-function copyAttribute(value) {
-  return escapeHtml(value).replaceAll("\n", "&#10;");
-}
-
-function copyButtons(bird) {
-  const georgian = bird.georgian?.primary || "";
-  const combined = [georgian, bird.names.en, bird.names.la].filter(Boolean).join("\n");
-  const buttons = [];
-  if (georgian) {
-    buttons.push(
-      `<button type="button" data-copy="${copyAttribute(georgian)}">ქართული სახელის კოპირება</button>`,
-    );
-  }
-  if (combined) {
-    buttons.push(
-      `<button type="button" data-copy="${copyAttribute(combined)}">სამივე სახელის კოპირება</button>`,
-    );
-  }
-  if (!buttons.length) return "";
-  return `<p class="copy-actions">${buttons.join("")}</p>`;
+function copyControl(value, label) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  return `<button type="button" class="copy" data-copy="${escapeHtml(text)}" data-label="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"><svg class="link-icon copy-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M4 16V6a2 2 0 0 1 2-2h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><svg class="link-icon copied-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
 }
 
 function renderDetail(bird) {
@@ -361,12 +345,11 @@ function renderDetail(bird) {
         ${photoCredit(bird.photo)}
       </figure>
       <div class="detail-info">
-        <h2>${escapeHtml(heading)}</h2>
+        <h2><span>${escapeHtml(heading)}</span>${copyControl(georgian || bird.names.en, georgian ? "ქართული სახელის კოპირება" : "ინგლისური სახელის კოპირება")}</h2>
         ${aliasLine(bird)}
-        ${georgian ? `<p class="en">${escapeHtml(bird.names.en || "")}</p>` : ""}
-        <p class="la">${escapeHtml(bird.names.la || "")}</p>
+        ${georgian ? `<p class="en"><span>${escapeHtml(bird.names.en || "")}</span>${copyControl(bird.names.en, "ინგლისური სახელის კოპირება")}</p>` : ""}
+        <p class="la"><span>${escapeHtml(bird.names.la || "")}</span>${copyControl(bird.names.la, "ლათინური სახელის კოპირება")}</p>
         ${taxonLine(bird)}
-        ${copyButtons(bird)}
         ${detailLinks(bird)}
         ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
         ${wikiCredit(bird)}
@@ -540,18 +523,20 @@ alphabetEl.addEventListener("click", (event) => {
 detailEl.addEventListener("click", async (event) => {
   const button = event.target.closest("[data-copy]");
   if (!button) return;
-  const label = button.dataset.label || button.textContent;
-  if (!button.dataset.label) button.dataset.label = label;
+  const label = button.dataset.label || "";
   try {
     await navigator.clipboard.writeText(button.dataset.copy || "");
-    button.textContent = "დაკოპირდა";
+    button.classList.add("is-copied");
+    button.setAttribute("aria-label", "დაკოპირდა");
   } catch {
-    button.textContent = "ვერ დაკოპირდა";
+    button.classList.remove("is-copied");
+    button.setAttribute("aria-label", "ვერ დაკოპირდა");
   }
   window.clearTimeout(Number(button.dataset.timer));
   button.dataset.timer = String(
     window.setTimeout(() => {
-      button.textContent = button.dataset.label;
+      button.classList.remove("is-copied");
+      button.setAttribute("aria-label", label);
     }, 1600),
   );
 });
