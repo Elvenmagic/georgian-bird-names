@@ -157,51 +157,6 @@ h1 {
   font-size: 0.95rem;
 }
 
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.55rem 0.8rem;
-}
-
-.status-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.status-filters button {
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--muted);
-  font: inherit;
-  cursor: pointer;
-  transition:
-    background-color 180ms ease-out,
-    border-color 180ms ease-out,
-    color 180ms ease-out;
-}
-
-.status-filters button.is-active {
-  background: var(--accent-soft);
-  border-color: #c8d6c2;
-  color: var(--accent);
-}
-
-.family-filter select {
-  max-width: 16rem;
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--ink);
-  font: inherit;
-  cursor: pointer;
-}
-
 .browse {
   display: flex;
   flex-wrap: wrap;
@@ -437,7 +392,6 @@ mark {
 @media (prefers-reduced-motion: reduce) {
   .list-tools,
   .search input,
-  .status-filters button,
   .view-switch button,
   .card,
   .card-photo,

@@ -2,8 +2,6 @@ const resultsEl = document.querySelector("#results");
 const emptyEl = document.querySelector("#empty");
 const countEl = document.querySelector("#count");
 const searchEl = document.querySelector("#q");
-const statusButtons = document.querySelectorAll("[data-status]");
-const familyEl = document.querySelector("#family");
 const nameListEl = document.querySelector("#name-list");
 const alphabetEl = document.querySelector("#alphabet");
 const viewButtons = document.querySelectorAll("[data-view]");
@@ -17,8 +15,6 @@ const state = {
   cards: [],
   rows: [],
   query: "",
-  status: "all",
-  family: "",
   view: "cards",
 };
 
@@ -193,20 +189,7 @@ function matches(bird, query) {
   return query.split(/\s+/).every((part) => haystack.includes(part));
 }
 
-const statusGroups = {
-  resident: ["YR-R", "YR-V"],
-  breeding: ["YR-R", "BB"],
-  migrant: ["M"],
-  winter: ["WV"],
-  casual: ["Cas"],
-};
-
 function isVisible(bird) {
-  if (state.status !== "all") {
-    const wanted = statusGroups[state.status] || [];
-    if (!statusCodesOf(bird).some((code) => wanted.includes(code))) return false;
-  }
-  if (state.family && bird.familyKa !== state.family) return false;
   return matches(bird, normalize(state.query));
 }
 
@@ -403,17 +386,12 @@ let listScroll = 0;
 function readQuery() {
   const params = new URLSearchParams(location.search);
   state.query = params.get("q") || "";
-  const status = params.get("status") || "all";
-  state.status = status === "all" || statusGroups[status] ? status : "all";
-  state.family = params.get("family") || "";
   state.view = params.get("view") === "list" ? "list" : "cards";
 }
 
 function writeQuery() {
   const params = new URLSearchParams();
   if (state.query.trim()) params.set("q", state.query);
-  if (state.status !== "all") params.set("status", state.status);
-  if (state.family) params.set("family", state.family);
   if (state.view === "list") params.set("view", "list");
   const search = params.toString();
   const next = `${location.pathname}${search ? `?${search}` : ""}${location.hash}`;
@@ -423,12 +401,6 @@ function writeQuery() {
 
 function applyControls() {
   searchEl.value = state.query;
-  statusButtons.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.status === state.status);
-  });
-  const knownFamily = [...familyEl.options].some((option) => option.value === state.family);
-  if (!knownFamily) state.family = "";
-  familyEl.value = state.family;
   applyView();
   writeQuery();
 }
@@ -471,15 +443,6 @@ function route() {
 }
 
 function mount() {
-  const families = [...new Set(state.birds.map((bird) => bird.familyKa).filter(Boolean))].sort(
-    (a, b) => a.localeCompare(b, "ka"),
-  );
-  familyEl.innerHTML = [
-    `<option value="">ყველა ოჯახი</option>`,
-    ...families.map(
-      (name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`,
-    ),
-  ].join("");
   const letters = [...new Set(state.birds.map(firstLetter).filter(Boolean))].sort((a, b) =>
     a.localeCompare(b, "ka"),
   );
@@ -557,23 +520,6 @@ searchEl.addEventListener("input", (event) => {
   state.query = event.target.value;
   writeQuery();
   paintHighlights();
-  filterList();
-});
-
-statusButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    state.status = button.dataset.status;
-    statusButtons.forEach((item) => {
-      item.classList.toggle("is-active", item === button);
-    });
-    writeQuery();
-    filterList();
-  });
-});
-
-familyEl.addEventListener("change", () => {
-  state.family = familyEl.value;
-  writeQuery();
   filterList();
 });
 
