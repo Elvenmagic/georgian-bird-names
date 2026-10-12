@@ -2,7 +2,8 @@ const resultsEl = document.querySelector("#results");
 const emptyEl = document.querySelector("#empty");
 const countEl = document.querySelector("#count");
 const searchEl = document.querySelector("#q");
-const filterButtons = document.querySelectorAll("[data-filter]");
+const statusButtons = document.querySelectorAll("[data-status]");
+const familyEl = document.querySelector("#family");
 const listViewEl = document.querySelector("#list-view");
 const listToolsEl = document.querySelector("#list-tools");
 const detailEl = document.querySelector("#detail");
@@ -12,7 +13,8 @@ const state = {
   birds: [],
   cards: [],
   query: "",
-  filter: "all",
+  status: "all",
+  family: "",
 };
 
 function escapeHtml(value) {
@@ -116,10 +118,16 @@ const statusLabels = {
   EX: "გადაშენებული",
 };
 
-function statusText(bird) {
+function statusCodesOf(bird) {
   return String(bird.status || "")
     .split(",")
-    .map((part) => statusLabels[part.trim()] || "")
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function statusText(bird) {
+  return statusCodesOf(bird)
+    .map((code) => statusLabels[code] || "")
     .filter(Boolean)
     .join(", ");
 }
@@ -138,8 +146,20 @@ function matches(bird, query) {
   return query.split(/\s+/).every((part) => haystack.includes(part));
 }
 
+const statusGroups = {
+  resident: ["YR-R", "YR-V"],
+  breeding: ["YR-R", "BB"],
+  migrant: ["M"],
+  winter: ["WV"],
+  casual: ["Cas"],
+};
+
 function isVisible(bird) {
-  if (state.filter === "georgia" && !bird.inGeorgia) return false;
+  if (state.status !== "all") {
+    const wanted = statusGroups[state.status] || [];
+    if (!statusCodesOf(bird).some((code) => wanted.includes(code))) return false;
+  }
+  if (state.family && bird.familyKa !== state.family) return false;
   return matches(bird, normalize(state.query));
 }
 
@@ -322,6 +342,15 @@ function route() {
 }
 
 function mount() {
+  const families = [...new Set(state.birds.map((bird) => bird.familyKa).filter(Boolean))].sort(
+    (a, b) => a.localeCompare(b, "ka"),
+  );
+  familyEl.innerHTML = [
+    `<option value="">ყველა ოჯახი</option>`,
+    ...families.map(
+      (name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`,
+    ),
+  ].join("");
   resultsEl.innerHTML = state.birds.map(renderCard).join("");
   state.cards = [...resultsEl.querySelectorAll(".card")];
   filterList();
@@ -354,14 +383,19 @@ searchEl.addEventListener("input", (event) => {
   filterList();
 });
 
-filterButtons.forEach((button) => {
+statusButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    state.filter = button.dataset.filter;
-    filterButtons.forEach((item) => {
+    state.status = button.dataset.status;
+    statusButtons.forEach((item) => {
       item.classList.toggle("is-active", item === button);
     });
     filterList();
   });
+});
+
+familyEl.addEventListener("change", () => {
+  state.family = familyEl.value;
+  filterList();
 });
 
 window.addEventListener("hashchange", route);
