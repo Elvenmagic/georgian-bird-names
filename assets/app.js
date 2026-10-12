@@ -388,10 +388,21 @@ function applyControls() {
   writeQuery();
 }
 
+function syncStuck() {
+  if (listToolsEl.hidden) {
+    listToolsEl.classList.remove("is-stuck");
+    return;
+  }
+  listToolsEl.classList.toggle("is-stuck", listToolsEl.getBoundingClientRect().top <= 0);
+}
+
 function restoreListScroll() {
   const top = listScroll;
   window.scrollTo(0, top);
-  requestAnimationFrame(() => window.scrollTo(0, top));
+  requestAnimationFrame(() => {
+    window.scrollTo(0, top);
+    syncStuck();
+  });
 }
 
 function showList() {
