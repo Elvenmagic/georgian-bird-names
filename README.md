@@ -1,6 +1,6 @@
 # ფრინველთა ქართული სახელები
 
-A small static site for Georgian, English, and Latin bird names. There is no CMS: the site reads [`data/birds.json`](data/birds.json). Friends edit that file, someone with repo access commits, GitHub Pages publishes.
+A small static site for Georgian, English, and Latin bird names. There is no CMS: the site reads [`data/birds.json`](data/birds.json). Friends edit that file, someone with repo access commits to `main`, then a manual GitHub Pages deploy publishes the site.
 
 ## Local preview
 
@@ -103,7 +103,7 @@ English and Latin names follow eBird/Clements when a match is found; otherwise t
 After the repo is on GitHub:
 
 1. Settings → Pages → Source: **GitHub Actions**.
-2. Push to `main`. The [pages workflow](.github/workflows/pages.yml) publishes `index.html`, `assets/`, and `data/`.
+2. Pushing to `main` does not publish the site. Run the [pages workflow](.github/workflows/pages.yml) by hand (Actions → Deploy GitHub Pages → Run workflow). It publishes `index.html`, `assets/`, and `data/`.
 3. Pull requests run [JSON validation](.github/workflows/validate.yml) so a typo does not take the site down.
 
 ## Attribution
