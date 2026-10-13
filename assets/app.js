@@ -185,8 +185,13 @@ function taxonLine(bird) {
   return `<p class="taxon">${escapeHtml(parts.join(" · "))}</p>`;
 }
 
+const exactSearchExceptions = {
+  ქარიტყანია: "comkes",
+};
+
 function matches(bird, query) {
   if (!query) return true;
+  if (exactSearchExceptions[query] === bird.id) return true;
   const haystack = normalize(
     [...georgianNames(bird), bird.names.en, bird.names.la, bird.ebirdCode].join(" "),
   );
