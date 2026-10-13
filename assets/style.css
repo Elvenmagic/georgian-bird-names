@@ -672,15 +672,25 @@ mark {
   margin-top: 0.08em;
 }
 
-.description {
+.presence {
+  display: grid;
+  gap: 0.7rem;
   margin: 1.15rem 0 0;
-  font-size: 1.05rem;
 }
 
-.source-note {
-  margin: 0.55rem 0 0;
+.presence div {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.presence dt {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.presence dd {
+  margin: 0;
 }
 
 .detail-links {
@@ -723,7 +733,6 @@ mark {
   display: block;
 }
 
-.source-note a,
 .detail-links a {
   display: inline-flex;
   align-items: center;
@@ -740,7 +749,6 @@ mark {
 }
 
 .back:hover span,
-.source-note a:hover,
 .detail-links a:hover span {
   text-decoration: underline;
 }

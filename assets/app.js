@@ -308,13 +308,19 @@ const linkIcons = {
   wikipedia: `<svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M6.6 16.4 8.7 7.8h1.2l2.1 6.4 2.1-6.4h1.2l2.1 8.6"/></svg>`,
 };
 
-function wikiCredit(bird) {
-  if (!String(bird.description || "").trim()) return "";
-  const url = bird.links?.wikipedia;
-  const name = url
-    ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">English Wikipedia</a>`
-    : "English Wikipedia";
-  return `<p class="source-note">${name}, CC BY-SA.</p>`;
+function presenceList(bird) {
+  const rows = [
+    ["საქართველოში", statusText(bird)],
+    ["რიგი", bird.orderKa],
+    ["ოჯახი", bird.familyKa],
+  ].filter(([, value]) => String(value || "").trim());
+  if (!rows.length) return "";
+  return `<dl class="presence">${rows
+    .map(
+      ([label, value]) =>
+        `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`,
+    )
+    .join("")}</dl>`;
 }
 
 function detailLinks(bird) {
@@ -341,7 +347,6 @@ function copyControl(value, label) {
 function renderDetail(bird) {
   const georgian = bird.georgian?.primary || "";
   const heading = georgian || bird.names.en || "—";
-  const description = String(bird.description || "").trim();
   return `
     <a class="back" href="#"><svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="m12 19-7-7 7-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>სიაში დაბრუნება</span></a>
     <div class="detail-layout">
@@ -354,10 +359,8 @@ function renderDetail(bird) {
         ${aliasLine(bird)}
         ${georgian ? `<p class="en"><span>${escapeHtml(bird.names.en || "")}</span>${copyControl(bird.names.en, "ინგლისური სახელის კოპირება")}</p>` : ""}
         <p class="la"><span>${escapeHtml(bird.names.la || "")}</span>${copyControl(bird.names.la, "ლათინური სახელის კოპირება")}</p>
-        ${taxonLine(bird)}
+        ${presenceList(bird)}
         ${detailLinks(bird)}
-        ${description ? `<p class="description">${escapeHtml(description)}</p>` : ""}
-        ${wikiCredit(bird)}
       </div>
     </div>
   `;
