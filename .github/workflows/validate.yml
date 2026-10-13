@@ -5,7 +5,9 @@ on:
   push:
     paths:
       - data/birds.json
+      - data/names.json
       - scripts/validate.mjs
+      - scripts/names.mjs
       - .github/workflows/validate.yml
 
 jobs:
