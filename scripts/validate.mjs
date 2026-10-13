@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readNames, reviewNames } from "./names.mjs";
 
 const dataPath = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -87,8 +88,22 @@ data.birds.forEach((bird, index) => {
   }
 });
 
+let namesCount = 0;
+try {
+  const namesFile = await readNames();
+  if (!namesFile) {
+    fail("names.json is missing.");
+  } else {
+    namesCount = Array.isArray(namesFile.data.birds) ? namesFile.data.birds.length : 0;
+    const { errors } = reviewNames(namesFile.data, data);
+    for (const error of errors) fail(error);
+  }
+} catch (error) {
+  fail(error.message);
+}
+
 if (process.exitCode) {
   process.exit(process.exitCode);
 }
 
-console.log(`OK: ${data.birds.length} birds`);
+console.log(`OK: ${data.birds.length} birds, ${namesCount} names`);

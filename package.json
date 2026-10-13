@@ -6,6 +6,9 @@
     "start": "npx --yes serve .",
     "import:iliauni": "node scripts/import-iliauni.mjs",
     "seed": "node scripts/seed.mjs",
+    "names:export": "node scripts/names.mjs export",
+    "names:apply": "node scripts/names.mjs apply",
+    "names:check": "node scripts/names.mjs check",
     "validate": "node scripts/validate.mjs"
   }
 }

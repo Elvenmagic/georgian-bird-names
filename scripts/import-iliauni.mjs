@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { exportNames } from "./names.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data", "birds.json");
@@ -428,6 +429,7 @@ async function main() {
   console.log(
     `Merged into birds.json. added=${added} matched=${matched} namesFilled=${namesFilled} taxonomyFilled=${taxonomyFilled} total=${data.birds.length}`,
   );
+  await exportNames();
 }
 
 main().catch((error) => {
