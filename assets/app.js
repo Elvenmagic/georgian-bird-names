@@ -1,3 +1,5 @@
+import data from "./birds.js";
+
 const resultsEl = document.querySelector("#results");
 const emptyEl = document.querySelector("#empty");
 const countEl = document.querySelector("#count");
@@ -690,13 +692,6 @@ new IntersectionObserver(
   },
   { threshold: [1], rootMargin: "-1px 0px 0px 0px" },
 ).observe(listToolsEl);
-
-const data = await fetch("data/birds.json").then((response) => {
-  if (!response.ok) {
-    throw new Error("birds.json ვერ ჩაიტვირთა");
-  }
-  return response.json();
-});
 
 state.birds = sortBirds(
   (data.birds || []).map((bird) => {

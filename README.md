@@ -1,18 +1,18 @@
 # ფრინველთა ქართული სახელები
 
-A small static site for Georgian, English, and Latin bird names. Visitors see [`data/birds.json`](data/birds.json). People who correct Georgian and English names edit [`data/names.json`](data/names.json) only. The guide for them is [`EDITING.md`](EDITING.md). Publishing copies those two fields onto the bird list and leaves photos, descriptions, and links alone.
+A small static site for Georgian, English, and Latin bird names. The published list is built from [`data/birds.json`](data/birds.json), which stays in the repository along with [`data/names.json`](data/names.json). People who correct Georgian and English names edit `names.json` only. The guide for them is [`EDITING.md`](EDITING.md). Publishing copies those two fields onto the bird list and leaves photos, descriptions, and links alone.
 
 ## Local preview
 
-Do not open `index.html` as a file. The browser will block the JSON fetch.
+Do not open `index.html` as a file. The page loads the bird list from a script that `npm start` builds first.
 
 ```bash
 npm start
 ```
 
-Then open the URL `serve` prints, usually `http://localhost:3000`.
+That writes `assets/birds.js` from `data/birds.json`, then serves the site. Open the URL `serve` prints, usually `http://localhost:3000`.
 
-Name edits in `names.json` show up locally only after `npm run names:apply`. The published site applies them during deploy.
+Name edits in `names.json` show up locally only after `npm run names:apply` and a new `npm start`. The published site applies them during deploy. The build itself does not apply names.
 
 ## Edit a Georgian or English name
 
@@ -101,7 +101,7 @@ English and Latin names follow eBird/Clements when a match is found and that fie
 After the repo is on GitHub:
 
 1. Settings → Pages → Source: **GitHub Actions**.
-2. Push to `main`. The [pages workflow](.github/workflows/pages.yml) applies `names.json` onto the published `birds.json`, validates both files, then publishes `index.html`, `assets/`, and `data/`. The workflow does not commit that applied copy back to the repo.
+2. Run the [pages workflow](.github/workflows/pages.yml) by hand (Actions → Deploy GitHub Pages → Run workflow). It applies `names.json` onto `birds.json`, validates both files, builds `assets/birds.js`, and publishes `index.html` and `assets/`. It does not publish `data/`. It does not commit the applied `birds.json` or `birds.js`.
 3. Pull requests run [JSON validation](.github/workflows/validate.yml) so a typo does not take the site down.
 
 ## Who can push and deploy

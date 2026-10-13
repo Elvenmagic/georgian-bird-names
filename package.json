@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "npx --yes serve .",
+    "build": "node scripts/build-site.mjs",
+    "start": "npm run build && npx --yes serve .",
     "import:iliauni": "node scripts/import-iliauni.mjs",
     "seed": "node scripts/seed.mjs",
     "names:export": "node scripts/names.mjs export",
