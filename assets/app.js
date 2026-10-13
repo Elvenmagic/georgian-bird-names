@@ -4,6 +4,8 @@ const countEl = document.querySelector("#count");
 const searchEl = document.querySelector("#q");
 const nameListEl = document.querySelector("#name-list");
 const alphabetEl = document.querySelector("#alphabet");
+const alphabetMenuEl = document.querySelector(".alphabet-menu");
+const alphabetToggleEl = document.querySelector(".alphabet-toggle");
 const viewButtons = document.querySelectorAll("[data-view]");
 const listViewEl = document.querySelector("#list-view");
 const listToolsEl = document.querySelector("#list-tools");
@@ -15,6 +17,7 @@ const state = {
   cards: [],
   rows: [],
   query: "",
+  letter: "",
   view: "cards",
 };
 
@@ -190,7 +193,8 @@ function matches(bird, query) {
 }
 
 function isVisible(bird) {
-  return matches(bird, normalize(state.query));
+  if (!matches(bird, normalize(state.query))) return false;
+  return !state.letter || firstLetter(bird) === state.letter;
 }
 
 function photoCredit(photo, { link = true } = {}) {
@@ -369,12 +373,14 @@ let listScroll = 0;
 function readQuery() {
   const params = new URLSearchParams(location.search);
   state.query = params.get("q") || "";
+  state.letter = params.get("letter") || "";
   state.view = params.get("view") === "list" ? "list" : "cards";
 }
 
 function writeQuery() {
   const params = new URLSearchParams();
   if (state.query.trim()) params.set("q", state.query);
+  if (state.letter) params.set("letter", state.letter);
   if (state.view === "list") params.set("view", "list");
   const search = params.toString();
   const next = `${location.pathname}${search ? `?${search}` : ""}${location.hash}`;
@@ -452,23 +458,86 @@ function mount() {
   state.rows = [...nameListEl.querySelectorAll(".name-row")];
   applyControls();
   filterList();
+  shuffleReady = true;
+}
+
+let shuffleReady = false;
+
+function cardInView(rect) {
+  return rect.bottom > 0 && rect.top < window.innerHeight && rect.width > 0;
+}
+
+function snapshotCards() {
+  const frames = new Map();
+  if (resultsEl.hidden) return frames;
+  for (const card of state.cards) {
+    if (card.classList.contains("is-hidden")) continue;
+    const rect = card.getBoundingClientRect();
+    if (cardInView(rect)) frames.set(card, rect);
+  }
+  return frames;
+}
+
+function playCardShuffle(before) {
+  if (resultsEl.hidden) return;
+  for (const card of state.cards) {
+    for (const animation of card.getAnimations()) {
+      if (animation.id === "card-shuffle") animation.cancel();
+    }
+  }
+  const maxTravel = window.innerHeight;
+  for (const card of state.cards) {
+    if (card.classList.contains("is-hidden")) continue;
+    const next = card.getBoundingClientRect();
+    if (!cardInView(next)) continue;
+    const prev = before.get(card);
+    const dx = prev ? prev.left - next.left : 0;
+    const dy = prev ? prev.top - next.top : 0;
+    const settles = prev && Math.abs(dx) < maxTravel && Math.abs(dy) < maxTravel;
+    if (settles && Math.abs(dx) < 1 && Math.abs(dy) < 1) continue;
+    const keyframes = settles
+      ? [{ transform: `translate(${dx}px, ${dy}px)` }, { transform: "translate(0, 0)" }]
+      : [
+          { opacity: 0, transform: "translateY(10px)" },
+          { opacity: 1, transform: "translateY(0)" },
+        ];
+    card.animate(keyframes, {
+      duration: 220,
+      easing: "cubic-bezier(0.2, 0, 0, 1)",
+      id: "card-shuffle",
+    });
+  }
 }
 
 function filterList() {
+  const animate =
+    shuffleReady &&
+    !resultsEl.hidden &&
+    !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const before = animate ? snapshotCards() : null;
   let shown = 0;
-  const visibleLetters = new Set();
+  const availableLetters = new Set();
+  const query = normalize(state.query);
   state.birds.forEach((bird, index) => {
+    if (matches(bird, query)) {
+      const letter = firstLetter(bird);
+      if (letter) availableLetters.add(letter);
+    }
     const visible = isVisible(bird);
     state.cards[index].classList.toggle("is-hidden", !visible);
     state.rows[index].classList.toggle("is-hidden", !visible);
-    if (!visible) return;
-    shown += 1;
-    const letter = firstLetter(bird);
-    if (letter) visibleLetters.add(letter);
+    if (visible) shown += 1;
   });
+  if (before) playCardShuffle(before);
   alphabetEl.querySelectorAll("button").forEach((button) => {
-    button.disabled = !visibleLetters.has(button.dataset.letter);
+    const letter = button.dataset.letter;
+    const active = letter === state.letter;
+    button.disabled = !active && !availableLetters.has(letter);
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", active ? "true" : "false");
   });
+  alphabetToggleEl.textContent = state.letter ? `ანბანი · ${state.letter}` : "ანბანი";
+  alphabetToggleEl.classList.toggle("is-filtering", Boolean(state.letter));
   emptyEl.hidden = shown > 0;
   const total = state.birds.length;
   countEl.textContent =
@@ -484,15 +553,21 @@ function applyView() {
   });
 }
 
-function jumpToLetter(letter) {
-  const items = state.view === "list" ? state.rows : state.cards;
-  const target = items.find(
-    (item) => !item.classList.contains("is-hidden") && item.dataset.letter === letter,
-  );
-  if (!target) return;
-  const top = target.getBoundingClientRect().top + window.scrollY - listToolsEl.offsetHeight - 12;
+function revealList() {
+  const toolsBottom = listToolsEl.getBoundingClientRect().bottom;
+  const listTop = listViewEl.getBoundingClientRect().top;
+  if (listTop >= toolsBottom - 1) return;
+  const top = window.scrollY + listTop - listToolsEl.offsetHeight - 12;
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   window.scrollTo({ top: Math.max(0, top), behavior: reduce ? "auto" : "smooth" });
+}
+
+const narrowAlphabetQuery = window.matchMedia("(max-width: 1199px)");
+
+function setAlphabetOpen(open) {
+  const isOpen = Boolean(open) && narrowAlphabetQuery.matches;
+  alphabetMenuEl.classList.toggle("is-open", isOpen);
+  alphabetToggleEl.setAttribute("aria-expanded", isOpen ? "true" : "false");
 }
 
 function sortBirds(birds) {
@@ -525,11 +600,32 @@ viewButtons.forEach((button) => {
   });
 });
 
+alphabetToggleEl.addEventListener("click", () => {
+  setAlphabetOpen(!alphabetMenuEl.classList.contains("is-open"));
+});
+
 alphabetEl.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button || button.disabled) return;
-  jumpToLetter(button.dataset.letter);
+  const letter = button.dataset.letter || "";
+  state.letter = state.letter === letter ? "" : letter;
+  writeQuery();
+  filterList();
+  setAlphabetOpen(false);
+  revealList();
 });
+
+document.addEventListener("click", (event) => {
+  if (!alphabetMenuEl.classList.contains("is-open")) return;
+  if (alphabetMenuEl.contains(event.target)) return;
+  setAlphabetOpen(false);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") setAlphabetOpen(false);
+});
+
+narrowAlphabetQuery.addEventListener("change", () => setAlphabetOpen(false));
 
 detailEl.addEventListener("click", async (event) => {
   const button = event.target.closest("[data-copy]");
