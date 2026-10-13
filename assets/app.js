@@ -6,6 +6,7 @@ const nameListEl = document.querySelector("#name-list");
 const alphabetEl = document.querySelector("#alphabet");
 const alphabetMenuEl = document.querySelector(".alphabet-menu");
 const alphabetToggleEl = document.querySelector(".alphabet-toggle");
+const alphabetToggleLetterEl = document.querySelector(".alphabet-toggle-letter");
 const viewButtons = document.querySelectorAll("[data-view]");
 const listViewEl = document.querySelector("#list-view");
 const listToolsEl = document.querySelector("#list-tools");
@@ -446,12 +447,12 @@ function mount() {
   const letters = [...new Set(state.birds.map(firstLetter).filter(Boolean))].sort((a, b) =>
     a.localeCompare(b, "ka"),
   );
-  alphabetEl.innerHTML = letters
+  alphabetEl.innerHTML = `<button type="button" data-all>ყველა</button>${letters
     .map(
       (letter) =>
         `<button type="button" data-letter="${escapeHtml(letter)}">${escapeHtml(letter)}</button>`,
     )
-    .join("");
+    .join("")}`;
   resultsEl.innerHTML = state.birds.map(renderCard).join("");
   nameListEl.innerHTML = state.birds.map(renderNameRow).join("");
   state.cards = [...resultsEl.querySelectorAll(".card")];
@@ -530,14 +531,25 @@ function filterList() {
   });
   if (before) playCardShuffle(before);
   alphabetEl.querySelectorAll("button").forEach((button) => {
+    if ("all" in button.dataset) {
+      const active = !state.letter;
+      button.disabled = false;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+      return;
+    }
     const letter = button.dataset.letter;
     const active = letter === state.letter;
     button.disabled = !active && !availableLetters.has(letter);
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-pressed", active ? "true" : "false");
   });
-  alphabetToggleEl.textContent = state.letter ? `ანბანი · ${state.letter}` : "ანბანი";
+  alphabetToggleLetterEl.hidden = !state.letter;
+  alphabetToggleLetterEl.textContent = state.letter;
   alphabetToggleEl.classList.toggle("is-filtering", Boolean(state.letter));
+  const alphabetLabel = state.letter ? `ანბანი, ${state.letter}` : "ანბანი";
+  alphabetToggleEl.setAttribute("aria-label", alphabetLabel);
+  alphabetToggleEl.title = alphabetLabel;
   emptyEl.hidden = shown > 0;
   const total = state.birds.length;
   countEl.textContent =
@@ -607,12 +619,16 @@ alphabetToggleEl.addEventListener("click", () => {
 alphabetEl.addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button || button.disabled) return;
+  const clearing = "all" in button.dataset;
   const letter = button.dataset.letter || "";
-  state.letter = state.letter === letter ? "" : letter;
-  writeQuery();
-  filterList();
+  const next = clearing || state.letter === letter ? "" : letter;
+  if (next !== state.letter) {
+    state.letter = next;
+    writeQuery();
+    filterList();
+    revealList();
+  }
   setAlphabetOpen(false);
-  revealList();
 });
 
 document.addEventListener("click", (event) => {

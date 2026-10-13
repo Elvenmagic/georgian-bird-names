@@ -286,6 +286,10 @@ h1 {
   cursor: default;
 }
 
+.alphabet button[data-all] {
+  margin-right: 0.35rem;
+}
+
 @media (max-width: 1199px) {
   .browse {
     position: relative;
@@ -294,20 +298,32 @@ h1 {
   .alphabet-toggle {
     display: inline-flex;
     align-items: center;
-    height: 2.15rem;
-    padding: 0 0.85rem;
+    justify-content: center;
+    gap: 0.3rem;
+    height: calc(2.15rem + 2px);
+    padding: 0 0.55rem;
     border: 1px solid var(--line);
     border-radius: 999px;
     background: var(--card);
     color: var(--ink);
     font: inherit;
-    font-weight: 600;
+    font-weight: 700;
     white-space: nowrap;
     cursor: pointer;
     transition:
       background-color 180ms ease-out,
       color 180ms ease-out,
       border-color 180ms ease-out;
+  }
+
+  .alphabet-icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    flex: none;
+  }
+
+  .alphabet-toggle-letter {
+    line-height: 1;
   }
 
   .alphabet-toggle.is-filtering,
@@ -332,7 +348,14 @@ h1 {
   }
 
   .alphabet-menu.is-open .alphabet {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.2rem 0.1rem;
+  }
+
+  .alphabet button[data-all] {
+    grid-column: span 3;
+    margin-right: 0;
   }
 }
 
