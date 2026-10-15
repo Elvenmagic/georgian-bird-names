@@ -806,12 +806,14 @@ function revealNavButton(button) {
 }
 
 function currentFamilyKey() {
-  const line = listToolsEl.getBoundingClientRect().bottom + 12;
+  const toolsBottom = listToolsEl.getBoundingClientRect().bottom;
   const sections = state.familySections.filter((section) => !section.hidden);
   if (!sections.length) return "";
   let current = sections[0];
   for (const section of sections) {
-    if (section.getBoundingClientRect().top <= line + 1) current = section;
+    const heading = section.querySelector(".family-heading") || section;
+    const line = toolsBottom + heading.offsetHeight + 12;
+    if (heading.getBoundingClientRect().top <= line + 1) current = section;
     else break;
   }
   const atBottom =
