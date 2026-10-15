@@ -359,12 +359,12 @@ const linkIcons = {
 };
 
 function tipControl(id, label) {
-  return `<button type="button" class="tip" popovertarget="${escapeHtml(id)}" aria-label="${escapeHtml(label)}">${tipIcon}</button>`;
+  return `<button type="button" class="tip" aria-describedby="${escapeHtml(id)}" aria-label="${escapeHtml(label)}">${tipIcon}</button>`;
 }
 
-function explanationPopover(id, items) {
+function explanationNote(id, items) {
   if (!items.length) return "";
-  return `<div id="${escapeHtml(id)}" class="note" popover>${items
+  return `<div id="${escapeHtml(id)}" class="note" role="tooltip">${items
     .map((item) => `<p>${item}</p>`)
     .join("")}</div>`;
 }
@@ -385,6 +385,7 @@ function presenceList(bird) {
       label: "საქართველოში",
       html: escapeHtml(statusText(bird)),
       tip: statusNotes.length ? tipControl("status-note", "სტატუსის ახსნა") : "",
+      note: explanationNote("status-note", statusNotes),
     },
     {
       label: "წითელი ნუსხა",
@@ -392,6 +393,7 @@ function presenceList(bird) {
         ? `<span class="iucn iucn-${escapeHtml(iucn.toLowerCase())}">${escapeHtml(iucn)}</span>${escapeHtml(iucnName)}`
         : "",
       tip: iucnNotes.length ? tipControl("iucn-note", "კატეგორიის ახსნა") : "",
+      note: explanationNote("iucn-note", iucnNotes),
     },
     { label: "რიგი", html: escapeHtml(bird.orderKa || "") },
     { label: "ოჯახი", html: escapeHtml(bird.familyKa || "") },
@@ -400,9 +402,9 @@ function presenceList(bird) {
   return `<dl class="presence">${rows
     .map(
       (row) =>
-        `<div><dt><span>${escapeHtml(row.label)}</span>${row.tip || ""}</dt><dd>${row.html}</dd></div>`,
+        `<div><dt class="${row.note ? "has-note" : ""}"><span>${escapeHtml(row.label)}</span>${row.tip || ""}${row.note || ""}</dt><dd>${row.html}</dd></div>`,
     )
-    .join("")}</dl>${explanationPopover("status-note", statusNotes)}${explanationPopover("iucn-note", iucnNotes)}`;
+    .join("")}</dl>`;
 }
 
 function detailLinks(bird) {

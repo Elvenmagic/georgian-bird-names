@@ -16,6 +16,19 @@
   --shadow: 0 10px 30px rgba(28, 25, 22, 0.06);
   --shadow-stuck: 0 10px 24px rgba(28, 25, 22, 0.04);
   --shadow-hover: 0 16px 36px rgba(28, 25, 22, 0.1);
+  --iucn-ex: #000000;
+  --iucn-ew: #542344;
+  --iucn-re: #9b4f96;
+  --iucn-cr: #d81e05;
+  --iucn-en: #fc7f3f;
+  --iucn-vu: #f9e814;
+  --iucn-nt: #cce226;
+  --iucn-lc: #60c659;
+  --iucn-dd: #d1d1c6;
+  --iucn-ne: #ffffff;
+  --iucn-na: #c1b5a5;
+  --iucn-on-light: #1c1916;
+  --iucn-on-dark: #f6f1e8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -678,12 +691,13 @@ mark {
   margin: 1.15rem 0 0;
 }
 
-.presence div {
+.presence > div {
   display: grid;
   gap: 0.1rem;
 }
 
 .presence dt {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.28rem;
@@ -708,14 +722,6 @@ mark {
   background: transparent;
   color: var(--faint);
   cursor: pointer;
-}
-
-.tip[popovertarget="status-note"] {
-  anchor-name: --status-note;
-}
-
-.tip[popovertarget="iucn-note"] {
-  anchor-name: --iucn-note;
 }
 
 .tip .link-icon {
@@ -747,67 +753,85 @@ mark {
   vertical-align: 0.08em;
 }
 
-.iucn-lc {
-  background: #60c659;
-  color: #14210f;
-}
-
-.iucn-nt {
-  background: #cce226;
-  color: #242808;
-}
-
-.iucn-vu {
-  background: #f9e814;
-  color: #2a2408;
-}
-
-.iucn-en {
-  background: #fc7f3f;
-  color: #2a1206;
-}
-
-.iucn-cr {
-  background: #d81e05;
-  color: #fff8f6;
-}
-
 .iucn-ex {
-  background: #111111;
-  color: #f6f1e8;
+  background: var(--iucn-ex);
+  color: var(--iucn-on-dark);
+  box-shadow: inset 0 0 0 1px var(--line);
 }
 
 .iucn-ew {
-  background: #542344;
-  color: #fff8f6;
+  background: var(--iucn-ew);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-re {
+  background: var(--iucn-re);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-cr {
+  background: var(--iucn-cr);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-en {
+  background: var(--iucn-en);
+  color: var(--iucn-on-light);
+}
+
+.iucn-vu {
+  background: var(--iucn-vu);
+  color: var(--iucn-on-light);
+}
+
+.iucn-nt {
+  background: var(--iucn-nt);
+  color: var(--iucn-on-light);
+}
+
+.iucn-lc {
+  background: var(--iucn-lc);
+  color: var(--iucn-on-light);
 }
 
 .iucn-dd {
-  background: #d1d1c6;
-  color: #2a2824;
+  background: var(--iucn-dd);
+  color: var(--iucn-on-light);
+}
+
+.iucn-ne,
+.iucn-na {
+  color: var(--iucn-on-light);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.iucn-ne {
+  background: var(--iucn-ne);
+}
+
+.iucn-na {
+  background: var(--iucn-na);
 }
 
 .note {
-  inset: auto;
-  width: min(26rem, calc(100vw - 2rem));
-  height: auto;
-  margin: 0.4rem 0 0;
-  padding: 0.8rem 0.95rem;
+  position: absolute;
+  z-index: 3;
+  top: 100%;
+  left: 0;
+  display: none;
+  width: min(26rem, calc(100vw - 2.5rem));
+  margin: 0;
+  padding: 0.7rem 0.95rem 0.8rem;
   border: 1px solid var(--line);
   border-radius: 0.8rem;
   background: var(--card);
   color: var(--ink);
-  box-shadow: var(--shadow);
-  position-area: block-end span-inline-end;
-  position-try-fallbacks: flip-block, flip-inline;
+  box-shadow: var(--shadow-hover);
 }
 
-#status-note {
-  position-anchor: --status-note;
-}
-
-#iucn-note {
-  position-anchor: --iucn-note;
+.has-note:hover .note,
+.has-note:focus-within .note {
+  display: block;
 }
 
 .note p {
