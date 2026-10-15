@@ -91,7 +91,7 @@ body {
 .site-header,
 main,
 .site-footer {
-  width: min(1100px, calc(100% - 2rem));
+  width: min(1200px, calc(100% - 2rem));
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,7 +144,7 @@ main {
 }
 
 .list-tools-inner {
-  width: min(1100px, calc(100% - 2rem));
+  width: min(1200px, calc(100% - 2rem));
   margin-left: auto;
   margin-right: auto;
 }
@@ -390,7 +390,8 @@ h1 {
 }
 
 .grid[hidden],
-.name-list[hidden] {
+.name-list[hidden],
+.family-view[hidden] {
   display: none;
 }
 
@@ -436,6 +437,148 @@ h1 {
     gap: 0.05rem;
     padding: 0.8rem 0.1rem;
   }
+}
+
+.family-view {
+  padding: 0.4rem 0 3rem;
+}
+
+.family-menu {
+  position: relative;
+  margin-top: 0.85rem;
+}
+
+.family-menu[hidden] {
+  display: none;
+}
+
+@media (min-width: 721px) {
+  .family-menu {
+    width: 22rem;
+    max-width: 100%;
+  }
+}
+
+.family-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: calc(2.15rem + 2px);
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  text-align: start;
+  cursor: pointer;
+  transition:
+    background-color 180ms ease-out,
+    color 180ms ease-out,
+    border-color 180ms ease-out;
+}
+
+.family-toggle-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.family-menu.is-open .family-toggle {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+
+.family-nav {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  left: 0;
+  z-index: 30;
+  width: min(22rem, 100%);
+  max-height: min(18rem, 50dvh);
+  flex-direction: column;
+  gap: 0.15rem;
+  overflow: auto;
+  padding: 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.family-menu.is-open .family-nav {
+  display: flex;
+}
+
+.family-nav button {
+  padding: 0.35rem 0.55rem;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-align: start;
+  cursor: pointer;
+  transition:
+    background-color 180ms ease-out,
+    color 180ms ease-out;
+}
+
+.family-nav button[hidden] {
+  display: none;
+}
+
+.family-nav button.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.family-heading {
+  scroll-margin-top: calc(var(--tools-height, 0px) + 0.75rem);
+}
+
+.family-heading h2 {
+  margin: 0;
+  color: var(--accent);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.family-latin {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+}
+
+.family-section + .family-section {
+  margin-top: 2.25rem;
+}
+
+.family-section[hidden] {
+  display: none;
+}
+
+.family-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 0.85rem;
+}
+
+.family-view .card {
+  content-visibility: visible;
+  contain-intrinsic-size: auto;
 }
 
 .grid {
@@ -573,6 +716,8 @@ mark {
   .alphabet-toggle,
   .alphabet button,
   .alphabet button::after,
+  .family-toggle,
+  .family-nav button,
   .card,
   .card-photo,
   .empty {

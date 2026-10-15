@@ -85,6 +85,12 @@
                 <path d="M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
               </svg>
             </button>
+            <button type="button" data-view="families" aria-label="ოჯახები" title="ოჯახები">
+              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="4" width="5" height="16" rx="1.2" stroke="currentColor" stroke-width="1.7" />
+                <path d="M12 7h8.5M12 12h8.5M12 17h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+              </svg>
+            </button>
           </div>
           <div class="alphabet-menu">
             <button
@@ -106,6 +112,21 @@
             <nav id="alphabet" class="alphabet" aria-label="ანბანი"></nav>
           </div>
         </div>
+        <div class="family-menu" hidden>
+          <button
+            type="button"
+            class="family-toggle"
+            aria-expanded="false"
+            aria-controls="family-nav"
+            aria-label="ოჯახები"
+          >
+            <span class="family-toggle-label">ოჯახები</span>
+            <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <nav id="family-nav" class="family-nav" aria-label="ოჯახები"></nav>
+        </div>
       </div>
     </div>
 
@@ -113,6 +134,9 @@
       <div id="list-view">
         <div id="results" class="grid"></div>
         <div id="name-list" class="name-list" hidden></div>
+        <div id="family-view" class="family-view" hidden>
+          <div id="family-sections" class="family-sections"></div>
+        </div>
         <p id="empty" class="empty" hidden>ვერაფერი მოიძებნა ამ სახელით.</p>
       </div>
       <article id="detail" class="detail" hidden></article>

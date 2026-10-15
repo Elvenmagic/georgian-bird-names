@@ -12,6 +12,12 @@ const alphabetToggleLetterEl = document.querySelector(".alphabet-toggle-letter")
 const viewButtons = document.querySelectorAll("[data-view]");
 const listViewEl = document.querySelector("#list-view");
 const listToolsEl = document.querySelector("#list-tools");
+const familyViewEl = document.querySelector("#family-view");
+const familyMenuEl = document.querySelector(".family-menu");
+const familyToggleEl = document.querySelector(".family-toggle");
+const familyToggleLabelEl = document.querySelector(".family-toggle-label");
+const familyNavEl = document.querySelector("#family-nav");
+const familySectionsEl = document.querySelector("#family-sections");
 const detailEl = document.querySelector("#detail");
 const siteTitle = document.title;
 
@@ -22,6 +28,9 @@ const state = {
   query: "",
   letter: "",
   view: "cards",
+  familyCards: [],
+  familySections: [],
+  familyButtons: [],
 };
 
 function escapeHtml(value) {
@@ -395,8 +404,8 @@ function presenceList(bird) {
       tip: iucnNotes.length ? tipControl("iucn-note", "კატეგორიის ახსნა") : "",
       note: explanationNote("iucn-note", iucnNotes),
     },
-    { label: "რიგი", html: escapeHtml(bird.orderKa || "") },
-    { label: "ოჯახი", html: escapeHtml(bird.familyKa || "") },
+    { label: "რიგი", html: escapeHtml(bird.orderKa || bird.order || "") },
+    { label: "ოჯახი", html: escapeHtml(bird.familyKa || bird.family || "") },
   ].filter((row) => row.html.trim());
   if (!rows.length) return "";
   return `<dl class="presence">${rows
@@ -462,14 +471,15 @@ function readQuery() {
   const params = new URLSearchParams(location.search);
   state.query = params.get("q") || "";
   state.letter = params.get("letter") || "";
-  state.view = params.get("view") === "list" ? "list" : "cards";
+  const view = params.get("view");
+  state.view = view === "list" || view === "families" ? view : "cards";
 }
 
 function writeQuery() {
   const params = new URLSearchParams();
   if (state.query.trim()) params.set("q", state.query);
   if (state.letter) params.set("letter", state.letter);
-  if (state.view === "list") params.set("view", "list");
+  if (state.view === "list" || state.view === "families") params.set("view", state.view);
   const search = params.toString();
   const next = `${location.pathname}${search ? `?${search}` : ""}${location.hash}`;
   if (next === `${location.pathname}${location.search}${location.hash}`) return;
@@ -496,6 +506,7 @@ function restoreListScroll() {
   requestAnimationFrame(() => {
     window.scrollTo(0, top);
     syncStuck();
+    if (!familyViewEl.hidden) bindFamilySpy();
   });
 }
 
@@ -512,6 +523,7 @@ function showDetail(bird) {
   listViewEl.hidden = true;
   listToolsEl.hidden = true;
   listToolsEl.classList.remove("is-stuck");
+  familyObserver?.disconnect();
   detailEl.hidden = false;
   detailEl.innerHTML = renderDetail(bird);
   detailEl.dataset.birdId = bird.id;
@@ -542,6 +554,7 @@ function mount() {
     .join("")}`;
   resultsEl.innerHTML = state.birds.map(renderCard).join("");
   nameListEl.innerHTML = state.birds.map(renderNameRow).join("");
+  renderFamilies();
   state.cards = [...resultsEl.querySelectorAll(".card")];
   state.rows = [...nameListEl.querySelectorAll(".name-row")];
   applyControls();
@@ -604,6 +617,7 @@ function filterList() {
     !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const before = animate ? snapshotCards() : null;
   let shown = 0;
+  const visibleIds = new Set();
   const availableLetters = new Set();
   const query = normalize(state.query);
   state.birds.forEach((bird, index) => {
@@ -614,9 +628,27 @@ function filterList() {
     const visible = isVisible(bird);
     state.cards[index].classList.toggle("is-hidden", !visible);
     state.rows[index].classList.toggle("is-hidden", !visible);
-    if (visible) shown += 1;
+    if (visible) {
+      shown += 1;
+      visibleIds.add(bird.id);
+    }
   });
+  for (const card of state.familyCards) {
+    card.classList.toggle("is-hidden", !visibleIds.has(card.dataset.id));
+  }
+  const visibleFamilies = new Set();
+  for (const section of state.familySections) {
+    const hasCard = [...section.querySelectorAll(".card")].some(
+      (card) => !card.classList.contains("is-hidden"),
+    );
+    section.hidden = !hasCard;
+    if (hasCard) visibleFamilies.add(section.dataset.family);
+  }
+  for (const button of state.familyButtons) {
+    button.hidden = !visibleFamilies.has(button.dataset.family);
+  }
   if (before) playCardShuffle(before);
+  if (!familyViewEl.hidden) bindFamilySpy();
   alphabetEl.querySelectorAll("button").forEach((button) => {
     if ("all" in button.dataset) {
       const active = !state.letter;
@@ -645,11 +677,18 @@ function filterList() {
 
 function applyView() {
   const list = state.view === "list";
-  resultsEl.hidden = list;
+  const families = state.view === "families";
+  resultsEl.hidden = list || families;
   nameListEl.hidden = !list;
+  familyViewEl.hidden = !families;
+  if (!families) setFamilyOpen(false);
+  familyMenuEl.hidden = !families;
   viewButtons.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.view === state.view);
   });
+  syncToolsHeight();
+  if (families) bindFamilySpy();
+  else familyObserver?.disconnect();
 }
 
 function revealList() {
@@ -682,6 +721,170 @@ function paintHighlights() {
   for (const el of document.querySelectorAll("[data-hl]")) {
     el.innerHTML = highlight(el.dataset.hl || "");
   }
+}
+
+const NONE_FAMILY = "__none";
+let familyObserver = null;
+let activeFamily = "";
+let familyScrollQueued = false;
+
+function familyMeta(bird) {
+  const scientific = String(bird.family || "").trim();
+  const georgian = String(bird.familyKa || "").trim();
+  if (!scientific && !georgian) {
+    return { key: NONE_FAMILY, title: "ოჯახი უცნობია", scientific: "", georgian: false };
+  }
+  return {
+    key: scientific || georgian,
+    title: georgian || scientific,
+    scientific: georgian ? scientific : "",
+    georgian: Boolean(georgian),
+  };
+}
+
+function compareFamilies(a, b) {
+  if (a.key === NONE_FAMILY) return 1;
+  if (b.key === NONE_FAMILY) return -1;
+  if (a.georgian !== b.georgian) return a.georgian ? -1 : 1;
+  return a.title.localeCompare(b.title, a.georgian ? "ka" : "en");
+}
+
+function renderFamilies() {
+  const groups = new Map();
+  for (const bird of state.birds) {
+    const meta = familyMeta(bird);
+    if (!groups.has(meta.key)) groups.set(meta.key, { ...meta, birds: [] });
+    groups.get(meta.key).birds.push(bird);
+  }
+  const sections = [...groups.values()].sort(compareFamilies);
+  familyNavEl.innerHTML = sections
+    .map(
+      (section) =>
+        `<button type="button" data-family="${escapeHtml(section.key)}">${escapeHtml(section.title)}</button>`,
+    )
+    .join("");
+  familySectionsEl.innerHTML = sections
+    .map(
+      (section) => `
+        <section class="family-section" data-family="${escapeHtml(section.key)}">
+          <div class="family-heading">
+            <h2>${escapeHtml(section.title)}</h2>
+            ${section.scientific ? `<p class="family-latin">${escapeHtml(section.scientific)}</p>` : ""}
+          </div>
+          <div class="family-cards">
+            ${section.birds.map((bird) => renderCard(bird, Number.POSITIVE_INFINITY)).join("")}
+          </div>
+        </section>
+      `,
+    )
+    .join("");
+  state.familySections = [...familySectionsEl.querySelectorAll(".family-section")];
+  state.familyButtons = [...familyNavEl.querySelectorAll("button")];
+  state.familyCards = [...familySectionsEl.querySelectorAll(".card")];
+}
+
+function syncToolsHeight() {
+  const height = listToolsEl.hidden ? 0 : listToolsEl.offsetHeight;
+  document.documentElement.style.setProperty("--tools-height", `${height}px`);
+}
+
+function toolsOffset() {
+  return listToolsEl.offsetHeight + 12;
+}
+
+function setFamilyOpen(open) {
+  const isOpen = Boolean(open) && !familyViewEl.hidden;
+  familyMenuEl.classList.toggle("is-open", isOpen);
+  familyToggleEl.setAttribute("aria-expanded", isOpen ? "true" : "false");
+}
+
+function revealNavButton(button) {
+  const navRect = familyNavEl.getBoundingClientRect();
+  const rect = button.getBoundingClientRect();
+  if (rect.top < navRect.top) familyNavEl.scrollTop -= navRect.top - rect.top;
+  else if (rect.bottom > navRect.bottom) familyNavEl.scrollTop += rect.bottom - navRect.bottom;
+}
+
+function currentFamilyKey() {
+  const line = listToolsEl.getBoundingClientRect().bottom + 12;
+  const sections = state.familySections.filter((section) => !section.hidden);
+  if (!sections.length) return "";
+  let current = sections[0];
+  for (const section of sections) {
+    if (section.getBoundingClientRect().top <= line + 1) current = section;
+    else break;
+  }
+  const atBottom =
+    window.scrollY > 0 &&
+    window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2;
+  if (atBottom) {
+    const last = sections[sections.length - 1];
+    if (last.getBoundingClientRect().top < window.innerHeight) current = last;
+  }
+  return current.dataset.family || "";
+}
+
+function setActiveFamily(key, { scrollNav = true } = {}) {
+  if (familyViewEl.hidden) return;
+  if (!key) {
+    activeFamily = "";
+    for (const button of state.familyButtons) {
+      button.classList.remove("is-active");
+      button.removeAttribute("aria-current");
+    }
+    familyToggleLabelEl.textContent = "ოჯახები";
+    familyToggleEl.setAttribute("aria-label", "ოჯახები");
+    return;
+  }
+  const changed = key !== activeFamily;
+  activeFamily = key;
+  let activeButton = null;
+  for (const button of state.familyButtons) {
+    const active = button.dataset.family === key && !button.hidden;
+    button.classList.toggle("is-active", active);
+    if (active) {
+      button.setAttribute("aria-current", "true");
+      activeButton = button;
+    } else {
+      button.removeAttribute("aria-current");
+    }
+  }
+  const toggleLabel = activeButton ? activeButton.textContent : "ოჯახები";
+  familyToggleLabelEl.textContent = toggleLabel;
+  familyToggleEl.setAttribute("aria-label", toggleLabel);
+  if (changed && scrollNav && familyMenuEl.classList.contains("is-open") && activeButton) {
+    revealNavButton(activeButton);
+  }
+}
+
+function scrollToFamily(key) {
+  const section = state.familySections.find((item) => item.dataset.family === key);
+  if (!section || section.hidden) return;
+  const heading = section.querySelector(".family-heading") || section;
+  void section.offsetHeight;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const top = window.scrollY + heading.getBoundingClientRect().top - toolsOffset();
+  window.scrollTo({ top: Math.max(0, top), behavior: reduce ? "auto" : "smooth" });
+}
+
+function bindFamilySpy() {
+  familyObserver?.disconnect();
+  if (familyViewEl.hidden) return;
+  syncToolsHeight();
+  const offset = toolsOffset();
+  familyObserver = new IntersectionObserver(
+    () => {
+      if (!familyViewEl.hidden) setActiveFamily(currentFamilyKey());
+    },
+    {
+      rootMargin: `-${offset}px 0px -55% 0px`,
+      threshold: [0, 1],
+    },
+  );
+  for (const section of state.familySections) {
+    if (!section.hidden) familyObserver.observe(section);
+  }
+  setActiveFamily(currentFamilyKey(), { scrollNav: false });
 }
 
 searchEl.addEventListener("input", (event) => {
@@ -719,16 +922,57 @@ alphabetEl.addEventListener("click", (event) => {
 });
 
 document.addEventListener("click", (event) => {
-  if (!alphabetMenuEl.classList.contains("is-open")) return;
-  if (alphabetMenuEl.contains(event.target)) return;
-  setAlphabetOpen(false);
+  if (alphabetMenuEl.classList.contains("is-open") && !alphabetMenuEl.contains(event.target)) {
+    setAlphabetOpen(false);
+  }
+  if (familyMenuEl.classList.contains("is-open") && !familyMenuEl.contains(event.target)) {
+    setFamilyOpen(false);
+  }
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") setAlphabetOpen(false);
+  if (event.key !== "Escape") return;
+  setAlphabetOpen(false);
+  setFamilyOpen(false);
 });
 
 narrowAlphabetQuery.addEventListener("change", () => setAlphabetOpen(false));
+
+familyToggleEl.addEventListener("click", () => {
+  const next = !familyMenuEl.classList.contains("is-open");
+  setFamilyOpen(next);
+  if (!next) return;
+  const activeButton = state.familyButtons.find((button) => button.classList.contains("is-active"));
+  if (!activeButton) return;
+  void familyNavEl.offsetHeight;
+  revealNavButton(activeButton);
+});
+
+familyNavEl.addEventListener("click", (event) => {
+  const button = event.target.closest("button");
+  if (!button || button.hidden) return;
+  setActiveFamily(button.dataset.family, { scrollNav: false });
+  scrollToFamily(button.dataset.family);
+  setFamilyOpen(false);
+});
+
+window.addEventListener(
+  "scroll",
+  () => {
+    if (familyViewEl.hidden || familyScrollQueued) return;
+    familyScrollQueued = true;
+    requestAnimationFrame(() => {
+      familyScrollQueued = false;
+      if (!familyViewEl.hidden) setActiveFamily(currentFamilyKey());
+    });
+  },
+  { passive: true },
+);
+
+window.addEventListener("resize", () => {
+  syncToolsHeight();
+  if (!familyViewEl.hidden) bindFamilySpy();
+});
 
 detailEl.addEventListener("click", async (event) => {
   const button = event.target.closest("[data-copy]");
