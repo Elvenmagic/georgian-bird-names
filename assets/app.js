@@ -167,6 +167,49 @@ const statusLabels = {
   EX: "გადაშენებული",
 };
 
+const statusExplanations = {
+  "YR-R": "მობინადრე სახეობა; საქართველოს ტერიტორიაზე გვხვდება მთელი წლის განმავლობაში.",
+  "YR-V":
+    "საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს წელიწადის ყველა სეზონზე, მაგრამ სახეობის ბუდობა ქვეყანაში არ დასტურდება.",
+  BB: "მობუდარი სახეობა; ბუდობის დასრულების შემდეგ საბუდარ ტერიტორიებს ტოვებს.",
+  IB: "არარეგულარული მობუდარი სახეობა.",
+  OB: "იშვიათი მობუდარი სახეობა.",
+  FB: "წარსულში რეგულარულად მობუდარი სახეობა; ბუდობა აღარ დასტურდება.",
+  SV: "სახეობა საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს გაზაფხულსა და ზაფხულში, მაგრამ ბუდობა არ დასტურდება.",
+  M: "მიმომფრენი სახეობა; საქართველოს ტერიტორიაზე ძირითადად შეიძლება შეგვხვდეს, გაზაფხულსა და შემოდგომაზე.",
+  WV: "მოზამთრე სახეობა; საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს გვიან შემოდგომაზე, ზამთარში და ადრეულ გაზაფხულზე.",
+  AD: "შემთხვევითი შემომფრენი სახეობა; აბრევიაცია მიუთითებს, რომ სახეობა არის იშვიათი, ან ძალიან იშვიათი საქართველოში და მისი არსებობის მხოლოდ ერთეული რეგისტრირებული შემთხვევები არსებობს; სახეობის გავრცელების არეალი შორსაა საქართველოდან.",
+  ND: "სახეობა ნაპოვნია საქართველოში, მაგრამ სტატუსი არაა დადგენილი.",
+  EX: "გადაშენებული; სულ მცირე 20 წლის განმავლობაში, მითითებული სახეობის საქართველოში ნახვის შესახებ ცნობები არ არსებობს (აბრევიაცია მხოლოდ ეხება მობუდარ და მოზამთრე სახეობებს და არა იშვიათ მიგრანტებს).",
+  Cas: "შემთხვევითი შემომფრენი სახეობა; ფიქსირდება არარეგულარულად;",
+  INT: "ადამიანის მიერ შემოყვანილი სახეობა, რომლის გავრცელების არეალი ცდება საქართველოს ტერიტორიას და აქამდე ბუნებრივად არ გვხვდებოდა ქვეყანაში; სახეობამ დაიწყო გამრავლება და ადგილობრივი ორნითოფაუნის ნაწილი გახდა.",
+  ESC: "გაქცეული სახეობა; აბრევიაცია ისეთ სახეობებს მიუთითებს, რომლებიც გაიქცნენ (ან თვითნებურად გაუშვეს) კერძო კოლექციებიდან, მაგრამ ქვეყნის ტერიტორიაზე დაფუძნება ვერ შეძლეს.",
+};
+
+const iucnLabels = {
+  EX: "გადაშენებული",
+  EW: "ბუნებაში გადაშენებული",
+  CR: "კრიტიკულ საფრთხეში",
+  EN: "საფრთხეში",
+  VU: "მოწყვლადი",
+  NT: "საფრთხესთან ახლოს",
+  LC: "არ საჭიროებს ზრუნვას",
+  DD: "არასრული მონაცემები",
+};
+
+const iucnExplanations = {
+  EX: "გადაშენებული სახეობა.",
+  EW: "ბუნებაში გადაშენებული სახეობა.",
+  CR: "კრიტიკულ საფრთხეში მყოფი სახეობა.",
+  EN: "საფრთხეში მყოფი სახეობა.",
+  VU: "მოწყვლადი სახეობა.",
+  NT: "საფრთხესთან ახლოს მყოფი სახეობა.",
+  LC: "არ საჭიროებს ზრუნვას.",
+  DD: "არასრული მონაცემები.",
+};
+
+const tipIcon = `<svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 11.2v5.3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 8h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>`;
+
 function statusCodesOf(bird) {
   return String(bird.status || "")
     .split(",")
@@ -315,19 +358,51 @@ const linkIcons = {
   wikipedia: `<svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M6.6 16.4 8.7 7.8h1.2l2.1 6.4 2.1-6.4h1.2l2.1 8.6"/></svg>`,
 };
 
+function tipControl(id, label) {
+  return `<button type="button" class="tip" popovertarget="${escapeHtml(id)}" aria-label="${escapeHtml(label)}">${tipIcon}</button>`;
+}
+
+function explanationPopover(id, items) {
+  if (!items.length) return "";
+  return `<div id="${escapeHtml(id)}" class="note" popover>${items
+    .map((item) => `<p>${item}</p>`)
+    .join("")}</div>`;
+}
+
 function presenceList(bird) {
+  const statusNotes = statusCodesOf(bird)
+    .filter((code) => statusExplanations[code])
+    .map(
+      (code) => `<strong>${escapeHtml(code)}</strong> ${escapeHtml(statusExplanations[code])}`,
+    );
+  const iucn = String(bird.iucn || "").trim();
+  const iucnName = iucnLabels[iucn] || "";
+  const iucnNotes = iucnExplanations[iucn]
+    ? [`<strong>${escapeHtml(iucn)}</strong> ${escapeHtml(iucnExplanations[iucn])}`]
+    : [];
   const rows = [
-    ["საქართველოში", statusText(bird)],
-    ["რიგი", bird.orderKa],
-    ["ოჯახი", bird.familyKa],
-  ].filter(([, value]) => String(value || "").trim());
+    {
+      label: "საქართველოში",
+      html: escapeHtml(statusText(bird)),
+      tip: statusNotes.length ? tipControl("status-note", "სტატუსის ახსნა") : "",
+    },
+    {
+      label: "წითელი ნუსხა",
+      html: iucn
+        ? `<span class="iucn iucn-${escapeHtml(iucn.toLowerCase())}">${escapeHtml(iucn)}</span>${escapeHtml(iucnName)}`
+        : "",
+      tip: iucnNotes.length ? tipControl("iucn-note", "კატეგორიის ახსნა") : "",
+    },
+    { label: "რიგი", html: escapeHtml(bird.orderKa || "") },
+    { label: "ოჯახი", html: escapeHtml(bird.familyKa || "") },
+  ].filter((row) => row.html.trim());
   if (!rows.length) return "";
   return `<dl class="presence">${rows
     .map(
-      ([label, value]) =>
-        `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`,
+      (row) =>
+        `<div><dt><span>${escapeHtml(row.label)}</span>${row.tip || ""}</dt><dd>${row.html}</dd></div>`,
     )
-    .join("")}</dl>`;
+    .join("")}</dl>${explanationPopover("status-note", statusNotes)}${explanationPopover("iucn-note", iucnNotes)}`;
 }
 
 function detailLinks(bird) {
