@@ -1,6 +1,33 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-15",
   "birds": [
+    {
+      "id": "chlamydotis-macqueenii",
+      "ebirdCode": "macbus1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "აზიური სავათი",
+        "en": "Asian Houbara",
+        "la": "Chlamydotis macqueenii"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg",
+        "credit": "Kannan AS",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "VU",
+      "description": "The Asian houbara (Chlamydotis macqueenii), also known as MacQueen's bustard, is a large bird in the bustard family. It is native to the desert and steppe regions of Asia, east from the Sinai Peninsula extending across Iran and further north toward Kazakhstan and Mongolia. In the 19th century, vagrants were found as far west of their range as Great Britain. Populations have decreased by 20–50% between 1984 and 2004 mainly due to hunting and changes in land-use. The Asian houbara is a partial latitudinal migrant while the African houbara (C. undulata) is more sedentary. These two species are the only members of the genus Chlamydotis. The Asian houbara used to be regarded as a subspecies of the African houbara.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Asian_houbara",
+        "ebird": "https://ebird.org/species/macbus1"
+      }
+    },
     {
       "id": "charadrius-asiaticus",
       "ebirdCode": "casplo1",
@@ -25,7 +52,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "Cas"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "falco-columbarius",
@@ -52,7 +80,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "comkin1",
@@ -78,7 +107,8 @@
       "orderKa": "ყაპყაპისნაირნი",
       "family": "Alcedinidae",
       "familyKa": "ალკუნისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "prunella-collaris",
@@ -105,7 +135,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
       "familyKa": "ჭვინტაკასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "bucephala-clangula",
@@ -131,7 +162,35 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "larus-atricilla",
+      "ebirdCode": "laugul",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ამერიკული მოცინარი თოლია",
+        "en": "Laughing gull",
+        "la": "Larus atricilla"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Leucophaeus_atricilla_Caye_Caulker_04.JPG",
+        "credit": "Cephas",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Leucophaeus_atricilla_Caye_Caulker_04.JPG"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The laughing gull (Leucophaeus atricilla) is a medium-sized gull of North and South America. Named from its laugh-like call, it is an opportunistic omnivore and scavenger. It breeds in large colonies mostly along the Atlantic coast of North America, the Caribbean, and northern South America. Two subspecies are accepted, L. a. atricilla, which occurs from the West Indies to the Venezuelan islands, and L. a. megalopterus, which occurs from southeast Canada down to Central America. The laughing gull was long placed in the genus Larus until its present placement in Leucophaeus.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Laughing_gull",
+        "ebird": "https://ebird.org/species/laugul"
+      }
     },
     {
       "id": "tadorna-tadorna",
@@ -157,7 +216,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-V"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "podiceps-nigricollis",
@@ -184,7 +244,8 @@
       "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
       "familyKa": "კოკონასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "larus-audouinii",
@@ -210,7 +271,35 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "VU"
+    },
+    {
+      "id": "alexandrinus-krameri",
+      "ebirdCode": "rorpar",
+      "inGeorgia": true,
+      "names": {
+        "ka": "აფრიკული გრძელკუდა თუთიყუში",
+        "en": "Rose-ringed Parakeet",
+        "la": "Alexandrinus krameri"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/African_Rose-ringed_Parakeet%2C_Tendaba%2C_Gambia_1.jpg",
+        "credit": "danielskatz",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_Rose-ringed_Parakeet%2C_Tendaba%2C_Gambia_1.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ESC",
+      "iucn": "LC",
+      "description": "The rose-ringed parakeet (Psittacula krameri), also known as the ring-necked parakeet, or colloquially as the Indian Ringneck, is a medium-sized parrot in the genus Psittacula, of the family Psittaculidae. It has a disjunct native range in tropical northern Africa and the Indian subcontinent, and is now introduced into many other parts of the world where populations have established themselves having been bred for the exotic pet trade and then escaped.\nThe species is listed as least concern by the International Union for Conservation of Nature (IUCN) because its population appears to be increasing, but its popularity as a pet and unpopularity with farmers have reduced its numbers in some parts of its native range.\nOne of the few parrot species that have successfully adapted to living in disturbed habitats, it has withstood the onslaught of urbanisation and deforestation. As a popular pet species, escaped birds have colonised a number of cities around the world, including populations in northern and western Europe. They can live in a variety of climates outside their native range, and are able to survive low winter temperatures in northern Europe.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Rose-ringed_parakeet",
+        "ebird": "https://ebird.org/species/rorpar"
+      }
     },
     {
       "id": "luscinia-luscinia",
@@ -236,7 +325,35 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "streptopelia-orientalis",
+      "ebirdCode": "ortdov",
+      "inGeorgia": true,
+      "names": {
+        "ka": "აღმოსავლური გვრიტი",
+        "en": "Oriental Turtle Dove",
+        "la": "Streptopelia orientalis"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/2026-08-27_Streptopelia_orientalis_in_Chitose.jpg",
+        "credit": "J. Patrick Fischer",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2026-08-27_Streptopelia_orientalis_in_Chitose.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "M",
+      "iucn": "LC",
+      "description": "The Oriental turtle dove or rufous turtle dove (Streptopelia orientalis) is a member of the bird family Columbidae. The species has a wide native distribution range from Central Asia east across Asia to Japan. The populations show variations in the patterning of plumage and have been designated into at least six named subspecies. Populations in the higher latitudes tend to migrate south in winter, while those closer to the tropics are sedentary. Vagrants have been recorded in North America. The species is predominantly granivorous and forages on the ground.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Oriental_turtle_dove",
+        "ebird": "https://ebird.org/species/ortdov"
+      }
     },
     {
       "id": "alauda-gulgula",
@@ -262,7 +379,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-crassirostris",
@@ -288,7 +406,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "falco-cherrug",
@@ -315,7 +434,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "YR-R, M"
+      "status": "OB, M, WV",
+      "iucn": "EN"
     },
     {
       "id": "beavul1",
@@ -342,7 +462,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "NT"
     },
     {
       "id": "sylvia-borin",
@@ -369,7 +490,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-hortulana",
@@ -396,7 +518,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
       "status": "BB, M",
-      "familyKa": "გრატასებრნი"
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "hippolais-pallida",
@@ -405,7 +528,7 @@
       "names": {
         "ka": "ბაცი ბუტბუტა (ბაცი მქირდავი)",
         "en": "Olivaceous Warbler",
-        "la": "Hippolais pallida"
+        "la": "Iduna pallida"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Eastern_olivaceous_warbler_%28Iduna_pallida%29_by_Lior_Kislev.jpg",
@@ -422,7 +545,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "aquila-heliaca",
@@ -449,7 +573,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "VU"
     },
     {
       "id": "hippolais-languida",
@@ -475,7 +600,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "anas-acuta",
@@ -501,7 +627,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "OB, M",
+      "iucn": "LC"
     },
     {
       "id": "aegolius-funereus",
@@ -528,7 +655,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "locustella-luscinioides",
@@ -554,7 +682,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
       "familyKa": "ჭრიჭინასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-isabellina",
@@ -581,7 +710,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-dumetorum",
@@ -608,7 +738,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "Cas"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "tyto-alba",
@@ -635,7 +766,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Tytonidae",
       "familyKa": "ბუხრინწასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-trochilus",
@@ -661,7 +793,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "stercorarius-pomarinus",
@@ -687,7 +820,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
       "familyKa": "თოლია-მეკობრესებრნი",
-      "status": "YR-V"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "spatula-clypeata",
@@ -713,7 +847,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "mallar3",
@@ -740,7 +875,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "columba-livia",
@@ -767,7 +903,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "circaetus-gallicus",
@@ -794,7 +931,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "perdix-perdix",
@@ -821,7 +959,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "clangula-hyemalis",
@@ -848,7 +987,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "ND"
+      "status": "Cas, WV",
+      "iucn": "VU"
     },
     {
       "id": "stercorarius-longicaudus",
@@ -874,7 +1014,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
       "familyKa": "თოლია-მეკობრესებრნი",
-      "status": "YR-V"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-agricola",
@@ -901,7 +1042,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "haliaeetus-leucoryphus",
@@ -927,7 +1069,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "EN"
     },
     {
       "id": "mergus-serrator",
@@ -953,7 +1096,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "comcuc",
@@ -980,7 +1124,8 @@
       "orderKa": "გუგულისნაირნი",
       "family": "Cuculidae",
       "familyKa": "გუგულისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "columba-oenas",
@@ -1007,7 +1152,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "YR-R"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "eurrob",
@@ -1034,7 +1180,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "limosa-limosa",
@@ -1060,7 +1207,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "mergus-merganser",
@@ -1086,7 +1234,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "ardea-alba",
@@ -1113,7 +1262,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "YR-V"
+      "status": "YR-V, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-communis",
@@ -1139,7 +1289,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "anser-albifrons",
@@ -1166,7 +1317,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "catharacta-skua",
@@ -1192,7 +1344,8 @@
       "family": "Stercorariidae",
       "status": "Cas",
       "orderKa": "მეჭვავიასნაირნი",
-      "familyKa": "თოლია-მეკობრესებრნი"
+      "familyKa": "თოლია-მეკობრესებრნი",
+      "iucn": "LC"
     },
     {
       "id": "sitta-tephronota",
@@ -1218,7 +1371,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
       "familyKa": "ცოციასებრნი",
-      "status": "YR-R"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "podiceps-cristatus",
@@ -1245,7 +1399,8 @@
       "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
       "familyKa": "კოკონასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "carpodacus-rubicilla",
@@ -1272,7 +1427,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "numenius-arquata",
@@ -1298,7 +1454,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "calandrella-brachydactyla",
@@ -1324,7 +1481,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "clanga-clanga",
@@ -1351,7 +1509,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "VU"
     },
     {
       "id": "botaurus-stellaris",
@@ -1378,7 +1537,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "YR-R"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "larus-ichthyaetus",
@@ -1404,7 +1564,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "phalacrocorax-carbo",
@@ -1431,7 +1592,8 @@
       "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
       "familyKa": "ჩვამასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "gallinago-media",
@@ -1458,7 +1620,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "gretit1",
@@ -1485,7 +1648,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "dendrocopos-major",
@@ -1512,7 +1676,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "francolinus-francolinus",
@@ -1539,7 +1704,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "caprimulgus-aegyptius",
@@ -1565,7 +1731,8 @@
       "orderKa": "უფეხურასნაირნი",
       "family": "Caprimulgidae",
       "familyKa": "უფეხურასებრნი",
-      "status": "ND"
+      "status": "AD",
+      "iucn": "LC"
     },
     {
       "id": "falco-eleonorae",
@@ -1591,7 +1758,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "pelecanus-onocrotalus",
@@ -1618,7 +1786,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Pelecanidae",
       "familyKa": "ვარხვისებრნი",
-      "status": "BB, M"
+      "status": "YR-V, M",
+      "iucn": "LC"
     },
     {
       "id": "sturnus-roseus",
@@ -1627,7 +1796,7 @@
       "names": {
         "ka": "ვარდისფერი შოშია (ტარბი)",
         "en": "Rose-coloured Starling",
-        "la": "Sturnus roseus"
+        "la": "Pastor roseus"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/2018-05-18_Pastor_roseus%2C_Ashington%2C_Northumberland_2.jpg",
@@ -1645,7 +1814,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sturnidae",
       "familyKa": "შოშიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "buteo-rufinus",
@@ -1672,7 +1842,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "aquila-nipalensis",
@@ -1699,7 +1870,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "M"
+      "status": "SV, M",
+      "iucn": "EN"
     },
     {
       "id": "vanellus-gregarius",
@@ -1725,7 +1897,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "M"
+      "status": "Cas, M",
+      "iucn": "CR"
     },
     {
       "id": "melanocorypha-calandra",
@@ -1751,7 +1924,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "BB, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "circus-macrourus",
@@ -1777,7 +1951,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "M"
+      "status": "SV, M, WV",
+      "iucn": "NT"
     },
     {
       "id": "larus-canus",
@@ -1803,7 +1978,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "larus-argentatus",
@@ -1830,7 +2006,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "stercorarius-parasiticus",
@@ -1856,7 +2033,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Stercorariidae",
       "familyKa": "თოლია-მეკობრესებრნი",
-      "status": "YR-V"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "eueowl1",
@@ -1883,7 +2061,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "limosa-lapponica",
@@ -1909,7 +2088,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "larus-marinus",
@@ -1935,7 +2115,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "haematopus-ostralegus",
@@ -1962,7 +2143,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Haematopodidae",
       "familyKa": "სირკაჭკაჭისებრნი",
-      "status": "SV, M"
+      "status": "OB, M",
+      "iucn": "NT"
     },
     {
       "id": "aythya-marila",
@@ -1988,7 +2170,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "charadrius-alexandrinus",
@@ -2014,7 +2197,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "WV, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "calidris-falcinellus",
@@ -2041,7 +2225,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "turdus-torquatus",
@@ -2067,7 +2252,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "dendrocopos-leucotos",
@@ -2093,7 +2279,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-finschii",
@@ -2119,7 +2306,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "oxyura-leucocephala",
@@ -2146,7 +2334,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "EN"
     },
     {
       "id": "aythya-nyroca",
@@ -2172,7 +2361,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "NT"
     },
     {
       "id": "whiwag",
@@ -2199,7 +2389,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "whitst1",
@@ -2226,7 +2417,8 @@
       "orderKa": "ყარყატისნაირნი",
       "family": "Ciconiidae",
       "familyKa": "ყარყატისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "calidris-temminckii",
@@ -2252,7 +2444,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "vanellus-leucurus",
@@ -2279,7 +2472,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "M"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "haliaeetus-albicilla",
@@ -2306,7 +2500,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "pterocles-alchata",
@@ -2332,7 +2527,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Pteroclidae",
       "familyKa": "გვრიტჩიტასებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-sibilatrix",
@@ -2358,7 +2554,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "melanitta-fusca",
@@ -2385,7 +2582,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "BB, WV"
+      "status": "BB, M, WV",
+      "iucn": "VU"
     },
     {
       "id": "ficedula-albicollis",
@@ -2411,7 +2609,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "irania-gutturalis",
@@ -2437,7 +2636,35 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "id": "oenanthe-albonigra",
+      "ebirdCode": "humwhe2",
+      "inGeorgia": true,
+      "names": {
+        "ka": "თეთრშავი მეღორღია",
+        "en": "Hume's Wheatear",
+        "la": "Oenanthe albonigra"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Oenanthe_albonigra_46156058.jpg",
+        "credit": "Jacky Judas",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Oenanthe_albonigra_46156058.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "Hume's wheatear (Oenanthe albonigra) is a species of bird in the Old World flycatcher family Muscicapidae. This black-and-white bird is found in southern Afghanistan, Iran, extreme northeast Iraq, Oman, Pakistan, Qatar and the United Arab Emirates.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hume%27s_wheatear",
+        "ebird": "https://ebird.org/species/humwhe2"
+      }
     },
     {
       "id": "mareca-penelope",
@@ -2464,7 +2691,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "saxicola-rubetra",
@@ -2490,7 +2718,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "turdus-iliacus",
@@ -2516,7 +2745,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "NT"
     },
     {
       "id": "prunella-ocularis",
@@ -2542,7 +2772,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
       "familyKa": "ჭვინტაკასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "remiz-pendulinus",
@@ -2568,7 +2799,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Remizidae",
       "familyKa": "რემეზისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "burhinus-oedicnemus",
@@ -2595,7 +2827,35 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Burhinidae",
       "familyKa": "თვალჭყეტიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "plectrophenax-nivalis",
+      "ebirdCode": "snobun",
+      "inGeorgia": true,
+      "names": {
+        "ka": "თოვლის გრატა",
+        "en": "Snow Bunting",
+        "la": "Plectrophenax nivalis"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Snow_Bunting_%28Plectrophenax_nivalis%29%2C_Thule%2C_Greenland_1.jpg",
+        "credit": "Drew Avery",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Snow_Bunting_(Plectrophenax_nivalis)%2C_Thule%2C_Greenland_1.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ND",
+      "iucn": "LC",
+      "description": "The snow bunting (Plectrophenax nivalis) is a passerine bird in the family Calcariidae. It is an Arctic specialist, with a circumpolar Arctic breeding range throughout the northern hemisphere. There are small isolated populations on a few high mountain tops south of the Arctic region, including the Cairngorms in central Scotland and the Saint Elias Mountains on the southern Alaska-Yukon border, as well as the Cape Breton Highlands. The snow bunting is the most northerly recorded passerine in the world.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Snow_bunting",
+        "ebird": "https://ebird.org/species/snobun"
+      }
     },
     {
       "id": "gelochelidon-nilotica",
@@ -2621,7 +2881,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-V"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "aegithalos-caudatus",
@@ -2648,7 +2909,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Aegithalidae",
       "familyKa": "თოხიტარასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "nucifraga-caryocatactes",
@@ -2675,7 +2937,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "Cas"
+      "status": "Cas, WV",
+      "iucn": "LC"
     },
     {
       "id": "plegadis-falcinellus",
@@ -2702,7 +2965,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Threskiornithidae",
       "familyKa": "ივეოსისებრნი",
-      "status": "M"
+      "status": "M, SV",
+      "iucn": "LC"
     },
     {
       "id": "emppen1",
@@ -2750,7 +3014,35 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "id": "aix-galericulata",
+      "ebirdCode": "manduc",
+      "inGeorgia": true,
+      "names": {
+        "ka": "იხვკაზმულა",
+        "en": "Mandarin Duck",
+        "la": "Aix galericulata"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Pair_of_mandarin_ducks.jpg",
+        "credit": "Francis C. Franklin",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pair_of_mandarin_ducks.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ESC",
+      "iucn": "LC",
+      "description": "The mandarin duck (Aix galericulata) is a perching duck species native to East and Northeast Asia. It is sexually dimorphic; the males are elaborately coloured, while the females have more subdued colours. It is a medium-sized duck, at 41–49 cm (16–19 in) long with a 65–75 cm (26–30 in) wingspan. It is closely related to the North American wood duck, the only other member of the genus Aix. 'Aix' is an Ancient Greek word which was used by Aristotle to refer to an unknown diving bird, and 'galericulata' is the Latin for a wig, derived from galerum, a cap or bonnet. Outside of its native range, the mandarin duck has a large introduced population in the British Isles and Western Europe, with additional smaller introductions in North America.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mandarin_duck",
+        "ebird": "https://ebird.org/species/manduc"
+      }
     },
     {
       "id": "caugro1",
@@ -2777,7 +3069,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "NT"
     },
     {
       "id": "causno1",
@@ -2804,7 +3097,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "alectoris-chukar",
@@ -2831,7 +3125,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "hydroprogne-caspia",
@@ -2858,7 +3153,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "SV, M"
+      "status": "SV, M",
+      "iucn": "LC"
     },
     {
       "id": "larus-cachinnans",
@@ -2884,7 +3180,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "tetraogallus-caspius",
@@ -2911,7 +3208,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "bkimag",
@@ -2938,7 +3236,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "petronia-petronia",
@@ -2964,7 +3263,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "BB, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-cia",
@@ -2989,8 +3289,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "YR-R, M",
-      "familyKa": "გრატასებრნი"
+      "status": "YR-R",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "monticola-solitarius",
@@ -3016,7 +3317,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "hirundo-rupestris",
@@ -3025,7 +3327,7 @@
       "names": {
         "ka": "კლდის მერცხალი",
         "en": "Eurasian Crag martin",
-        "la": "Hirundo rupestris"
+        "la": "Ptyonoprogne rupestris"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Eurasian_Crag-Martin_-_Estremadurai_1779_%2816772419967%29.jpg",
@@ -3042,7 +3344,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
       "familyKa": "მერცხლისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "monticola-saxatilis",
@@ -3068,7 +3371,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "rinphe",
@@ -3095,7 +3399,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "pernis-apivorus",
@@ -3122,7 +3427,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "coccothraustes-coccothraustes",
@@ -3149,7 +3455,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "rallus-aquaticus",
@@ -3175,7 +3482,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "calcarius-lapponicus",
@@ -3201,8 +3509,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "ND",
-      "familyKa": "გრატასებრნი"
+      "status": "Cas",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "tringa-erythropus",
@@ -3229,7 +3538,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-schoeniclus",
@@ -3255,8 +3565,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "YR-R, M",
-      "familyKa": "გრატასებრნი"
+      "status": "YR-R, M, WV",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-arundinaceus",
@@ -3283,7 +3594,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-scirpaceus",
@@ -3310,7 +3622,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "chlidonias-hybrida",
@@ -3336,7 +3649,35 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "tarsiger-cyanurus",
+      "ebirdCode": "refblu",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ლურჯკუდა ბუზიჭერია (მემატლია)",
+        "en": "Orange-flanked Bush-robin",
+        "la": "Tarsiger cyanurus"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Tarsiger_cyanurus.jpg",
+        "credit": "M.Nishimura",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tarsiger_cyanurus.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The red-flanked bluetail (Tarsiger cyanurus), also known as the orange-flanked bush-robin, is a small passerine bird in the Old World flycatcher family. It breeds in mixed coniferous forests in northern Asia, parts of central Asia, and northeastern Europe. It is migratory, wintering mainly in southeast Asia, in the Indian subcontinent, the Himalayas, Taiwan, and northern Indochina.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Red-flanked_bluetail",
+        "ebird": "https://ebird.org/species/refblu"
+      }
     },
     {
       "id": "marmaronetta-angustirostris",
@@ -3389,7 +3730,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "jynx-torquilla",
@@ -3416,7 +3758,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "spilopelia-senegalensis",
@@ -3442,7 +3785,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "YR-R"
+      "status": "INT, YR-R",
+      "iucn": "LC"
     },
     {
       "id": "anthus-pratensis",
@@ -3469,7 +3813,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "circus-pygargus",
@@ -3495,7 +3840,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "bombycilla-garrulus",
@@ -3522,7 +3868,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Bombycillidae",
       "familyKa": "მედუდუკისებრნი",
-      "status": "WV"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "montifringilla-nivalis",
@@ -3549,7 +3896,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "anser-fabalis",
@@ -3576,7 +3924,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "M"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "arenaria-interpres",
@@ -3602,7 +3951,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "tachymarptis-melba",
@@ -3628,7 +3978,8 @@
       "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
       "familyKa": "ნამგალასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "fulica-atra",
@@ -3655,7 +4006,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "riparia-riparia",
@@ -3681,7 +4033,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
       "familyKa": "მერცხლისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "miliaria-calandra",
@@ -3690,7 +4043,7 @@
       "names": {
         "ka": "მეფეტვია (ანუ მინდვრის გრატა)",
         "en": "Corn Bunting",
-        "la": "Miliaria calandra"
+        "la": "Emberiza calandra"
       },
       "photo": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Bruant_proyer_Ichkeul018.jpg/3840px-Bruant_proyer_Ichkeul018.jpg",
@@ -3707,8 +4060,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "YR-R, M",
-      "familyKa": "გრატასებრნი"
+      "status": "YR-R",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "goleag1",
@@ -3735,7 +4089,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "anthus-spinoletta",
@@ -3761,7 +4116,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "parus-montanus",
@@ -3796,7 +4152,7 @@
       "names": {
         "ka": "მთის ჭვინტა",
         "en": "Twite",
-        "la": "Carduelis flavirostris"
+        "la": "Linaria flavirostris"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Twite_%28Linaria_flavirostris%29%2C_Zinc_Road%2C_Teesside_%2853540824279%29.jpg",
@@ -3813,7 +4169,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-sindianus",
@@ -3839,7 +4196,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "accipiter-nisus",
@@ -3866,7 +4224,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-nisoria",
@@ -3892,7 +4251,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "passer-montanus",
@@ -3918,7 +4278,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "anthus-campestris",
@@ -3945,7 +4306,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "alauda-arvensis",
@@ -3972,7 +4334,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "circus-cyaneus",
@@ -3998,7 +4361,35 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "WV, M"
+      "status": "SV, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "id": "calidris-melanotos",
+      "ebirdCode": "pecsan",
+      "inGeorgia": true,
+      "names": {
+        "ka": "მკერდზოლა მექვიშია",
+        "en": "Pectoral Sandpiper",
+        "la": "Calidris melanotos"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pectoral_Sandpiper3.jpg",
+        "credit": "Andreas Trepte",
+        "license": "CC BY-SA 2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Pectoral_Sandpiper3.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ND",
+      "iucn": "LC",
+      "description": "The pectoral sandpiper (Calidris melanotos), often abbreviated pec, is a small, migratory wader that breeds in arctic regions of North America and Asia, wintering in South America and Oceania. It eats small invertebrates. Its nest, a hole scraped in the ground and with a thick lining, is deep enough to protect its four eggs from the cool breezes of its breeding grounds. The pectoral sandpiper is 19–23 cm (7.5–9.1 in) long, with a wingspan of 38–46 cm (15–18 in).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pectoral_sandpiper",
+        "ebird": "https://ebird.org/species/pecsan"
+      }
     },
     {
       "id": "petronia-brachydactyla",
@@ -4007,7 +4398,7 @@
       "names": {
         "ka": "მკრთალი (ანუ მოკლეთითა) კლდის ბეღურა",
         "en": "Pale Rock Sparrow",
-        "la": "Petronia brachydactyla"
+        "la": "Carpospiza brachydactyla"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Carpospiza_brachydactyla.jpg",
@@ -4024,7 +4415,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "BB"
+      "status": "OB, M",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-inornatus",
@@ -4050,7 +4442,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "ND"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "apus-pallidus",
@@ -4077,7 +4470,8 @@
       "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
       "familyKa": "ნამგალასებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "certhia-brachydactyla",
@@ -4103,7 +4497,35 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Certhiidae",
       "familyKa": "მგლინავასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "id": "terathopius-ecaudatus",
+      "ebirdCode": "batele1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "მოკლეკუდა არწივი",
+        "en": "Bateleur",
+        "la": "Terathopius ecaudatus"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bateleur_%28Terathopius_ecaudatus%29_male_Serengeti.jpg",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bateleur_(Terathopius_ecaudatus)_male_Serengeti.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "EN",
+      "description": "The bateleur (; Terathopius ecaudatus), also known as the bateleur eagle, is a medium-sized eagle in the family Accipitridae. It is often considered a relative of the snake eagles and, like them, it is classified within the subfamily Circaetinae. It is the only member of the genus Terathopius and may be the origin of the \"Zimbabwe Bird\", the national emblem of Zimbabwe. Adult bateleurs are generally black in colour with a chestnut colour on the mantle as well as on the rump and tail. Adults also have gray patches about the leading edges of the wings (extending to the secondaries in females) with bright red on their cere and their feet. Adults also show white greater coverts, contrasting with black remiges in males, gray patches on the underwing primaries and black wingtips. The juvenile bateleur is quite different, being largely drab brown with a bit of paler feather scaling. All bateleurs have extremely large heads for their size, rather small bills, large feet, relatively short legs, long, bow-like wings and uniquely short tails, which are much smaller still on adults compared to juvenile birds.\nThis species is native to broad areas of Sub-Saharan Africa and scarcely up into Arabia. It is characteristically a bird of somewhat open habitats such as savanna with some trees present and open dry woodland. It is in life history, a rather peculiar bird of prey with a free-wheeling generalist diet that includes much carrion but also tends to hunt a wide range of live prey, including many small to unexpectedly relatively large mammals and reptiles along with generally relatively small birds. Bateleurs are highly aerial birds that spend much time soaring and will frequently fly with exaggerated embellishments, perhaps when excited or angered. They tend to build a relatively small if sturdy stick nest in a large tree and lay only a single egg. Despite being a rather aggressive bird in other contexts, bateleurs are easily flushed from their own nest, making them exceptionally vulnerable to nest predators, including humans, and nest failures. It may take as long as 7 to 8 years to attain full maturity, perhaps the longest stretch to maturity of any raptor. This species has long been known to be declining rather pronouncedly in overall population and it is mostly confined to protected areas today. Currently the IUCN classifies the bateleur as an Endangered species due primarily to anthropogenic causes such as habitat destruction, pesticide usage and persecution.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bateleur",
+        "ebird": "https://ebird.org/species/batele1"
+      }
     },
     {
       "id": "oriolus-oriolus",
@@ -4130,7 +4552,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Oriolidae",
       "familyKa": "მოლაღურისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "parus-caeruleus",
@@ -4139,7 +4562,7 @@
       "names": {
         "ka": "მოლურჯო წივწივა (მოლურჯო წიწკანა)",
         "en": "Blue Tit",
-        "la": "Parus caeruleus"
+        "la": "Cyanistes caeruleus"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eurasian_blue_tit_Lancashire.jpg",
@@ -4157,7 +4580,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-trochiloides",
@@ -4209,7 +4633,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "ND"
+      "status": "AD",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-citrinella",
@@ -4235,8 +4660,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "YR-R, M",
-      "familyKa": "გრატასებრნი"
+      "status": "WV",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "serinus-serinus",
@@ -4262,7 +4688,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "BB"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "hippolais-caligata",
@@ -4271,7 +4698,7 @@
       "names": {
         "ka": "მურა ბუტბუტა (მურა მქირდავი)",
         "en": "Booted Warbler",
-        "la": "Hippolais caligata"
+        "la": "Iduna caligata"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Booted_Warbler_in_Baruipur_January_2026_by_Tisha_Mukherjee_08.jpg",
@@ -4288,7 +4715,62 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "id": "anthus-rubescens",
+      "ebirdCode": "amepip",
+      "inGeorgia": true,
+      "names": {
+        "ka": "მურამუცელა მწყერჩიტა",
+        "en": "Buff-bellied Pipit",
+        "la": "Anthus rubescens"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg",
+        "credit": "Kathy & Sam from Beaverton OR, USA",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas, WV",
+      "iucn": "LC",
+      "description": "The American pipit (Anthus rubescens), formerly known as the buff-bellied pipit, is a small songbird native to North America. It was first described by Marmaduke Tunstall in his 1771 Ornithologia Britannica. It was formerly classified as a form of the water pipit. The former subspecies, Siberian pipit, is now considered a distinct species.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/American_pipit",
+        "ebird": "https://ebird.org/species/amepip"
+      }
+    },
+    {
+      "id": "phylloscopus-fuscatus",
+      "ebirdCode": "duswar",
+      "inGeorgia": true,
+      "names": {
+        "ka": "მუქი ჭივჭავი (მუქი ყარანა)",
+        "en": "Dusky Warbler",
+        "la": "Phylloscopus fuscatus"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/%E0%A6%97%E0%A6%BE%E0%A6%A2%E0%A6%BC%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%95%E0%A6%BF_%28Dusky_Warbler%29%2C_Phylloscopus_fuscatus_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%B0_%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%BE_%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0_%E0%A6%9A%E0%A6%B0%2C_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%2C_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg",
+        "credit": "Asmarifulanam",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A6%BE%E0%A6%A2%E0%A6%BC%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%95%E0%A6%BF_(Dusky_Warbler)%2C_Phylloscopus_fuscatus_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%B0_%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%BE_%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0_%E0%A6%9A%E0%A6%B0%2C_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%2C_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The dusky warbler (Phylloscopus fuscatus) is a leaf warbler which breeds in the east Palearctic. The genus name Phylloscopus is from Ancient Greek phullon, \"leaf\", and skopos, \"seeker\" (from skopeo, \"to watch\"). The specific fuscatus is from Latin fuscus \"dark\".\nThis warbler is strongly migratory and winters in South Asia and South-east Asia. It sometimes occurs in North America in Alaska, and has also occurred in California.\nThis is an abundant bird of taiga bogs and wet meadows. The nest is built low in a bush, and 5–6 eggs are laid. Like most Old World warblers, this small passerine is insectivorous.\nThe dusky warbler is prone to vagrancy as far as western Europe in October, despite a 3000 km distance from its breeding grounds. It has wintered in Great Britain.\nThis is a warbler similar in size and shape to a chiffchaff. The adult has an unstreaked brown back and buff underparts. There is a prominent whitish supercilium, and the bill is fine and pointed. The sexes are identical, as with most warblers, but young birds are more olive-tinged above. Like most warblers, it is insectivorous, but will take other small food items, including berries.\nThe song is a monotonous whistle, and the call is a harsh check. The call is often the first clue that this typically skulking species is present, away from the breeding grounds.\nAn individual of this locally rare species was detected in an urban park and later ringed in December 2025 in Porto, Portugal",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dusky_warbler",
+        "ebird": "https://ebird.org/species/duswar"
+      }
     },
     {
       "id": "falco-naumanni",
@@ -4314,7 +4796,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "mergellus-albellus",
@@ -4341,7 +4824,35 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "emberiza-pusilla",
+      "ebirdCode": "litbun",
+      "inGeorgia": true,
+      "names": {
+        "ka": "მცირე გრატა",
+        "en": "Little Bunting",
+        "la": "Emberiza pusilla"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Zwergammer.jpg",
+        "credit": "Andreas Trepte",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Zwergammer.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas",
+      "iucn": "LC",
+      "description": "The little bunting (Emberiza pusilla) is a passerine bird belonging to the bunting family (Emberizidae).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Little_bunting",
+        "ebird": "https://ebird.org/species/litbun"
+      }
     },
     {
       "id": "sternula-albifrons",
@@ -4367,7 +4878,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "egretta-garzetta",
@@ -4394,7 +4906,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-curruca",
@@ -4420,7 +4933,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "anser-erythropus",
@@ -4446,7 +4960,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "VU"
     },
     {
       "id": "hydrocoloeus-minutus",
@@ -4472,7 +4987,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "sitta-neumayer",
@@ -4498,7 +5014,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
       "familyKa": "ცოციასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "tachybaptus-ruficollis",
@@ -4525,7 +5042,8 @@
       "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
       "familyKa": "კოკონასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "calidris-minuta",
@@ -4551,7 +5069,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "calandrella-rufescens",
@@ -4560,7 +5079,7 @@
       "names": {
         "ka": "მცირე მოკლეთითა ტოროლა",
         "en": "Lesser Short-Toed Lark",
-        "la": "Calandrella rufescens"
+        "la": "Alaudala heinei"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg",
@@ -4577,7 +5096,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "clanga-pomarina",
@@ -4603,7 +5123,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "cygnus-columbianus",
@@ -4629,7 +5150,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "apus-affinis",
@@ -4682,7 +5204,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "Cas"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "zapornia-parva",
@@ -4708,7 +5231,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "ixobrychus-minutus",
@@ -4734,7 +5258,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "microcarbo-pygmaeus",
@@ -4761,7 +5286,8 @@
       "orderKa": "ჩვამასნაირნი",
       "family": "Phalacrocoracidae",
       "familyKa": "ჩვამასებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "parus-ater",
@@ -4770,7 +5296,7 @@
       "names": {
         "ka": "მცირე წივწივა (მცირე წიწკანა)",
         "en": "Coal Tit",
-        "la": "Parus ater"
+        "la": "Periparus ater"
       },
       "photo": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Coal_Tit_2026_03_23.jpg/3840px-Coal_Tit_2026_03_23.jpg",
@@ -4787,7 +5313,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "charadrius-dubius",
@@ -4814,7 +5341,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "dryobates-minor",
@@ -4840,7 +5368,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "hippolais-icterina",
@@ -4866,7 +5395,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "merops-persicus",
@@ -4890,9 +5420,10 @@
       },
       "order": "CORACIIFORMES",
       "family": "Meropidae",
-      "status": "Cas",
+      "status": "M",
       "orderKa": "ყაპყაპისნაირნი",
-      "familyKa": "კვირიონისებრნი"
+      "familyKa": "კვირიონისებრნი",
+      "iucn": "LC"
     },
     {
       "id": "picus-viridis",
@@ -4918,7 +5449,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-nitidus",
@@ -4942,9 +5474,10 @@
       },
       "order": "PASSERIFORMES",
       "family": "Sylviidae",
-      "status": "BB",
+      "status": "BB, M",
       "orderKa": "ბეღურასნაირნი",
-      "familyKa": "ასპუჭაკასებრნი"
+      "familyKa": "ასპუჭაკასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "tringa-nebularia",
@@ -4971,7 +5504,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "carduelis-chloris",
@@ -4980,7 +5514,7 @@
       "names": {
         "ka": "მწვანულა",
         "en": "European Greenfinch",
-        "la": "Carduelis chloris"
+        "la": "Chloris chloris"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chloris_chloris_%28profile%29.jpg",
@@ -4998,7 +5532,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "bubulcus-ibis",
@@ -5023,7 +5558,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "coturnix-coturnix",
@@ -5050,7 +5586,8 @@
       "orderKa": "ქათმისნაირნი",
       "family": "Phasianidae",
       "familyKa": "ხოხბისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "apus-apus",
@@ -5076,7 +5613,35 @@
       "orderKa": "ნამგალასნაირნი",
       "family": "Apodidae",
       "familyKa": "ნამგალასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "pluvialis-fulva",
+      "ebirdCode": "pagplo",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ნაცრისფერფრთიანი მეჭვავია",
+        "en": "Pacific Golden Plover",
+        "la": "Pluvialis fulva"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg",
+        "credit": "Bering Land Bridge National Preserve",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas",
+      "iucn": "LC",
+      "description": "The Pacific golden plover (Pluvialis fulva) is a migratory shorebird that breeds during summer in Alaska and Siberia. During nonbreeding season, this medium-sized plover migrates widely across the Pacific.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pacific_golden_plover",
+        "ebird": "https://ebird.org/species/pagplo"
+      }
     },
     {
       "id": "ficedula-semitorquata",
@@ -5102,7 +5667,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "loxia-curvirostra",
@@ -5129,7 +5695,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "lanius-nubicus",
@@ -5155,7 +5722,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "Cas"
+      "status": "AD",
+      "iucn": "LC"
     },
     {
       "id": "eugriv1",
@@ -5181,7 +5749,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "melanocorypha-bimaculata",
@@ -5207,7 +5776,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "hooeup",
@@ -5234,7 +5804,8 @@
       "orderKa": "ყაპყაპისნაირნი",
       "family": "Upupidae",
       "familyKa": "ოფოფისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "eubeea1",
@@ -5261,7 +5832,8 @@
       "orderKa": "ყაპყაპისნაირნი",
       "family": "Meropidae",
       "familyKa": "კვირიონისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "pluvialis-apricaria",
@@ -5288,7 +5860,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "himantopus-himantopus",
@@ -5315,7 +5888,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Recurvirostridae",
       "familyKa": "სადგისნისკარტასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "zapornia-pusilla",
@@ -5341,7 +5915,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "BB, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "anthus-gustavi",
@@ -5371,6 +5946,33 @@
       "status": "ND"
     },
     {
+      "id": "gavia-immer",
+      "ebirdCode": "comloo",
+      "inGeorgia": true,
+      "names": {
+        "ka": "პოლარული ღორიხვა",
+        "en": "Common Loon",
+        "la": "Gavia immer"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Gavia_immer_-Minocqua%2C_Wisconsin%2C_USA_-swimming-8.jpg",
+        "credit": "John Picken from Chicago, USA",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gavia_immer_-Minocqua%2C_Wisconsin%2C_USA_-swimming-8.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas",
+      "iucn": "LC",
+      "description": "The common loon or great northern diver (Gavia immer) is a large member of the loon, or diver, family of birds. Breeding adults have a plumage that includes a broad black head and neck with a greenish, purplish, or bluish sheen, blackish or blackish-grey upperparts, and pure white underparts except some black on the undertail coverts and vent. Non-breeding adults are brownish with a dark neck and head marked with dark grey-brown. Their upperparts are dark brownish-grey with an unclear pattern of squares on the shoulders, and the underparts, lower face, chin, and throat are whitish. The sexes look alike, though males are significantly heavier than females. During the breeding season, loons live on lakes and other waterways in Canada, the northern United States (including Alaska), and southern parts of Greenland and Iceland. Small numbers breed on Svalbard and sporadically elsewhere in Arctic Eurasia. Common loons winter on both coasts of North America as far north as Newfoundland and Alaska, and as far south as Mexico, as well as on the Atlantic coast of Europe.\nCommon loons eat a variety of animal prey including fish, crustaceans, insect larvae, molluscs, and occasionally aquatic plant life. They swallow most of their prey underwater, where it is caught, but some larger items are first brought to the surface. Loons are monogamous; that is, a single female and male often together defend a territory and may breed together for a decade or more. Both members of a pair build a large nest out of dead marsh grasses and other plants formed into a mound along the vegetated shores of lakes. A single brood is raised each year from a clutch of one or two olive-brown oval eggs with dark brown spots which are incubated for about 28 days by both parents. Fed by both parents, the chicks fledge in 70 to 77 days. The chicks are capable of diving underwater when just a few days old, and they fly to their wintering areas before ice forms in the fall.\nThe common loon is assessed as a species of least concern on the IUCN Red List of Endangered Species. It is one of the species to which the Agreement on the Conservation of African-Eurasian Migratory Waterbirds applies. The United States Forest Service has designated the common loon a species of special status because of threats from habitat loss and toxic metal poisoning in its US range.\nThe common loon is the provincial bird of Ontario, and it appears on Canadian currency, including the one-dollar \"loonie\" coin and a previous series of $20 bills. In 1961, it was designated the state bird of Minnesota, and appears on the Minnesota State Quarter and the state Seal of Minnesota.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Common_loon",
+        "ebird": "https://ebird.org/species/comloo"
+      }
+    },
+    {
       "id": "vanellus-vanellus",
       "ebirdCode": "norlap",
       "inGeorgia": true,
@@ -5395,7 +5997,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "NT"
     },
     {
       "id": "platalea-leucorodia",
@@ -5422,7 +6025,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Threskiornithidae",
       "familyKa": "ივეოსისებრნი",
-      "status": "M"
+      "status": "M, SV",
+      "iucn": "LC"
     },
     {
       "id": "erythropygia-galactotes",
@@ -5431,7 +6035,7 @@
       "names": {
         "ka": "ჟღალი ბულბული",
         "en": "Rufous-tailed Scrub-Robin",
-        "la": "Erythropygia galactotes"
+        "la": "Cercotrichas galactotes"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Agrobate_roux_au_Parc_National_de_l%27Ichkeul_%28Tunisia%29%2C_crop.jpg",
@@ -5448,7 +6052,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "glareola-pratincola",
@@ -5474,7 +6079,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Glareolidae",
       "familyKa": "მერცხალასებრნი",
-      "status": "M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-schwarzi",
@@ -5500,7 +6106,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "Cas"
+      "status": "AD",
+      "iucn": "LC"
     },
     {
       "id": "anthus-richardi",
@@ -5527,7 +6134,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "turdus-pilaris",
@@ -5554,7 +6162,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "xenus-cinereus",
@@ -5581,7 +6190,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "anser-anser",
@@ -5607,7 +6217,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "WV, SV, M",
+      "iucn": "LC"
     },
     {
       "id": "motacilla-cinerea",
@@ -5634,7 +6245,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "muscicapa-striata",
@@ -5660,7 +6272,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "mareca-strepera",
@@ -5687,7 +6300,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "picus-canus",
@@ -5714,7 +6328,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "ND"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "pluvialis-squatarola",
@@ -5741,7 +6356,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "lanius-excubitor",
@@ -5767,7 +6383,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "WV"
+      "status": "WV",
+      "iucn": "LC"
     },
     {
       "id": "ardea-cinerea",
@@ -5794,7 +6411,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "corvus-corone",
@@ -5821,7 +6439,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "grus-grus",
@@ -5848,7 +6467,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Gruidae",
       "familyKa": "წეროსებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-buchanani",
@@ -5868,7 +6488,8 @@
       "description": "The grey-necked bunting, sometimes referred to as grey-hooded bunting is a species of bird in the family Emberizidae. It breeds along a wide distribution range from the Caspian Sea to the Altai Mountains in Central Asia and winters in parts of Southern Asia. Like other buntings it is found in small flocks.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Grey-necked_bunting",
-        "ebird": "https://ebird.org/species/gyhbun1"
+        "ebird": "https://ebird.org/species/gyhbun1",
+        "wikipediaKa": "https://ka.wikipedia.org/wiki/%E1%83%A0%E1%83%A3%E1%83%AE%E1%83%99%E1%83%98%E1%83%A1%E1%83%94%E1%83%A0%E1%83%90_%E1%83%92%E1%83%A0%E1%83%90%E1%83%A2%E1%83%90"
       },
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
@@ -5901,7 +6522,8 @@
       "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
       "familyKa": "კოკონასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "eremophila-alpestris",
@@ -5927,7 +6549,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "recurvirostra-avosetta",
@@ -5954,7 +6577,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Recurvirostridae",
       "familyKa": "სადგისნისკარტასებრნი",
-      "status": "YR-V, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "otis-tarda",
@@ -5981,7 +6605,35 @@
       "orderKa": "სავათისნაირნი",
       "family": "Otididae",
       "familyKa": "სავათისებრნი",
-      "status": "ND"
+      "status": "WV, EX",
+      "iucn": "VU"
+    },
+    {
+      "id": "charadrius-tricollaris",
+      "ebirdCode": "thbplo1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "სამზოლა აფრიკული წინტალა",
+        "en": "African Three-banded Plover",
+        "la": "Charadrius tricollaris"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Three-banded_plover_%28Charadrius_tricollaris%29.jpg",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Three-banded_plover_(Charadrius_tricollaris).jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The three-banded plover, or three-banded sandplover (Charadrius tricollaris, syn.: Thinornis tricollaris), is a small wader. This  plover is resident and generally sedentary in much of East Africa, southern Africa and Madagascar. It occurs mainly on inland rivers, pools, lakes and pans, frequenting their exposed shores. This species is often seen as single individuals, but it will form small flocks. It hunts by sight for insects, worms and other invertebrates. Three-banded plovers have a sharp whistled weeet-weet call. Its larger and darker-plumaged sister species, Forbes's plover, replaces it in West Africa and in the moist tropics. The two species have largely allopatric breeding ranges. Both species present a distinctively elongated profile, due to their proportionally long tail and wings.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Three-banded_plover",
+        "ebird": "https://ebird.org/species/thbplo1"
+      }
     },
     {
       "id": "rissa-tridactyla",
@@ -6007,7 +6659,35 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV"
+      "status": "WV",
+      "iucn": "VU"
+    },
+    {
+      "id": "oena-capensis",
+      "ebirdCode": "namdov1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "სამხრეთ აფრიკული გვრიტი (გრძელკუდა გვრიტი)",
+        "en": "Namaqua Dove",
+        "la": "Oena capensis"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8%2C_crop.jpg",
+        "credit": "Lip Kee from Singapore, Republic of Singapore",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8%2C_crop.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The Namaqua dove (Oena capensis) is a very small species of pigeon. It is the only species in the genus Oena. It is found over much of Sub-Saharan Africa as well as Arabia and Madagascar.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Namaqua_dove",
+        "ebird": "https://ebird.org/species/namdov1"
+      }
     },
     {
       "id": "tetrax-tetrax",
@@ -6034,7 +6714,35 @@
       "orderKa": "სავათისნაირნი",
       "family": "Otididae",
       "familyKa": "სავათისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "NT"
+    },
+    {
+      "id": "threskiornis-aethiopicus",
+      "ebirdCode": "sacibi1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "საღვთო ივეოსი",
+        "en": "African Sacred Ibis",
+        "la": "Threskiornis aethiopicus"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sacred_ibis_%28Threskiornis_aethiopicus%29.jpg",
+        "credit": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sacred_ibis_(Threskiornis_aethiopicus).jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ESC",
+      "iucn": "LC",
+      "description": "The African sacred ibis (Threskiornis aethiopicus) is a species of ibis, a wading bird of the family Threskiornithidae. It is native to much of Africa, as well as small parts of Iraq, Iran and Kuwait. It is especially known for its role in Ancient Egyptian religion, where it was linked to the god Thoth. The species is currently extirpated from Egypt.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/African_sacred_ibis",
+        "ebird": "https://ebird.org/species/sacibi1"
+      }
     },
     {
       "id": "streptopelia-decaocto",
@@ -6061,7 +6769,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "charadrius-hiaticula",
@@ -6088,7 +6797,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "numenius-phaeopus",
@@ -6114,7 +6824,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "leiopicus-medius",
@@ -6140,7 +6851,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "houspa",
@@ -6167,7 +6879,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "aegypius-monachus",
@@ -6194,7 +6907,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M",
+      "iucn": "NT"
     },
     {
       "id": "ostric2",
@@ -6242,7 +6956,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "fringilla-coelebs",
@@ -6269,7 +6984,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "larus-armenicus",
@@ -6296,7 +7012,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "falco-rusticolus",
@@ -6323,7 +7040,35 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "id": "emberiza-rustica",
+      "ebirdCode": "rusbun",
+      "inGeorgia": true,
+      "names": {
+        "ka": "სოფლის გრატა",
+        "en": "Rustic Bunting",
+        "la": "Emberiza rustica"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kashiradaka-01.jpg",
+        "credit": "Gin tonic",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kashiradaka-01.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas",
+      "iucn": "VU",
+      "description": "The rustic bunting (Emberiza rustica) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern authors from the finches, Fringillidae. The genus name Emberiza is from Old German Embritz, a bunting. The specific rustica is Latin for \"rustic, simple\".\nThe rustic bunting was first formally Species description described in 1776 by the Prussian naturalist and explorer Peter Simon Pallas with Dauria give as the type locality. This species is  classified in the genus Emberiza, the typical buntings, in the family Emberizidae. Within Emberiza the rustic bunting is sister to the little bunting (E. pusilla).\nThere are two subspecies:\n\nEmberiza rustica rustica: breeds in the taiga over most of Eurasia from Scandinavia to Siberia.\nEmberiza rustica latifascia: breeds in far eastern Siberia from Yakutsk to Kamchatka.\nIt breeds across the northern Palearctic. It is migratory, wintering in south-east Asia, Japan, Korea, and eastern China. It is a rare wanderer to western Europe.\nIt breeds in wet coniferous woodland. Four to six eggs are laid in a nest in a bush or on the ground. Its natural food consists of seeds, and when feeding young, insects.\nThis bird is similar in size to a reed bunting. It has white underparts with reddish flank, pink legs and a pink lower mandible. The summer male has a black head with a white throat and supercilium and a reddish breast band.\nThe female has a heavily streaked brown back and brown face with a whitish supercilium. She resembles a female reed bunting, but has the reddish flank streaks, a chestnut nape and a pink, not grey, lower mandible.\nThe call is a zit, similar to that of a song thrush (Turdus philomelos), and the song is a melancholic delee-deloo-delee.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Rustic_bunting",
+        "ebird": "https://ebird.org/species/rusbun"
+      }
     },
     {
       "id": "barswa",
@@ -6349,7 +7094,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
       "familyKa": "მერცხლისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "pyrrhula-pyrrhula",
@@ -6376,7 +7122,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "anas-crecca",
@@ -6403,7 +7150,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "charadrius-leschenaultii",
@@ -6429,7 +7177,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "Cas"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "podiceps-auritus",
@@ -6456,7 +7205,8 @@
       "orderKa": "კოკონასნაირნი",
       "family": "Podicipedidae",
       "familyKa": "კოკონასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "VU"
     },
     {
       "id": "larus-ridibundus",
@@ -6483,7 +7233,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "eudromias-morinellus",
@@ -6510,7 +7261,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "M"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "calidris-pugnax",
@@ -6537,7 +7289,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "strix-aluco",
@@ -6564,7 +7317,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "tringa-glareola",
@@ -6590,7 +7344,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "anthus-trivialis",
@@ -6616,7 +7371,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "lullula-arborea",
@@ -6643,7 +7399,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "BB, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "scolopax-rusticola",
@@ -6670,7 +7427,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "prunella-modularis",
@@ -6696,7 +7454,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Prunellidae",
       "familyKa": "ჭვინტაკასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-deserti",
@@ -6722,7 +7481,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "ND"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "panurus-biarmicus",
@@ -6749,7 +7509,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Timaliidae",
       "familyKa": "ულვაშა წივწივასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "caprimulgus-europaeus",
@@ -6776,7 +7537,8 @@
       "orderKa": "უფეხურასნაირნი",
       "family": "Caprimulgidae",
       "familyKa": "უფეხურასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "cettia-cetti",
@@ -6802,7 +7564,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "neophron-percnopterus",
@@ -6829,7 +7592,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "EN"
     },
     {
       "id": "buteo-lagopus",
@@ -6855,7 +7619,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-leucocephalos",
@@ -6881,8 +7646,9 @@
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
-      "status": "ND",
-      "familyKa": "გრატასებრნი"
+      "status": "Cas, WV",
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "chlidonias-leucopterus",
@@ -6908,7 +7674,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "melanocorypha-leucoptera",
@@ -6917,7 +7684,7 @@
       "names": {
         "ka": "ფრთათეთრი ტოროლა",
         "en": "White-Winged Lark",
-        "la": "Melanocorypha leucoptera"
+        "la": "Alauda leucoptera"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Alauda_leucoptera_57392188.jpg",
@@ -6934,7 +7701,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "elanus-caeruleus",
@@ -6960,7 +7728,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "Cas"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "wallcr1",
@@ -6987,7 +7756,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
       "familyKa": "ცოციასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "rhodopechys-sanguineus",
@@ -7014,7 +7784,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "Cas"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "porzana-porzana",
@@ -7041,7 +7812,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "delichon-urbicum",
@@ -7067,7 +7839,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
       "familyKa": "მერცხლისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "columba-palumbus",
@@ -7094,7 +7867,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "calidris-alba",
@@ -7121,7 +7895,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "accipiter-gentilis",
@@ -7147,7 +7922,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "aquila-fasciata",
@@ -7174,7 +7950,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "accipiter-brevipes",
@@ -7201,7 +7978,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "pelecanus-crispus",
@@ -7228,7 +8006,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Pelecanidae",
       "familyKa": "ვარხვისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-V, M",
+      "iucn": "NT"
     },
     {
       "id": "pernis-ptilorhynchus",
@@ -7254,7 +8033,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "galerida-cristata",
@@ -7280,7 +8060,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "aythya-fuligula",
@@ -7307,7 +8088,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "gulosus-aristotelis",
@@ -7330,9 +8112,10 @@
       },
       "order": "SULIFORMES",
       "family": "Phalacrocoracidae",
-      "status": "Cas",
+      "status": "WV",
       "orderKa": "ჩვამასნაირნი",
-      "familyKa": "ჩვამასებრნი"
+      "familyKa": "ჩვამასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "parus-cristatus",
@@ -7341,7 +8124,7 @@
       "names": {
         "ka": "ქოჩორა წივწივა (ქოჩორა წიწკანა)",
         "en": "Crested Tit",
-        "la": "Parus cristatus"
+        "la": "Lophophanes cristatus"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lophophanes_cristatus_-_01.jpg",
@@ -7358,7 +8141,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "crex-crex",
@@ -7385,7 +8169,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "nycticorax-nycticorax",
@@ -7412,7 +8197,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "BB, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "coracias-garrulus",
@@ -7439,7 +8225,8 @@
       "orderKa": "ყაპყაპისნაირნი",
       "family": "Coraciidae",
       "familyKa": "ყაპყაპისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "lanius-isabellinus",
@@ -7465,7 +8252,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "Cas"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "motacilla-citreola",
@@ -7492,7 +8280,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "regulus-regulus",
@@ -7519,7 +8308,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Reguliidae",
       "familyKa": "ნარჩტასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "motacilla-flava",
@@ -7546,7 +8336,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "ardeola-ralloides",
@@ -7572,7 +8363,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "cygnus-cygnus",
@@ -7599,7 +8391,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "pyrrhocorax-graculus",
@@ -7625,7 +8418,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "larus-michahellis",
@@ -7651,7 +8445,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "corvus-corax",
@@ -7678,7 +8473,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "asio-otus",
@@ -7705,7 +8501,35 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "id": "saxicola-caprata",
+      "ebirdCode": "piebus1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "შავ-თეთრი ოვსადი",
+        "en": "Pied Bushchat",
+        "la": "Saxicola caprata"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg",
+        "credit": "Tisha Mukherjee",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_(cropped).jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The pied bush chat (Saxicola caprata) is a small passerine bird found ranging from West Asia and Central Asia to the Indian subcontinent and Southeast Asia. About sixteen subspecies are recognized through its wide range with many island forms. It is a familiar bird of countryside and open scrub or grassland where it is found perched at the top of short thorn trees or other shrubs, looking out for insect prey. They pick up insects mainly from the ground, and were, like other chats, placed in the thrush family Turdidae, but are now considered as Old World flycatchers.\n\nThey nest in cavities in stone walls or in holes in an embankment, lining the nest with grass and animal hair. The males are black with white shoulder and vent patches whose extent varies among populations. Females are predominantly brownish while juveniles are speckled.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pied_bush_chat",
+        "ebird": "https://ebird.org/species/piebus1"
+      }
     },
     {
       "id": "passer-hispaniolensis",
@@ -7731,7 +8555,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Passeridae",
       "familyKa": "ბეღურასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "larus-fuscus",
@@ -7758,7 +8583,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-pleschanka",
@@ -7784,7 +8610,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-atricapilla",
@@ -7810,7 +8637,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "emberiza-melanocephala",
@@ -7836,7 +8664,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
       "status": "BB, M",
-      "familyKa": "გრატასებრნი"
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "clamator-glandarius",
@@ -7862,7 +8691,8 @@
       "orderKa": "გუგულისნაირნი",
       "family": "Cuculidae",
       "familyKa": "გუგულისებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "larus-melanocephalus",
@@ -7888,7 +8718,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "carduelis-spinus",
@@ -7897,7 +8728,7 @@
       "names": {
         "ka": "შავთავა მწვანულა",
         "en": "Eurasian Siskin",
-        "la": "Carduelis spinus"
+        "la": "Spinus spinus"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Eurasian_siskin_%28Spinus_spinus%29_male_Biebrzanski.jpg",
@@ -7915,7 +8746,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "saxicola-torquatus",
@@ -7941,7 +8773,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "eremopterix-nigriceps",
@@ -7967,7 +8800,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "ND"
+      "status": "AD",
+      "iucn": "LC"
     },
     {
       "id": "parus-palustris",
@@ -7976,7 +8810,7 @@
       "names": {
         "ka": "შავთავა წივწივა (შავთავა წიწკანა)",
         "en": "Marsh Tit",
-        "la": "Parus palustris"
+        "la": "Poecile palustris"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sumpfmeise_im_NSG_Hirschacker_und_Dossenwald_2.jpg",
@@ -7993,7 +8827,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "sitta-krueperi",
@@ -8019,7 +8854,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
       "familyKa": "ცოციასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "ceryle-rudis",
@@ -8072,7 +8908,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "phoenicurus-ochruros",
@@ -8098,7 +8935,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, BB, M",
+      "iucn": "LC"
     },
     {
       "id": "chlidonias-niger",
@@ -8124,7 +8962,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "BB, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "dryocopus-martius",
@@ -8151,7 +8990,8 @@
       "orderKa": "კოდალასნაირნი",
       "family": "Picidae",
       "familyKa": "კოდალასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "tringa-ochropus",
@@ -8178,7 +9018,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "melanocorypha-yeltoniensis",
@@ -8204,7 +9045,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Alaudidae",
       "familyKa": "ტოროლასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "ciconia-nigra",
@@ -8231,7 +9073,8 @@
       "orderKa": "ყარყატისნაირნი",
       "family": "Ciconiidae",
       "familyKa": "ყარყატისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "vanellus-spinosus",
@@ -8257,7 +9100,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Charadriidae",
       "familyKa": "მეჭვავიასებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "pterocles-orientalis",
@@ -8283,7 +9127,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Pteroclidae",
       "familyKa": "გვრიტჩიტასებრნი",
-      "status": "Cas"
+      "status": "YR-V, FB",
+      "iucn": "LC"
     },
     {
       "id": "calidris-alpina",
@@ -8309,7 +9154,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "glareola-nordmanni",
@@ -8335,7 +9181,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Glareolidae",
       "familyKa": "მერცხალასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "emberiza-cirlus",
@@ -8362,7 +9209,35 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Emberizidae",
       "status": "ND",
-      "familyKa": "გრატასებრნი"
+      "familyKa": "გრატასებრნი",
+      "iucn": "LC"
+    },
+    {
+      "id": "emberiza-caesia",
+      "ebirdCode": "crebun2",
+      "inGeorgia": true,
+      "names": {
+        "ka": "შავყელა გრატა (წითელნისკარტა გრატა)",
+        "en": "Cretzschmar's Bunting",
+        "la": "Emberiza caesia"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Emberiza_caesia.jpg",
+        "credit": "Jan Svetlík",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Emberiza_caesia.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ND",
+      "iucn": "LC",
+      "description": "Cretzschmar's bunting (Emberiza caesia) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern authors from the finches, Fringillidae.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Cretzschmar%27s_bunting",
+        "ebird": "https://ebird.org/species/crebun2"
+      }
     },
     {
       "id": "gavia-arctica",
@@ -8389,7 +9264,8 @@
       "orderKa": "ღორიხვასნაირნი",
       "family": "Gaviidae",
       "familyKa": "ღორიხვასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "turdus-atrogularis",
@@ -8415,7 +9291,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-hispanica",
@@ -8442,7 +9319,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "lanius-minor",
@@ -8468,7 +9346,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "pandion-haliaetus",
@@ -8495,7 +9374,8 @@
       "orderKa": "შაკისნაირნი",
       "family": "Pandionidae",
       "familyKa": "შაკისებრნი",
-      "status": "FB, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "eurbla",
@@ -8522,7 +9402,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "accipiter-badius",
@@ -8548,7 +9429,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "comsta",
@@ -8575,7 +9457,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sturnidae",
       "familyKa": "შოშიასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "phoenicurus-phoenicurus",
@@ -8601,7 +9484,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "comnig1",
@@ -8627,7 +9511,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "melanitta-nigra",
@@ -8654,7 +9539,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "Cas"
+      "status": "Cas, WV",
+      "iucn": "LC"
     },
     {
       "id": "streptopelia-turtur",
@@ -8681,7 +9567,8 @@
       "orderKa": "მტრედისნაირნი",
       "family": "Columbidae",
       "familyKa": "მტრედისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "VU"
     },
     {
       "id": "sterna-hirundo",
@@ -8707,7 +9594,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "buteo-buteo",
@@ -8733,7 +9621,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "comkes",
@@ -8760,7 +9649,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "carpodacus-erythrinus",
@@ -8786,7 +9676,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "certhia-familiaris",
@@ -8812,7 +9703,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Certhiidae",
       "familyKa": "მგლინავასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "actitis-hypoleucos",
@@ -8839,7 +9731,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-oenanthe",
@@ -8866,7 +9759,35 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "id": "somateria-mollissima",
+      "ebirdCode": "comeid",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ჩვეულებრივი სუსხური",
+        "en": "Common Eider",
+        "la": "Somateria mollissima"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/%D0%9F%D1%83%D1%85%D1%96%D0%B2%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%96%D0%BD%D0%B1%D1%83%D1%80%D0%BD%D1%81%D1%8C%D0%BA%D1%96%D0%B9_%D0%BA%D0%BE%D1%81%D1%96.jpg",
+        "credit": "Ryzhkov Sergey",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%83%D1%85%D1%96%D0%B2%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%96%D0%BD%D0%B1%D1%83%D1%80%D0%BD%D1%81%D1%8C%D0%BA%D1%96%D0%B9_%D0%BA%D0%BE%D1%81%D1%96.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "Cas, WV",
+      "iucn": "NT",
+      "description": "The common eider (pronounced ) (Somateria mollissima), also called St. Cuthbert's duck or Cuddy's duck, is a large (50–71 cm (20–28 in) in body length) sea-duck that is distributed over the northern coasts of Europe, North America and eastern Siberia. It breeds in Arctic and some northern temperate regions, but winters somewhat farther south in temperate zones, when it can form large flocks on coastal waters. It can fly at speeds up to 113 km/h (70 mph).\nThe eider's nest is built close to the sea and is lined with eiderdown, plucked from the female's breast. This soft and warm lining has long been harvested for filling pillows and quilts, but in more recent years has been largely replaced by down from domestic farm-geese and synthetic alternatives. Although eiderdown pillows or quilts are now a rarity, typically being marketed as luxury goods, eiderdown harvesting continues and is sustainable, as it can be done after the ducklings leave the nest with no harm to the birds.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Common_eider",
+        "ebird": "https://ebird.org/species/comeid"
+      }
     },
     {
       "id": "phoenicopterus-roseus",
@@ -8890,9 +9811,10 @@
       },
       "order": "PHOENICOPTERIFORMES",
       "family": "Phoenicopteridae",
-      "status": "Cas",
+      "status": "M",
       "orderKa": "ფლამინგოსნაირნი",
-      "familyKa": "ფლამიგოსებრნი"
+      "familyKa": "ფლამიგოსებრნი",
+      "iucn": "LC"
     },
     {
       "id": "lanius-collurio",
@@ -8918,7 +9840,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "falco-peregrinus",
@@ -8945,7 +9868,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-collybita",
@@ -8971,7 +9895,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "sitta-europaea",
@@ -8998,7 +9923,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sittidae",
       "familyKa": "ცოციასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "hieraaetus-pennatus",
@@ -9025,7 +9951,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "gallinago-gallinago",
@@ -9051,7 +9978,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-V, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "lymnocryptes-minimus",
@@ -9078,7 +10006,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "WV, M"
+      "status": "WV, M",
+      "iucn": "LC"
     },
     {
       "id": "eurgol",
@@ -9104,7 +10033,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "fringilla-montifringilla",
@@ -9130,7 +10060,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "WV"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "carduelis-flammea",
@@ -9139,7 +10070,7 @@
       "names": {
         "ka": "ჩრდილოეთის ჭვინტა",
         "en": "Common Redpoll",
-        "la": "Carduelis flammea"
+        "la": "Acanthis flammea"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Carduelis_flammea_CT6.jpg",
@@ -9155,7 +10086,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "turdus-viscivorus",
@@ -9182,7 +10114,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "eurjay1",
@@ -9209,7 +10142,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "phylloscopus-tristis",
@@ -9235,7 +10169,8 @@
       "family": "Sylviidae",
       "status": "M",
       "orderKa": "ბეღურასნაირნი",
-      "familyKa": "ასპუჭაკასებრნი"
+      "familyKa": "ასპუჭაკასებრნი",
+      "iucn": "LC"
     },
     {
       "id": "luscinia-svecica",
@@ -9262,7 +10197,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "milvus-migrans",
@@ -9289,16 +10225,17 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "hirundo-daurica",
-      "ebirdCode": "",
+      "ebirdCode": "y00621",
       "inGeorgia": true,
       "names": {
         "ka": "წელწითელა მერცხალი",
         "en": "Red-Rumped Swallow",
-        "la": "Hirundo daurica"
+        "la": "Cecropis daurica"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Red-rumped_swallow_in_Calpe%2C_Spain_-_May_2018_01.jpg",
@@ -9308,13 +10245,15 @@
       },
       "description": "The European red-rumped swallow is a small passerine bird in the swallow family Hirundinidae. Historically, it was usually treated in a broad concept of the genus Hirundo, but is now treated in the genus Cecropis. It was formerly considered to be a subspecies of the eastern red-rumped swallow, united, together with the African red-rumped swallow, under the common name of red-rumped swallow.",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/European_red-rumped_swallow"
+        "wikipedia": "https://en.wikipedia.org/wiki/European_red-rumped_swallow",
+        "ebird": "https://ebird.org/species/y00621"
       },
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
       "family": "Hirundinidae",
       "familyKa": "მერცხლისებრნი",
-      "status": "Cas"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-xanthoprymna",
@@ -9367,7 +10306,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Gruidae",
       "familyKa": "წეროსებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "numenius-tenuirostris",
@@ -9393,7 +10333,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "ND"
+      "status": "ND",
+      "iucn": "CR"
     },
     {
       "id": "larus-genei",
@@ -9419,7 +10360,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-V, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "calidris-ferruginea",
@@ -9445,7 +10387,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "NT"
     },
     {
       "id": "anthus-cervinus",
@@ -9472,7 +10415,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Motacillidae",
       "familyKa": "ბოლოქანქარასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "regulus-ignicapilla",
@@ -9498,7 +10442,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Reguliidae",
       "familyKa": "ნარჩტასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "lanius-senator",
@@ -9524,7 +10469,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "NT"
     },
     {
       "id": "aythya-ferina",
@@ -9550,7 +10496,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "VU"
     },
     {
       "id": "falco-biarmicus",
@@ -9576,7 +10523,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "YR-R, M"
+      "status": "OB, WV",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-mystacea",
@@ -9602,7 +10550,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "BB"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "tadorna-ferruginea",
@@ -9629,7 +10578,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "phalaropus-fulicarius",
@@ -9655,7 +10605,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "Cas"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "milvus-milvus",
@@ -9682,7 +10633,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "Cas"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "phalaropus-lobatus",
@@ -9708,7 +10660,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "oenanthe-chrysopygia",
@@ -9737,6 +10690,33 @@
       "status": "ND"
     },
     {
+      "id": "lanius-phoenicuroides",
+      "ebirdCode": "rutshr2",
+      "inGeorgia": true,
+      "names": {
+        "ka": "წითელკუდა ღაჟო",
+        "en": "Red-tailed Shrike",
+        "la": "Lanius phoenicuroides"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/0T4A6719.jpg",
+        "credit": "Jrrobinantony",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:0T4A6719.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "The red-tailed shrike or Turkestan shrike (Lanius phoenicuroides) is a member of the shrike family (Laniidae). It was formerly considered conspecific with the isabelline shrike and the red-backed shrike.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Red-tailed_shrike",
+        "ebird": "https://ebird.org/species/rutshr2"
+      }
+    },
+    {
       "id": "phoenicurus-erythrogastrus",
       "ebirdCode": "whwred2",
       "inGeorgia": true,
@@ -9760,7 +10740,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "cygnus-olor",
@@ -9787,7 +10768,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-V, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "bucanetes-githagineus",
@@ -9813,7 +10795,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "ND"
+      "status": "Cas",
+      "iucn": "LC"
     },
     {
       "id": "pyrrhocorax-pyrrhocorax",
@@ -9840,7 +10823,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "netta-rufina",
@@ -9866,7 +10850,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "tringa-totanus",
@@ -9893,7 +10878,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "M, WV",
+      "iucn": "LC"
     },
     {
       "id": "falco-vespertinus",
@@ -9920,7 +10906,8 @@
       "orderKa": "შავარდნისნაირნი",
       "family": "Falconidae",
       "familyKa": "შავარდნისებრნი",
-      "status": "BB, M"
+      "status": "FB, M",
+      "iucn": "VU"
     },
     {
       "id": "ficedula-parva",
@@ -9946,7 +10933,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "branta-ruficollis",
@@ -9972,7 +10960,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "WV, M"
+      "status": "Cas, M, WV",
+      "iucn": "VU"
     },
     {
       "id": "gavia-stellata",
@@ -9999,7 +10988,8 @@
       "orderKa": "ღორიხვასნაირნი",
       "family": "Gaviidae",
       "familyKa": "ღორიხვასებრნი",
-      "status": "WV, M"
+      "status": "Cas, WV",
+      "iucn": "LC"
     },
     {
       "id": "serinus-pusillus",
@@ -10026,7 +11016,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "ardea-purpurea",
@@ -10053,7 +11044,8 @@
       "orderKa": "ვარხვისნაირნი",
       "family": "Ardeidae",
       "familyKa": "ყანჩისებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "locustella-lanceolata",
@@ -10106,7 +11098,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Turdidae",
       "familyKa": "შაშვისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-paludicola",
@@ -10160,7 +11153,8 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "YR-R, M"
+      "status": "BB, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "cinclus-cinclus",
@@ -10186,7 +11180,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Cinclidae",
       "familyKa": "წყლის შაშვისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "otus-scops",
@@ -10213,7 +11208,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "asio-flammeus",
@@ -10240,7 +11236,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "tringa-stagnatilis",
@@ -10267,7 +11264,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Scolopacidae",
       "familyKa": "ჩიბუხასებრნი",
-      "status": "YR-R, M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-palustris",
@@ -10294,7 +11292,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "circus-aeroginosus",
@@ -10303,7 +11302,7 @@
       "names": {
         "ka": "ჭაობის ძელქორი (ან ჭაობის ბოლობეჭედა)",
         "en": "Western Marsh Harrier",
-        "la": "Circus aeroginosus"
+        "la": "Circus aeruginosus"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/M%C3%A4nnliche_Rohrweihe_im_Flug_04.jpg",
@@ -10320,7 +11319,8 @@
       "orderKa": "ქორისნაირნი",
       "family": "Accipitridae",
       "familyKa": "ქორისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "spatula-querquedula",
@@ -10347,7 +11347,8 @@
       "orderKa": "ბატისნაირნი",
       "family": "Anatidae",
       "familyKa": "იხვისებრნი",
-      "status": "YR-R, M"
+      "status": "OB, M",
+      "iucn": "LC"
     },
     {
       "id": "acrocephalus-schoenobaenus",
@@ -10374,7 +11375,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Acrocephalidae",
       "familyKa": "მეჩალიასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "carduelis-cannabina",
@@ -10383,7 +11385,7 @@
       "names": {
         "ka": "ჭვინტა (მეკანაფია)",
         "en": "Eurasian Linnet",
-        "la": "Carduelis cannabina"
+        "la": "Linaria cannabina"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Carduelis_cannabina_-England_-male-8.jpg",
@@ -10401,7 +11403,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Fringillidae",
       "familyKa": "მთიულასებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "corvus-frugilegus",
@@ -10428,7 +11431,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R, M"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "troglodytes-hiemalis",
@@ -10437,7 +11441,7 @@
       "names": {
         "ka": "ჭინჭრაქა (ღობემძვრალა)",
         "en": "Winter Wren",
-        "la": "Troglodytes hiemalis"
+        "la": "Troglodytes troglodytes"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Winter_wren_in_Prospect_Park_%2832249%29.jpg",
@@ -10454,7 +11458,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Troglodytidae",
       "familyKa": "ჭინჭრაქასებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "corvus-monedula",
@@ -10481,7 +11486,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Corvidae",
       "familyKa": "ყორნისებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "athene-noctua",
@@ -10508,7 +11514,8 @@
       "orderKa": "ბუსნაირნი",
       "family": "Strigidae",
       "familyKa": "ბუსებრნი",
-      "status": "YR-R"
+      "status": "YR-R",
+      "iucn": "LC"
     },
     {
       "id": "ficedula-hypoleuca",
@@ -10534,7 +11541,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Muscicapidae",
       "familyKa": "მემატლიასებრნი",
-      "status": "M"
+      "status": "M",
+      "iucn": "LC"
     },
     {
       "id": "thalasseus-sandvicensis",
@@ -10560,7 +11568,8 @@
       "orderKa": "მეჭვავიასნაირნი",
       "family": "Laridae",
       "familyKa": "თოლიასებრნი",
-      "status": "YR-V"
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
     },
     {
       "id": "locustella-naevia",
@@ -10586,7 +11595,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
       "familyKa": "ჭრიჭინასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "locustella-fluviatilis",
@@ -10612,7 +11622,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Locustellidae",
       "familyKa": "ჭრიჭინასებრნი",
-      "status": "BB, M"
+      "status": "BB, M",
+      "iucn": "LC"
     },
     {
       "id": "sylvia-melanocephala",
@@ -10638,7 +11649,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Sylviidae",
       "familyKa": "ასპუჭაკასებრნი",
-      "status": "Cas"
+      "status": "Cas, M",
+      "iucn": "LC"
     },
     {
       "id": "puffinus-yelkouan",
@@ -10664,7 +11676,8 @@
       "orderKa": "ქარიშხალასნაირნი",
       "family": "Procellariidae",
       "familyKa": "ქარიშხალასებრნი",
-      "status": "YR-V"
+      "status": "YR-V, WV",
+      "iucn": "VU"
     },
     {
       "id": "parus-lugubris",
@@ -10673,7 +11686,7 @@
       "names": {
         "ka": "ხმელთაშუაზღვის წივწივა (ხმელთაშუაზღვის წიწკანა)",
         "en": "Sombre Tit",
-        "la": "Parus lugubris"
+        "la": "Poecile lugubris"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Poecile_lugubris%2C_Bulgaria_1.jpg",
@@ -10690,7 +11703,8 @@
       "orderKa": "ბეღურასნაირნი",
       "family": "Paridae",
       "familyKa": "წივწივასებრნი",
-      "status": "YR-R"
+      "status": "ND",
+      "iucn": "LC"
     },
     {
       "id": "porphyrio-porphyrio",
@@ -10717,7 +11731,62 @@
       "orderKa": "წეროსნაირნი",
       "family": "Rallidae",
       "familyKa": "ლაინასებრნი",
-      "status": "BB, M"
+      "status": "M, SV, WV",
+      "iucn": "LC"
+    },
+    {
+      "id": "melopsittacus-undulatus",
+      "ebirdCode": "budger",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ხუჭუჭა თუთიყუში",
+        "en": "Budgerigar",
+        "la": "Melopsittacus undulatus"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Budgerigar-male-strzelecki-qld.jpg",
+        "credit": "Benjamint444",
+        "license": "GFDL 1.2",
+        "source": "https://commons.wikimedia.org/wiki/File:Budgerigar-male-strzelecki-qld.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "ESC",
+      "iucn": "LC",
+      "description": "The budgerigar ( BUJ-ər-ih-gar, -⁠ə-ree-; Melopsittacus undulatus), also known as the common parakeet, shell parakeet or budgie ( BUJ-ee), is a small, long-tailed, seed-eating parrot native to Australia. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings. Budgies are bred in captivity with colouring of blues, whites, yellows, greys, and even with small crests. Juveniles and chicks are monomorphic (the sexes are visually indistinguishable), while adults are told apart by their cere colouring and their behaviour.\nThe species is monotypic, meaning it is the only member of the genus Melopsittacus, which is the only genus in the tribe Melopsittacini.  \nThe budgerigar is closely related to lories and the fig parrots.\nThe origin of the budgerigar's name is unclear. First recorded in 1805, budgerigars are popular pets around the world due to their small size, low cost, and ability to mimic human speech. They are the third most popular pet in the world, after the domesticated dog and cat. Budgies are nomadic flock parakeets that have been bred in captivity since the 19th century. In both the wild and in captivity, budgerigars breed opportunistically and in pairs.\nThey are found wild throughout the drier parts of Australia, where they have survived harsh inland conditions for over five million years. Their success can be attributed to a nomadic lifestyle and their ability to breed while on the move.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Budgerigar",
+        "ebird": "https://ebird.org/species/budger"
+      }
+    },
+    {
+      "id": "phylloscopus-humei",
+      "ebirdCode": "humwar1",
+      "inGeorgia": true,
+      "names": {
+        "ka": "ჰიუმის ჭივჭავი (ჰიუმის ყარანა)",
+        "en": "Hume's Leaf Warbler",
+        "la": "Phylloscopus humei"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hume%27s_Warbler_I2_IMG_3401.jpg",
+        "credit": "J.M.Garg",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hume's_Warbler_I2_IMG_3401.jpg"
+      },
+      "order": "",
+      "orderKa": "",
+      "family": "",
+      "familyKa": "",
+      "status": "AD",
+      "iucn": "LC",
+      "description": "Hume's leaf warbler or Hume's warbler (Phylloscopus humei) is a small leaf warbler which breeds in the mountains of inner Asia. This warbler is migratory and winters mainly in India.\nThe English name and the specific humei commemorate Allan Octavian Hume, a British civil\nservant and ornithologist based in India. The genus name Phylloscopus is from Ancient Greek phullon, \"leaf\", and skopos, \"seeker\" (from skopeo, \"to watch\"). Like most similar songbirds, it was formerly included in the \"Old World warbler\" assemblage.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hume%27s_leaf_warbler",
+        "ebird": "https://ebird.org/species/humwar1"
+      }
     }
   ]
 }

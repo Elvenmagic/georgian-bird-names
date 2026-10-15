@@ -63,6 +63,10 @@ data.birds.forEach((bird, index) => {
     }
   }
 
+  if (bird.iucn != null && !/^(?:EX|EW|CR|EN|VU|NT|LC|DD)$/.test(bird.iucn)) {
+    fail(`${place} iucn must be an IUCN category code.`);
+  }
+
   if (bird.photo != null) {
     if (typeof bird.photo !== "object") {
       fail(`${place} photo must be an object or null.`);

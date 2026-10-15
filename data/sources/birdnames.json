@@ -1,0 +1,2954 @@
+{
+  "source": "birdnames.xlsx",
+  "updated": "2026-10-15",
+  "legend": {
+    "status": {
+      "YR-R": "მობინადრე სახეობა; საქართველოს ტერიტორიაზე გვხვდება მთელი წლის განმავლობაში.",
+      "YR-V": "საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს წელიწადის ყველა სეზონზე, მაგრამ სახეობის ბუდობა ქვეყანაში არ დასტურდება.",
+      "BB": "მობუდარი სახეობა; ბუდობის დასრულების შემდეგ საბუდარ ტერიტორიებს ტოვებს.",
+      "IB": "არარეგულარული მობუდარი სახეობა.",
+      "OB": "იშვიათი მობუდარი სახეობა.",
+      "FB": "წარსულში რეგულარულად მობუდარი სახეობა; ბუდობა აღარ დასტურდება.",
+      "SV": "სახეობა საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს გაზაფხულსა და ზაფხულში, მაგრამ ბუდობა არ დასტურდება.",
+      "M": "მიმომფრენი სახეობა; საქართველოს ტერიტორიაზე ძირითადად შეიძლება შეგვხვდეს, გაზაფხულსა და შემოდგომაზე.",
+      "WV": "მოზამთრე სახეობა; საქართველოს ტერიტორიაზე შეიძლება შეგვხვდეს გვიან შემოდგომაზე, ზამთარში და ადრეულ გაზაფხულზე.",
+      "AD": "შემთხვევითი შემომფრენი სახეობა; აბრევიაცია მიუთითებს, რომ სახეობა არის იშვიათი, ან ძალიან იშვიათი საქართველოში და მისი არსებობის მხოლოდ ერთეული რეგისტრირებული შემთხვევები არსებობს; სახეობის გავრცელების არეალი შორსაა საქართველოდან.",
+      "ND": "სახეობა ნაპოვნია საქართველოში, მაგრამ სტატუსი არაა დადგენილი.",
+      "EX": "გადაშენებული; სულ მცირე 20 წლის განმავლობაში, მითითებული სახეობის საქართველოში ნახვის შესახებ ცნობები არ არსებობს (აბრევიაცია მხოლოდ ეხება მობუდარ და მოზამთრე სახეობებს და არა იშვიათ მიგრანტებს).",
+      "Cas": "შემთხვევითი შემომფრენი სახეობა; ფიქსირდება არარეგულარულად;",
+      "INT": "ადამიანის მიერ შემოყვანილი სახეობა, რომლის გავრცელების არეალი ცდება საქართველოს ტერიტორიას და აქამდე ბუნებრივად არ გვხვდებოდა ქვეყანაში; სახეობამ დაიწყო გამრავლება და ადგილობრივი ორნითოფაუნის ნაწილი გახდა.",
+      "ESC": "გაქცეული სახეობა; აბრევიაცია ისეთ სახეობებს მიუთითებს, რომლებიც გაიქცნენ (ან თვითნებურად გაუშვეს) კერძო კოლექციებიდან, მაგრამ ქვეყნის ტერიტორიაზე დაფუძნება ვერ შეძლეს."
+    },
+    "iucn": {
+      "EX": "გადაშენებული სახეობა.",
+      "EW": "ბუნებაში გადაშენებული სახეობა.",
+      "CR": "კრიტიკულ საფრთხეში მყოფი სახეობა.",
+      "EN": "საფრთხეში მყოფი სახეობა.",
+      "VU": "მოწყვლადი სახეობა.",
+      "NT": "საფრთხესთან ახლოს მყოფი სახეობა.",
+      "LC": "არ საჭიროებს ზრუნვას.",
+      "DD": "არასრული მონაცემები."
+    }
+  },
+  "species": [
+    {
+      "la": "Acanthis flammea",
+      "en": "Redpoll",
+      "ka": "ჩრდილოეთის ჭვინტა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Accipiter badius",
+      "en": "Shikra",
+      "ka": "შიკრა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Accipiter brevipes",
+      "en": "Levant Sparrowhawk",
+      "ka": "ქორცქვიტა (შავთვალა მიმინო, ლევანმიმინო)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Accipiter gentilis",
+      "en": "Northern Goshawk",
+      "ka": "ქორი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Accipiter nisus",
+      "en": "Eurasian Sparrowhawk",
+      "ka": "მიმინო",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus agricola",
+      "en": "Paddyfield Warbler",
+      "ka": "გრძელკუდა მეჩალია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus arundinaceus",
+      "en": "Great Reed-warbler",
+      "ka": "ლელიანის დიდი მეჩალია (შაშვისებრი მეჩალია)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus dumetorum",
+      "en": "Blyth's Reed-warbler",
+      "ka": "ბუჩქნარის მეჩალია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus melanopogon",
+      "en": "Moustached Warbler",
+      "ka": "შავთხემა მეჩალია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus palustris",
+      "en": "Marsh Warbler",
+      "ka": "ჭაობის მეჩალია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus schoenobaenus",
+      "en": "Sedge Warbler",
+      "ka": "ჭახჭახა მეჩალია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Acrocephalus scirpaceus",
+      "en": "Common Reed-warbler",
+      "ka": "ლელიანის მეჩალია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Actitis hypoleucos",
+      "en": "Common Sandpiper",
+      "ka": "ჩვეულებრივი მექვიშია (მებორნე)",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aegithalos caudatus",
+      "en": "Long-tailed Tit",
+      "ka": "თოხიტარა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aegolius funereus",
+      "en": "Boreal Owl",
+      "ka": "ბუკიოტი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aegypius monachus",
+      "en": "Cinereous Vulture",
+      "ka": "სვავი",
+      "status": "YR-R, M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Aix galericulata",
+      "en": "Mandarin Duck",
+      "ka": "იხვკაზმულა",
+      "status": "ESC",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alauda arvensis",
+      "en": "Eurasian Skylark",
+      "ka": "მინდვრის ტოროლა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alauda gulgula",
+      "en": "Oriental Skylark",
+      "ka": "აღმოსავლური მინდვრის ტოროლა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alauda leucoptera",
+      "en": "White-winged Lark",
+      "ka": "ფრთათეთრი ტოროლა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alaudala heinei",
+      "en": "Turkestan Short-toed Lark",
+      "ka": "მცირე მოკლეთითა ტოროლა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alcedo atthis",
+      "en": "Common Kingfisher",
+      "ka": "ალკუნი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alectoris chukar",
+      "en": "Chukar",
+      "ka": "კაკაბი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Alexandrinus krameri",
+      "en": "Rose-ringed Parakeet",
+      "ka": "აფრიკული გრძელკუდა თუთიყუში",
+      "status": "ESC",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anas acuta",
+      "en": "Northern Pintail",
+      "ka": "კუდსადგისა იხვი",
+      "status": "OB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anas crecca",
+      "en": "Common Teal",
+      "ka": "ჭიკვარა (სტვენია იხვი)",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anas platyrhynchos",
+      "en": "Mallard",
+      "ka": "გარეული იხვი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anser albifrons",
+      "en": "Greater White-fronted Goose",
+      "ka": "დიდი თეთრშუბლა ბატი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anser anser",
+      "en": "Greylag Goose",
+      "ka": "რუხი ბატი",
+      "status": "WV, SV, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anser erythropus",
+      "en": "Lesser White-fronted Goose",
+      "ka": "მცირე თეთრშუბლა ბატი",
+      "status": "M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Anser fabalis",
+      "en": "Bean Goose",
+      "ka": "მეკალოე ბატი",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthropoides virgo",
+      "en": "Demoiselle Crane",
+      "ka": "წეროტურფა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus campestris",
+      "en": "Tawny Pipit",
+      "ka": "მინდვრის მწყერჩიტა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus cervinus",
+      "en": "Red-throated Pipit",
+      "ka": "წითელგულა მწყერჩიტა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus pratensis",
+      "en": "Meadow Pipit",
+      "ka": "მდელოს მწყერჩიტა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus richardi",
+      "en": "Richard's Pipit",
+      "ka": "რიჩარდის მწყერჩიტა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus rubescens",
+      "en": "Buff-bellied Pipit",
+      "ka": "მურამუცელა მწყერჩიტა",
+      "status": "Cas, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus spinoletta",
+      "en": "Water Pipit",
+      "ka": "მთის მწყერჩიტა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Anthus trivialis",
+      "en": "Tree Pipit",
+      "ka": "ტყის მწყერჩიტა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Apus apus",
+      "en": "Common Swift",
+      "ka": "ნამგალა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Apus pallidus",
+      "en": "Pallid Swift",
+      "ka": "მკრთალი ნამგალა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aquila chrysaetos",
+      "en": "Golden Eagle",
+      "ka": "მთის არწივი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aquila fasciata",
+      "en": "Bonelli's Eagle",
+      "ka": "ქორისებრი არწივი",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aquila heliaca",
+      "en": "Eastern Imperial Eagle",
+      "ka": "ბექობის არწივი",
+      "status": "YR-R, M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Aquila nipalensis",
+      "en": "Steppe Eagle",
+      "ka": "ველის არწივი",
+      "status": "SV, M",
+      "iucn": "EN"
+    },
+    {
+      "la": "Ardea alba",
+      "en": "Great White Egret",
+      "ka": "დიდი თეთრი ყანჩა",
+      "status": "YR-V, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ardea cinerea",
+      "en": "Grey Heron",
+      "ka": "რუხი ყანჩა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ardea purpurea",
+      "en": "Purple Heron",
+      "ka": "ქარცი ყანჩა (წითური ყანჩა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ardeola ralloides",
+      "en": "Squacco Heron",
+      "ka": "ყვითელი ყანჩა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Arenaria interpres",
+      "en": "Ruddy Turnstone",
+      "ka": "მეკენჭია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Asio flammeus",
+      "en": "Short-eared Owl",
+      "ka": "ჭაობის ბუ",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Asio otus",
+      "en": "Northern Long-eared Owl",
+      "ka": "ყურებიანი ბუ (ოლოლი)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Athene noctua",
+      "en": "Little Owl",
+      "ka": "ჭოტი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aythya ferina",
+      "en": "Common Pochard",
+      "ka": "წითელთავა ყვინთია",
+      "status": "BB, M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Aythya fuligula",
+      "en": "Tufted Duck",
+      "ka": "ქოჩორა ყვინთია",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aythya marila",
+      "en": "Greater Scaup",
+      "ka": "ზღვის ყვინთია",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Aythya nyroca",
+      "en": "Ferruginous Duck",
+      "ka": "თეთრთვალა ყვინთია",
+      "status": "M, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Bombycilla garrulus",
+      "en": "Bohemian Waxwing",
+      "ka": "მედუდუკე",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Botaurus stellaris",
+      "en": "Eurasian Bittern",
+      "ka": "დიდი წყლის ბუღა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Branta ruficollis",
+      "en": "Red-breasted Goose",
+      "ka": "წითელმკერდა ბატი",
+      "status": "Cas, M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Bubo bubo",
+      "en": "Eurasian Eagle-owl",
+      "ka": "ზარნაშო",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Bubulcus ibis",
+      "en": "Cattle Egret",
+      "ka": "მწყემსი ყანჩა (ეგვიპტური ყანჩა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Bucanetes githagineus",
+      "en": "Trumpeter Finch",
+      "ka": "წითელნისკარტა კოჭობა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Bucephala clangula",
+      "en": "Common Goldeneye",
+      "ka": "ამაყა (კოკონა)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Burhinus oedicnemus",
+      "en": "Eurasian Thick-knee",
+      "ka": "თვალჭყეტია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Buteo buteo",
+      "en": "Eurasian Buzzard",
+      "ka": "ჩვეულებრივი კაკაჩა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Buteo lagopus",
+      "en": "Rough-legged Buzzard",
+      "ka": "ფეხბანჯგვლიანი კაკაჩა",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Buteo rufinus",
+      "en": "Long-legged Buzzard",
+      "ka": "ველის კაკაჩა (გრძელფეხა კაკაჩა)",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calandrella brachydactyla",
+      "en": "Greater Short-toed Lark",
+      "ka": "დიდი მოკლეთითა ტოროლა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calcarius lapponicus",
+      "en": "Lapland Longspur",
+      "ka": "ლაპლანდური გრატა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris alba",
+      "en": "Sanderling",
+      "ka": "ქვიშაქექია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris alpina",
+      "en": "Dunlin",
+      "ka": "შავმუცელა მექვიშია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris canutus",
+      "en": "Red Knot",
+      "ka": "ისლანდიური მექვიშია",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Calidris falcinellus",
+      "en": "Broad-billed Sandpiper",
+      "ka": "თავზოლა მექვიშია (მეტალახია)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris ferruginea",
+      "en": "Curlew Sandpiper",
+      "ka": "წითელგულა მექვიშია",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Calidris melanotos",
+      "en": "Pectoral Sandpiper",
+      "ka": "მკერდზოლა მექვიშია",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris minuta",
+      "en": "Little Stint",
+      "ka": "მცირე მექვიშია (კოკორინა-ბეღურა)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris pugnax",
+      "en": "Ruff",
+      "ka": "ტურუხტანი (მაჩხუბარა კოკორინა)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Calidris temminckii",
+      "en": "Temminck's Stint",
+      "ka": "თეთრკუდა მექვიშია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Caprimulgus aegyptius",
+      "en": "Egyptian Nightjar",
+      "ka": "ეგვიპტური უფეხურა",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Caprimulgus europaeus",
+      "en": "European Nightjar",
+      "ka": "უფეხურა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Carduelis carduelis",
+      "en": "European Goldfinch",
+      "ka": "ჩიტბატონა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Carpodacus erythrinus",
+      "en": "Common Rosefinch",
+      "ka": "ჩვეულებრივი კოჭობა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Carpodacus rubicilla",
+      "en": "Great Rosefinch",
+      "ka": "დიდი კოჭობა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Carpospiza brachydactyla",
+      "en": "Pale Sparrow",
+      "ka": "მკრთალი კლდის ბეღურა",
+      "status": "OB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Catharacta skua",
+      "en": "Great Skua",
+      "ka": "დიდი თოლია-მეკობრე",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cecropis daurica",
+      "en": "Red-rumped Swallow",
+      "ka": "წელწითელა მერცხალი",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cercotrichas galactotes",
+      "en": "Rufous-tailed Scrub-robin",
+      "ka": "ჟღალი ბულბული",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Certhia brachydactyla",
+      "en": "Short-toed Treecreeper",
+      "ka": "მოკლეთითა მგლინავა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Certhia familiaris",
+      "en": "Eurasian Treecreeper",
+      "ka": "ჩვეულებრივი მგლინავა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cettia cetti",
+      "en": "Cetti's Warbler",
+      "ka": "ფართოკუდა ლერწამა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius alexandrinus",
+      "en": "Kentish Plover",
+      "ka": "ზღვის წინტალა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius asiaticus",
+      "en": "Caspian Plover",
+      "ka": "აზიური წინტალა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius dubius",
+      "en": "Little Ringed Plover",
+      "ka": "მცირე წინტალა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius hiaticula",
+      "en": "Common Ringed Plover",
+      "ka": "საყელოიანი წინტალა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius leschenaultii",
+      "en": "Greater Sandplover",
+      "ka": "სქელნისკარტა წინტალა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius mongolus",
+      "en": "Lesser Sandplover",
+      "ka": "მცირე სქელნისკარტა წინტალა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Charadrius tricollaris",
+      "en": "African Three-banded Plover",
+      "ka": "სამზოლა აფრიკული წინტალა",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Chlamydotis macqueenii",
+      "en": "Asian Houbara",
+      "ka": "აზიური სავათი",
+      "status": "AD",
+      "iucn": "VU"
+    },
+    {
+      "la": "Chlidonias hybrida",
+      "en": "Whiskered Tern",
+      "ka": "ლოყათეთრი თევზიყლაპია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Chlidonias leucopterus",
+      "en": "White-winged Tern",
+      "ka": "ფრთათეთრი თევზიყლაპია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Chlidonias niger",
+      "en": "Black Tern",
+      "ka": "შავი თევზიყლაპია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Chloris chloris",
+      "en": "European Greenfinch",
+      "ka": "მწვანულა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ciconia ciconia",
+      "en": "White Stork",
+      "ka": "თეთრი ყარყატი (ლაკლაკი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ciconia nigra",
+      "en": "Black Stork",
+      "ka": "შავი ყარყატი (იშხვარი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cinclus cinclus",
+      "en": "White-throated Dipper",
+      "ka": "წყლის შაშვი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Circaetus gallicus",
+      "en": "Short-toed Snake-eagle",
+      "ka": "გველიჭამია (ძერაბოტი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Circus aeruginosus",
+      "en": "Western Marsh-harrier",
+      "ka": "ჭაობის ძელქორი (ჭაობის ბოლობეჭედა)",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Circus cyaneus",
+      "en": "Hen Harrier",
+      "ka": "მინდვრის ძელქორი (მინდვრის ბოლობეჭედა)",
+      "status": "SV, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Circus macrourus",
+      "en": "Pallid Harrier",
+      "ka": "ველის ძელქორი (ველის ბოლობეჭედა)",
+      "status": "SV, M, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Circus pygargus",
+      "en": "Montagu's Harrier",
+      "ka": "მდელოს ძელქორი (მდელოს ბოლობეჭედა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Clamator glandarius",
+      "en": "Great Spotted Cuckoo",
+      "ka": "შავთავა გუგული",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Clanga clanga",
+      "en": "Greater Spotted Eagle",
+      "ka": "დიდი მყივანი არწივი",
+      "status": "M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Clanga pomarina",
+      "en": "Lesser Spotted Eagle",
+      "ka": "მცირე მყივანი არწივი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Clangula hyemalis",
+      "en": "Long-tailed Duck",
+      "ka": "გრძელკუდა (კუდმაკრატელა) იხვი",
+      "status": "Cas, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Coccothraustes coccothraustes",
+      "en": "Hawfinch",
+      "ka": "კულუმბური",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Columba livia",
+      "en": "Rock Dove",
+      "ka": "გარეული მტრედი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Columba oenas",
+      "en": "Stock Dove",
+      "ka": "გულიო (გვიძინი)",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Columba palumbus",
+      "en": "Common Woodpigeon",
+      "ka": "ქედანი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Coracias garrulus",
+      "en": "European Roller",
+      "ka": "ყაპყაპი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Corvus corax",
+      "en": "Common Raven",
+      "ka": "ყორანი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Corvus corone",
+      "en": "Carrion Crow",
+      "ka": "ყვავი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Corvus frugilegus",
+      "en": "Rook",
+      "ka": "ჭილყვავი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Corvus monedula",
+      "en": "Eurasian Jackdaw",
+      "ka": "ჭკა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Coturnix coturnix",
+      "en": "Common Quail",
+      "ka": "მწყერი",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Crex crex",
+      "en": "Corncrake",
+      "ka": "ღალღა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cuculus canorus",
+      "en": "Common Cuckoo",
+      "ka": "გუგული",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cyanistes caeruleus",
+      "en": "Eurasian Blue Tit",
+      "ka": "მოლურჯო წივწივა (მოლურჯო წიწკანა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cygnus columbianus",
+      "en": "Tundra Swan",
+      "ka": "ტუნდრის გედი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cygnus cygnus",
+      "en": "Whooper Swan",
+      "ka": "ყვითელნისკარტა (მყივანი) გედი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Cygnus olor",
+      "en": "Mute Swan",
+      "ka": "წითელნისკარტა (სისინა) გედი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Delichon urbicum",
+      "en": "Northern House Martin",
+      "ka": "ქალაქის მერცხალი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Dendrocopos leucotos",
+      "en": "White-backed Woodpecker",
+      "ka": "თეთრზურგა კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Dendrocopos major",
+      "en": "Great Spotted Woodpecker",
+      "ka": "დიდი ჭრელი კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Dendrocopos syriacus",
+      "en": "Syrian Woodpecker",
+      "ka": "სირიული კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Dryobates minor",
+      "en": "Lesser Spotted Woodpecker",
+      "ka": "მცირე ჭრელი კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Dryocopus martius",
+      "en": "Black Woodpecker",
+      "ka": "შავი კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Egretta garzetta",
+      "en": "Little Egret",
+      "ka": "მცირე თეთრი ყანჩა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Elanus caeruleus",
+      "en": "Black-winged Kite",
+      "ka": "ფრთაშავი ლურჯი ძერა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza caesia",
+      "en": "Cretzschmar's Bunting",
+      "ka": "შავყელა გრატა (წითელნისკარტა გრატა)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza calandra",
+      "en": "Corn Bunting",
+      "ka": "მეფეტვია (მინდვრის გრატა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza cia",
+      "en": "Rock Bunting",
+      "ka": "კლდის გრატა (მთის გრატა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza cirlus",
+      "en": "Cirl Bunting",
+      "ka": "წითელნისკარტა გრატა (ბოსტნის გრატა)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza citrinella",
+      "en": "Yellowhammer",
+      "ka": "მოყვითალო გრატა",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza hortulana",
+      "en": "Ortolan Bunting",
+      "ka": "ბაღის გრატა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza leucocephalos",
+      "en": "Pine Bunting",
+      "ka": "ფიჭვის გრატა",
+      "status": "Cas, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza melanocephala",
+      "en": "Black-headed Bunting",
+      "ka": "შავთავა გრატა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza pusilla",
+      "en": "Little Bunting",
+      "ka": "მცირე გრატა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Emberiza rustica",
+      "en": "Rustic Bunting",
+      "ka": "სოფლის გრატა",
+      "status": "Cas",
+      "iucn": "VU"
+    },
+    {
+      "la": "Emberiza schoeniclus",
+      "en": "Reed Bunting",
+      "ka": "ლელიანის გრატა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Eremophila alpestris",
+      "en": "Horned Lark",
+      "ka": "რქოსანი ტოროლა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Eremopterix nigriceps",
+      "en": "Black-crowned Sparrow-lark",
+      "ka": "შავთავა ტოროლა",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Erithacus rubecula",
+      "en": "European Robin",
+      "ka": "გულწითელა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Eudromias morinellus",
+      "en": "Eurasian Dotterel",
+      "ka": "ტიბუარა (მღრინავი)",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco biarmicus",
+      "en": "Lanner Falcon",
+      "ka": "წითელთავა შავარდენი",
+      "status": "OB, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco cherrug",
+      "en": "Saker Falcon",
+      "ka": "ბარი (გავაზი)",
+      "status": "OB, M, WV",
+      "iucn": "EN"
+    },
+    {
+      "la": "Falco columbarius",
+      "en": "Merlin",
+      "ka": "ალალი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco eleonorae",
+      "en": "Eleonora's Falcon",
+      "ka": "ელეონორას შავარდენი",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco naumanni",
+      "en": "Lesser Kestrel",
+      "ka": "მცირე კირკიტა (ველის კირკიტა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco peregrinus",
+      "en": "Peregrine Falcon",
+      "ka": "ჩვეულებრივი შავარდენი",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco rusticolus",
+      "en": "Gyrfalcon",
+      "ka": "სონღული",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco subbuteo",
+      "en": "Eurasian Hobby",
+      "ka": "მარჯანი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco tinnunculus",
+      "en": "Common Kestrel",
+      "ka": "ჩვეულებრივი კირკიტა",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Falco vespertinus",
+      "en": "Red-footed Falcon",
+      "ka": "წითელფეხა შავარდენი",
+      "status": "FB, M",
+      "iucn": "VU"
+    },
+    {
+      "la": "Ficedula albicollis",
+      "en": "Collared Flycatcher",
+      "ka": "თეთრყელა ბუზიჭერია (თეთრყელა მემატლია)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ficedula hypoleuca",
+      "en": "European Pied Flycatcher",
+      "ka": "ჭრელი ბუზიჭერია (ჭრელი მემატლია)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ficedula parva",
+      "en": "Red-breasted Flycatcher",
+      "ka": "წითელყელა ბუზიჭერია (მცირე მემატლია)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ficedula semitorquata",
+      "en": "Semi-collared Flycatcher",
+      "ka": "ნახევართეთრყელა ბუზიჭერია (ნახევართეთრყელა მემატლია)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Francolinus francolinus",
+      "en": "Black Francolin",
+      "ka": "დურაჯი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Fringilla coelebs",
+      "en": "Common Chaffinch",
+      "ka": "სკვინჩა (ნიბლია)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Fringilla montifringilla",
+      "en": "Brambling",
+      "ka": "ჩრდილოეთის სკვინჩა (მთიულა)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Fulica atra",
+      "en": "Common Coot",
+      "ka": "მელოტა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Galerida cristata",
+      "en": "Crested Lark",
+      "ka": "ქოჩორა ტოროლა",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gallinago gallinago",
+      "en": "Common Snipe",
+      "ka": "ჩიბუხა",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gallinago media",
+      "en": "Great Snipe",
+      "ka": "დიდი ჩიბუხა (გოჭა)",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Gallinula chloropus",
+      "en": "Common Moorhen",
+      "ka": "წყლის ქათამი",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Garrulus glandarius",
+      "en": "Eurasian Jay",
+      "ka": "ჩხიკვი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gavia arctica",
+      "en": "Arctic Loon",
+      "ka": "შავყელა ღორიხვა",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gavia immer",
+      "en": "Common Loon",
+      "ka": "პოლარული ღორიხვა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gavia stellata",
+      "en": "Red-throated Loon",
+      "ka": "წითელყელა ღორიხვა",
+      "status": "Cas, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gelochelidon nilotica",
+      "en": "Common Gull-billed Tern",
+      "ka": "თოლიისნისკარტა თევზიყლაპია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Glareola nordmanni",
+      "en": "Black-winged Pratincole",
+      "ka": "შავფრთიანა მერცხალა",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Glareola pratincola",
+      "en": "Collared Pratincole",
+      "ka": "ჟღალფრთიანა მერცხალა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Grus grus",
+      "en": "Common Crane",
+      "ka": "რუხი წერო",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gulosus aristotelis",
+      "en": "European Shag",
+      "ka": "ქოჩორა ჩვამა",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Gypaetus barbatus",
+      "en": "Bearded Vulture",
+      "ka": "ბატკანძერი (წვერიანი სვავი, ყაჯირი, კრავიჭამია)",
+      "status": "YR-R",
+      "iucn": "NT"
+    },
+    {
+      "la": "Gyps fulvus",
+      "en": "Griffon Vulture",
+      "ka": "ორბი",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Haematopus ostralegus",
+      "en": "Eurasian Oystercatcher",
+      "ka": "ზღვის კაჭკაჭი (სირკაჭკაჭი)",
+      "status": "OB, M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Haliaeetus albicilla",
+      "en": "White-tailed Sea-eagle",
+      "ka": "თეთრკუდა ფსოვი (თეთრკუდა არწივი)",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Haliaeetus leucoryphus",
+      "en": "Pallas's Fish-eagle",
+      "ka": "გრძელკუდა ფსოვი",
+      "status": "ND",
+      "iucn": "EN"
+    },
+    {
+      "la": "Hieraaetus pennatus",
+      "en": "Booted Eagle",
+      "ka": "ჩია არწივი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Himantopus himantopus",
+      "en": "Black-winged Stilt",
+      "ka": "ოჩოფეხა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Hippolais icterina",
+      "en": "Icterine Warbler",
+      "ka": "მწვანე ბუტბუტა (მწვანე მქირდავი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Hippolais languida",
+      "en": "Upcher's Warbler",
+      "ka": "ბოლომქნევარა ბუტბუტა (ბოლომქნევარა მქირდავი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Hirundo rustica",
+      "en": "Barn Swallow",
+      "ka": "სოფლის მერცხალი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Hydrocoloeus minutus",
+      "en": "Little Gull",
+      "ka": "მცირე თოლია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Hydroprogne caspia",
+      "en": "Caspian Tern",
+      "ka": "კასპიური თევზიყლაპია",
+      "status": "SV, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Iduna caligata",
+      "en": "Booted Warbler",
+      "ka": "მურა ბუტბუტა (მურა მქირდავი)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Iduna pallida",
+      "en": "Olivaceous Warbler",
+      "ka": "დიდი ბუტბუტა (ბაცი მქირდავი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Irania gutturalis",
+      "en": "White-throated Robin",
+      "ka": "თეთრყელა ბულბული",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ixobrychus minutus",
+      "en": "Common Little Bittern",
+      "ka": "პატარა წყლის ბუღა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Jynx torquilla",
+      "en": "Eurasian Wryneck",
+      "ka": "მაქცია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius collurio",
+      "en": "Red-backed Shrike",
+      "ka": "ჩვეულებრივი ღაჟო",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius excubitor",
+      "en": "Great Grey Shrike",
+      "ka": "რუხი ღაჟო",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius isabellinus",
+      "en": "Isabelline Shrike",
+      "ka": "ყვითელგულა ღაჟო",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius minor",
+      "en": "Lesser Grey Shrike",
+      "ka": "შავშუბლა ღაჟო",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius nubicus",
+      "en": "Masked Shrike",
+      "ka": "ნიღბიანი ღაჟო",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius phoenicuroides",
+      "en": "Red-tailed Shrike",
+      "ka": "წითელკუდა ღაჟო",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lanius senator",
+      "en": "Woodchat Shrike",
+      "ka": "წითელთავა ღაჟო",
+      "status": "BB, M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Larus argentatus",
+      "en": "European Herring Gull",
+      "ka": "ვერცხლისფერი თოლია",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus armenicus",
+      "en": "Armenian Gull",
+      "ka": "სომხური თოლია",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus atricilla",
+      "en": "Laughing gull",
+      "ka": "ამერიკული მოცინარი თოლია",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus audouinii",
+      "en": "Audouin's Gull",
+      "ka": "აუდოუნის თოლია",
+      "status": "ND",
+      "iucn": "VU"
+    },
+    {
+      "la": "Larus cachinnans",
+      "en": "Caspian Gull",
+      "ka": "კასპიური თოლია",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus canus",
+      "en": "Mew Gull",
+      "ka": "ვეჟანი თოლია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus fuscus",
+      "en": "Lesser Black-backed Gull",
+      "ka": "შავზურგა თოლია (ფრთაშავი თოლია)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus genei",
+      "en": "Slender-billed Gull",
+      "ka": "წვრილნისკარტა თოლია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus ichthyaetus",
+      "en": "Pallas's Gull",
+      "ka": "დიდი შავთავა თოლია",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus marinus",
+      "en": "Great Black-backed Gull",
+      "ka": "ზღვის დიდი თოლია",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus melanocephalus",
+      "en": "Mediterranean Gull",
+      "ka": "შავთავა თოლია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus michahellis",
+      "en": "Yellow-legged Gull",
+      "ka": "ყვითელფეხა თოლია",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Larus ridibundus",
+      "en": "Black-headed Gull",
+      "ka": "ტბის თოლია (ჩვეულებრივი თოლია)",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Leiopicus medius",
+      "en": "Middle Spotted Woodpecker",
+      "ka": "საშუალო ჭრელი კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Limosa lapponica",
+      "en": "Bar-tailed Godwit",
+      "ka": "ზოლიანკუდა ლია",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Limosa limosa",
+      "en": "Black-tailed Godwit",
+      "ka": "დიდი ლია (შავკუდა ლია)",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Linaria cannabina",
+      "en": "Common Linnet",
+      "ka": "ჭვინტა (მეკანაფია)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Linaria flavirostris",
+      "en": "Twite",
+      "ka": "მთის ჭვინტა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Locustella fluviatilis",
+      "en": "River Warbler",
+      "ka": "ჭრიჭინა ჩიტი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Locustella luscinioides",
+      "en": "Savi's Warbler",
+      "ka": "ბულბულისებრი ჭრიჭინა ჩიტი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Locustella naevia",
+      "en": "Common Grasshopper-warbler",
+      "ka": "ჭრიჭინა მეჩალია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lophophanes cristatus",
+      "en": "Crested Tit",
+      "ka": "ქოჩორა წივწივა (ქოჩორა წიწკანა)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Loxia curvirostra",
+      "en": "Red Crossbill",
+      "ka": "ნისკარტმარწუხა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lullula arborea",
+      "en": "Woodlark",
+      "ka": "ტყის ტოროლა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Luscinia luscinia",
+      "en": "Thrush Nightingale",
+      "ka": "აღმოსავლური ბულბული",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Luscinia megarhynchos",
+      "en": "Common Nightingale",
+      "ka": "ჩვეულებრივი ბულბული",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Luscinia svecica",
+      "en": "Bluethroat",
+      "ka": "ცისფერგულა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lymnocryptes minimus",
+      "en": "Jack Snipe",
+      "ka": "ჩიბუხელა (გარშნეპი)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Lyrurus mlokosiewiczi",
+      "en": "Caucasian Grouse",
+      "ka": "კავკასიური როჭო",
+      "status": "YR-R",
+      "iucn": "NT"
+    },
+    {
+      "la": "Mareca penelope",
+      "en": "Eurasian Wigeon",
+      "ka": "თეთრშუბლა იხვი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Mareca strepera",
+      "en": "Gadwall",
+      "ka": "რუხი იხვი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Melanitta fusca",
+      "en": "Velvet Scoter",
+      "ka": "თეთრფრთიანი გარიელი",
+      "status": "BB, M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Melanitta nigra",
+      "en": "Common Scoter",
+      "ka": "შავი გარიელი",
+      "status": "Cas, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Melanocorypha bimaculata",
+      "en": "Bimaculated Lark",
+      "ka": "ორკოპლიანი ტოროლა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Melanocorypha calandra",
+      "en": "Calandra Lark",
+      "ka": "ველის ტოროლა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Melanocorypha yeltoniensis",
+      "en": "Black Lark",
+      "ka": "შავი ტოროლა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Melopsittacus undulatus",
+      "en": "Budgerigar",
+      "ka": "ხუჭუჭა თუთიყუში",
+      "status": "ESC",
+      "iucn": "LC"
+    },
+    {
+      "la": "Mergellus albellus",
+      "en": "Smew",
+      "ka": "მცირე ბატასინი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Mergus merganser",
+      "en": "Goosander",
+      "ka": "დიდი ბატასინი",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Mergus serrator",
+      "en": "Red-breasted Merganser",
+      "ka": "გრძელნისკარტა ბატასინი",
+      "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Merops apiaster",
+      "en": "European Bee-eater",
+      "ka": "კვირიონი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Merops persicus",
+      "en": "Blue-cheeked Bee-eater",
+      "ka": "მწვანე კვირიონი",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Microcarbo pygmaeus",
+      "en": "Pygmy Cormorant",
+      "ka": "მცირე ჩვამა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Milvus migrans",
+      "en": "Black Kite",
+      "ka": "ძერა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Milvus milvus",
+      "en": "Red Kite",
+      "ka": "წითელი ძერა (ბორა)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Monticola saxatilis",
+      "en": "Rufous-tailed Rock-thrush",
+      "ka": "ჭრელი შაშვი (ჭრელი კლდის შაშვი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Monticola solitarius",
+      "en": "Blue Rock-thrush",
+      "ka": "ლურჯი შაშვი (ლურჯი კლდის შაშვი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Montifringilla nivalis",
+      "en": "White-winged Snowfinch",
+      "ka": "მეთოვლია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Motacilla alba",
+      "en": "White Wagtail",
+      "ka": "თეთრი ბოლოქანქარა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Motacilla cinerea",
+      "en": "Grey Wagtail",
+      "ka": "რუხი ბოლოქანქარა",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Motacilla citreola",
+      "en": "Citrine Wagtail",
+      "ka": "ყვითელთავა ბოლოქანქარა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Motacilla flava",
+      "en": "Western Yellow Wagtail",
+      "ka": "ყვითელი ბოლოქანქარა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Muscicapa striata",
+      "en": "Spotted Flycatcher",
+      "ka": "რუხი ბუზიჭერია (რუხი მემატლია)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Neophron percnopterus",
+      "en": "Egyptian Vulture",
+      "ka": "ფასკუნჯი",
+      "status": "BB, M",
+      "iucn": "EN"
+    },
+    {
+      "la": "Netta rufina",
+      "en": "Red-crested Pochard",
+      "ka": "წითელნისკარტა ყურყუმელა",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Nucifraga caryocatactes",
+      "en": "Northern Nutcracker",
+      "ka": "თხილიტეხია",
+      "status": "Cas, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Numenius arquata",
+      "en": "Eurasian Curlew",
+      "ka": "დიდი კრონშნეპი",
+      "status": "M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Numenius phaeopus",
+      "en": "Whimbrel",
+      "ka": "საშუალო კრონშნეპი",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Numenius tenuirostris",
+      "en": "Slender-billed Curlew",
+      "ka": "წვრილნისკარტა კრონშნეპი",
+      "status": "ND",
+      "iucn": "CR"
+    },
+    {
+      "la": "Nycticorax nycticorax",
+      "en": "Black-crowned Night-heron",
+      "ka": "ღამის ყანჩა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oena capensis",
+      "en": "Namaqua Dove",
+      "ka": "სამხრეთ აფრიკული გვრიტი (გრძელკუდა გვრიტი)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe albonigra",
+      "en": "Hume's Wheatear",
+      "ka": "თეთრშავი მეღორღია",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe deserti",
+      "en": "Desert Wheatear",
+      "ka": "უდაბნოს მეღორღია",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe finschii",
+      "en": "Finsch's Wheatear",
+      "ka": "თეთრზურგა მეღორღია (თეთრზურგა მელოტჩიტა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe hispanica",
+      "en": "Black-eared Wheatear",
+      "ka": "შავყურა მეღორღია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe isabellina",
+      "en": "Isabelline Wheatear",
+      "ka": "ბუქნია-მეღორღია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe oenanthe",
+      "en": "Northern Wheatear",
+      "ka": "ჩვეულებრივი მეღორღია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oenanthe pleschanka",
+      "en": "Pied Wheatear",
+      "ka": "შავზურგა მეღორღია (შავზურგა მელოტჩიტა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oriolus oriolus",
+      "en": "Eurasian Golden Oriole",
+      "ka": "მოლაღული",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Otis tarda",
+      "en": "Great Bustard",
+      "ka": "სავათი",
+      "status": "WV, EX",
+      "iucn": "VU"
+    },
+    {
+      "la": "Otus scops",
+      "en": "Eurasian Scops-owl",
+      "ka": "წყრომი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Oxyura leucocephala",
+      "en": "White-headed Duck",
+      "ka": "თეთრთავა იხვი",
+      "status": "M, WV",
+      "iucn": "EN"
+    },
+    {
+      "la": "Pandion haliaetus",
+      "en": "Osprey",
+      "ka": "შაკი",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Panurus biarmicus",
+      "en": "Bearded Reedling",
+      "ka": "ულვაშა წივწივა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Parus major",
+      "en": "Great Tit",
+      "ka": "დიდი წივწივა (დიდი წიწკანა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Passer domesticus",
+      "en": "House Sparrow",
+      "ka": "სახლის ბეღურა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Passer hispaniolensis",
+      "en": "Spanish Sparrow",
+      "ka": "შავგულა ბეღურა (ესპანური ბეღურა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Passer montanus",
+      "en": "Eurasian Tree Sparrow",
+      "ka": "მინდვრის ბეღურა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pastor roseus",
+      "en": "Rosy Starling",
+      "ka": "ვარდისფერი შოშია (ტარბი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pelecanus crispus",
+      "en": "Dalmatian Pelican",
+      "ka": "ვარდისფერი ვარხვი",
+      "status": "YR-V, M",
+      "iucn": "NT"
+    },
+    {
+      "la": "Pelecanus onocrotalus",
+      "en": "Great White Pelican",
+      "ka": "ქოჩორა ვარხვი (ხუჭუჭა ვარხვი)",
+      "status": "YR-V, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Perdix perdix",
+      "en": "Grey Partridge",
+      "ka": "გნოლი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Periparus ater",
+      "en": "Coal Tit",
+      "ka": "მცირე წივწივა (მცირე წიწკანა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pernis apivorus",
+      "en": "European Honey-buzzard",
+      "ka": "კრაზანაჭამია (ირაო)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pernis ptilorhynchus",
+      "en": "Oriental Honey-buzzard",
+      "ka": "ქოჩორა კრაზანაჭამია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Petronia petronia",
+      "en": "Rock Sparrow",
+      "ka": "კლდის ბეღურა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phalacrocorax carbo",
+      "en": "Great Cormorant",
+      "ka": "დიდი ჩვამა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phalaropus fulicarius",
+      "en": "Red Phalarope",
+      "ka": "წითელი ტივტივა",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phalaropus lobatus",
+      "en": "Red-necked Phalarope",
+      "ka": "წითელკისერა ტივტივა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phasianus colchicus",
+      "en": "Common Pheasant",
+      "ka": "ხოხობი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phoenicopterus roseus",
+      "en": "Greater Flamingo",
+      "ka": "ფლამინგო",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phoenicurus erythrogastrus",
+      "en": "White-winged Redstart",
+      "ka": "წითელმუცელა ბოლოცეცხლა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phoenicurus ochruros",
+      "en": "Black Redstart",
+      "ka": "შავი ბოლოცეცხლა",
+      "status": "YR-R, BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phoenicurus phoenicurus",
+      "en": "Common Redstart",
+      "ka": "ჩვეულებრივი ბოლოცეცხლა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus collybita",
+      "en": "Common Chiffchaff",
+      "ka": "ჩვეულებრივი ჭივჭავი (ჩვეულებრივი ყარანა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus fuscatus",
+      "en": "Dusky Warbler",
+      "ka": "მუქი ჭივჭავი (მუქი ყარანა)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus humei",
+      "en": "Hume's Leaf Warbler",
+      "ka": "ჰიუმის ჭივჭავი (ჰიუმის ყარანა)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus inornatus",
+      "en": "Yellow-browed Warbler",
+      "ka": "მკრთალი მონარჩიტო ჭივჭავი (მკრთალი მონარჩიტო ყარანა)",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus nitidus",
+      "en": "Green Warbler",
+      "ka": "მწვანე ჭივჭავი (მწვანე ყარანა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus proregulus",
+      "en": "Pallas's Leaf warbler",
+      "ka": "მონარჩიტო ჭივჭავი (მონარჩიტო ყარანა)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus schwarzi",
+      "en": "Radde's Warbler",
+      "ka": "რადეს ჭივჭავი (რადეს ყარანა)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus sibilatrix",
+      "en": "Wood Warbler",
+      "ka": "თეთრმუცელა ჭივჭავი (თეთრმუცელა ყარანა)",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus sindianus",
+      "en": "Mountain Chiffchaff",
+      "ka": "მთის ჭივჭავი (მთის ყარანა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus tristis",
+      "en": "Siberian Chiffchaff",
+      "ka": "ციმბირული ჭივჭავი (ციმბირული ყარანა)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Phylloscopus trochilus",
+      "en": "Willow Warbler",
+      "ka": "გაზაფხულა ჭივჭავი (გაზაფხულა ყარანა)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pica pica",
+      "en": "Eurasian Magpie",
+      "ka": "კაჭკაჭი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Picus canus",
+      "en": "Grey-faced Woodpecker",
+      "ka": "რუხი კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Picus viridis",
+      "en": "Eurasian Green Woodpecker",
+      "ka": "მწვანე კოდალა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Platalea leucorodia",
+      "en": "Eurasian Spoonbill",
+      "ka": "ჟერო",
+      "status": "M, SV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Plectrophenax nivalis",
+      "en": "Snow Bunting",
+      "ka": "თოვლის გრატა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Plegadis falcinellus",
+      "en": "Glossy Ibis",
+      "ka": "ივეოსი",
+      "status": "M, SV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pluvialis apricaria",
+      "en": "Eurasian Golden Plover",
+      "ka": "ოქროსფერი მეჭვავია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pluvialis fulva",
+      "en": "Pacific Golden Plover",
+      "ka": "ნაცრისფერფრთიანი მეჭვავია",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pluvialis squatarola",
+      "en": "Grey Plover",
+      "ka": "რუხი მეჭვავია (კვათარი; ტულესი)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Podiceps auritus",
+      "en": "Horned Grebe",
+      "ka": "წითელყელა მურტალა",
+      "status": "M, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Podiceps cristatus",
+      "en": "Great Crested Grebe",
+      "ka": "დიდი მურტალა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Podiceps grisegena",
+      "en": "Red-necked Grebe",
+      "ka": "რუხლოყება მურტალა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Podiceps nigricollis",
+      "en": "Black-necked Grebe",
+      "ka": "შავყელა მურტალა",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Poecile lugubris",
+      "en": "Sombre Tit",
+      "ka": "ხმელთაშუაზღვის წივწივა (ხმელთაშუაზღვის წიწკანა)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Poecile palustris",
+      "en": "Marsh Tit",
+      "ka": "შავთავა წივწივა (შავთავა წიწკანა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Porphyrio porphyrio",
+      "en": "Purple Swamphen",
+      "ka": "ხონთქრის ქათამი",
+      "status": "M, SV, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Porzana porzana",
+      "en": "Spotted Crake",
+      "ka": "ქათამურა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Prunella collaris",
+      "en": "Alpine Accentor",
+      "ka": "ალპური ჭვინტაკა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Prunella modularis",
+      "en": "Dunnock",
+      "ka": "ტყის ჭვინტაკა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Prunella ocularis",
+      "en": "Radde's Accentor",
+      "ka": "თეთრწარბა ჭვინტაკა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pterocles alchata",
+      "en": "Pin-tailed Sandgrouse",
+      "ka": "თეთრმუცელა გვრიტჩიტა",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pterocles orientalis",
+      "en": "Black-bellied Sandgrouse",
+      "ka": "შავმუცელა გვრიტჩიტა",
+      "status": "YR-V, FB",
+      "iucn": "LC"
+    },
+    {
+      "la": "Ptyonoprogne rupestris",
+      "en": "Eurasian Crag Martin",
+      "ka": "კლდის მერცხალი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Puffinus yelkouan",
+      "en": "Yelkouan Shearwater",
+      "ka": "ქარიშხალა",
+      "status": "YR-V, WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Pyrrhocorax graculus",
+      "en": "Yellow-billed Chough",
+      "ka": "ყვითელნისკარტა მაღრანი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pyrrhocorax pyrrhocorax",
+      "en": "Red-billed Chough",
+      "ka": "წითელნისკარტა მაღრანი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Pyrrhula pyrrhula",
+      "en": "Eurasian Bullfinch",
+      "ka": "სტვენია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Rallus aquaticus",
+      "en": "Western Water Rail",
+      "ka": "ლაინა",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Recurvirostra avosetta",
+      "en": "Pied Avocet",
+      "ka": "სადგისნისკარტა",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Regulus ignicapilla",
+      "en": "Common Firecrest",
+      "ka": "წითელთავა ნარჩიტა (წითელთავა ღაბუაჩიტი)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Regulus regulus",
+      "en": "Goldcrest",
+      "ka": "ყვითელთავა ნარჩიტა (ყვითელთავა ღაბუაჩიტი)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Remiz pendulinus",
+      "en": "Eurasian Penduline-tit",
+      "ka": "თერძი (ჩვეულებრივი რემეზი)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Rhodopechys sanguineus",
+      "en": "Eurasian Crimson-winged Finch",
+      "ka": "ფრთაწითელი კოჭობურა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Riparia riparia",
+      "en": "Collared Sand Martin",
+      "ka": "მენაპირე მერცხალი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Rissa tridactyla",
+      "en": "Black-legged Kittiwake",
+      "ka": "სამთითა თოლია",
+      "status": "WV",
+      "iucn": "VU"
+    },
+    {
+      "la": "Saxicola caprata",
+      "en": "Pied Bushchat",
+      "ka": "შავ-თეთრი ოვსადი",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Saxicola rubetra",
+      "en": "Whinchat",
+      "ka": "თეთრწარბა ოვსადი (მდელოს ოვსადი)",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Saxicola torquatus",
+      "en": "Common Stonechat",
+      "ka": "შავთავა ოვსადი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Scolopax rusticola",
+      "en": "Eurasian Woodcock",
+      "ka": "ტყის ქათამი (ვალდშნეპი)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Serinus pusillus",
+      "en": "Red-fronted Serin",
+      "ka": "წითელშუბლა მთიულა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Serinus serinus",
+      "en": "European Serin",
+      "ka": "მოყვითალო მთიულა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sitta europaea",
+      "en": "Eurasian Nuthatch",
+      "ka": "ჩვეულებრივი ხეცოცია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sitta krueperi",
+      "en": "Krueper's Nuthatch",
+      "ka": "შავთავა ხეცოცია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sitta neumayer",
+      "en": "Western Rock Nuthatch",
+      "ka": "მცირე კლდეცოცია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sitta tephronota",
+      "en": "Eastern Rock Nuthatch",
+      "ka": "დიდი კლდეცოცია",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Somateria mollissima",
+      "en": "Common Eider",
+      "ka": "ჩვეულებრივი სუსხური",
+      "status": "Cas, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Spatula clypeata",
+      "en": "Northern Shoveler",
+      "ka": "ფართოცხვირა იხვი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Spatula querquedula",
+      "en": "Garganey",
+      "ka": "იხვინჯა (ჭახჭახა იხვი)",
+      "status": "OB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Spilopelia senegalensis",
+      "en": "Laughing Dove",
+      "ka": "სენეგალური გვრიტი",
+      "status": "INT, YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Spinus spinus",
+      "en": "Eurasian Siskin",
+      "ka": "შავთავა მწვანულა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Stercorarius longicaudus",
+      "en": "Long-tailed Jaeger",
+      "ka": "გრძელკუდა თოლია-მეკობრე",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Stercorarius parasiticus",
+      "en": "Arctic Jaeger",
+      "ka": "ვიწროკუდა თოლია-მეკობრე",
+      "status": "WV, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Stercorarius pomarinus",
+      "en": "Pomarine Jaeger",
+      "ka": "განიერკუდა თოლია-მეკობრე",
+      "status": "WV, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sterna hirundo",
+      "en": "Common Tern",
+      "ka": "ჩვეულებრივი თევზიყლაპია",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sternula albifrons",
+      "en": "Little Tern",
+      "ka": "მცირე თევზიყლაპია",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Streptopelia decaocto",
+      "en": "Eurasian Collared-dove",
+      "ka": "საყელოიანი გვრიტი",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Streptopelia orientalis",
+      "en": "Oriental Turtle Dove",
+      "ka": "აღმოსავლური გვრიტი",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Streptopelia turtur",
+      "en": "European Turtle-dove",
+      "ka": "ჩვეულებრივი გვრიტი",
+      "status": "BB, M",
+      "iucn": "VU"
+    },
+    {
+      "la": "Strix aluco",
+      "en": "Tawny Owl",
+      "ka": "ტყის ბუ",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sturnus vulgaris",
+      "en": "Common Starling",
+      "ka": "შოშია (შროშანი)",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia atricapilla",
+      "en": "Eurasian Blackcap",
+      "ka": "შავთავა ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia borin",
+      "en": "Garden Warbler",
+      "ka": "ბაღის ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia communis",
+      "en": "Common Whitethroat",
+      "ka": "დიდი თეთრყელა ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia crassirostris",
+      "en": "Eastern Orphean Warbler",
+      "ka": "აღმოსავლური ყვითელთვალა ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia curruca",
+      "en": "Lesser Whitethroat",
+      "ka": "მცირე თეთრყელა ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia melanocephala",
+      "en": "Sardinian Warbler",
+      "ka": "ხმელთაშუაზღვის ასპუჭაკა",
+      "status": "Cas, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia mystacea",
+      "en": "Menetries's Warbler",
+      "ka": "წითელთვალა ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Sylvia nisoria",
+      "en": "Barred Warbler",
+      "ka": "მიმინოსებრი ასპუჭაკა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tachybaptus ruficollis",
+      "en": "Little Grebe",
+      "ka": "მცირე მურტალა",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tachymarptis melba",
+      "en": "Alpine Swift",
+      "ka": "მეკირია",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tadorna ferruginea",
+      "en": "Ruddy Shelduck",
+      "ka": "წითელი იხვი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tadorna tadorna",
+      "en": "Common Shelduck",
+      "ka": "ამლაყი იხვი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tarsiger cyanurus",
+      "en": "Orange-flanked Bush-robin",
+      "ka": "ლურჯკუდა ბუზიჭერია (მემატლია)",
+      "status": "AD",
+      "iucn": "LC"
+    },
+    {
+      "la": "Terathopius ecaudatus",
+      "en": "Bateleur",
+      "ka": "მოკლეკუდა არწივი",
+      "status": "AD",
+      "iucn": "EN"
+    },
+    {
+      "la": "Tetraogallus caspius",
+      "en": "Caspian Snowcock",
+      "ka": "კასპიური შურთხი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tetraogallus caucasicus",
+      "en": "Caucasian Snowcock",
+      "ka": "კავკასიური შურთხი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tetrax tetrax",
+      "en": "Little Bustard",
+      "ka": "სარსარაკი",
+      "status": "M, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Thalasseus sandvicensis",
+      "en": "Sandwich Tern",
+      "ka": "ჭრელნისკარტა თევზიყლაპია",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Threskiornis aethiopicus",
+      "en": "African Sacred Ibis",
+      "ka": "საღვთო ივეოსი",
+      "status": "ESC",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tichodroma muraria",
+      "en": "Wallcreeper",
+      "ka": "ფრთაწითელი კლდეცოცია",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa erythropus",
+      "en": "Spotted Redshank",
+      "ka": "ლაქებიანი წითელფეხა მენაპირე (კოხტა ჭოვილო)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa glareola",
+      "en": "Wood Sandpiper",
+      "ka": "ტყის მენაპირე",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa nebularia",
+      "en": "Common Greenshank",
+      "ka": "მწვანეფეხა მენაპირე (დიდი ჭოვილო)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa ochropus",
+      "en": "Green Sandpiper",
+      "ka": "შავი მენაპირე",
+      "status": "BB, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa stagnatilis",
+      "en": "Marsh Sandpiper",
+      "ka": "ჭაობის მენაპირე (მერუე)",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tringa totanus",
+      "en": "Common Redshank",
+      "ka": "წითელფეხა მენაპირე (მსევანი)",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Troglodytes troglodytes",
+      "en": "Northern Wren",
+      "ka": "ჭინჭრაქა (ღობემძვრალა)",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus atrogularis",
+      "en": "Black-throated Thrush",
+      "ka": "შავყელა შაშვი (ჯიჯღი)",
+      "status": "ND",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus iliacus",
+      "en": "Redwing",
+      "ka": "თეთრწარბა შაშვი (ფრთაჟღალი შაშვი)",
+      "status": "M, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Turdus merula",
+      "en": "Eurasian Blackbird",
+      "ka": "შავი შაშვი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus philomelos",
+      "en": "Song Thrush",
+      "ka": "წრიპა შაშვი (მგალობელი შაშვი)",
+      "status": "YR-R, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus pilaris",
+      "en": "Fieldfare",
+      "ka": "რუხთავა შაშვი",
+      "status": "M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus torquatus",
+      "en": "Ring Ouzel",
+      "ka": "თეთრგულა შაშვი",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Turdus viscivorus",
+      "en": "Mistle Thrush",
+      "ka": "ჩხართვი",
+      "status": "YR-R, M, WV",
+      "iucn": "LC"
+    },
+    {
+      "la": "Tyto alba",
+      "en": "Common Barn-owl",
+      "ka": "ბუხრინწა",
+      "status": "YR-R",
+      "iucn": "LC"
+    },
+    {
+      "la": "Upupa epops",
+      "en": "Common Hoopoe",
+      "ka": "ოფოფი",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Vanellus gregarius",
+      "en": "Sociable Lapwing",
+      "ka": "ველის პრანწია",
+      "status": "Cas, M",
+      "iucn": "CR"
+    },
+    {
+      "la": "Vanellus leucurus",
+      "en": "White-tailed Lapwing",
+      "ka": "თეთრკუდა პრანწია",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Vanellus spinosus",
+      "en": "Spur-winged Lapwing",
+      "ka": "შავმუცელა პრანწია",
+      "status": "Cas",
+      "iucn": "LC"
+    },
+    {
+      "la": "Vanellus vanellus",
+      "en": "Northern Lapwing",
+      "ka": "პრანწია",
+      "status": "BB, M, WV",
+      "iucn": "NT"
+    },
+    {
+      "la": "Xenus cinereus",
+      "en": "Terek Sandpiper",
+      "ka": "რუხი აპრეხილნისკარტა მექვიშია",
+      "status": "M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Zapornia parva",
+      "en": "Little Crake",
+      "ka": "მცირე ქათამურა",
+      "status": "BB, M",
+      "iucn": "LC"
+    },
+    {
+      "la": "Zapornia pusilla",
+      "en": "Baillon's Crake",
+      "ka": "პაწაწა ქათამურა",
+      "status": "M",
+      "iucn": "LC"
+    }
+  ]
+}

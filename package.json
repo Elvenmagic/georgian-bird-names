@@ -6,6 +6,7 @@
     "build": "node scripts/build-site.mjs",
     "start": "npm run build && npx --yes serve .",
     "import:iliauni": "node scripts/import-iliauni.mjs",
+    "import:birdnames": "node scripts/import-birdnames.mjs",
     "seed": "node scripts/seed.mjs",
     "names:export": "node scripts/names.mjs export",
     "names:apply": "node scripts/names.mjs apply",

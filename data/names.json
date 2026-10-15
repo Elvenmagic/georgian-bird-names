@@ -92,7 +92,7 @@
     },
     {
       "id": "hippolais-pallida",
-      "latin": "Hippolais pallida",
+      "latin": "Iduna pallida",
       "georgian": "ბაცი ბუტბუტა (ბაცი მქირდავი)",
       "english": "Olivaceous Warbler"
     },
@@ -368,7 +368,7 @@
     },
     {
       "id": "sturnus-roseus",
-      "latin": "Sturnus roseus",
+      "latin": "Pastor roseus",
       "georgian": "ვარდისფერი შოშია (ტარბი)",
       "english": "Rose-coloured Starling"
     },
@@ -686,7 +686,7 @@
     },
     {
       "id": "hirundo-rupestris",
-      "latin": "Hirundo rupestris",
+      "latin": "Ptyonoprogne rupestris",
       "georgian": "კლდის მერცხალი",
       "english": "Eurasian Crag martin"
     },
@@ -836,7 +836,7 @@
     },
     {
       "id": "miliaria-calandra",
-      "latin": "Miliaria calandra",
+      "latin": "Emberiza calandra",
       "georgian": "მეფეტვია (ანუ მინდვრის გრატა)",
       "english": "Corn Bunting"
     },
@@ -860,7 +860,7 @@
     },
     {
       "id": "carduelis-flavirostris",
-      "latin": "Carduelis flavirostris",
+      "latin": "Linaria flavirostris",
       "georgian": "მთის ჭვინტა",
       "english": "Twite"
     },
@@ -908,7 +908,7 @@
     },
     {
       "id": "petronia-brachydactyla",
-      "latin": "Petronia brachydactyla",
+      "latin": "Carpospiza brachydactyla",
       "georgian": "მკრთალი (ანუ მოკლეთითა) კლდის ბეღურა",
       "english": "Pale Rock Sparrow"
     },
@@ -938,7 +938,7 @@
     },
     {
       "id": "parus-caeruleus",
-      "latin": "Parus caeruleus",
+      "latin": "Cyanistes caeruleus",
       "georgian": "მოლურჯო წივწივა (მოლურჯო წიწკანა)",
       "english": "Blue Tit"
     },
@@ -968,7 +968,7 @@
     },
     {
       "id": "hippolais-caligata",
-      "latin": "Hippolais caligata",
+      "latin": "Iduna caligata",
       "georgian": "მურა ბუტბუტა (მურა მქირდავი)",
       "english": "Booted Warbler"
     },
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "calandrella-rufescens",
-      "latin": "Calandrella rufescens",
+      "latin": "Alaudala heinei",
       "georgian": "მცირე მოკლეთითა ტოროლა",
       "english": "Lesser Short-Toed Lark"
     },
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "parus-ater",
-      "latin": "Parus ater",
+      "latin": "Periparus ater",
       "georgian": "მცირე წივწივა (მცირე წიწკანა)",
       "english": "Coal Tit"
     },
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "carduelis-chloris",
-      "latin": "Carduelis chloris",
+      "latin": "Chloris chloris",
       "georgian": "მწვანულა",
       "english": "European Greenfinch"
     },
@@ -1232,7 +1232,7 @@
     },
     {
       "id": "erythropygia-galactotes",
-      "latin": "Erythropygia galactotes",
+      "latin": "Cercotrichas galactotes",
       "georgian": "ჟღალი ბულბული",
       "english": "Rufous-tailed Scrub-Robin"
     },
@@ -1568,7 +1568,7 @@
     },
     {
       "id": "melanocorypha-leucoptera",
-      "latin": "Melanocorypha leucoptera",
+      "latin": "Alauda leucoptera",
       "georgian": "ფრთათეთრი ტოროლა",
       "english": "White-Winged Lark"
     },
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "parus-cristatus",
-      "latin": "Parus cristatus",
+      "latin": "Lophophanes cristatus",
       "georgian": "ქოჩორა წივწივა (ქოჩორა წიწკანა)",
       "english": "Crested Tit"
     },
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "carduelis-spinus",
-      "latin": "Carduelis spinus",
+      "latin": "Spinus spinus",
       "georgian": "შავთავა მწვანულა",
       "english": "Eurasian Siskin"
     },
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "parus-palustris",
-      "latin": "Parus palustris",
+      "latin": "Poecile palustris",
       "georgian": "შავთავა წივწივა (შავთავა წიწკანა)",
       "english": "Marsh Tit"
     },
@@ -2072,7 +2072,7 @@
     },
     {
       "id": "carduelis-flammea",
-      "latin": "Carduelis flammea",
+      "latin": "Acanthis flammea",
       "georgian": "ჩრდილოეთის ჭვინტა",
       "english": "Common Redpoll"
     },
@@ -2108,7 +2108,7 @@
     },
     {
       "id": "hirundo-daurica",
-      "latin": "Hirundo daurica",
+      "latin": "Cecropis daurica",
       "georgian": "წელწითელა მერცხალი",
       "english": "Red-Rumped Swallow"
     },
@@ -2336,7 +2336,7 @@
     },
     {
       "id": "circus-aeroginosus",
-      "latin": "Circus aeroginosus",
+      "latin": "Circus aeruginosus",
       "georgian": "ჭაობის ძელქორი (ან ჭაობის ბოლობეჭედა)",
       "english": "Western Marsh Harrier"
     },
@@ -2354,7 +2354,7 @@
     },
     {
       "id": "carduelis-cannabina",
-      "latin": "Carduelis cannabina",
+      "latin": "Linaria cannabina",
       "georgian": "ჭვინტა (მეკანაფია)",
       "english": "Eurasian Linnet"
     },
@@ -2366,7 +2366,7 @@
     },
     {
       "id": "troglodytes-hiemalis",
-      "latin": "Troglodytes hiemalis",
+      "latin": "Troglodytes troglodytes",
       "georgian": "ჭინჭრაქა (ღობემძვრალა)",
       "english": "Winter Wren"
     },
@@ -2420,7 +2420,7 @@
     },
     {
       "id": "parus-lugubris",
-      "latin": "Parus lugubris",
+      "latin": "Poecile lugubris",
       "georgian": "ხმელთაშუაზღვის წივწივა (ხმელთაშუაზღვის წიწკანა)",
       "english": "Sombre Tit"
     },
@@ -2429,6 +2429,156 @@
       "latin": "Porphyrio porphyrio",
       "georgian": "ხონთქრის ქათამი",
       "english": "Purple Swamphen"
+    },
+    {
+      "id": "chlamydotis-macqueenii",
+      "latin": "Chlamydotis macqueenii",
+      "georgian": "აზიური სავათი",
+      "english": "Asian Houbara"
+    },
+    {
+      "id": "larus-atricilla",
+      "latin": "Larus atricilla",
+      "georgian": "ამერიკული მოცინარი თოლია",
+      "english": "Laughing gull"
+    },
+    {
+      "id": "alexandrinus-krameri",
+      "latin": "Alexandrinus krameri",
+      "georgian": "აფრიკული გრძელკუდა თუთიყუში",
+      "english": "Rose-ringed Parakeet"
+    },
+    {
+      "id": "streptopelia-orientalis",
+      "latin": "Streptopelia orientalis",
+      "georgian": "აღმოსავლური გვრიტი",
+      "english": "Oriental Turtle Dove"
+    },
+    {
+      "id": "oenanthe-albonigra",
+      "latin": "Oenanthe albonigra",
+      "georgian": "თეთრშავი მეღორღია",
+      "english": "Hume's Wheatear"
+    },
+    {
+      "id": "plectrophenax-nivalis",
+      "latin": "Plectrophenax nivalis",
+      "georgian": "თოვლის გრატა",
+      "english": "Snow Bunting"
+    },
+    {
+      "id": "aix-galericulata",
+      "latin": "Aix galericulata",
+      "georgian": "იხვკაზმულა",
+      "english": "Mandarin Duck"
+    },
+    {
+      "id": "tarsiger-cyanurus",
+      "latin": "Tarsiger cyanurus",
+      "georgian": "ლურჯკუდა ბუზიჭერია (მემატლია)",
+      "english": "Orange-flanked Bush-robin"
+    },
+    {
+      "id": "calidris-melanotos",
+      "latin": "Calidris melanotos",
+      "georgian": "მკერდზოლა მექვიშია",
+      "english": "Pectoral Sandpiper"
+    },
+    {
+      "id": "terathopius-ecaudatus",
+      "latin": "Terathopius ecaudatus",
+      "georgian": "მოკლეკუდა არწივი",
+      "english": "Bateleur"
+    },
+    {
+      "id": "anthus-rubescens",
+      "latin": "Anthus rubescens",
+      "georgian": "მურამუცელა მწყერჩიტა",
+      "english": "Buff-bellied Pipit"
+    },
+    {
+      "id": "phylloscopus-fuscatus",
+      "latin": "Phylloscopus fuscatus",
+      "georgian": "მუქი ჭივჭავი (მუქი ყარანა)",
+      "english": "Dusky Warbler"
+    },
+    {
+      "id": "emberiza-pusilla",
+      "latin": "Emberiza pusilla",
+      "georgian": "მცირე გრატა",
+      "english": "Little Bunting"
+    },
+    {
+      "id": "pluvialis-fulva",
+      "latin": "Pluvialis fulva",
+      "georgian": "ნაცრისფერფრთიანი მეჭვავია",
+      "english": "Pacific Golden Plover"
+    },
+    {
+      "id": "gavia-immer",
+      "latin": "Gavia immer",
+      "georgian": "პოლარული ღორიხვა",
+      "english": "Common Loon"
+    },
+    {
+      "id": "charadrius-tricollaris",
+      "latin": "Charadrius tricollaris",
+      "georgian": "სამზოლა აფრიკული წინტალა",
+      "english": "African Three-banded Plover"
+    },
+    {
+      "id": "oena-capensis",
+      "latin": "Oena capensis",
+      "georgian": "სამხრეთ აფრიკული გვრიტი (გრძელკუდა გვრიტი)",
+      "english": "Namaqua Dove"
+    },
+    {
+      "id": "threskiornis-aethiopicus",
+      "latin": "Threskiornis aethiopicus",
+      "georgian": "საღვთო ივეოსი",
+      "english": "African Sacred Ibis"
+    },
+    {
+      "id": "emberiza-rustica",
+      "latin": "Emberiza rustica",
+      "georgian": "სოფლის გრატა",
+      "english": "Rustic Bunting"
+    },
+    {
+      "id": "saxicola-caprata",
+      "latin": "Saxicola caprata",
+      "georgian": "შავ-თეთრი ოვსადი",
+      "english": "Pied Bushchat"
+    },
+    {
+      "id": "emberiza-caesia",
+      "latin": "Emberiza caesia",
+      "georgian": "შავყელა გრატა (წითელნისკარტა გრატა)",
+      "english": "Cretzschmar's Bunting"
+    },
+    {
+      "id": "somateria-mollissima",
+      "latin": "Somateria mollissima",
+      "georgian": "ჩვეულებრივი სუსხური",
+      "english": "Common Eider"
+    },
+    {
+      "id": "lanius-phoenicuroides",
+      "latin": "Lanius phoenicuroides",
+      "georgian": "წითელკუდა ღაჟო",
+      "english": "Red-tailed Shrike"
+    },
+    {
+      "id": "melopsittacus-undulatus",
+      "latin": "Melopsittacus undulatus",
+      "georgian": "ხუჭუჭა თუთიყუში",
+      "english": "Budgerigar"
+    },
+    {
+      "id": "phylloscopus-humei",
+      "latin": "Phylloscopus humei",
+      "georgian": "ჰიუმის ჭივჭავი (ჰიუმის ყარანა)",
+      "english": "Hume's Leaf Warbler"
     }
   ]
 }
