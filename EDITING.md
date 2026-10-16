@@ -2,7 +2,7 @@
 
 ეს გვერდი მათთვისაა, ვინც ფრინველის ქართულ ან ინგლისურ სახელს ასწორებს. კოდი არ გჭირდებათ. ფოტო, ვიკიპედიის ბმული და eBird უკვე სხვა ფაილშია და თქვენ არ გიწევთ მათი შევსება.
 
-შეცვალეთ მხოლოდ [`data/names.json`](data/names.json).
+საიტის გარეგნობა შეიცვალა. სახელს ისევ მხოლოდ [`data/names.json`](data/names.json)-ში ასწორებთ. შემოწმება, pull request და გამოქვეყნება იგივეა.
 
 ## რა ჩანს ერთ ფრინველზე
 
@@ -80,7 +80,7 @@ Pull request-ზე ჩანს წითელი ჯვარი, სახ�
 
 This page is for people who correct a bird’s Georgian or English name. You do not need to write code. Photos, Wikipedia links, and eBird codes already live in another file, and you do not fill them in.
 
-Edit only [`data/names.json`](data/names.json).
+The site looks different. You still correct a name only in [`data/names.json`](data/names.json). The check, the pull request, and publishing work the same way.
 
 ## What one bird looks like
 
