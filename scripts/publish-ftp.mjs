@@ -74,6 +74,39 @@ function remoteFilePath(remoteDir, rel) {
   return `${remoteDir}/${rel}`;
 }
 
+async function clearRemoteDir(client, remoteDir) {
+  const entries = (await client.list()).filter(
+    (entry) => entry.name && entry.name !== "." && entry.name !== "..",
+  );
+  if (entries.length === 0) {
+    console.log(`${remoteDir} is already empty`);
+    return;
+  }
+
+  console.log(`Cleaning ${remoteDir}`);
+  await removeRemoteEntries(client, remoteDir, entries);
+  console.log(`Cleaned ${remoteDir}`);
+}
+
+async function removeRemoteEntries(client, remoteDir, entries) {
+  for (const entry of entries) {
+    const remotePath = remoteFilePath(remoteDir, entry.name);
+    if (entry.isDirectory) {
+      await client.cd(entry.name);
+      const nested = (await client.list()).filter(
+        (item) => item.name && item.name !== "." && item.name !== "..",
+      );
+      await removeRemoteEntries(client, remotePath, nested);
+      await client.cdup();
+      await client.removeEmptyDir(entry.name);
+      console.log(`removed ${remotePath}/`);
+    } else {
+      await client.remove(entry.name);
+      console.log(`removed ${remotePath}`);
+    }
+  }
+}
+
 await loadEnvFile();
 
 const missing = envKeys.filter((key) => !process.env[key]);
@@ -110,6 +143,8 @@ try {
   });
 
   const remoteDir = normalizeRemoteDir(process.env.FTP_REMOTE_DIR);
+  await client.ensureDir(remoteDir);
+  await clearRemoteDir(client, remoteDir);
   await client.ensureDir(remoteDir);
   const ensured = new Set([remoteDir]);
   console.log(`Uploading ${files.length} files to ${remoteDir}`);
