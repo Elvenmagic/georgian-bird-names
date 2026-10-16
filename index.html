@@ -10,9 +10,9 @@
       name="description"
       content="ქართული, ინგლისური და ლათინური სახელები ფრინველებისთვის — ძებნა და სია."
     />
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ka_GE" />
     <meta property="og:site_name" content="ფრინველთა ქართული სახელები" />
@@ -40,118 +40,9 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700&family=Noto+Sans:ital,wght@0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-intro">
-        <p class="eyebrow">Nomenclature</p>
-        <h1>ფრინველთა ქართული სახელები</h1>
-        <p class="lede">
-          მოძებნე ფრინველი ქართული, ინგლისური ან ლათინური სახელით.
-        </p>
-      </div>
-      <div class="logo" aria-hidden="true"></div>
-    </header>
-
-    <div id="list-tools" class="list-tools">
-      <div class="list-tools-inner">
-        <label class="search">
-          <span class="visually-hidden">ძებნა</span>
-          <input
-            id="q"
-            type="search"
-            placeholder="გულწითელა, robin, Erithacus…"
-            autocomplete="off"
-            spellcheck="false"
-          />
-        </label>
-        <div class="toolbar">
-          <p id="count" class="count" aria-live="polite"></p>
-        </div>
-        <div class="browse">
-          <div class="view-switch" role="group" aria-label="ხედი">
-            <button type="button" data-view="cards" class="is-active" aria-label="ბარათები" title="ბარათები">
-              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <rect x="3.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
-                <rect x="13.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
-                <rect x="3.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
-                <rect x="13.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7" />
-              </svg>
-            </button>
-            <button type="button" data-view="list" aria-label="სია" title="სია">
-              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M9 6h12M9 12h12M9 18h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
-                <path d="M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
-              </svg>
-            </button>
-            <button type="button" data-view="families" aria-label="ოჯახები" title="ოჯახები">
-              <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <rect x="3.5" y="4" width="5" height="16" rx="1.2" stroke="currentColor" stroke-width="1.7" />
-                <path d="M12 7h8.5M12 12h8.5M12 17h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
-              </svg>
-            </button>
-          </div>
-          <div class="alphabet-menu">
-            <button
-              type="button"
-              class="alphabet-toggle"
-              aria-expanded="false"
-              aria-controls="alphabet"
-              aria-label="ანბანი"
-              title="ანბანი"
-            >
-              <svg class="alphabet-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill="currentColor"
-                  d="M12 5H22V7H12M12 19V17H22V19M12 11H22V13H12M9 13V15L5.67 19H9V21H3V19L6.33 15H3V13M7 3H5C3.9 3 3 3.9 3 5V11H5V9H7V11H9V5C9 3.9 8.11 3 7 3M7 7H5V5H7Z"
-                />
-              </svg>
-              <span class="alphabet-toggle-letter" hidden></span>
-            </button>
-            <nav id="alphabet" class="alphabet" aria-label="ანბანი"></nav>
-          </div>
-        </div>
-        <div class="family-menu" hidden>
-          <button
-            type="button"
-            class="family-toggle"
-            aria-expanded="false"
-            aria-controls="family-nav"
-            aria-label="ოჯახები"
-          >
-            <span class="family-toggle-label">ოჯახები</span>
-            <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-          <nav id="family-nav" class="family-nav" aria-label="ოჯახები"></nav>
-        </div>
-      </div>
-    </div>
-
-    <main>
-      <div id="list-view">
-        <div id="results" class="grid"></div>
-        <div id="name-list" class="name-list" hidden></div>
-        <div id="family-view" class="family-view" hidden>
-          <div id="family-sections" class="family-sections"></div>
-        </div>
-        <p id="empty" class="empty" hidden>ვერაფერი მოიძებნა ამ სახელით.</p>
-      </div>
-      <article id="detail" class="detail" hidden></article>
-    </main>
-
-    <footer class="site-footer">
-      <p class="footer-note">
-        ქართული სახელები — ილიას სახელმწიფო უნივერსიტეტის / Biodiversity
-        Georgia ნუსხა. ინგლისური და ლათინური სახელები — eBird/Clements, სადაც
-        ემთხვევა. ფოტოები — Wikimedia Commons, თითოეულ ჩანაწერზე მითითებული
-        ავტორითა და ლიცენზიით.
-      </p>
-      <p class="powered-by">Powered by Order of Kestrel</p>
-    </footer>
-
-    <script src="assets/app.js" type="module"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

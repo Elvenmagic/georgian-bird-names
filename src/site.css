@@ -1,0 +1,65 @@
+.is-hidden,
+[hidden] {
+  display: none;
+}
+
+mark {
+  border-radius: 0.2em;
+  background: var(--mark);
+  color: inherit;
+}
+
+.iucn-ex {
+  background: var(--iucn-ex);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-ew {
+  background: var(--iucn-ew);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-re {
+  background: var(--iucn-re);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-cr {
+  background: var(--iucn-cr);
+  color: var(--iucn-on-dark);
+}
+
+.iucn-en {
+  background: var(--iucn-en);
+  color: var(--iucn-on-light);
+}
+
+.iucn-vu {
+  background: var(--iucn-vu);
+  color: var(--iucn-on-light);
+}
+
+.iucn-nt {
+  background: var(--iucn-nt);
+  color: var(--iucn-on-light);
+}
+
+.iucn-lc {
+  background: var(--iucn-lc);
+  color: var(--iucn-on-light);
+}
+
+.iucn-dd {
+  background: var(--iucn-dd);
+  color: var(--iucn-on-light);
+}
+
+.iucn-ne {
+  background: var(--iucn-ne);
+  color: var(--iucn-on-light);
+}
+
+.iucn-na {
+  background: var(--iucn-na);
+  color: var(--iucn-on-light);
+}
