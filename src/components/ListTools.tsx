@@ -6,6 +6,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Toggle } from "@/components/ui/toggle";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import type { FamilyGroup } from "@/lib/families";
+import { normalize } from "@/lib/names";
 
 export type ViewMode = "cards" | "list";
 
@@ -48,13 +49,17 @@ export function ListTools({
 }) {
   const [alphabetOpen, setAlphabetOpen] = useState(false);
   const [familyOpen, setFamilyOpen] = useState(false);
+  const [familyQuery, setFamilyQuery] = useState("");
   const toolsRef = useRef<HTMLDivElement>(null);
   const familyNavRef = useRef<HTMLElement>(null);
   const activeTitle = families.find((group) => group.key === activeFamily)?.title || "ოჯახები";
   const alphabetLabel = letter ? `ანბანი, ${letter}` : "ანბანი";
 
   useEffect(() => {
-    if (!grouped) setFamilyOpen(false);
+    if (!grouped) {
+      setFamilyOpen(false);
+      setFamilyQuery("");
+    }
   }, [grouped]);
 
   function chooseLetter(next: string, clearing: boolean) {
@@ -65,7 +70,21 @@ export function ListTools({
   function chooseFamily(key: string) {
     onFamily(key);
     setFamilyOpen(false);
+    setFamilyQuery("");
   }
+
+  function onFamilyOpen(open: boolean) {
+    setFamilyOpen(open);
+    if (!open) setFamilyQuery("");
+  }
+
+  const normalizedFamilyQuery = normalize(familyQuery);
+  const familyOptions = families.filter((group) => {
+    if (!visibleFamilyKeys.has(group.key)) return false;
+    if (!normalizedFamilyQuery) return true;
+    const haystack = normalize(`${group.title} ${group.scientific}`);
+    return normalizedFamilyQuery.split(/\s+/).every((part) => haystack.includes(part));
+  });
 
   useEffect(() => {
     const el = toolsRef.current;
@@ -199,7 +218,7 @@ export function ListTools({
           </div>
         </div>
         <div hidden={!grouped}>
-          <Popover open={familyOpen} onOpenChange={setFamilyOpen}>
+          <Popover open={familyOpen} onOpenChange={onFamilyOpen}>
             <PopoverTrigger asChild>
               <Button type="button" variant="outline" className="group w-full justify-between sm:w-80" aria-label={activeTitle}>
                 <span className="truncate">{activeTitle}</span>
@@ -212,16 +231,32 @@ export function ListTools({
               sideOffset={8}
               onOpenAutoFocus={(event) => event.preventDefault()}
             >
+              <label className="relative mb-1 block">
+                <span className="sr-only">ოჯახის ძებნა</span>
+                <Search className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-3.5 -translate-y-1/2" />
+                <Input
+                  type="search"
+                  value={familyQuery}
+                  onChange={(event) => setFamilyQuery(event.target.value)}
+                  placeholder="ოჯახის სახელი…"
+                  autoComplete="off"
+                  spellCheck={false}
+                  className="h-8 pl-8 text-sm"
+                />
+              </label>
               <nav ref={familyNavRef} className="flex max-h-72 flex-col gap-0.5 overflow-auto" aria-label="ოჯახები">
-                {families.map((group) => {
-                  if (!visibleFamilyKeys.has(group.key)) return null;
+                {familyOptions.map((group) => {
                   const active = group.key === activeFamily;
                   return (
                     <Button
                       key={group.key}
                       type="button"
                       variant={active ? "secondary" : "ghost"}
-                      className={active ? "is-active h-auto justify-start px-2 py-1.5 text-start whitespace-normal" : "h-auto justify-start px-2 py-1.5 text-start whitespace-normal"}
+                      className={
+                        active
+                          ? "is-active h-auto justify-start px-2 py-1.5 text-start whitespace-normal"
+                          : "h-auto justify-start px-2 py-1.5 text-start whitespace-normal"
+                      }
                       aria-current={active ? "true" : undefined}
                       onClick={() => chooseFamily(group.key)}
                     >
@@ -229,6 +264,9 @@ export function ListTools({
                     </Button>
                   );
                 })}
+                {familyOptions.length === 0 ? (
+                  <p className="text-muted-foreground px-2 py-3 text-center text-sm">ოჯახი ვერ მოიძებნა.</p>
+                ) : null}
               </nav>
             </PopoverContent>
           </Popover>
