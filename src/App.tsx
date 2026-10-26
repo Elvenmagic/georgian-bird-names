@@ -9,9 +9,25 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { birds } from "@/lib/birds";
 import { groupFamilies } from "@/lib/families";
-import { firstLetter, isVisible, matches, normalize } from "@/lib/names";
+import { firstLetter, isVisible, matches, normalize, type Bird } from "@/lib/names";
 
 const SITE_TITLE = "ფრინველთა ქართული სახელები";
+
+function pageTitle(detail: Bird | null) {
+  if (!detail) return SITE_TITLE;
+  const name = detail.georgian?.primary || detail.names.en;
+  return name ? `${name} — ${SITE_TITLE}` : SITE_TITLE;
+}
+
+function setMetaContent(selector: string, attribute: "property" | "name", key: string, content: string) {
+  let meta = document.head.querySelector<HTMLMetaElement>(selector);
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.setAttribute(attribute, key);
+    document.head.appendChild(meta);
+  }
+  meta.content = content;
+}
 
 function readRoute() {
   const params = new URLSearchParams(location.search);
@@ -118,9 +134,10 @@ export function App() {
   }, []);
 
   useEffect(() => {
-    document.title = detail
-      ? detail.georgian?.primary || detail.names.en || SITE_TITLE
-      : SITE_TITLE;
+    const title = pageTitle(detail);
+    document.title = title;
+    setMetaContent('meta[property="og:title"]', "property", "og:title", title);
+    setMetaContent('meta[name="twitter:title"]', "name", "twitter:title", title);
   }, [detail]);
 
   useLayoutEffect(() => {
@@ -182,6 +199,20 @@ export function App() {
     listScroll.current = window.scrollY;
   }, []);
 
+  function goHome() {
+    listScroll.current = 0;
+    setQuery("");
+    setLetter("");
+    setView("cards");
+    setGrouped(false);
+    const next = location.pathname;
+    if (`${location.pathname}${location.search}${location.hash}` !== next) {
+      history.pushState(null, "", next);
+    }
+    setHash("");
+    window.scrollTo(0, 0);
+  }
+
   function revealList() {
     const tools = document.getElementById("list-tools");
     const list = document.getElementById("list-view");
@@ -218,7 +249,7 @@ export function App() {
   return (
     <TooltipProvider>
       <div className="flex min-h-dvh flex-col">
-      <SiteHeader />
+      <SiteHeader onHome={goHome} />
       <ListTools
         hidden={Boolean(detail)}
         query={query}
@@ -265,7 +296,7 @@ export function App() {
             />
           ) : null}
           {visibleIds.size === 0 ? (
-            <p className="text-muted-foreground py-16 text-center">ვერაფერი მოიძებნა ამ სახელით.</p>
+            <p className="text-muted-foreground py-16 text-center">ამ ეტაპზე ფრინველი ბაზაში არ მოიძებნა.</p>
           ) : null}
         </div>
         {detail ? <DetailView bird={detail} query={deferredQuery} /> : null}

@@ -1,7 +1,9 @@
+import { useEffect, useState } from "react";
 import { ArrowLeft, Info } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CopyButton } from "@/components/CopyButton";
@@ -82,7 +84,7 @@ function DetailPhoto({ bird }: { bird: Bird }) {
   const alt = bird.names.en || bird.names.ka || "";
   return (
     <img
-      className="bg-muted aspect-[4/3] w-full object-cover"
+      className="bg-muted block h-auto w-full"
       src={image.src}
       srcSet={image.srcset}
       sizes="(max-width: 840px) 92vw, 42vw"
@@ -114,21 +116,53 @@ function PhotoCredit({ photo }: { photo: Bird["photo"] }) {
   return <p className="text-muted-foreground text-xs">{parts}</p>;
 }
 
+function useCoarsePointer() {
+  const query = "(hover: none), (pointer: coarse)";
+  const [coarse, setCoarse] = useState(() => window.matchMedia(query).matches);
+  useEffect(() => {
+    const media = window.matchMedia(query);
+    const update = () => setCoarse(media.matches);
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+  return coarse;
+}
+
+function TipNotes({ notes }: { notes: { code: string; text: string }[] }) {
+  return notes.map((note) => (
+    <p key={note.code}>
+      <span className="font-semibold">{note.code}</span> {note.text}
+    </p>
+  ));
+}
+
 function Tip({ label, notes }: { label: string; notes: { code: string; text: string }[] }) {
+  const coarse = useCoarsePointer();
   if (!notes.length) return null;
+  const trigger = (
+    <Button type="button" variant="ghost" size="icon-xs" aria-label={label}>
+      <Info />
+    </Button>
+  );
+  if (coarse) {
+    return (
+      <Popover>
+        <PopoverTrigger asChild>{trigger}</PopoverTrigger>
+        <PopoverContent
+          className="w-fit max-w-xs space-y-2 border-0 bg-foreground px-3 py-2 text-left text-xs text-background shadow-md"
+          side="bottom"
+          align="start"
+        >
+          <TipNotes notes={notes} />
+        </PopoverContent>
+      </Popover>
+    );
+  }
   return (
     <Tooltip>
-      <TooltipTrigger asChild>
-        <Button type="button" variant="ghost" size="icon-xs" aria-label={label}>
-          <Info />
-        </Button>
-      </TooltipTrigger>
+      <TooltipTrigger asChild>{trigger}</TooltipTrigger>
       <TooltipContent className="max-w-xs space-y-2 px-3 py-2 text-left" side="bottom" align="start">
-        {notes.map((note) => (
-          <p key={note.code}>
-            <span className="font-semibold">{note.code}</span> {note.text}
-          </p>
-        ))}
+        <TipNotes notes={notes} />
       </TooltipContent>
     </Tooltip>
   );
