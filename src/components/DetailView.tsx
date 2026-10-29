@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import { ArrowLeft, Info } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -13,7 +13,17 @@ import type { Bird } from "@/lib/names";
 import { photoSources } from "@/lib/photos";
 import { iucnExplanations, iucnLabels, statusCodesOf, statusExplanations, statusText } from "@/lib/status";
 
-export function DetailView({ bird, query }: { bird: Bird; query: string }) {
+export function DetailView({
+  bird,
+  query,
+  listHref,
+  onBack,
+}: {
+  bird: Bird;
+  query: string;
+  listHref: string;
+  onBack: (event: MouseEvent<HTMLAnchorElement>) => void;
+}) {
   const georgian = bird.georgian?.primary || "";
   const heading = georgian || bird.names.en || "—";
   const aliases = bird.georgian?.aliases || [];
@@ -21,7 +31,7 @@ export function DetailView({ bird, query }: { bird: Bird; query: string }) {
   return (
     <article className="space-y-6">
       <Button asChild variant="ghost" className="-ml-2">
-        <a href="#">
+        <a href={listHref} onClick={onBack}>
           <ArrowLeft />
           სიაში დაბრუნება
         </a>

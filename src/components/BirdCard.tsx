@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Highlight } from "@/components/Highlight";
 import { firstLetter, type Bird } from "@/lib/names";
 import { photoSources } from "@/lib/photos";
+import { birdPath, type AnchorClick } from "@/lib/route";
 import { taxonParts } from "@/lib/status";
 
 export const BirdCard = memo(function BirdCard({
@@ -17,7 +18,7 @@ export const BirdCard = memo(function BirdCard({
   query: string;
   eager: boolean;
   hidden: boolean;
-  onOpen: () => void;
+  onOpen: AnchorClick;
   cardRef?: (id: string, node: HTMLDivElement | null) => void;
 }) {
   const aliases = bird.georgian?.aliases || [];
@@ -39,7 +40,7 @@ export const BirdCard = memo(function BirdCard({
       data-id={bird.id}
       data-letter={firstLetter(bird)}
     >
-      <a className="block text-inherit no-underline" href={`#${bird.id}`} onClick={onOpen}>
+      <a className="block text-inherit no-underline" href={birdPath(bird.id)} onClick={onOpen}>
         {photoUrl ? (
           <BirdPhoto url={photoUrl} eager={eager} />
         ) : (

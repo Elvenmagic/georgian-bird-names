@@ -10,6 +10,14 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { birds } from "@/lib/birds";
 import { groupFamilies } from "@/lib/families";
 import { firstLetter, isVisible, matches, normalize, type Bird } from "@/lib/names";
+import {
+  birdIdFromHash,
+  birdIdFromPath,
+  birdPath,
+  catalogPath,
+  isPlainClick,
+  type AnchorClick,
+} from "@/lib/route";
 
 const SITE_TITLE = "ფრინველთა ქართული სახელები";
 
@@ -27,6 +35,15 @@ function setMetaContent(selector: string, attribute: "property" | "name", key: s
     document.head.appendChild(meta);
   }
   meta.content = content;
+}
+
+function knownBirdId(id: string) {
+  if (!id) return "";
+  return birds.some((bird) => bird.id === id) ? id : "";
+}
+
+function birdIdFromLocation() {
+  return knownBirdId(birdIdFromPath(location.pathname)) || knownBirdId(birdIdFromHash(location.hash));
 }
 
 function readRoute() {
@@ -69,11 +86,13 @@ export function App() {
   const [letter, setLetter] = useState(initial.letter);
   const [view, setView] = useState<ViewMode>(initial.view);
   const [grouped, setGrouped] = useState(initial.grouped);
-  const [hash, setHash] = useState(() => location.hash);
+  const [birdId, setBirdId] = useState(birdIdFromLocation);
   const [activeFamily, setActiveFamily] = useState("");
   const deferredQuery = useDeferredValue(query);
   const listScroll = useRef(0);
   const previousDetail = useRef<string | null>(null);
+  const birdIdRef = useRef(birdId);
+  birdIdRef.current = birdId;
 
   const letters = useMemo(
     () =>
@@ -110,27 +129,43 @@ export function App() {
   }, [families, visibleIds]);
 
   const detail = useMemo(() => {
-    const id = decodeURIComponent(hash.replace(/^#/, "")).trim();
-    if (!id) return null;
-    return birds.find((bird) => bird.id === id) || null;
-  }, [hash]);
+    if (!birdId) return null;
+    return birds.find((bird) => bird.id === birdId) || null;
+  }, [birdId]);
+
+  const listHref = catalogPath({ query, letter, view, grouped });
 
   useEffect(() => {
-    const params = new URLSearchParams();
-    if (query.trim()) params.set("q", query);
-    if (letter) params.set("letter", letter);
-    if (view === "list") params.set("view", view);
-    if (grouped) params.set("families", "1");
-    const search = params.toString();
-    const next = `${location.pathname}${search ? `?${search}` : ""}${location.hash}`;
-    if (next === `${location.pathname}${location.search}${location.hash}`) return;
+    const next = birdId ? birdPath(birdId) : listHref;
+    const current = `${location.pathname}${location.search}${location.hash}`;
+    if (next === current) return;
     history.replaceState(null, "", next);
-  }, [query, letter, view, grouped, hash]);
+  }, [birdId, listHref]);
 
   useEffect(() => {
-    const onHash = () => setHash(location.hash);
-    window.addEventListener("hashchange", onHash);
-    return () => window.removeEventListener("hashchange", onHash);
+    const onPop = () => {
+      const pathId = knownBirdId(birdIdFromPath(location.pathname));
+      const hashId = knownBirdId(birdIdFromHash(location.hash));
+      const nextId = pathId || hashId;
+      if (nextId && !birdIdRef.current) listScroll.current = window.scrollY;
+      if (!pathId && hashId) {
+        history.replaceState(null, "", birdPath(hashId));
+        setBirdId(hashId);
+        return;
+      }
+      if (pathId) {
+        setBirdId(pathId);
+        return;
+      }
+      const route = readRoute();
+      setQuery(route.query);
+      setLetter(route.letter);
+      setView(route.view);
+      setGrouped(route.grouped);
+      setBirdId("");
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
   }, []);
 
   useEffect(() => {
@@ -195,8 +230,22 @@ export function App() {
     };
   }, [grouped, view, detail, deferredQuery, letter]);
 
-  const onOpen = useCallback(() => {
+  const onOpen = useCallback<AnchorClick>((event) => {
+    if (!isPlainClick(event)) return;
+    const id = knownBirdId(birdIdFromPath(new URL(event.currentTarget.href).pathname));
+    if (!id) return;
+    event.preventDefault();
     listScroll.current = window.scrollY;
+    history.pushState(null, "", birdPath(id));
+    setBirdId(id);
+  }, []);
+
+  const onBack = useCallback<AnchorClick>((event) => {
+    if (!isPlainClick(event)) return;
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute("href") || import.meta.env.BASE_URL;
+    history.pushState(null, "", href);
+    setBirdId("");
   }, []);
 
   function goHome() {
@@ -205,11 +254,11 @@ export function App() {
     setLetter("");
     setView("cards");
     setGrouped(false);
-    const next = location.pathname;
+    setBirdId("");
+    const next = import.meta.env.BASE_URL;
     if (`${location.pathname}${location.search}${location.hash}` !== next) {
       history.pushState(null, "", next);
     }
-    setHash("");
     window.scrollTo(0, 0);
   }
 
@@ -299,7 +348,9 @@ export function App() {
             <p className="text-muted-foreground py-16 text-center">ამ ეტაპზე ფრინველი ბაზაში არ მოიძებნა.</p>
           ) : null}
         </div>
-        {detail ? <DetailView bird={detail} query={deferredQuery} /> : null}
+        {detail ? (
+          <DetailView bird={detail} query={deferredQuery} listHref={listHref} onBack={onBack} />
+        ) : null}
       </main>
       <SiteFooter />
       </div>

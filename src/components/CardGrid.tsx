@@ -1,6 +1,7 @@
 import { memo, useCallback, useLayoutEffect, useMemo, useRef } from "react";
 import { BirdCard } from "@/components/BirdCard";
 import type { Bird } from "@/lib/names";
+import type { AnchorClick } from "@/lib/route";
 
 function cardInView(rect: DOMRect) {
   return rect.bottom > 0 && rect.top < window.innerHeight && rect.width > 0;
@@ -17,7 +18,7 @@ export const CardGrid = memo(function CardGrid({
   visibleIds: Set<string>;
   query: string;
   animate: boolean;
-  onOpen: () => void;
+  onOpen: AnchorClick;
 }) {
   const refs = useRef(new Map<string, HTMLDivElement>());
   const previous = useRef(new Map<string, DOMRect>());

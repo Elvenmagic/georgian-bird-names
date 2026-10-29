@@ -3,6 +3,7 @@ import { BirdCard } from "@/components/BirdCard";
 import { NameList } from "@/components/NameList";
 import type { ViewMode } from "@/components/ListTools";
 import type { FamilyGroup } from "@/lib/families";
+import type { AnchorClick } from "@/lib/route";
 
 export const FamilyView = memo(function FamilyView({
   view,
@@ -15,7 +16,7 @@ export const FamilyView = memo(function FamilyView({
   groups: FamilyGroup[];
   visibleIds: Set<string>;
   query: string;
-  onOpen: () => void;
+  onOpen: AnchorClick;
 }) {
   return (
     <div className="space-y-10">

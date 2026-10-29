@@ -2,6 +2,7 @@ import { memo } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Highlight } from "@/components/Highlight";
 import { firstLetter, type Bird } from "@/lib/names";
+import { birdPath, type AnchorClick } from "@/lib/route";
 
 export const NameList = memo(function NameList({
   birds,
@@ -12,7 +13,7 @@ export const NameList = memo(function NameList({
   birds: Bird[];
   visibleIds: Set<string>;
   query: string;
-  onOpen: () => void;
+  onOpen: AnchorClick;
 }) {
   return (
     <div className="bg-card overflow-hidden rounded-xl border">
@@ -32,14 +33,14 @@ const NameRow = memo(function NameRow({
 }: {
   bird: Bird;
   query: string;
-  onOpen: () => void;
+  onOpen: AnchorClick;
 }) {
   const aliases = bird.georgian?.aliases || [];
   return (
     <div>
       <a
         className="hover:bg-muted/60 grid gap-0.5 px-4 py-3 text-inherit no-underline sm:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)_minmax(0,1fr)] sm:items-baseline sm:gap-4"
-        href={`#${bird.id}`}
+        href={birdPath(bird.id)}
         data-id={bird.id}
         data-letter={firstLetter(bird)}
         onClick={onOpen}
