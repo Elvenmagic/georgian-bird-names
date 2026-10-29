@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "vite build && node scripts/bird-meta.mjs",
+    "build": "vite build && node scripts/prerender-birds.mjs",
     "preview": "vite preview",
     "import:iliauni": "node scripts/import-iliauni.mjs",
     "import:birdnames": "node scripts/import-birdnames.mjs",
