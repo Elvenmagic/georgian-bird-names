@@ -252,7 +252,7 @@
       "ebirdCode": "audgul1",
       "inGeorgia": true,
       "names": {
-        "ka": "აუდოუნის თოლია",
+        "ka": "ოდოუნის თოლია",
         "en": "Audouin’s Gull",
         "la": "Larus audouinii"
       },
@@ -1353,7 +1353,7 @@
       "inGeorgia": true,
       "names": {
         "ka": "დიდი კლდეცოცია",
-        "en": "Great Rock Nuthatch",
+        "en": "Eastern Rock Nuthatch",
         "la": "Sitta tephronota"
       },
       "photo": {
@@ -2397,7 +2397,7 @@
       "ebirdCode": "whisto1",
       "inGeorgia": true,
       "names": {
-        "ka": "თეთრი ყარყატი",
+        "ka": "თეთრი ყარყატი (ლაკლაკი)",
         "en": "White Stork",
         "la": "Ciconia ciconia"
       },
@@ -4019,7 +4019,7 @@
       "inGeorgia": true,
       "names": {
         "ka": "მენაპირე მერცხალი",
-        "en": "Sand Martin",
+        "en": "Bank Swallow",
         "la": "Riparia riparia"
       },
       "photo": {
@@ -5000,7 +5000,7 @@
       "inGeorgia": true,
       "names": {
         "ka": "მცირე კლდეცოცია",
-        "en": "Rock Nuthatch",
+        "en": "Western Rock Nuthatch",
         "la": "Sitta neumayer"
       },
       "photo": {
@@ -5078,23 +5078,23 @@
     },
     {
       "id": "calandrella-rufescens",
-      "ebirdCode": "lstlar3",
+      "ebirdCode": "tstlar1",
       "inGeorgia": true,
       "names": {
         "ka": "მცირე მოკლეთითა ტოროლა",
-        "en": "Lesser Short-Toed Lark",
+        "en": "Turkestan Short-toed Lark",
         "la": "Alaudala heinei"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg",
-        "credit": "Tony Hisgett",
-        "license": "CC BY 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Calandrella_rufescens_-Canary_Islands_-Spain-8.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Alaudala_heinei_-_Heinestummellerche_202746307.jpg",
+        "credit": "Jan Ebr",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaudala_heinei_-_Heinestummellerche_202746307.jpg"
       },
-      "description": "The lesser short-toed lark has been split into two species:Mediterranean short-toed lark, Alaudala rufescens\nTurkestan short-toed lark, Alaudala heinei",
+      "description": "The Turkestan short-toed lark (Alaudala heinei) is a species of lark in the family Alaudidae. It is found in Ukraine and central Turkey through parts of Central Asia and southern Siberia west to south-central Mongolia and south to southern Afghanistan. This species and the Mediterranean short-toed lark (A. rufescens) were formerly considered conspecific and called the lesser short-toed lark, but a 2020 study recovered them as distinct species.",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Mediterranean_short-toed_lark",
-        "ebird": "https://ebird.org/species/lstlar3"
+        "wikipedia": "https://en.wikipedia.org/wiki/Turkestan_short-toed_lark",
+        "ebird": "https://ebird.org/species/tstlar1"
       },
       "order": "PASSERIFORMES",
       "orderKa": "ბეღურასნაირნი",
@@ -6312,7 +6312,7 @@
       "ebirdCode": "gyfwoo1",
       "inGeorgia": true,
       "names": {
-        "ka": "რუხი კოდალა",
+        "ka": "ჭაღარა კოდალა",
         "en": "Grey-faced Woodpecker",
         "la": "Picus canus"
       },
@@ -6369,7 +6369,7 @@
       "inGeorgia": true,
       "names": {
         "ka": "რუხი ღაჟო",
-        "en": "Greater Grey (or Northern) Shrike",
+        "en": "Great Gray Shrike",
         "la": "Lanius excubitor"
       },
       "photo": {
@@ -6388,6 +6388,32 @@
       "family": "Laniidae",
       "familyKa": "ღაჟოსებრნი",
       "status": "WV",
+      "iucn": "LC"
+    },
+    {
+      "id": "lanius-borealis",
+      "ebirdCode": "norshr4",
+      "inGeorgia": false,
+      "names": {
+        "ka": "ჩრდილოეთის ღაჟო",
+        "en": "Northern Shrike",
+        "la": "Lanius borealis"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg",
+        "credit": "Paul Hurtado",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_Shrike%2C_Arvada%2C_Jefferson%2C_Colorado.jpg"
+      },
+      "description": "The northern shrike (Lanius borealis) is a large songbird species in the shrike family (Laniidae) native to North America and Siberia. Long considered a subspecies of the great grey shrike, it was classified as a distinct species in 2017. Six subspecies are recognised.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Northern_shrike",
+        "ebird": "https://ebird.org/species/norshr4"
+      },
+      "order": "PASSERIFORMES",
+      "orderKa": "ბეღურასნაირნი",
+      "family": "Laniidae",
+      "familyKa": "ღაჟოსებრნი",
       "iucn": "LC"
     },
     {
@@ -9061,7 +9087,7 @@
       "ebirdCode": "blasto1",
       "inGeorgia": true,
       "names": {
-        "ka": "შავი ყარყატი",
+        "ka": "შავი ყარყატი (იშხვარი)",
         "en": "Black Stork",
         "la": "Ciconia nigra"
       },
@@ -9445,7 +9471,7 @@
       "ebirdCode": "eursta",
       "inGeorgia": true,
       "names": {
-        "ka": "შოშია",
+        "ka": "შოშია (შროშანი)",
         "en": "Common Starling",
         "la": "Sturnus vulgaris"
       },
@@ -9912,7 +9938,7 @@
       "inGeorgia": true,
       "names": {
         "ka": "ჩვეულებრივი ხეცოცია",
-        "en": "Wood Nuthatch",
+        "en": "Eurasian Nuthatch",
         "la": "Sitta europaea"
       },
       "photo": {
@@ -10049,7 +10075,7 @@
       "ebirdCode": "brambl",
       "inGeorgia": true,
       "names": {
-        "ka": "ჩრდილოეთის სკვინჩა",
+        "ka": "ჩრდილოეთის სკვინჩა (მთიულა)",
         "en": "Brambling",
         "la": "Fringilla montifringilla"
       },
@@ -11224,7 +11250,7 @@
       "ebirdCode": "sheowl",
       "inGeorgia": true,
       "names": {
-        "ka": "ჭაობის ბუ",
+        "ka": "ჭაობის ბუ (ბაიყუში)",
         "en": "Short-eared Owl",
         "la": "Asio flammeus"
       },

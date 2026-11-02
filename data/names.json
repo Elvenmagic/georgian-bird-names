@@ -274,7 +274,7 @@
       "id": "sitta-tephronota",
       "latin": "Sitta tephronota",
       "georgian": "დიდი კლდეცოცია",
-      "english": "Great Rock Nuthatch"
+      "english": "Eastern Rock Nuthatch"
     },
     {
       "id": "podiceps-cristatus",
@@ -501,7 +501,7 @@
     {
       "id": "whitst1",
       "latin": "Ciconia ciconia",
-      "georgian": "თეთრი ყარყატი",
+      "georgian": "თეთრი ყარყატი (ლაკლაკი)",
       "english": "White Stork"
     },
     {
@@ -832,7 +832,7 @@
       "id": "riparia-riparia",
       "latin": "Riparia riparia",
       "georgian": "მენაპირე მერცხალი",
-      "english": "Sand Martin"
+      "english": "Bank Swallow"
     },
     {
       "id": "miliaria-calandra",
@@ -1018,7 +1018,7 @@
       "id": "sitta-neumayer",
       "latin": "Sitta neumayer",
       "georgian": "მცირე კლდეცოცია",
-      "english": "Rock Nuthatch"
+      "english": "Western Rock Nuthatch"
     },
     {
       "id": "tachybaptus-ruficollis",
@@ -1036,7 +1036,7 @@
       "id": "calandrella-rufescens",
       "latin": "Alaudala heinei",
       "georgian": "მცირე მოკლეთითა ტოროლა",
-      "english": "Lesser Short-Toed Lark"
+      "english": "Turkestan Short-toed Lark"
     },
     {
       "id": "clanga-pomarina",
@@ -1291,12 +1291,6 @@
       "english": "Gadwall"
     },
     {
-      "id": "picus-canus",
-      "latin": "Picus canus",
-      "georgian": "რუხი კოდალა",
-      "english": "Grey-faced Woodpecker"
-    },
-    {
       "id": "pluvialis-squatarola",
       "latin": "Pluvialis squatarola",
       "georgian": "რუხი მეჭვავია (კვათარი)",
@@ -1306,7 +1300,7 @@
       "id": "lanius-excubitor",
       "latin": "Lanius excubitor",
       "georgian": "რუხი ღაჟო",
-      "english": "Greater Grey (or Northern) Shrike"
+      "english": "Great Gray Shrike"
     },
     {
       "id": "ardea-cinerea",
@@ -1863,7 +1857,7 @@
     {
       "id": "ciconia-nigra",
       "latin": "Ciconia nigra",
-      "georgian": "შავი ყარყატი",
+      "georgian": "შავი ყარყატი (იშხვარი)",
       "english": "Black Stork"
     },
     {
@@ -1941,7 +1935,7 @@
     {
       "id": "comsta",
       "latin": "Sturnus vulgaris",
-      "georgian": "შოშია",
+      "georgian": "შოშია (შროშანი)",
       "english": "Common Starling"
     },
     {
@@ -2038,7 +2032,7 @@
       "id": "sitta-europaea",
       "latin": "Sitta europaea",
       "georgian": "ჩვეულებრივი ხეცოცია",
-      "english": "Wood Nuthatch"
+      "english": "Eurasian Nuthatch"
     },
     {
       "id": "hieraaetus-pennatus",
@@ -2067,8 +2061,14 @@
     {
       "id": "fringilla-montifringilla",
       "latin": "Fringilla montifringilla",
-      "georgian": "ჩრდილოეთის სკვინჩა",
+      "georgian": "ჩრდილოეთის სკვინჩა (მთიულა)",
       "english": "Brambling"
+    },
+    {
+      "id": "lanius-borealis",
+      "latin": "Lanius borealis",
+      "georgian": "ჩრდილოეთის ღაჟო",
+      "english": "Northern Shrike"
     },
     {
       "id": "carduelis-flammea",
@@ -2319,7 +2319,7 @@
     {
       "id": "asio-flammeus",
       "latin": "Asio flammeus",
-      "georgian": "ჭაობის ბუ",
+      "georgian": "ჭაობის ბუ (ბაიყუში)",
       "english": "Short-eared Owl"
     },
     {
@@ -2339,6 +2339,12 @@
       "latin": "Circus aeruginosus",
       "georgian": "ჭაობის ძელქორი (ან ჭაობის ბოლობეჭედა)",
       "english": "Western Marsh Harrier"
+    },
+    {
+      "id": "picus-canus",
+      "latin": "Picus canus",
+      "georgian": "ჭაღარა კოდალა",
+      "english": "Grey-faced Woodpecker"
     },
     {
       "id": "spatula-querquedula",
